@@ -9,13 +9,13 @@ CREATE DATABASE weerstations;
 CREATE DATABASE postcode;
 
 USE top_2000_v1;
-\. /workspace/PHPMySQL_fork/bin/sql/top_2000_v1.sql
+\. /workspace/csg_if_databases/bin/sql/top_2000_v1.sql
 
 USE weerstations;
-\. /workspace/PHPMySQL_fork/bin/sql/weerstations.sql
+\. /workspace/csg_if_databases/bin/sql/weerstations.sql
 
 USE top_2000_v2;
-\. /workspace/PHPMySQL_fork/bin/sql/top_2000_v2.sql
+\. /workspace/csg_if_databases/bin/sql/top_2000_v2.sql
 
 USE postcode;
-\. /workspace/PHPMySQL_fork/bin/sql/postcode.sql
+\. /workspace/csg_if_databases/bin/sql/postcode.sql

@@ -1,1 +1,1 @@
-cat /workspace/PHPMySQL_fork/bin/sql/recreate-default.sql | mysql
+cat /workspace/csg_if_databases/bin/sql/recreate-default.sql | mysql
