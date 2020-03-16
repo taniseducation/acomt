@@ -89,6 +89,6 @@ class __TwigTemplate_e67f2d6b852ce02923cf47535b9356304745a7cf595761043bfe6448993
 
     public function getSourceContext()
     {
-        return new Source("", "div_for_slider_effect.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/div_for_slider_effect.twig");
+        return new Source("", "div_for_slider_effect.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/div_for_slider_effect.twig");
     }
 }

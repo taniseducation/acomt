@@ -89,6 +89,6 @@ class __TwigTemplate_3733e991e1fc016681a0a74ad4c3da535cd9feed830e3fc06c490d09b54
 
     public function getSourceContext()
     {
-        return new Source("", "radio_fields.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/radio_fields.twig");
+        return new Source("", "radio_fields.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/radio_fields.twig");
     }
 }

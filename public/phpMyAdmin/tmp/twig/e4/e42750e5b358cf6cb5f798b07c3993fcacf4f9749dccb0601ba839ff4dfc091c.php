@@ -72,6 +72,6 @@ class __TwigTemplate_de0e9ae712d0bbcfd1ec620842fd37f6a5aec86ba5f99b4a6ecede91f3f
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_auto_increment.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_auto_increment.twig");
+        return new Source("", "columns_definitions/column_auto_increment.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_auto_increment.twig");
     }
 }

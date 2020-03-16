@@ -99,6 +99,6 @@ class __TwigTemplate_96bdb03d6f3a77bc53a173d5bbc0d3139c5fdeb83983eaae8aa18b6f7be
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/move_column.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/move_column.twig");
+        return new Source("", "columns_definitions/move_column.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/move_column.twig");
     }
 }

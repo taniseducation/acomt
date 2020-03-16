@@ -85,6 +85,6 @@ class __TwigTemplate_6c6e89b323cf3cfd332db77b0ac4926f7df6ad14cb0eba6c75f3447af37
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/sort_by_key.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/sort_by_key.twig");
+        return new Source("", "display/results/sort_by_key.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/sort_by_key.twig");
     }
 }

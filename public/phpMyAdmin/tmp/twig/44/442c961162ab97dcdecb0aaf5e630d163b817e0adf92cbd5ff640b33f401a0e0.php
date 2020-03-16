@@ -125,6 +125,6 @@ class __TwigTemplate_5d4157a4323c138262648ae9215318c8f401bdf61548d7f3516cbb811d6
 
     public function getSourceContext()
     {
-        return new Source("", "scripts.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/scripts.twig");
+        return new Source("", "scripts.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/scripts.twig");
     }
 }

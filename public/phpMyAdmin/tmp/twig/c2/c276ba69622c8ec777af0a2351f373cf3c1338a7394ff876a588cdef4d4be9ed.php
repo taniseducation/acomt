@@ -151,6 +151,6 @@ class __TwigTemplate_a679672870b82f57c8ec8c71e2344ee5889ec67e4c7ce963f9e19a30be0
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_name.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_name.twig");
+        return new Source("", "columns_definitions/column_name.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_name.twig");
     }
 }

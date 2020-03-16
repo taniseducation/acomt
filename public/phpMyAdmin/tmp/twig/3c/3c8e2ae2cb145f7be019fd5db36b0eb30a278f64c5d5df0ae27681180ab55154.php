@@ -72,6 +72,6 @@ class __TwigTemplate_e575aea8cae1ffe0877c23ef8c1381c48d591444aaee0e0a715549e4c01
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_comment.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_comment.twig");
+        return new Source("", "columns_definitions/column_comment.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_comment.twig");
     }
 }

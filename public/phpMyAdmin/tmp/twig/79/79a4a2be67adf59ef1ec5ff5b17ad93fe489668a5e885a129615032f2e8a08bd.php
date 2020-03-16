@@ -112,6 +112,6 @@ class __TwigTemplate_17363fc8b49f41bf45903565b6320d134b70b02736a23a9dde6b5bd6874
 
     public function getSourceContext()
     {
-        return new Source("", "table/insert/continue_insertion_form.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/table/insert/continue_insertion_form.twig");
+        return new Source("", "table/insert/continue_insertion_form.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/table/insert/continue_insertion_form.twig");
     }
 }

@@ -108,6 +108,6 @@ class __TwigTemplate_db7d4a9651370d3a0d9efd8c3c13bf14828f7566a88fe307f1552bc2ed5
 
     public function getSourceContext()
     {
-        return new Source("", "config/form_display/fieldset_top.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/config/form_display/fieldset_top.twig");
+        return new Source("", "config/form_display/fieldset_top.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/config/form_display/fieldset_top.twig");
     }
 }

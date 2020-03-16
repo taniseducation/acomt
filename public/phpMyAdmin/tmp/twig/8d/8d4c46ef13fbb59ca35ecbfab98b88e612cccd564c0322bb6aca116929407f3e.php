@@ -88,6 +88,6 @@ class __TwigTemplate_1c32b2c4dd034de409e8afd1b9babafb5dc0d3775bcdb85432abd367d5e
 
     public function getSourceContext()
     {
-        return new Source("", "table/page_with_secondary_tabs.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/table/page_with_secondary_tabs.twig");
+        return new Source("", "table/page_with_secondary_tabs.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/table/page_with_secondary_tabs.twig");
     }
 }

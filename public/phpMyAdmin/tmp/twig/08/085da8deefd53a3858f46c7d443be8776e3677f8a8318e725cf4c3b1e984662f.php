@@ -88,6 +88,6 @@ class __TwigTemplate_f8ceac3b1a80765c02b459699ffa243e5ecbd799bd870f7e000019948ab
 
     public function getSourceContext()
     {
-        return new Source("", "console/toolbar.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/console/toolbar.twig");
+        return new Source("", "console/toolbar.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/console/toolbar.twig");
     }
 }

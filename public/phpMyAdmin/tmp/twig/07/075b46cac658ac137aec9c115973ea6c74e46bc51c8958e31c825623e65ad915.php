@@ -126,6 +126,6 @@ class __TwigTemplate_2402117ac7e04c75403f2851ca539cd78f7158cf69df6a7b6cdcffed866
 
     public function getSourceContext()
     {
-        return new Source("", "select_lang.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/select_lang.twig");
+        return new Source("", "select_lang.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/select_lang.twig");
     }
 }

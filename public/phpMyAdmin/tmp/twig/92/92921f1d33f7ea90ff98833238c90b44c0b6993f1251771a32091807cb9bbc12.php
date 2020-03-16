@@ -427,6 +427,6 @@ $context["column"], "getSubPart", [], "method", false, false, false, 169), "html
 
     public function getSourceContext()
     {
-        return new Source("", "table/index_form.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/table/index_form.twig");
+        return new Source("", "table/index_form.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/table/index_form.twig");
     }
 }

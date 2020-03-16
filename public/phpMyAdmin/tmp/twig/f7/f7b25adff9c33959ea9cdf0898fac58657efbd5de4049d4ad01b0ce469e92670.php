@@ -123,6 +123,6 @@ class __TwigTemplate_cde17da1534c0796887ee0d6657d74229e55008aea137f1cbf05ad518fc
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_indexes.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_indexes.twig");
+        return new Source("", "columns_definitions/column_indexes.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_indexes.twig");
     }
 }

@@ -86,6 +86,6 @@ class __TwigTemplate_435cd7c8c49c67346c1985f43d9089f6ddefc2ad4b771d06907989cbb78
 
     public function getSourceContext()
     {
-        return new Source("", "sql/sql_query_results.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/sql/sql_query_results.twig");
+        return new Source("", "sql/sql_query_results.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/sql/sql_query_results.twig");
     }
 }

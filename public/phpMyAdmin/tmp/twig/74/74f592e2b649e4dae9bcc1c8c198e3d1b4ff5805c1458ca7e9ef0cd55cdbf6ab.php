@@ -86,6 +86,6 @@ class __TwigTemplate_0769dd88d7d3be47b902e345c8db35186207606b32af75a15889b7ed5a9
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_length.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_length.twig");
+        return new Source("", "columns_definitions/column_length.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_length.twig");
     }
 }

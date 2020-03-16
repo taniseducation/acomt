@@ -82,6 +82,6 @@ class __TwigTemplate_0ec1328b9ecfae5b3757ac7e120862a8e7ab69fe834f490a5beae9f1a66
 
     public function getSourceContext()
     {
-        return new Source("", "checkbox.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/checkbox.twig");
+        return new Source("", "checkbox.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/checkbox.twig");
     }
 }

@@ -77,6 +77,6 @@ class __TwigTemplate_3834268a44404e6723e1aff70534a417738f6bc2c6718d88693c1616ac2
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_type.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_type.twig");
+        return new Source("", "columns_definitions/column_type.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_type.twig");
     }
 }

@@ -303,6 +303,6 @@ class __TwigTemplate_4776fd708b3b08c57ccc206030bc286366f7d1d570284cd71f0a63cac82
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/table_fields_definitions.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/table_fields_definitions.twig");
+        return new Source("", "columns_definitions/table_fields_definitions.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/table_fields_definitions.twig");
     }
 }

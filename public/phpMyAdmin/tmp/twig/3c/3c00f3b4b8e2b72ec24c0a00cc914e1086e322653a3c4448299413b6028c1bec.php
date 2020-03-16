@@ -110,6 +110,6 @@ class __TwigTemplate_277f4dd49dd8e629c3c502bb96f61fbed93938d1cdbd55f6751868b5c4e
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table_headers.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/table_headers.twig");
+        return new Source("", "display/results/table_headers.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/table_headers.twig");
     }
 }

@@ -78,6 +78,6 @@ class __TwigTemplate_d501cf983a2deb76a4e25e8049be40ba71260f417a0857b08f83c829af0
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/comment_for_row.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/comment_for_row.twig");
+        return new Source("", "display/results/comment_for_row.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/comment_for_row.twig");
     }
 }

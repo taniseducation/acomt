@@ -50,6 +50,6 @@ class __TwigTemplate_ec93e4f118c60daaffac29351aee7d77ad7bbb9a39a5e59813917a32fdb
 
     public function getSourceContext()
     {
-        return new Source("", "config/form_display/form_bottom.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/config/form_display/form_bottom.twig");
+        return new Source("", "config/form_display/form_bottom.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/config/form_display/form_bottom.twig");
     }
 }

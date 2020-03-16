@@ -169,6 +169,6 @@ class __TwigTemplate_99a4fd16c9e1adaafac7cd732ff77ab50e3b4e9036b1103645596dd5235
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/options_block.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/options_block.twig");
+        return new Source("", "display/results/options_block.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/options_block.twig");
     }
 }

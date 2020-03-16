@@ -73,6 +73,6 @@ class __TwigTemplate_c6d2a77a510ecbcbbda388834b3839f18cc725d5961f4db6a64f63b0c94
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_null.twig", "/workspace/PHPMySQL_Test/public/phpMyAdmin/templates/columns_definitions/column_null.twig");
+        return new Source("", "columns_definitions/column_null.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/columns_definitions/column_null.twig");
     }
 }

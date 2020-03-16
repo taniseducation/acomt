@@ -108,6 +108,6 @@ class __TwigTemplate_8c8ed4a8fa84b9d019ea142d303bf43304e38dc45f300b5c5a199d71623
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/index.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/database/structure/index.twig");
+        return new Source("", "database/structure/index.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/database/structure/index.twig");
     }
 }

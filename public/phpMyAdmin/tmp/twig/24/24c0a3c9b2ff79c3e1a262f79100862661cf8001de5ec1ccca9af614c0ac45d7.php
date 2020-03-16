@@ -191,6 +191,6 @@ class __TwigTemplate_86faf98d8c5cabf2841b33e105b047096070c7c43ed99fec1b7432f2962
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table_navigation.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/table_navigation.twig");
+        return new Source("", "display/results/table_navigation.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/table_navigation.twig");
     }
 }

@@ -75,6 +75,6 @@ class __TwigTemplate_a577ef2991a80ab9485677c845e1b5d70a985a2a9efe43bb0cabd215638
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/favorite_anchor.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/database/structure/favorite_anchor.twig");
+        return new Source("", "database/structure/favorite_anchor.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/database/structure/favorite_anchor.twig");
     }
 }

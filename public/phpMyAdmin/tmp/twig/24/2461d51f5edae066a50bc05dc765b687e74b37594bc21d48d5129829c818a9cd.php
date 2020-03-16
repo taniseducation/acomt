@@ -81,6 +81,6 @@ class __TwigTemplate_6126f9ba80b19128621bbac251e70d78e0d1398253c382d51dffe5520ea
 
     public function getSourceContext()
     {
-        return new Source("", "select_all.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/select_all.twig");
+        return new Source("", "select_all.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/select_all.twig");
     }
 }

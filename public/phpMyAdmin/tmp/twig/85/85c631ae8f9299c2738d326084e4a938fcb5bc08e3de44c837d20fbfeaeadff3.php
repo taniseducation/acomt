@@ -466,6 +466,6 @@ class __TwigTemplate_9b5cbf3938a77deca62648202cbcb85b952c2cf3cfcf1f1d11f003990de
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/display_table_stats.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/table/structure/display_table_stats.twig");
+        return new Source("", "table/structure/display_table_stats.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/table/structure/display_table_stats.twig");
     }
 }

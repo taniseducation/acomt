@@ -232,6 +232,6 @@ class __TwigTemplate_ad442eec144d291df9074f0064c4d6a678a404e97b9f5d6c74a65c66912
 
     public function getSourceContext()
     {
-        return new Source("", "header.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/header.twig");
+        return new Source("", "header.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/header.twig");
     }
 }

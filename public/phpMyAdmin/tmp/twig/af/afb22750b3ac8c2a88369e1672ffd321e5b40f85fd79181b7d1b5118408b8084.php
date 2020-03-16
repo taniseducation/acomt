@@ -71,6 +71,6 @@ class __TwigTemplate_a7705c0df9c4f1c5fb6e299c3cd027f9afd2d46b380697a03cab8162ead
 
     public function getSourceContext()
     {
-        return new Source("", "filter.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/filter.twig");
+        return new Source("", "filter.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/filter.twig");
     }
 }
