@@ -18,6 +18,12 @@
         runScript("recreate_project.sh");
         $projectReset = 1;
     }
+
+    if($_POST['dump_project'] == 1) {
+        runScript("dump_project_sql.sh");
+        $projectDump = 1;
+    }
+    
     
     if($_POST['all'] == 1) {
         runScript("recreate_default.sh");
@@ -40,13 +46,16 @@
                 </div>
             </div>
             <br />
-            <?php if($projectReset or $defaultReset) { ?>
+            <?php if($projectReset or $defaultReset or $projectDump) { ?>
             <div class="alert alert-warning">
                 <?php if($projectReset) { ?>
                     <strong>Project database</strong> is opnieuw aangemaakt.<br />
                 <?php } ?>
                 <?php if($defaultReset) { ?>
                     <strong>Aangeleverde databases</strong> zijn opnieuw aangemaakt.<br />
+		<?php } ?>
+                <?php if($projectDump) { ?>
+                    <strong>Project database is opgeslagen</strong> Vergeet NIET om de te committen en te pushen!<br />
                 <?php } ?>
             </div>
             <?php } ?>
@@ -59,9 +68,10 @@
                         </div>
                         <div class="panel-body">
                             <form action="reset.php" method="post">
-                                <button class="btn btn-warning" name="project" value="1" onclick="return confirm('Weet je zeker dat je je eigen PROJECT DATABASE wilt aanmaken? Dit kan NIET ongedaan gemaakt worden!');">Opnieuw aanmaken van je eigen <strong>project-database</strong></button>
-                                <button class="btn btn-warning" name="default" value="1">Opnieuw aanmaken van de door de docent  <strong>aangeleverde databases</strong></button>
-                                <button class="btn btn-danger" name="all" value="1" onclick="return confirm('Weet je zeker dat je je eigen PROJECT DATABASE en de aangeleverde databases opnieuw wilt aanmaken? Dit kan NIET ongedaan gemaakt worden!');">Opnieuw aanmaken <strong>alle databases</strong></button>
+                                <button class="btn btn-warning" name="project" value="1" onclick="return confirm('Weet je zeker dat je je eigen PROJECT DATABASE wilt aanmaken? Dit kan NIET ongedaan gemaakt worden!');">Opnieuw aanmaken en laden van je eigen <strong>project-database</strong></button><br /><br />
+                                <button class="btn btn-warning" name="default" value="1">Opnieuw aanmaken van de door de docent  <strong>aangeleverde databases</strong></button><br /><br />
+				<button class="btn btn-danger" name="all" value="1" onclick="return confirm('Weet je zeker dat je je eigen PROJECT DATABASE en de aangeleverde databases opnieuw wilt aanmaken? Dit kan NIET ongedaan gemaakt worden!');">Opnieuw aanmaken <strong>alle databases</strong></button><br /><br />
+				<button class="btn btn-success" name="dump_project" value="1">Opslaan van je <strong>eigen project database om op te slaan op GitHub</strong></button>
                             </form>
                         </div>
                     </div>
