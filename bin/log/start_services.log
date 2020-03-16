@@ -1,0 +1,28 @@
+Installing MySQL
+ * Stopping MySQL database server mysqld
+   ...done.
+ * Starting MySQL database server mysqld
+   ...done.
+ * Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: haraldtijink
+   Database Name: c9
+
+ * Starting MySQL database server mysqld
+   ...done.
+Starting installation
+Starting MySQL
+ * Starting MySQL database server mysqld
+   ...done.
+Configuring database
+Starting apache
+ * Restarting web server apache2
+   ...done.
+
+PHPMyAdmin Installation complete. You can log in at: https://op-basis-procedure-20170830-haraldtijink.c9users.io/phpmyadmin with the following username (and blank password):
+
+       Username: haraldtijink
+

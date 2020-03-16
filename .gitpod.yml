@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 8001
+    onOpen: open-browser
+  - port: 3306
+    onOpen: ignore
+tasks:
+  - init: mysql < startup.sql
+  - name: Apache
+    command: >
+        apachectl start;
+        multitail /var/log/apache2/error.log -I /var/log/apache2/access.log
