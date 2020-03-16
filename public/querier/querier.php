@@ -161,8 +161,13 @@ function queryAndFetch($sql, $rowType = MYSQLI_ASSOC)
     if($resultSet === true) {
         return ['success' => 'Query uitgevoerd'];
     } else {
-        $result = [];
-        $row = $resultSet->fetch_array($rowType);
+	    $result = [];
+	    try {
+		    $row = $resultSet->fetch_array($rowType);
+	    } catch(\Exception $e) {
+			echo "Database error. Is de database wel geinitialiseerd?";
+			die();
+	    }
         $count = 0;
         while ($row != null) { // && $count < 5000) {
             $tmp = fixKeys($row);
