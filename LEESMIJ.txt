@@ -1,6 +1,17 @@
 Welkom bij de GitHub/GitPod-omgeving PHP/MyAdmin
 van het Augustinuscollege Groningen
 
+*********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
+*********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
+
+Je hebt deze omgeving gemaakt door voor de gegeven link "gitpod.io#" in te typen. Dat moet alleen de eerste keer.
+Nu jouw omgeving gemaakt is ga je de volgende keer RECHTSTREEKS naar gitpod.io. Jouw omgeving staat daar klaar.
+(Als je toch nog een keer "gitpod.io#" zou doen krijg je een tweede GitPod-kopie van de omgeving.
+ Daarin staan dan niet jouw wijzigingen. Je zou dan opnieuw vanaf nul moeten beginnen! Dat wil je niet.)
+
+*********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
+*********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
+
 DE SERVER BENADEREN
 Bij het opstarten van de omgeving krijg je een melding dat er een open poort is:
 Als je daarop klikt krijg je de hoofdpagina van de server: index.html
