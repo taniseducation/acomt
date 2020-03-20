@@ -9,7 +9,7 @@ Via index.html kun je de belangrijkste diensten bereiken:
 > de querier - om sql-opdrachten uit te voeren
 > phpMyAdmin - om zelf databases te maken of aan te passen
 > herstel en opslag databases - Hier kun alle databases terugzetten in de staat zoals je ze hebt gekregen. 
-  LET OP: als je de omgeving opnieuw opstart, moet je hier EERST naar toe.
+  LET OP: als je de omgeving start, moet je hier EERST naar toe.
           PAS ALS OP DE RODE KNOP IS GEKLIKT ZIJN DE DATABASES VOOR HET EERST BESCHIKBAAR
   LET OP: wie bezig is met een eigen project in de projectdatabase, maakt hier ook zijn backup!
 
