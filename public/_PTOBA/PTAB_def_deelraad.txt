@@ -1,0 +1,1272 @@
+laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname	afwijkende hulpmiddelen / bijzonderheden	duur	SE?	weging SE	herkans-baar?	verplichte SE-domeinen
+4M	10	Nederlands	NE	1	1	Fictie 	0	tt	Woordenboek niet toegestaan	50	Ja	1	Ja	NE/K/1, NE/K/3, NE/K/8
+4M	10	Nederlands	NE	2	1	Leesvaardigheid	0	tt	0	100	Ja	2	Ja	NE/K/6
+4M	10	Nederlands	NE	3	2	Kijk- en luistervaardigheid	0	lt	0	100	Ja	2	Nee	NE/K/4
+4M	10	Nederlands	NE	4	2	Schrijfvaardigheid	0	tt	0	50	Ja	2	Ja	NE/K/1, NE/K/3, NE/K/7, NE/V/2, NE/V/3
+4M	10	Nederlands	NE	5	3	Spreekvaardigheid	0	mt	0	15	Ja	1	Nee	NE/K/2/, NE/K/5, NE/K/8, NE/V/1
+4M	10	Nederlands	NE	6	3	Fictiedossier	0	hd	0	0	Nee	0	Nee	NE/K/7, NE/K/8, NE/V/1, NE/V/2, NE/V/3
+4M	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+4H	10	Nederlands	NE	1	1	Schrijven recensie, betoog met uiteenzettende elementen, (boek 1) inclusief verhaalanalyse	2	po	Het gelezen werk en een ingevuld bouwplan	100	Ja	5	Nee	C,  E
+4H	10	Nederlands	NE	2	2	literatuurgeschiedenis	2	po	0	0	Nee	0	0	0
+4H	10	Nederlands	NE	3	3	Presenteren en literatuur: duopresentatie over een literair werk (boek 2).	2	mt	0	15	Ja	15	Nee	B, E
+4H	10	Nederlands	NE	4	3	lezen en argumenteren	2	tt	0	50	Nee	0	0	0
+4H	10	Nederlands	NE	5	4	argumenteren en debat	2	mt	0	50	Nee	0	0	0
+4H	10	Nederlands	NE	6	4	Een opdracht over twee literaire werken die gekozen worden uit de verplichte lijst voor havo 4 (boek 3 en 4).	2	po	Woordenboek niet toegestaan, geen gelezen werken	100	Ja	10	Nee	F
+4H	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+5H	10	Nederlands	NE	1	1	Formuleren en spellen	0	tt	Woordenboek niet toegestaan	100	Ja	15	Ja	C
+5H	10	Nederlands	NE	2	2	Tekstanalyse en argumenteren	0	tt	0	100	Ja	20	Ja	A, D
+5H	10	Nederlands	NE	3	3	Beschouwing op basis van een dossier. Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen dossier in, of op de dag van het SE, dan is het maximaal te behalen cijfer een 4,0.	0	po	tekstverwerker met spellingcontrole	100	Ja	20	Nee	B, F
+5H	10	Nederlands	NE	4	3	Mondeling literatuur, over vier gelezen moderne werken vanaf 1940 op basis van een dossier. Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen leesdossier in, of op de dag van het mondeling, dan is het maximaal te behalen cijfer een 4,0.	0	mt	woordenboek niet toegestaan	50	Ja	15	Nee	E
+5H	10	Nederlands	NE	5	0	0	0	0	0	0	0	0	0	0
+5H	10	Nederlands	NE	6	0	0	0	0	0	0	0	0	0	0
+5H	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+4A	10	Nederlands	NE	1	1	creatief schrijven, inclusief verhaalanalyse	1	po	0	50	Nee	0	0	0
+4A	10	Nederlands	NE	2	1	literatuurgeschiedenis, inclusief een historisch werk	2	tt	Woordenboek niet toegestaan	50	Nee	0	0	0
+4A	10	Nederlands	NE	3	2	project rechtbank, schrijven betoog	2	po	0	100	Nee	0	0	0
+4A	10	Nederlands	NE	4	3	leesvaardigheid	2	tt	0	100	Nee	0	0	0
+4A	10	Nederlands	NE	5	4	argumenteren en debat	2	mt	0	50	Nee	0	0	0
+4A	10	Nederlands	NE	6	4	Opdracht bij 3 moderne werken, periode 1940 tot heden	2	po	Woordenboek en gelezen werken niet toegestaan	100	Ja	5	Nee	E
+4A	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+5A	10	Nederlands	NE	1	1	tekstverklaring en argumenteren	2	tt	0	100	Nee	0	0	0
+5A	10	Nederlands	NE	2	2	proza en poëzie	2	tt	woordenboek niet toegestaan	100	Nee	0	0	0
+5A	10	Nederlands	NE	3	2	project	2	po	0	0	Nee	0	0	0
+5A	10	Nederlands	NE	4	3	literatuurgeschiedenis	2	tt	woordenboek niet toegestaan	50	Nee	0	0	0
+5A	10	Nederlands	NE	5	4	Betoog met uiteenzettende elementen op basis van een dossier. Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen dossier in, of op de dag van het SE, dan is het maximaal te behalen cijfer een 4,0.	2	po	tekstverwerker met spellingscontrole	100	Ja	5	Nee	C, D
+5A	10	Nederlands	NE	6	4	Literatuur: mondeling literatuur o.b.v. leesdossier. Vier literaire werken na 1940 en een uit de 19e eeuw.  Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen leesdossier in, of op de dag van het mondeling, dan is het maximaal te behalen cijfer een 4,0.	2	mt	woordenboek niet toegestaan	50	Ja	10	Nee	E
+5A	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+6A	10	Nederlands	NE	1	1	Formuleren en spellen	0	tt	Woordenboek niet toegestaan	100	Ja	10	Ja	C
+6A	10	Nederlands	NE	2	2	Beschouwing en reflectieverslag met behulp van een dossier.  Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen dossier in, of op de dag van het SE, dan is het maximaal te behalen cijfer een 4,0.	0	po	Tekstverwerker met spellingscontrole	100	Ja	20	Nee	C
+6A	10	Nederlands	NE	3	2	Tekstverklaring en argumenteren	0	tt	0	100	Ja	20	Ja	A, D
+6A	10	Nederlands	NE	4	3	Debat	0	mt	Woordenboek niet toegestaan	50	Ja	15	Nee	B, F
+6A	10	Nederlands	NE	5	3	Mondeling literatuur o.b.v. leesdossier: drie moderne werken vanaf 1940 en een historisch werk (1880 - 1940). Het volledige dossier moet op een nader te bepalen tijdstip persoonlijk overhandigd worden aan de docent. Levert een leerling van tevoren geen leesdossier in, of op de dag van het mondeling, dan is het maximaal te behalen cijfer een 4,0. 	0	mt	Woordenboek niet toegestaan	50	Ja	15	Nee	E
+6A	10	Nederlands	NE	6	0	0	0	0	0	0	0	0	0	0
+6A	10	Nederlands	0	7	0	0	0	0	0	0	0	0	0	0
+4M	20	Engels	EN	1	1	                                                             Gespreksvaardigheid	0	mt	0	10	Ja	1	Nee	MVT/K/2, MVT/K/6
+4M	20	Engels	EN	2	2	Schrijfvaardigheid	0	tt	Woordenboek N-E	100	Ja	2	Ja	MVT/K/1, MVT/K/3, MVT/K/7
+4M	20	Engels	EN	3	3	Luistervaardigheid	0	tt	0	70	Ja	2	Nee	MVT/K/5
+4M	20	Engels	EN	4	3	Spreekvaardigheid	0	mt	0	5	Ja	1	Nee	MVT/V/4, MVT/K/3
+4M	20	Engels	EN	5	3	Leesvaardigheid	0	tt	Woordenboek E-N	100	Ja	2	Ja	MVT/K/4
+4M	20	Engels	EN	6	0	0	0	0	0	0	0	0	0	0
+4M	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+4H	20	Engels	EN	1	1	Of Course Unit 1	2	tt	0	50 minuten	Nee	0	Nee	0
+4H	20	Engels	EN	2	2	Spreekvaardigheid	2	mt	0	10 min per lln 	Ja	1	Nee	C2
+4H	20	Engels	EN	3	3	schrijfvaardigheid	2	tt	Woordenboek N-E 	100 minuten	Nee	0	Nee	0
+4H	20	Engels	EN	4	4	Examenvocabulaire	2	tt	0	30 min	Nee	0	Nee	0
+4H	20	Engels	EN	5	4	Leesvaardigheid	2	tt	0	100 min	Nee	0	Nee	0
+4H	20	Engels	EN	6	2	Luistervaardigheid	2	tt	0	50 minuten	Nee	0	Nee	0
+4H	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+5H	20	Engels	EN	1	1	Schrijfvaardigheid	0	tt	Woordenboek N-E	100 min	Ja	2	Ja	D
+5H	20	Engels	EN	2	2	Literatuur	0	tt	Reader met teksten en aantekeningen	50 min	Ja	2	Nee	E1
+5H	20	Engels	EN	3	3	Kijk- en luistervaardigheid	0	lt	0	100 min	Ja	2	Nee	B
+5H	20	Engels	EN	4	3	Spreekvaardigheid	0	mt	Aantekeningen	20 min per groepje	Ja	2	Nee	C1, C2
+5H	20	Engels	EN	5	0	0	0	0	0	0	0	0	0	0
+5H	20	Engels	EN	6	0	0	0	0	0	0	0	0	0	0
+5H	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+4A	20	Engels	EN	1	1	Of Course, hoofdstuktoets. Onderdelen: vocab, grammar, writing.	2	tt	0	100	Nee	0	Nee	0
+4A	20	Engels	EN	2	2	Of Course, hoofdstuktoets. Onderdelen: vocab, grammar, writing.	2	tt	0	100	Nee	0	Nee	0
+4A	20	Engels	EN	3	3	Of Course, hoofdstuktoets. Onderdelen: vocab, grammar and literature.	2	tt	0	100	Nee	0	Nee	0
+4A	20	Engels	EN	4	4	leesvaardigheid	3	tt	0	100	Nee	0	Nee	0
+4A	20	Engels	EN	5	4	Spreekvaardigheid wordt in de fysieke lessen door het jaar heen beoordeeld d.m.v. spreekopdrachten.	2	mt	0	0	Nee	0	Nee	0
+4A	20	Engels	EN	6	0	0	0	0	0	0	0	0	0	0
+4A	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+5A	20	Engels	EN	1	1	Of Course hoofdstuktoets. Onderdelen: vocab, grammar and linking words.	2	tt	0	100	Nee	0	Nee	0
+5A	20	Engels	EN	2	2	Of Course hoofdstuktoets. Onderdelen: vocab, grammar and exam words.	2	tt	0	50	Nee	0	Nee	0
+5A	20	Engels	EN	3	2	Literatuur / Presentatie over 3 Engelse literaire werken.	2	mt	0	15	Ja	1	Nee	C2, E1, E2
+5A	20	Engels	EN	4	3	Schrijfvaardigheid: Informele brief.	2	tt	Tekstverwerker met spellingscontrole	100	Ja	1	Ja	D1, D2, F
+5A	20	Engels	EN	5	4	Leesvaardigheid	3	tt	0	100	Ja	1	Ja	A
+5A	20	Engels	EN	6	4	Spreekvaardigheid d.m.v. spreekopdrachten door het jaar heen.	2	mt	0	0	Nee	0	0	0
+5A	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+6A	20	Engels	EN	1	1	Literatuurgeschiedenis. Schriftelijke toets (maximaal 9 punten) en een klassikale opdracht (maximaal 1 punt).	0	tt	0	100	Ja	1	Ja	E2,3
+6A	20	Engels	EN	2	2	Essay schrijven	0	tt	tekstverwerker met spellingscontrole	100	Ja	1	Ja	D1,2, F
+6A	20	Engels	EN	3	2	Kijk- en luistertoets	0	lt	0	60	Ja	2	Nee	B, F
+6A	20	Engels	EN	4	3	Spreekvaardigheidstoets	0	mt	0	15	Ja	2	Nee	C1, C2, F
+6A	20	Engels	EN	5	0	0	0	0	0	0	0	0	0	0
+6A	20	Engels	EN	6	0	0	0	0	0	0	0	0	0	0
+6A	20	Engels	0	7	0	0	0	0	0	0	0	0	0	0
+4M	30	Duits	DU	1	1	Idioom en grammatica 	0	tt	Spiekbrief naamvallen 	100	Ja	2	Ja	MVT/K/2, MVT/K/3
+4M	30	Duits	DU	2	1	Taaltaak	0	po	0	0	Ja	2	Nee	MVT/V/4, MVT/K/1
+4M	30	Duits	DU	3	2	Schrijfvaardigheid 	0	tt	Tekstverwerker met spellingscontrole Duits toegestaan, Spiekbrief naamvallen	100	Ja	2	Ja	MVT/K/7, MVT/K/3
+4M	30	Duits	DU	4	2	Spreekvaardigheid	0	mt	0	20	Ja	3	Nee	MVT/K/6, MVT/K/2, MVT/K/3
+4M	30	Duits	DU	5	3	Kijk- luistertoets 	0	lt	Kladpapier en uitgeprinte versie 	100	Ja	3	Nee	MVT/K/5
+4M	30	Duits	DU	6	3	Leesvaardigheid 	0	tt	Woordenboek toegestaan (DN - ND)	100	Ja	3	Ja	MVT/K/4
+4M	30	Duits	0	7	0	0	0	0	0	0	0	0	0	0
+4H	30	Duits	DU	1	1	Herhaling basisgrammatica, woordenschat. 	2	tt	Stappenplan grammatica, geen woordenboek DN en ND	100	Nee	0	0	0
+4H	30	Duits	DU	2	2	Kijk-luistertoets	2	tt	geen woordenboek (DN en ND)	50	Nee	0	0	0
+4H	30	Duits	DU	3	2	Schrijfvaardigheid (tweetallen) 	2	tt	Stappenplan grammatica,  Spellingscontrole Duits toegestaan. 	100	Nee	0	0	0
+4H	30	Duits	DU	4	3	Woordenschat	2	tt	Woordenboek niet toegestaan (DN en ND)	100	Nee	0	0	0
+4H	30	Duits	DU	5	4	Leesvaardigheid	3	tt	0	100	Ja	3	Ja	A
+4H	30	Duits	DU	6	4	Taaltaak (combinatie van de verschillende vaardigheden) 	2	po	0	0	Nee	0	0	0
+4H	30	Duits	0	7	0	Bij tt mag een woordenboek Duits - Nederlands en Nederlands - Duits gebruikt worden, tenzij anders staat aangegeven.	0	0	0	0	0	0	0	0
+5H	30	Duits	DU	1	1	Spreekvaardigheid - en gespreksvaardigheid (in tweetallen)	 	mt	Woordenboek niet toegestaan (DN en ND)	25	Ja	3	Nee	C1, C2
+5H	30	Duits	DU	2	1	Literatuur	0	po	0	0	Ja	2	Nee	E1
+5H	30	Duits	DU	3	2	Schrijfvaardigheid	0	tt	Stappenplan grammatica,  tekstverwerker met spellingscontrole Duits	100	Ja	3	Ja	D1, D2
+5H	30	Duits	DU	4	3	Leesvaardigheid	0	tt	Woordenboek DN en ND	100	Ja	3	Ja	0
+5H	30	Duits	DU	5	3	Kijk- en luistervaardigheid	0	tt	Woordenboek niet toegestaan (DN en ND)	60	Ja	3	Nee	B
+5H	30	Duits	DU	6	0	0	0	0	0	0	0	0	0	0
+5H	30	Duits	0	7	0	0	0	0	0	0	0	0	0	0
+4A	30	Duits	DU	1	1	PW Basisgrammatica 	2	tt	0	100	Nee	0	Nee	0
+4A	30	Duits	DU	2	2	PW Idioom 	2	tt	0	100	Nee	0	0	0
+4A	30	Duits	DU	3	3	PW Schrijfvaardigheid 	2	tt	0	100	Nee	0	0	0
+4A	30	Duits	DU	4	3	PO taaltaak 	3	po	0	0	Nee	0	0	0
+4A	30	Duits	DU	5	4	PW Luistervaardigheid 	2	tt	0	50	Nee	0	0	0
+4A	30	Duits	DU	6	4	Leesvaardigheid	3	tt	Woordenboek toegestaan (DN en ND)	100	Ja	3	Ja	0
+4A	30	Duits	0	7	0	0	0	0	0	0	0	0	0	0
+5A	30	Duits	DU	1	1	Literatuur en Literatuurgeschiedenis 	2	tt	woordenboek niet toegestaan (DN en ND)	100	Ja	2	Ja	E
+5A	30	Duits	DU	2	2	Schrijfvaardigheid 	2	tt	tekstverwerker met spellingscontrole Duits toegestaan	100	Ja	2	Ja	D
+5A	30	Duits	DU	3	3	Proefwerk idioom en eindexamenidioom 	2	tt	woordenboek niet toegestaan (DN en ND)	100	Nee	0	0	0
+5A	30	Duits	DU	4	3	Taaltaak 	3	po	0	0	Nee	0	0	0
+5A	30	Duits	DU	5	4	Leesvaardigheid 	3	tt	woordenboek toegestaan (DN en ND)	100	Ja	3	Ja	0
+5A	30	Duits	DU	6	4	Kijk - en luistervaardigheid 	2	tt	woordenboek niet toegestaan (DN en ND)	50	Nee	0	0	0
+5A	30	Duits	0	7	0	0	0	0	0	0	0	0	0	0
+6A	30	Duits	DU	1	1	Spreek - en gesprekvaardigheid (deels met partner) 	0	mt	Woordenboek niet toegestaan (DN en ND)	30	Ja	3	Nee	C, F
+6A	30	Duits	DU	2	2	Idioom en examenidioom 	0	tt	Woordenboek niet toegestaan (DN en ND)	100	Ja	2	Ja	0
+6A	30	Duits	DU	3	2	Eindexamen	0	po	0	0	Ja	2	Nee	0
+6A	30	Duits	DU	4	2	Kijk - en luistertoets 	0	tt	Woordenboek niet toegestaan (DN en ND)	100	Ja	2	Nee	B
+6A	30	Duits	DU	5	3	Leesvaardigheid 	0	tt	0	100	Ja	3	Ja	0
+6A	30	Duits	DU	6	0	0	0	0	0	0	0	0	0	0
+6A	30	Duits	0	7	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	1	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	2	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	3	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	4	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	5	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	FA	6	0	0	0	0	0	0	0	0	0	0
+4M	40	Frans	0	7	0	0	0	0	0	0	0	0	0	0
+4H	40	Frans	FA	1	1	proefwerk over hoofdstuk 1: mix van kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4H	40	Frans	FA	2	2	proefwerk over hoofdstuk 2: mix van kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4H	40	Frans	FA	3	3	toets over gelezen boek	1	tt	leesboek en woordenboek F-N	30	Nee	0	Nee	0
+4H	40	Frans	FA	4	3	proefwerk over hoofdstuk 4: mix van kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4H	40	Frans	FA	5	4	mondelinge presentatie 	1	mt	geen	5	Nee	0	Nee	0
+4H	40	Frans	FA	6	4	proefwerk over hoofdstuk 5: mix van kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4H	40	Frans	0	7	0	Bij de hoofdstuktoetsen mag bij het luisterdeel en het kennisdeel geen hulpmiddelen gebruikt worden. Bij het lees- en schrijfdeel mag mijnwoordenboek.nl en vandale.nl. en de référence horend bij de methode gebruikt worden. Het schrijfdeel wordt geschreven in word. 	0	0	0	0	0	0	0	0
+5H	40	Frans	FA	1	1	Mondelinge presentatie	0	mt	0	5	Ja	1	Nee	C2
+5H	40	Frans	FA	2	1	Vocabulairetoets	0	tt	0	50	Ja	1	Ja	0
+5H	40	Frans	FA	3	2	Schrijfvaardigheid	0	tt	tekstverwerker met spellingscontrole, référence, woordenboeken F-N/N-F	100	Ja	2	Ja	D1 en D2
+5H	40	Frans	FA	4	2	Cito kijk- en luistertoets	0	lt	0	60	Ja	2	Nee	B
+5H	40	Frans	FA	5	3	Gesprek voeren	0	mt	0	15	Ja	2	Nee	C1
+5H	40	Frans	FA	6	3	Toets over gelezen boek en behandelde literatuur	0	tt	leesboek, woordenboek F-N	100	Ja	2	Ja	E1
+5H	40	Frans	0	7	0	0	0	0	0	0	0	0	0	0
+4A	40	Frans	FA	1	1	Proefwerk hoofdstuk 1: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4A	40	Frans	FA	2	2	Proefwerk hoofdstuk 2: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4A	40	Frans	FA	3	3	Toets over gelezen boek	1	tt	leesboek, woordenboek F-N	30	Nee	0	Nee	0
+4A	40	Frans	FA	4	3	Proefwerk hoofdstuk 4: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4A	40	Frans	FA	5	4	Mondelinge presentatie	1	mt	geen	5	Nee	0	Nee	0
+4A	40	Frans	FA	6	4	Proefwerk hoofdstuk 5: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4A	40	Frans	0	7	0	Bij de hoofdstuktoetsen mag bij het luisterdeel en het kennisdeel geen hulpmiddelen gebruikt worden. Bij het lees-en schrijfdeel mag vandale.nl , mijnwoordenboek.nl en de référence horend bij de methode gebruikt worden. Het schrijfdeel wordt gemaakt in Word.	0	0	0	0	0	0	0	0
+5A	40	Frans	FA	1	1	Proefwerk hoofdstuk 1: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	40	Frans	FA	2	2	Proefwerk hoofdstuk 2: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	40	Frans	FA	3	3	Toets over gelezen boek en behandelde literatuur	2	tt	Leesboek, woordenboek F-N	100	Ja	2	Ja	E
+5A	40	Frans	FA	4	3	Proefwerk hoofdstuk 4: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	40	Frans	FA	5	4	Mondelinge presentatie	1	mt	0	5	Ja	1	Nee	C2
+5A	40	Frans	FA	6	4	Proefwerk hoofdstuk 5: kennis en vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	40	Frans	0	7	0	0	0	0	0	0	0	0	0	0
+6A	40	Frans	FA	1	1	Schrijfvaardigheid (formeel)	0	tt	Teksverwerker met spellingcontrole, référence, woordenboek F-N, N-F	100	Ja	1	Ja	D
+6A	40	Frans	FA	2	2	Schrijfvaardigheid (informeel)	0	tt	Tekstverwerker met spellingcontrole, référence, woordenboek F-N, N-F	100	Ja	2	Ja	D
+6A	40	Frans	FA	3	2	Cito kijk-en luistertoets	0	lt	0	60	Ja	3	Nee	B
+6A	40	Frans	FA	4	3	Spreekvaardigheid	0	mt	0	15	Ja	2	Nee	C1
+6A	40	Frans	FA	5	3	Literatuurtoets	0	tt	Gelezen boek, woordenboek F-N	100	Ja	1	Ja	E
+6A	40	Frans	FA	6	0	0	0	0	0	0	0	0	0	0
+6A	40	Frans	0	7	0	0	0	0	0	0	0	0	0	0
+4M	140	Geschiedenis	GS	1	1	Staatsinrichting. De industriële samenleving in Nederland	0	tt	0	100	Ja	1	Ja	GS/K/1, GS/K/2, GS/K/3, GS/K/5, GS/K/6, GS/V/7
+4M	140	Geschiedenis	GS	2	2	Historisch overzicht vanaf 1900	0	tt	0	100	Ja	1	Ja	GS/K/1, GS/K/2, GS/K/3, GS/V/7
+4M	140	Geschiedenis	GS	3	3	Historisch overzicht vanaf 1900. Koude Oorlog. Cultureel-mentale ontwikkeling in Nederland vanaf 1945	0	tt	0	100	Ja	1	Ja	GS/K/1, GS/K/2, GS/K/3, GS/K/8, GS/K/9, GS/V/7
+4M	140	Geschiedenis	GS	4	0	0	0	0	0	0	0	0	0	0
+4M	140	Geschiedenis	GS	5	0	0	0	0	0	0	0	0	0	0
+4M	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+4M	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+4H	140	Geschiedenis	GS	1	1	Tjdvak 1, 2, 3 en 4	1	po	0	0	Ja	1	Nee	A, B 
+4H	140	Geschiedenis	GS	2	1	PW tijdvak 5 en 6	2	tt	0	50	Nee	0	0	0
+4H	140	Geschiedenis	GS	3	2	"Tijdvak 5 t/m 8, Thema slavernij; Rechtsstaat "	2	tt	0	100	Ja	2	Ja	A, B, C, D
+4H	140	Geschiedenis	GS	4	3	PW tijdvak 5 t/m 9	2	tt	0	100	Nee	0	0	0
+4H	140	Geschiedenis	GS	5	4	Tijdvak 5 t/m 10, Thema Europese samenwerking	2	tt	0	100	Ja	2	Ja	A, B, C
+4H	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+4H	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+5H	140	Geschiedenis	GS	1	1	"Historische context Britse Rijk 1585-1900; Tijdvak 5 t/m 8"	0	tt	0	100	Ja	3	Ja	A
+5H	140	Geschiedenis	GS	2	2	"Historische context Duitsland 1918-1991; Tijdvak 5 t/m 10 ; thema Europese samenwerking "	0	tt	0	100	Ja	3	Ja	A, C
+5H	140	Geschiedenis	GS	3	3	Historische context Nederland. Tijdvak 5 t/m 10 1948-2008 	0	tt	0	100	Ja	3	Ja	A
+5H	140	Geschiedenis	GS	4	0	0	0	0	0	0	0	0	0	0
+5H	140	Geschiedenis	GS	5	0	0	0	0	0	0	0	0	0	0
+5H	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+5H	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+4A	140	Geschiedenis	GS	1	1	so tijdvak 1 en 2	2	tt	0	30 min	0	0	Nee	0
+4A	140	Geschiedenis	GS	2	1	pw tijdvak 3 en 4 KA 1 t/m 4	3	tt	0	50 min	0	0	Nee	0
+4A	140	Geschiedenis	GS	3	2	pw tijdvak 4 en 5 en KA  1 t/5	3	tt	0	50 min	0	0	Nee	0
+4A	140	Geschiedenis	GS	4	3	Historische vaardigheden: Bronvaardigheden en oriëntatiekennis. De rol van personen in de geschiedenis. 	1	po	0	0	Ja	1	Nee	C Thema: historische personen
+4A	140	Geschiedenis	GS	5	4	proefwerk tijdvak 6 en KA 1 t/m 6	3	tt	0	50 min	0	0	Nee	0
+4A	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+4A	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+5A	140	Geschiedenis	GS	1	1	PW Tijdvak 6 en 7 	3	tt	0	100	Nee	0	Nee	0
+5A	140	Geschiedenis	GS	2	2	PW Tijdvak 8 en 1 t/m 7	3	tt	0	100	Nee	0	Nee	0
+5A	140	Geschiedenis	GS	3	3	Historische vaardigheden: Bronvaardigheden en oriëntatiekennis	2	po	0	0	Ja	1	Nee	C: Keizers in verval, E
+5A	140	Geschiedenis	GS	4	3	PW Tijdvak 9 en 1 t/m 8	3	tt	0	100	Nee	0	Nee	0
+5A	140	Geschiedenis	GS	5	4	PW Tijdvak 9 en 10  en 1 t/m 8	3	tt	0	100	Nee	0	Nee	0
+5A	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+5A	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+6A	140	Geschiedenis	GS	1	1	Historische context: De Republiek en Verlichting. Tijdvak 1 t/m 7 	0	tt	0	100	Ja	3	Ja	C: Amerikaanse Revolutie, C: Verlichting in de Republiek, C: Migratie
+6A	140	Geschiedenis	GS	2	2	Historische context: Duitsland. Tijdvak 1 t/m 9	0	tt	0	100	Ja	3	Ja	C: Emancipatie, D: Staatsinrichting.
+6A	140	Geschiedenis	GS	3	3	Historische context: De Koude Oorlog. Tijdvak 1 t/m 10	0	tt	0	100	Ja	3	Ja	C: Propaganda, E
+6A	140	Geschiedenis	GS	4	0	0	0	0	0	0	0	0	0	0
+6A	140	Geschiedenis	GS	5	0	0	0	0	0	0	0	0	0	0
+6A	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
+6A	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
+4M	45	Maatschappijleer	MA	1	1	H4: Pluriforme samenleving, H7: Werk en H8: Criminaliteit 	1	po	0	0	Ja	1	Nee	ML1/K/1, ML1/K/4, ML1/K/5
+4M	45	Maatschappijleer	MA	2	2	H3: Politiek, H5: Nederland en de wereld en H6: Media	1	tt	Woordenboek niet toegestaan	50	Ja	1	Ja	ML1/K/6, ML1/K/7
+4M	45	Maatschappijleer	MA	3	3	H1: Wat is maatschappijleer? en H2: Jongeren 	1	po	0	0	Ja	1	Nee	ML1/K/2, ML1/K/3
+4M	45	Maatschappijleer	MA	4	0	0	0	0	0	0	0	0	0	0
+4M	45	Maatschappijleer	MA	5	0	0	0	0	0	0	0	0	0	0
+4M	45	Maatschappijleer	MA	6	0	0	0	0	0	0	0	0	0	0
+4M	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+4H	45	Maatschappijleer	MA	1	1	Thema: Wat is Maatschappijleer? Thema: Rechtsstaat	1	po	0	0	Ja	1	Nee	A, B1, B2, B3
+4H	45	Maatschappijleer	MA	2	2	Thema: Parlementaire Democratie	1	po	0	0	Ja	1	Nee	C1, C2, C3, A
+4H	45	Maatschappijleer	MA	3	2	Thema: Parlementaire Democratie	1	tt	Woordenboek niet toegestaan	100	Ja	1	Ja	C1, C2, C3
+4H	45	Maatschappijleer	MA	4	3	Thema: Verzorgingsstaat	1	po	0	0	Ja	1	Nee	D1, D2, D3, D4, A1
+4H	45	Maatschappijleer	MA	5	3	Thema: Verzorgingsstaat	1	tt	Woordenboek niet toegestaan	100	Ja	1	Ja	D1, D2, D3, D4
+4H	45	Maatschappijleer	MA	6	4	Thema: Pluriforme Samenleving	1	po	0	0	Ja	1	Nee	E1, E2, E3, E4, A2
+4H	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	1	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	2	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	3	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	4	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	5	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	MA	6	0	0	0	0	0	0	0	0	0	0
+5H	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	1	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	2	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	3	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	4	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	5	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	MA	6	0	0	0	0	0	0	0	0	0	0
+4A	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+5A	45	Maatschappijleer	MA	1	1	Thema: Wat is Maatschappijleer? Thema: Rechtsstaat	1	po	0	0	Ja	1	Nee	A, B1, B2, B3
+5A	45	Maatschappijleer	MA	2	2	Thema: Parlementaire Democratie	1	po	0	0	Ja	1	Nee	C1, C2, C3, A
+5A	45	Maatschappijleer	MA	3	2	Thema: Parlementaire Democratie	1	tt	Woordenboek niet toegestaan	100	Ja	1	Ja	C1, C2, C3
+5A	45	Maatschappijleer	MA	4	3	Thema: Verzorgingsstaat	1	po	0	0	Ja	1	Nee	D1, D2, D3, D4, A1
+5A	45	Maatschappijleer	MA	5	3	Thema: Verzorgingsstaat	1	tt	Woordenboek niet toegestaan	100	Ja	1	Ja	D1, D2, D3, D4
+5A	45	Maatschappijleer	MA	6	4	Thema: Pluriforme Samenleving	1	po	0	0	Ja	1	Nee	E1, E2, E3, E4, A2
+5A	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	1	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	2	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	3	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	4	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	5	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	MA	6	0	0	0	0	0	0	0	0	0	0
+6A	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
+4M	150	Aardrijkskunde	AK	1	1	"Bronnen van Energie, Arm en Rijk, Grenzen en Identiteit
+"	0	po	0	0	Ja	2	Nee	AK/K/1, AK/K/2, AK/K/5, AK/K/7, AK/K/9, AK/V,2, AK/V/4, AK/V/6, AK/V/7, AK/V/8
+4M	150	Aardrijkskunde	AK	2	1	Water	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/6, AK/V/3 
+4M	150	Aardrijkskunde	AK	3	2	Bevolking en ruimte	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/8, AK/V/5
+4M	150	Aardrijkskunde	AK	4	3	Weer en klimaat	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/4, AK/V/1
+4M	150	Aardrijkskunde	AK	5	3	Weerbericht	0	po	0	0	Ja	3	Nee	AK/K/3, AK/K/4, AK/V/1
+4M	150	Aardrijkskunde	AK	6	0	0	0	0	0	0	0	0	0	0
+4M	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4H	150	Aardrijkskunde	AK	1	1	PW Katern Overleven in Europa H1en 2	2	tt	0	50	Nee	0	Nee	0
+4H	150	Aardrijkskunde	AK	2	1	Overleven in Europa	3	tt	0	50	Ja	1	Ja	B3, C1
+4H	150	Aardrijkskunde	AK	3	2	Opdracht met betrekking tot de eigen omgeving in combinatie met aardrijkskundige vaardigheden	3	po	0	0	Ja	1	Nee	A1, A2, E2, F
+4H	150	Aardrijkskunde	AK	4	2	PW Arm en Rijk H1en 2	2	tt	0	50	Nee	0	Nee	0
+4H	150	Aardrijkskunde	AK	5	3	Arm en Rijk	3	tt	0	100	Ja	1	Ja	B1, B2
+4H	150	Aardrijkskunde	AK	6	4	PW Systeem Aarde	2	tt	0	50	Nee	0	Nee	0
+4H	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+5H	150	Aardrijkskunde	AK	1	1	Katern Systeem Aarde	0	tt	0	100	Ja	2	Ja	C2, C3
+5H	150	Aardrijkskunde	AK	2	2	Katern Wonen in Nederland	0	tt	0	100	Ja	2	Ja	E1
+5H	150	Aardrijkskunde	AK	3	3	Katern Brazilië	0	tt	0	100	Ja	2	Ja	D1, D2
+5H	150	Aardrijkskunde	AK	4	0	0	0	0	0	0	0	0	0	0
+5H	150	Aardrijkskunde	AK	5	0	0	0	0	0	0	0	0	0	0
+5H	150	Aardrijkskunde	AK	6	0	0	0	0	0	0	0	0	0	0
+5H	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4A	150	Aardrijkskunde	AK	1	1	Multidisciplinaire opdracht	1	po	0	0	Nee	0	Nee	0
+4A	150	Aardrijkskunde	AK	2	1	PW Globalisering H1	2	tt	0	50	Nee	0	Nee	0
+4A	150	Aardrijkskunde	AK	3	2	PW Globalisering	2	tt	0	50	Nee	0	Nee	0
+4A	150	Aardrijkskunde	AK	4	3	Onderzoek m.b.t. een sociaal of fysisch geografisch onderwerp, gericht op de eigen omgeving	3	po	0	0	Ja	1	Nee	A1, A2, E2, F
+4A	150	Aardrijkskunde	AK	5	4	Proefwerk Arm en Rijk	2	tt	0	50	Nee	0	Nee	0
+4A	150	Aardrijkskunde	AK	6	4	Katern Arm en Rijk	3	tt	0	100	Ja	1	Ja	A1, B2
+4A	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+5A	150	Aardrijkskunde	AK	1	1	Multidisciplinaire opdracht	1	po	0	0	Nee	0	0	0
+5A	150	Aardrijkskunde	AK	2	1	PW Systeem Aarde	2	tt	0	50	Nee	0	0	0
+5A	150	Aardrijkskunde	AK	3	2	Katern Systeem Aarde	3	tt	0	100	Ja	3	Ja	C1
+5A	150	Aardrijkskunde	AK	4	3	Geografische Vaardigheden gericht op katern Klimaatvraagstukken	3	tt	0	100	Ja	1	Ja	A1, C2
+5A	150	Aardrijkskunde	AK	5	3	Opdracht en presentatie aan de hand van een onderzoek m.b.t. een fysisch geografisch onderdeel van klimaatvraagstukken in de eigen omgeving	3	po	0	0	Ja	1	Nee	C2, A2, E2
+5A	150	Aardrijkskunde	AK	6	4	Katern Wonen in Nederland (H1 en H2)	3	tt	0	100	Ja	2	Ja	E1
+5A	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+6A	150	Aardrijkskunde	AK	1	1	Katern Wonen in Nederland en Globalisering	0	tt	0	100	Ja	3	Ja	E1, B1
+6A	150	Aardrijkskunde	AK	2	2	Katern Zuid-Amerika	0	tt	0	100	Ja	4	Ja	D1, D2
+6A	150	Aardrijkskunde	AK	3	3	Examenstof: Globalisering, Systeem Aarde, Zuid-Amerika, Wonen in Nederland en vaardigheden	0	tt	0	100	Ja	4	Ja	A1, B1, C1, D1, E1
+6A	150	Aardrijkskunde	AK	4	0	0	0	0	0	0	0	0	0	0
+6A	150	Aardrijkskunde	AK	5	0	0	0	0	0	0	0	0	0	0
+6A	150	Aardrijkskunde	AK	6	0	0	0	0	0	0	0	0	0	0
+6A	150	Aardrijkskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4M	81	Wiskunde	WI	1	1	Hoofdstuk 1: Grafieken en vergelijkingen, Hoofdstuk 2: Vlakke meetkunde	0	tt	0	100	Ja	3	Ja	WI/K/2, WI/K/3, WI/V/2   
+4M	81	Wiskunde	WI	2	1	Hoofdstuk 3: Informatieverwerking	0	tt	0	50	Ja	2	Ja	WI/K/2, WI/K/7, WI/V/3
+4M	81	Wiskunde	WI	3	1	opdracht over oriëntatie op leren en werken bij een zelfgekozen sector	0	po	0	0	Ja	2	Nee	WI/K/1, WI/K/2, WI/V/3, WI/K/8
+4M	81	Wiskunde	WI	4	2	Hoofdstuk 4: Machtsverbanden, Hoofdstuk 5: Rekenen, Hoofdstuk 6: Goniometrie	0	tt	0	100	Ja	3	Ja	WI/K/2, WI/K/3, WI/V/2, Rekenen
+4M	81	Wiskunde	WI	5	3	Hoofdstuk 7: Exponentiële formules, Hoofdstuk 8: Ruimtemeetkunde	0	tt	0	100	Ja	2	Ja	WI/K/2, WI/K/3, WI/V/2
+4M	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+4M	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	1	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	2	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	3	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	4	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	5	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+4H	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	1	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	2	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	3	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	4	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	5	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+5H	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	1	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	2	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	3	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	4	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	5	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+4A	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	1	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	2	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	3	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	4	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	5	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+5A	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	1	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	2	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	3	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	4	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	5	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	WI	6	0	0	0	0	0	0	0	0	0	0
+6A	81	Wiskunde	0	7	0	0	0	0	0	0	0	0	0	0
+4M	101	NaSk 1	NSK1	1	1	Werktuigen (H1 en H6)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK/K/3, NASK1/K/9, NASK1/V/2, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	NSK1	2	1	Licht (Klas 3, H5) en Beweging (H10)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK1/K/3, NASK1/K/7, NASK1/K/9, NASK/V/1, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	NSK1	3	2	Elektriciteit en schakelingen (H4 en H9)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK1/K/3, NASK1/K/5, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	NSK1	4	2	Warmte en Energie (H2 en H3)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK1/K/3, NASK1/K/6, NASK1/K/12, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	NSK1	5	3	Geluid, stoffen en materialen (H5, H7 en H8)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK1/K/3, NASK1/K/8, NASK1/K/10, NASK1/K/11, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	NSK1	6	3	Kracht en beweging (H11)	2	tt	0	100	Ja	2	Ja	NASK1/K/1, NASK1/K/2, NASK1/K/3, NASK1/K/9, NASK/V/1, NASK1/V/3, NASK1/V/4
+4M	101	NaSk 1	0	7	0	De BINAS VMBO-KGT is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	1	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	2	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	3	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	4	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	5	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	NSK1	6	0	0	0	0	0	0	0	0	0	0
+4H	101	NaSk 1	0	7	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	1	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	2	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	3	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	4	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	5	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	NSK1	6	0	0	0	0	0	0	0	0	0	0
+5H	101	NaSk 1	0	7	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	1	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	2	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	3	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	4	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	5	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	NSK1	6	0	0	0	0	0	0	0	0	0	0
+4A	101	NaSk 1	0	7	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	1	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	2	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	3	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	4	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	5	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	NSK1	6	0	0	0	0	0	0	0	0	0	0
+5A	101	NaSk 1	0	7	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	1	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	2	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	3	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	4	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	5	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	NSK1	6	0	0	0	0	0	0	0	0	0	0
+6A	101	NaSk 1	0	7	0	0	0	0	0	0	0	0	0	0
+4M	111	NaSK 2	NSK2	1	1	H1: Stoffen en deeltjes, H4: Mengen en scheiden	2	tt	0	100	Ja	2	Ja	NASK2/K/8, NASK2/K/3, NASK2/V/3
+4M	111	NaSK 2	NSK2	2	2	H2: Chemische reacties, H3: Verbrandingen	2	tt	0	100	Ja	2	Ja	NASK2/K/9, NASK2/K/3, NASK2/V/3
+4M	111	NaSK 2	NSK2	3	3	H7: Water en reinigen, H8: Materialen, H9: Koolstofchemie	2	tt	0	100	Ja	2	Ja	NASK2/K/4, NASK2/K/9, NASK2/V/3
+4M	111	NaSK 2	NSK2	4	3	vaardigheden in de scheikunde (scheikunde kennis H1 t/m H4, H7 t/m H9 & Vaardigheden)	2	po	0	100	Ja	2	Ja	NASK2/K/1, NASK2/K/2, NASK2/K/6, NASK2/V/3
+4M	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+4M	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+4M	111	NaSK 2	0	7	0	De BINAS VMBO-KGT is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	1	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	2	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	3	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	4	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+4H	111	NaSK 2	0	7	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	1	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	2	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	3	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	4	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+5H	111	NaSK 2	0	7	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	1	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	2	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	3	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	4	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+4A	111	NaSK 2	0	7	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	1	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	2	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	3	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	4	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+5A	111	NaSK 2	0	7	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	1	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	2	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	3	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	4	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	5	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	NSK2	6	0	0	0	0	0	0	0	0	0	0
+6A	111	NaSK 2	0	7	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	1	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	2	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	3	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	4	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	5	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	NA	6	0	0	0	0	0	0	0	0	0	0
+4M	100	Natuurkunde	0	7	0	0	0	0	0	0	0	0	0	0
+4H	100	Natuurkunde	NA	1	1	H3 - Elektriciteit 1	1	tt	0	100	0	0	0	0
+4H	100	Natuurkunde	NA	2	1	Automaten	2	po	0	0	Ja	2	Nee	G2, I1, I3
+4H	100	Natuurkunde	NA	3	2	H1 en 2  - Bewegen	2	tt	0	100	0	0	0	0
+4H	100	Natuurkunde	NA	4	3	H3, 6 en 9 - Elektriciteit en licht	3	tt	0	100	Ja	3	Ja	B3, G1
+4H	100	Natuurkunde	NA	5	4	PO mechanica	1	po	0	0	0	0	0	0
+4H	100	Natuurkunde	NA	6	4	H7 en 8 - Kracht en beweging	2	tt	0	100	0	0	0	0
+4H	100	Natuurkunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5H	100	Natuurkunde	NA	1	1	H1, H2, H7, H8, H11, H12 - Mechanica	0	tt	0	100	Ja	4	Ja	C, D1
+5H	100	Natuurkunde	NA	2	2	Mterialen	0	po	0	0	Ja	2	Nee	D2, I2
+5H	100	Natuurkunde	NA	3	3	H5, H10, H14, H15 - Trillen, straling, zonnestelsel	0	tt	0	100	Ja	4	Ja	B2, E1
+5H	100	Natuurkunde	NA	4	0	0	0	0	0	0	0	0	0	0
+5H	100	Natuurkunde	NA	5	0	0	0	0	0	0	0	0	0	0
+5H	100	Natuurkunde	NA	6	0	0	0	0	0	0	0	0	0	0
+5H	100	Natuurkunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4A	100	Natuurkunde	NA	1	1	PO bewegen in grafieken	1	po	0	0	0	0	0	0
+4A	100	Natuurkunde	NA	2	1	H1 en 2 - bewegen	2	tt	0	100	0	0	0	0
+4A	100	Natuurkunde	NA	3	2	H3 elektriciteit	1	tt	0	100	0	0	0	0
+4A	100	Natuurkunde	NA	4	3	H4 en 6 - krachten	2	tt	0	100	0	0	0	0
+4A	100	Natuurkunde	NA	5	4	Stoffen en materialen	2	po	0	0	Ja	2	Nee	E1, I1, I3
+4A	100	Natuurkunde	NA	6	4	H1,2,4,6,7 - mechanica	3	tt	0	100	0	0	0	0
+4A	100	Natuurkunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5A	100	Natuurkunde	NA	1	1	H8 en 9 - trillingen en golven	2	tt	0	50	0	0	0	0
+5A	100	Natuurkunde	NA	2	2	H11 en 12 - elektrische velden en atoomfysica	2	tt	0	100	0	0	0	0
+5A	100	Natuurkunde	NA	3	3	modelleren	1	tt	0	50	0	0	0	0
+5A	100	Natuurkunde	NA	4	3	Geo- of biofysica	1	po	0	0	Ja	1	Nee	G1, G2
+5A	100	Natuurkunde	NA	5	4	H13 en H14 - Straling en kernprocessen	2	tt	0	100	Ja	2	Ja	B2, E3
+5A	100	Natuurkunde	NA	6	0	0	0	0	0	0	0	0	0	0
+5A	100	Natuurkunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+6A	100	Natuurkunde	NA	1	1	H1, H2, H4, H6, H7, H17 - Mechanica	4	tt	0	100	Ja	4	Ja	C, H, I2
+6A	100	Natuurkunde	NA	2	2	H12, H18 H19 - Atoom-, astro- en quantumfysica	3	tt	0	100	Ja	3	Ja	E2, F1
+6A	100	Natuurkunde	NA	3	3	H3, H8, H9, H10, H11 - Trillingen en golven, elektrische- en magnetische velden	4	tt	0	100	Ja	4	Ja	B1, D
+6A	100	Natuurkunde	NA	4	0	0	0	0	0	0	0	0	0	0
+6A	100	Natuurkunde	NA	5	0	0	0	0	0	0	0	0	0	0
+6A	100	Natuurkunde	NA	6	0	0	0	0	0	0	0	0	0	0
+6A	100	Natuurkunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	1	1	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	2	2	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	3	3	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	4	3	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	5	0	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	SK	6	0	0	0	0	0	0	0	0	0	0
+4M	110	Scheikunde	0	7	0	0	0	0	0	0	0	0	0	0
+4H	110	Scheikunde	SK	1	1	H1 Scheiden en reageren	2	tt	0	100	Nee	0	Nee	0
+4H	110	Scheikunde	SK	2	2	H2 en 3 Bouwstenen van stoffen, stoffen en reacties, met basiskennis uit de vorige hoofdstukken	2	tt	0	100	Nee	0	Nee	0
+4H	110	Scheikunde	SK	3	3	Schriftelijk rekenen aan reacties	1	tt	0	50	Nee	0	Nee	0
+4H	110	Scheikunde	SK	4	3	Proefwerk H4 Moleculaire stoffen, met basiskennis uit de vorige hoofdstukken	2	tt	0	100	Nee	0	Nee	0
+4H	110	Scheikunde	SK	5	4	Een scheikundig onderzoek, zouten en zoutoplossingen. H1, H2, H3, H5 	2	po	0	0	Ja	1	Nee	A, D2
+4H	110	Scheikunde	SK	6	4	Proefwerk H6 koolstofchemie	2	tt	0	100	Nee	0	Nee	0
+4H	110	Scheikunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5H	110	Scheikunde	SK	1	1	H7, H8, H10 - Zuren, basen, redoxreacties. H1 t/m H5: Basiskennis	0	tt	0	100	Ja	2	Ja	E2, E3, F4
+5H	110	Scheikunde	SK	2	2	H9, H13 - Reacties en energie, duurzaam produceren. H1 t/m H5: Basiskennis	0	tt	0	100	Ja	2	Ja	C4, C5, E2, F2, F4, F5, G3, G4, G5
+5H	110	Scheikunde	SK	3	3	H11, H12 - Kunststoffen, chemie van het leven. H1 t/m H5: Basiskennis	0	tt	0	100	Ja	2	Ja	D4
+5H	110	Scheikunde	SK	4	0	Vaardigheden	0	po	0	0	Ja	1	Nee	A, D2
+5H	110	Scheikunde	SK	5	0	0	0	0	0	0	0	0	0	0
+5H	110	Scheikunde	SK	6	0	0	0	0	0	0	0	0	0	0
+5H	110	Scheikunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4A	110	Scheikunde	SK	1	1	Schriftelijke overhoring H1 (Scheiden en reageren)	1	tt	0	50	Nee	0	Nee	0
+4A	110	Scheikunde	SK	2	1	Proefwerk H1 en H2 (Scheiden en reageren, bouwstenen van stoffen)	2	tt	0	100	Nee	0	Nee	0
+4A	110	Scheikunde	SK	3	2	Proefwerk H2 en H3 (Scheiden en reageren, moleculaire stoffen) met basiskennis uit H1	2	tt	0	100	Nee	0	Nee	0
+4A	110	Scheikunde	SK	4	3	Schriftelijke overhoring rekenen aan reacties, met basiskennis uit de H1 t/m H3	1	tt	0	50	Nee	0	Nee	0
+4A	110	Scheikunde	SK	5	3	H4 en H5 - Zouten en zoutoplossingen	2	po	0	0	Ja	1	Nee	A, D2, E5, G4
+4A	110	Scheikunde	SK	6	4	Proefwerk H6 en H7 (koolstofchemie, duurzaamheid), met basiskennis van de vorige hoofdstukken	2	tt	0	100	Nee	0	Nee	0
+4A	110	Scheikunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5A	110	Scheikunde	SK	1	1	H7 en H8 - Duurzaamheidheid, zuren	2	tt	0	100	Ja	2	Ja	A, C9, E3, F4, F5, G4, G5
+5A	110	Scheikunde	SK	2	2	H8, H9, H11 - Zzuren, basen, redoxreacties	2	tt	0	100	Ja	2	Ja	C9, C10, D2, E3, F4
+5A	110	Scheikunde	SK	3	3	H10, H12 - Analyse, molecuulbouw	2	tt	0	100	Ja	2	Ja	C6, C7, C8, D4, E5
+5A	110	Scheikunde	SK	4	4	H13 en H14 - Kunststoffen, nieuwe materialen	2	tt	0	100	Nee	0	Nee	0
+5A	110	Scheikunde	SK	5	4	Onderzoek	2	po	0	0	Ja	1	Nee	A, D2, E4, E5, F4, F5, G4
+5A	110	Scheikunde	SK	6	0	0	0	0	0	0	0	0	0	0
+5A	110	Scheikunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+6A	110	Scheikunde	SK	1	1	H8, H9, H11, H17, H18 - Redoxreacties, zuren en basen, H1 t/m 6: Basiskennis	0	tt	0	100	Ja	2	Ja	C9, C10, D2, E3, F4
+6A	110	Scheikunde	SK	2	2	H6, H12, H13, H16 - Molecuulbouw en koolstofchemie, H1 t/m 6: Basiskennis	0	tt	0	100	Ja	2	Ja	E3, E4, E5
+6A	110	Scheikunde	SK	3	3	H7, H10.3, H10.4, H10.5, H14, H15 - Groene chemie, nieuwe materialen, analyse, H1 t/m 6: Basiskennis	0	tt	0	100	Ja	2	Ja	C8, C9, C10, E3, F4, F5, G4, G5 
+6A	110	Scheikunde	SK	4	0	0	0	0	0	0	0	0	0	0
+6A	110	Scheikunde	SK	5	0	0	0	0	0	0	0	0	0	0
+6A	110	Scheikunde	SK	6	0	0	0	0	0	0	0	0	0	0
+6A	110	Scheikunde	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4M	120	Biologie	BIO	1	1	Thema 1: Stofwisseling (deel 4A), Thema 2: Planten (deel 4A)	0	tt	0	50	Ja	1	Ja	BI/K/4, BI/K/6, BI/K/9
+4M	120	Biologie	BIO	2	1	Thema 3: Ecologie (deel 4A), Thema 4: Mens en milieu (deel 4A), Thema 2: Ordening (deel 3A) 	0	tt	0	100	Ja	3	Ja	BI/K/4, BI/K/5, BI/K/6, BI/K/7 
+4M	120	Biologie	BIO	3	2	Thema 5: Voeding en vertering (deel 4B), Thema 4: Erfelijkheid (deel 3A), Thema 8: Stevigheid en beweging (deel 3B), Thema 9: Gedrag (deel 3B) 	0	tt	0	100	Ja	3	Ja	BI/V/2, BI/K/8, BI/K/9, BI/K/12,  BI/K/13
+4M	120	Biologie	BIO	4	3	Thema 6: Gaswisseling (deel 4B), Thema 7: Transport (deel 4B), Thema 8: Opslag, uitscheiding en bescherming (deel 4B), Thema 6: Regeling (deel 3B), Thema 7: Zintuiglijke waarneming (deel 3B)	0	tt	0	100	Ja	3	Ja	BI/K/9, BI/K/10, BI/K/11
+4M	120	Biologie	BIO	5	3	Opdracht: keuzeonderwerp	0	po	0	100	Ja	2	Nee	BI/K/1, BI/K/2, BI/K/3, BI/V/3
+4M	120	Biologie	BIO	6	0	0	0	0	0	0	0	0	0	0
+4M	120	Biologie	0	7	0	0	0	0	0	0	0	0	0	0
+4H	120	Biologie	BIO	1	1	Hoofdstuk 3: Cellen, Hoofdstuk 7: Onderzoek doen	3	tt	0	100	Ja	2	Ja	B1, B2, C2 D3
+4H	120	Biologie	BIO	2	2	Hoofdstuk 5 Voeding en energie Hoofdstuk 6 Voeding en vertering	3	tt	0	50	Nee	1	0	0
+4H	120	Biologie	BIO	3	3	Opdracht: keuzeonderwerp	2	po	0	0	Ja	1	Nee	A10, A11, A12, A13 t/m A16
+4H	120	Biologie	BIO	4	3	Hoofdstuk 1: Gedrag, Hoofdstuk 4: Voortplanting en seksualiteit 	3	tt	0	100	Ja	2	Ja	D2 E2, E3
+4H	120	Biologie	BIO	5	4	Hoofdstuk 2: Soorten en relaties, Hoofdstuk 6: par 6.1, Hoofdstuk 8: Ecosysteem en evenwicht	3	tt	0	100	Ja	2	Ja	B3, C2, C3, F3
+4H	120	Biologie	BIO	6	0	0	0	0	0	0	0	0	0	0
+4H	120	Biologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5H	120	Biologie	BIO	1	1	Nectar HAVO 5: Hoofdstuk 9: Erfelijkheid & Hoofdstuk 10 Evolutie	0	tt	0	100	Ja	2	Ja	C2, D1, E1, E4, F1, F2, F3
+5H	120	Biologie	BIO	2	2	Nectar HAVO 5: Hoofdstuk 11: Gezondheid & Hoofdstuk 12: Transport	0	tt	0	100	Ja	2	Ja	B2, B3, B4, B5
+5H	120	Biologie	BIO	3	3	Nectar HAVO 5: Hoofdstuk 13: Gaswisseling en uitscheiding & Hoofdstuk 14: Reageren	0	tt	0	100	Ja	2	Ja	B2, B3, B4, B5, B6, B7
+5H	120	Biologie	BIO	4	0	0	0	0	0	0	0	0	0	0
+5H	120	Biologie	BIO	5	0	0	0	0	0	0	0	0	0	0
+5H	120	Biologie	BIO	6	0	0	0	0	0	0	0	0	0	0
+5H	120	Biologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4A	120	Biologie	BIO	1	1	Hoofdstuk 4: Cel en leven	2	tt	0	50	Nee	0	0	0
+4A	120	Biologie	BIO	2	1	Hoofdstuk 6: Voortplanting	2	tt	0	50	Nee	0	0	0
+4A	120	Biologie	BIO	3	2	Hoofdstuk 7: Erfelijkheid en Hoofdstuk 8: Evolutie	2	tt	0	50	Nee	0	0	0
+4A	120	Biologie	BIO	4	3	PO: Ecologische opdracht	2	po	0	nvt	Nee	0	0	0
+4A	120	Biologie	BIO	5	3	Hoofdstuk 1: Gedrag en Hoofdstuk 5: Onderzoek	3	tt	0	100	Nee	0	0	0
+4A	120	Biologie	BIO	6	4	Hoofdstuk 2: Soorten en relaties en Hoofdstuk 8: Ecosystemen	2	tt	0	50	Nee	0	0	0
+4A	120	Biologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets. 	0	0	0	0	0	0	0	0
+5A	120	Biologie	BIO	1	1	Nectar Atheneum 5: Hoofdstuk 9 Bloedsomloop, Hoofdstuk 10 Uitscheiding	3	tt	0	100	Ja	3	Ja	B2, B3, B4, B5
+5A	120	Biologie	BIO	2	2	Nectar Atheneum 5: Hoofdstuk 11 Voeding en vertering, Hoofdstuk 12 Afweer	3	tt	0	100	Ja	3	Ja	B2, B3, B4, B5
+5A	120	Biologie	BIO	3	3	Nectar Atheneum 5: Hoofdstuk 13 Hormonen, Hoofdstuk 14 Zenuwstelsel. Nectar Atheneum 4: Hoofdstuk 6 Voortplanting	3	tt	0	100	Ja	3	Ja	B2, B3, B4 D2, D4, E3
+5A	120	Biologie	BIO	4	4	Nectar Atheneum 5: Hoofdstuk 15 Waarnemen, Hoofdstuk 16 Sport	3	tt	0	100	Ja	3	Ja	B2, B4, B6, B7
+5A	120	Biologie	BIO	5	0	0	0	0	0	0	0	0	0	0
+5A	120	Biologie	BIO	6	0	0	0	0	0	0	0	0	0	0
+5A	120	Biologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+6A	120	Biologie	BIO	1	1	Nectar Atheneum 6: Hoofdstuk 17 Stedelijke ecosystemen, Hoofdstuk 18 Wereldwijde kringlopen. Nectar Atheneum 4: Hoofdstuk 2 Soorten en populaties, Hoofdstuk 3 Ecosystemen	0	tt	0	100	Ja	3	Ja	B8, C2, C3, D5
+6A	120	Biologie	BIO	2	2	Nectar Atheneum 6: Hoofdstuk 19 DNA, Hoofdstuk 20 Eiwit. Nectar Atheneum 4: Hoofdstuk 4 Cel en leven, Hoofdstuk 5: Onderzoek	0	tt	0	100	Ja	3	Ja	B1, B2, B3, B4, C1, D1, E1, E2 
+6A	120	Biologie	BIO	3	3	Nectar Atheneum 6: Hoofdstuk 21 Planten, Hoofdstuk 22 Terug naar de toekomst. Nectar Atheneum 5: Hoofdstuk 16 Sport par 3. Nectar Atheneum 4: Hoofdstuk 1 Gedrag, Hoofdstuk 7 Erfelijkheid, Hoofdstuk 8 Evolutie par 2,3,4 en 5	0	tt	0	100	Ja	3	Ja	B3, C2, D3, F1, F2, F3, F4
+6A	120	Biologie	BIO	4	0	0	0	0	0	0	0	0	0	0
+6A	120	Biologie	BIO	5	0	0	0	0	0	0	0	0	0	0
+6A	120	Biologie	BIO	6	0	0	0	0	0	0	0	0	0	0
+6A	120	Biologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4M	160	Economie	EC	1	1	Boek Pincode: hoofdstuk 1 en 2 Consumptie	0	tt	0	100	Ja	1	Ja	EC/K/1, EC/K/2, EC/K/3, EC/K/4A, EC/K/4B, EC/V/1, EC/V/2
+4M	160	Economie	EC	2	2	Boek Pincode: hoofdstuk 3 en 4 Arbeid	0	tt	0	100	Ja	1	Ja	EC/K/1, EC/K/2, EC/K/3, EC/K/5A, EC/K/5B, EC/K/8    EC/V/1, EC/V/2
+4M	160	Economie	EC	3	3	Boek Pincode: hoofdstuk 5 t/m 8 Overheid en Internationale ontwikkelingen	0	tt	0	100	Ja	1	Ja	EC/K/1, EC/K/2, EC/K/6, EC/K/7, EC/V/1, EC/V/2
+4M	160	Economie	EC	4	3	Opdracht: Kopen/huren/verzekeren	0	po	0	0	Ja	1	nee	EC/K/4B
+4M	160	Economie	EC	5	0	0	0	0	0	0	0	0	0	0
+4M	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+4M	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+4H	160	Economie	EC	1	1	Lesbrieven: Crisis en Vervoer	2	tt	0	100	Nee	0	Nee	0
+4H	160	Economie	EC	2	2	Lesbrieven: Crisis en Vervoer	2	tt	0	100	Ja	1	Ja	A, D, F, G 
+4H	160	Economie	EC	3	3	Opdracht: keuzeonderwerp	1	po	0	100	Ja	1	Nee	K
+4H	160	Economie	EC	4	3	Lesbrief Jong & Oud	2	tt	0	100	Nee	0	Nee	0
+4H	160	Economie	EC	5	4	Lesbrief Jong & Oud	2	tt	0	100	Ja	2	Ja	A, E, F, G, H, I
+4H	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+4H	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+5H	160	Economie	EC	1	1	Lesbrieven: Verdienen & uitgeven. Werk. 	0	tt	0	100	Ja	2	Ja	A, H, I
+5H	160	Economie	EC	2	2	Lesbrieven: Markt & overheid. Vervoer. Verdienen & uitgeven. 	0	tt	0	100	Ja	2	Ja	A, D, F, G, H, I
+5H	160	Economie	EC	3	3	Lesbrieven: Europa. Jong & oud. Vervoer. Markt & overheid. Verdienen & uitgeven. 	0	tt	0	100	Ja	2	Ja	A, D, E, F, G, H, I, J
+5H	160	Economie	EC	4	0	0	0	0	0	0	0	0	0	0
+5H	160	Economie	EC	5	0	0	0	0	0	0	0	0	0	0
+5H	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+5H	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+4A	160	Economie	EC	1	1	Lesbrief Vraag en Aanbod	1	tt	0	100	Nee	0	Nee	0
+4A	160	Economie	EC	2	2	Lesbrieven gedragseconomie + vraag en aanbod	2	tt	0	100	Nee	0	Nee	0
+4A	160	Economie	EC	3	3	Lesbrief Levensloop tot (Zie studiewijzer)	1	tt	0	50	Nee	0	Nee	0
+4A	160	Economie	EC	4	4	Lesbrief Levensloop	2	tt	0	100	Nee	0	Nee	0
+4A	160	Economie	EC	5	0	0	0	0	0	0	0	0	0	0
+4A	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+4A	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+5A	160	Economie	EC	1	1	Lesbrieven: Levensloop, Arbeid, Vraag en aanbod. 	2	tt	0	100	Ja	2	Ja	A, B, C, D, E, F, G, H, I
+5A	160	Economie	EC	2	2	Lesbrieven: Marktgedrag, Vraag en aanbod.	2	tt	0	100	Nee	0	Nee	A, D, E, F, G, H
+5A	160	Economie	EC	3	3	Lesbrief Monetaire Zaken	2	tt	0	100	Ja	1	Ja	I, K
+5A	160	Economie	EC	4	3	Opdracht: keuzeonderwerp	1	po	0	0	Ja	1	Nee	J
+5A	160	Economie	EC	5	4	Lesbrieven: Marktgedrag, Mobiliteit.	2	tt	0	100	Ja	2	Ja	A, B, C, D, E, F, G, H
+5A	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+5A	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+6A	160	Economie	EC	1	1	Economische crisis	0	tt	0	100	Ja	2	Ja	I
+6A	160	Economie	EC	2	2	Wereldeconomie	0	tt	0	100	Ja	2	Ja	H
+6A	160	Economie	EC	3	3	Alle lesbrieven uit atheneum 4, 5 en 6	0	tt	0	100	Ja	2	Ja	A, B, C, D, E, F, G, H, I
+6A	160	Economie	EC	4	0	0	0	0	0	0	0	0	0	0
+6A	160	Economie	EC	5	0	0	0	0	0	0	0	0	0	0
+6A	160	Economie	EC	6	0	0	0	0	0	0	0	0	0	0
+6A	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
+4M	172	BTE / BHA	BTE/BHA	1	1	Thematische praktische opdracht 1	0	po	0	0	Ja	3	Nee	Zie opmerkingen
+4M	172	BTE / BHA	BTE/BHA	2	1	Expo Beeldende vakken Hoofdstuk 1 en 2	0	tt	0	50	Ja	1	Ja	K8
+4M	172	BTE / BHA	BTE/BHA	3	2	"Thematische praktische opdracht 2 Stappenplan
+"	0	po	0	0	Ja	3	Nee	Zie opmerkingen
+4M	172	BTE / BHA	BTE/BHA	4	2	Expo Beeldende vakken Hoofdstuk 3, 3.1-3.4	0	tt	0	50	Ja	1	Ja	K8
+4M	172	BTE / BHA	BTE/BHA	5	3	Thematische praktische opdracht 3 (proefexamen)	0	po	0	0	Ja	3	Nee	Zie opmerkingen
+4M	172	BTE / BHA	BTE/BHA	6	3	Expo Beeldende vakken Hoofdstuk 3,  3.5-3.8	0	tt	0	50	Ja	1	Ja	K8
+4M	172	BTE / BHA	0	7	0	"Stappenplan: onderzoek probleemstelling, oriëntatie beeldend onderzoek, uitvoering, reflectie, presentatie.
+
+"	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	4	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	5	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	BTE/BHA	6	0	0	0	0	0	0	0	0	0	0
+4H	172	BTE / BHA	0	7	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	4	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	5	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	BTE/BHA	6	0	0	0	0	0	0	0	0	0	0
+5H	172	BTE / BHA	0	7	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	4	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	5	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	BTE/BHA	6	0	0	0	0	0	0	0	0	0	0
+4A	172	BTE / BHA	0	7	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	4	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	5	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	BTE/BHA	6	0	0	0	0	0	0	0	0	0	0
+5A	172	BTE / BHA	0	7	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	4	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	5	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	BTE/BHA	6	0	0	0	0	0	0	0	0	0	0
+6A	172	BTE / BHA	0	7	0	0	0	0	0	0	0	0	0	0
+4M	43	Lichamelijke Opvoeding	LO	1	1	Opbouw duurloop vijverloop	0	hd	0	0	Nee	0	0	LO1/ K7
+4M	43	Lichamelijke Opvoeding	LO	2	2	Spel	0	hd	0	0	Nee	0	0	LO1/ K4
+4M	43	Lichamelijke Opvoeding	LO	3	3	Turnen: springen, zwaaien, draaien, rollen en/of balanceren.	0	hd	0	0	Nee	0	0	LO1/ K5
+4M	43	Lichamelijke Opvoeding	LO	4	3	Sport Oriëntatie Keuze (SOK)	0	hd	0	0	Nee	0	0	LO1/ K9
+4M	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+4M	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+4M	43	Lichamelijke Opvoeding	0	7	0	0	0	0	0	0	0	0	0	0
+4H	43	Lichamelijke Opvoeding	LO	1	1	Duurloop training	0	hd	0	0	Nee	0	0	A, B, C, D
+4H	43	Lichamelijke Opvoeding	LO	2	3	Voeding en conditie	0	hd	0	0	Nee	0	0	A, B, C, D
+4H	43	Lichamelijke Opvoeding	LO	3	4	Spel	0	hd	0	0	Nee	0	0	A, B, C, D
+4H	43	Lichamelijke Opvoeding	LO	4	0	0	0	0	0	0	0	0	0	0
+4H	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+4H	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+4H	43	Lichamelijke Opvoeding	0	7	0	0	0	0	0	0	0	0	0	0
+5H	43	Lichamelijke Opvoeding	LO	1	1	Sportoriëntatie en sportkeuze (SOK) 	0	hd	0	0	Nee	0	0	A, B, C, D, E
+5H	43	Lichamelijke Opvoeding	LO	2	2	Sportoriëntatie en sportkeuze (SOK) 	0	hd	0	0	Nee	0	0	A, B, C, D, E
+5H	43	Lichamelijke Opvoeding	LO	3	0	0	0	0	0	0	0	0	0	0
+5H	43	Lichamelijke Opvoeding	LO	4	0	0	0	0	0	0	0	0	0	0
+5H	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+5H	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+5H	43	Lichamelijke Opvoeding	0	7	0	Sportoriëntatie en sportkeuze (SOK) kan alleen afgesloten worden als er voldoende uren zijn geparticipeerd. Bij onvoldoende participatie kan geen eindbeoordeling worden gegeven. In bepaalde gevallen kan een onderdeel in de vorm van een vervangende opdracht worden herkanst. Als er aan alle verplichtingen is voldaan, wordt een V(oldaan) op de eindlijst vermeld.	0	0	0	0	0	0	0	0
+4A	43	Lichamelijke Opvoeding	LO	1	1	Duurloop training. Toewerken naar Vijverloop	0	hd	0	0	Nee	0	0	A, B, C, D
+4A	43	Lichamelijke Opvoeding	LO	2	2	Spel	0	hd	0	0	Nee	0	0	A, B, C, D
+4A	43	Lichamelijke Opvoeding	LO	3	3	Spel	0	hd	0	0	Nee	0	0	A, B, C, D
+4A	43	Lichamelijke Opvoeding	LO	4	4	Werpen	0	hd	0	0	Nee	0	0	A, B, C, D
+4A	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+4A	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+4A	43	Lichamelijke Opvoeding	0	7	0	0	0	0	0	0	0	0	0	0
+5A	43	Lichamelijke Opvoeding	LO	1	1	Duurloop training. Toewerken naar Vijverloop	0	hd	0	0	Nee	0	0	A, B, C, D
+5A	43	Lichamelijke Opvoeding	LO	2	2	Spel	0	hd	0	0	Nee	0	0	A, B, C, D
+5A	43	Lichamelijke Opvoeding	LO	3	3	Spel	0	hd	0	0	Nee	0	0	A, B, C, D
+5A	43	Lichamelijke Opvoeding	LO	4	4	Werpen	0	hd	0	0	Nee	0	0	A, B, C, D
+5A	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+5A	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+5A	43	Lichamelijke Opvoeding	0	7	0	0	0	0	0	0	0	0	0	0
+6A	43	Lichamelijke Opvoeding	LO	1	1	Sportoriëntatie en sportkeuze (SOK) 	0	hd	0	0	Nee	0	0	A, B, C, D, E
+6A	43	Lichamelijke Opvoeding	LO	2	2	Sportoriëntatie en sportkeuze (SOK) 	0	hd	0	0	Nee	0	0	A, B, C, D, E
+6A	43	Lichamelijke Opvoeding	LO	3	0	0	0	0	0	0	0	0	0	0
+6A	43	Lichamelijke Opvoeding	LO	4	0	0	0	0	0	0	0	0	0	0
+6A	43	Lichamelijke Opvoeding	LO	5	0	0	0	0	0	0	0	0	0	0
+6A	43	Lichamelijke Opvoeding	LO	6	0	0	0	0	0	0	0	0	0	0
+6A	43	Lichamelijke Opvoeding	0	7	0	Sportoriëntatie en sportkeuze (SOK) kan alleen afgesloten worden als er voldoende uren zijn geparticipeerd. Bij onvoldoende participatie kan geen eindbeoordeling worden gegeven. In bepaalde gevallen kan een onderdeel in de vorm van een vervangende opdracht worden herkanst. Als er aan alle verplichtingen is voldaan, wordt een V(oldaan) op de eindlijst vermeld.	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	PWS	1	1	Het schoolexamen mavo omvat het maken van een profielwerkstuk. Het onderwerp moet betrekking hebben op het profiel. Het profielwerkstuk wordt in duo's of alleen gemaakt. Het onderwerp wordt door de leerlingen zelf aangeleverd. Alle leerlingen hebben een begeleider. 	0	hd	0	0	Ja	0	Nee	0
+4M	180	Profielwerkstuk	PWS	2	2	0	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+4M	180	Profielwerkstuk	0	7	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	1	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+4H	180	Profielwerkstuk	0	7	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	PWS	1	2	Profielwerkstuk 	Nee	po	zie opmerkingen 	15 minuten mondelinge presentatie 	Ja	zie opmerkingen 	Nee	0
+5H	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	0	7	0	"Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk. 
+
+"	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	1	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+4A	180	Profielwerkstuk	0	7	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	1	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+5A	180	Profielwerkstuk	0	7	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	PWS	1	2	Profielwerkstuk 	Nee	po	zie opmerkingen 	15 minuten mondelinge presentatie 	Ja	zie opmerkingen 	Nee	0
+6A	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	0	7	0	"Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk. 
+
+"	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	1	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	2	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	3	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	4	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	5	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	WA	6	0	0	0	0	0	0	0	0	0	0
+4M	50	Wiskunde A	0	7	0	0	0	0	0	0	0	0	0	0
+4H	50	Wiskunde A	WA	1	1	Moderne Wiskunde 11e editie havo 4 PW hoofdstuk 2 (Tabellen en grafieken) + vaardigheden	1	tt	0	50	Nee	0	0	0
+4H	50	Wiskunde A	WA	2	1	Moderne Wiskunde 11e editie havo 4 PW  hoofdstuk 1 (Rekenen) + vaardigheden	2	tt	0	100	Nee	0	0	0
+4H	50	Wiskunde A	WA	3	2	Moderne Wiskunde 11e editie havo 4 PW  hoofdstuk 5 (Lineaire en exponentiële groei) + hoofdstuk 6 (Grafieken en vergelijkingen) + vaardigheden	2	tt	0	100	Nee	0	0	0
+4H	50	Wiskunde A	WA	4	3	Moderne Wiskunde 11e editie havo 4. Hoofdstuk 4: Systematisch tellen + Hoofdstuk 8: Grafieken en veranderingen + vaardigheden	3	tt	0	100	Ja	3	Ja	B3, D
+4H	50	Wiskunde A	WA	5	4	Moderne Wiskunde 11e editie havo 4 PW  hoofdstuk 3 (Statistische vraagstellingen) + hoofdstuk 7 (Statistische verwerking (zonder ICT)) + vaardigheden	2	tt	0	100	Nee	0	0	0
+4H	50	Wiskunde A	WA	6	3	Opdracht (inclusief exceltoets)	2	po	Computer (geen chromebook)	0	Ja	2	Nee	E5
+4H	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
+5H	50	Wiskunde A	WA	1	1	Moderne Wiskunde 11e editie havo 5 H1 (Lineaire en exponentiële formules) + H3 (Allerlei formules) + vaardigheden	0	tt	0	100	Ja	3	Ja	A
+5H	50	Wiskunde A	WA	2	2	Moderne Wiskunde 11e editie havo 5 H2 (Verdelingen (zonder ICT)) + H5 (Conclusies uit data) + vaardigheden	0	tt	0	100	Ja	3	Ja	A
+5H	50	Wiskunde A	WA	3	3	Moderne Wiskunde 11e editie havo 5 H4 (Toegepast rekenen) + H6 (Werken met formules) + vaardigheden	0	tt	0	100	Ja	3	Ja	A, Rekenen
+5H	50	Wiskunde A	WA	4	0	0	0	0	0	0	0	0	0	0
+5H	50	Wiskunde A	WA	5	0	0	0	0	0	0	0	0	0	0
+5H	50	Wiskunde A	WA	6	0	0	0	0	0	0	0	0	0	0
+5H	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
+4A	50	Wiskunde A	WA	1	1	Hoofdstuk 2 (Verbanden) + Vaardigheden	2	tt	0	50	Nee	0	0	0
+4A	50	Wiskunde A	WA	2	1	Hoofdstuk 1 (Systematisch tellen) + Vaardigheden	2	tt	0	50	Nee	0	0	0
+4A	50	Wiskunde A	WA	3	2	Hoofdstuk 4 (Machtsfuncties) + Vaardigheden	1	tt	0	50	Nee	0	0	0
+4A	50	Wiskunde A	WA	4	2	Hoofdstuk 4 (Machtsfuncties) + Hoofdstuk 5 (Exponentiële functies) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	50	Wiskunde A	WA	5	3	Hoofdstuk 3 (Statistiek) + Hoofdstuk 7 (Kansen) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	50	Wiskunde A	WA	6	4	Hoofdstuk 6 (Veranderingen) + Hoofdstuk 8A (De afgeleiden) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
+5A	50	Wiskunde A	WA	1	1	"Moderne wiskunde 11e editie wiskunde A deel vwo 5. H1 Formules herleiden; H5 Logaritmische en exponentiële functies en Vaardigheden"	2	tt	0	100	Nee	0	Nee	0
+5A	50	Wiskunde A	WA	2	2	"Moderne wiskunde 11e editie wiskunde A deel vwo 5 H2 Statistiek; H4 Toevalsvariabelen; H7 Binomiale verdeling, Vaardigheden"	2	tt	0	100	Ja	2	Ja	A1, A2, A3, E1 t/m E6
+5A	50	Wiskunde A	WA	3	3	"Moderne wiskunde 11e editie wiskunde A deel vwo 5 H3 Periodieke functies; H6 Rijen en recursie en Vaardigheden"	2	tt	0	100	Nee	0	Nee	0
+5A	50	Wiskunde A	WA	4	4	Moderne wiskunde 11e editie wiskunde A deel vwo 5 H8 Samengestelde functies en Vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	50	Wiskunde A	WA	5	2	Wiskunde Alympiade 	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1
+5A	50	Wiskunde A	WA	6	4	Statistisch onderzoek	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1 t/m E7, F
+5A	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
+6A	50	Wiskunde A	WA	1	1	Moderne wiskunde 11e editie, wiskunde A, deel vwo 6, de hoofdstukken 1 en 2. Vaardigheden.  Moderne wiskunde 11e editie wiskunde A deel vwo 5 hoofdstuk 6. Normale verdelingen en hypothese toetsen. Rijen. Vaardigheden. Onderzoeksopdrachten.               	0	tt	0	100	Ja	4	Ja	A1, A2, A3, E, Rekenen
+6A	50	Wiskunde A	WA	2	2	Moderne wiskunde 11e editie, wiskunde A, deel vwo 6, de hoofdstukken 3 en 4. Vaardigheden.  Functies bewerken. Differentiëren. Sinusoïden. Vaardigheden.                                                                 	0	tt	0	100	Ja	4	Ja	A1, A2, A3, Rekenen
+6A	50	Wiskunde A	WA	3	3	Moderne wiskunde 11e editie, wiskunde A, deel vwo 6, de hoofdstukken 5 en 6. Vaardigheden.  Exponentiële en logaritmische functies. Verbanden. Onderzoeksopdrachten. Combinatoriek. Vaardigheden. 	0	tt	0	100	Ja	4	Ja	A1, A2, A3, Rekenen
+6A	50	Wiskunde A	WA	4	0	0	0	0	0	0	0	0	0	0
+6A	50	Wiskunde A	WA	5	0	0	0	0	0	0	0	0	0	0
+6A	50	Wiskunde A	WA	6	0	0	0	0	0	0	0	0	0	0
+6A	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	1	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	2	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	3	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	4	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	5	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	WB	6	0	0	0	0	0	0	0	0	0	0
+4M	60	Wiskunde B	0	7	0	0	0	0	0	0	0	0	0	0
+4H	60	Wiskunde B	WB	1	1	Hoofdstuk 1: Vergelijkingen (paragraaf 1.1 t/m 1.3) + Hoofdstuk 2: Functies en grafieken (paragraaf 2.1 t/m 2.5)	2	tt	0	50	Nee	0	0	0
+4H	60	Wiskunde B	WB	2	1	Hoofdstuk 1: Vergelijkingen (paragraaf 1.4 t/m 1.7) + Hoofdstuk 2: Functies en grafieken (paragraaf 2.6 en 2.7). Stof van paragraaf 1.1 t/m 1.3 en 2.1 t/m 2.5 wordt bekend verondersteld.	2	tt	0	50	Nee	0	0	0
+4H	60	Wiskunde B	WB	3	2	Hoofdstuk 7: Lijnen en afstanden + Paragraaf 5.4: Afstanden in een rooster	1	tt	0	50	Nee	0	0	0
+4H	60	Wiskunde B	WB	4	2	Hoofdstuk 5: Afstanden en hoeken. Hoofdstuk 7: Lijnen en afstanden	3	tt	0	100	Ja	2	Ja	A1, A2, A3, C1, C2
+4H	60	Wiskunde B	WB	5	3	Hoofdstuk 3: Machtsfuncties. Hoofdstuk 4: Exponentiële functies	3	tt	0	100	Ja	2	Ja	A1, A2, A3, B1, B2
+4H	60	Wiskunde B	WB	6	4	Hoofsdtuk 6: Afgeleide functies + Hoofdstuk 8: Periodieke functies	3	tt	0	100	Nee	0	0	0
+4H	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
+5H	60	Wiskunde B	WB	1	1	"Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 1: Logaritmische functies ; Hoofdstuk 2: Functies bewerken Vaardigheden, uitgedeelde stencils Details: zie studiewijzer"	0	tt	0	100	Ja	3	Ja	A1, A2, A3, rekenen
+5H	60	Wiskunde B	WB	2	1	Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 3: Goniometrische functies  Hoofdstuk 4: Differentiëren Vaardigheden, uitgedeelde stencils Details: zie studiewijzer	0	tt	0	100	Ja	3	Ja	A1, A2, A3, D1, D2, D3, D4, rekenen
+5H	60	Wiskunde B	WB	3	1	Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 5: Cirkels  Hoofdstuk 6: Verbanden Vaardigheden, uitgedeelde stencils Details: zie studiewijzer	0	tt	0	100	Ja	3	Ja	A1, A2, A3, rekenen
+5H	60	Wiskunde B	WB	4	0	 	0	0	0	0	0	0	0	0
+5H	60	Wiskunde B	WB	5	0	 	0	0	0	0	0	0	0	0
+5H	60	Wiskunde B	WB	6	0	0	0	0	0	0	0	0	0	0
+5H	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
+4A	60	Wiskunde B	WB	1	1	H1 Vergelijkingen  Vaardigheden 	1	tt	0	50	Nee	0	Nee	0
+4A	60	Wiskunde B	WB	2	1	H1 Vergelijkingen en H2 Functies en grafieken Vaardigheden 	2	tt	0	100	Nee	0	Nee	0
+4A	60	Wiskunde B	WB	3	2	H5 Lijnen H8 Vectoren Vaardigheden	3	tt	0	100	Nee	0	Nee	0
+4A	60	Wiskunde B	WB	4	3	H3 Machtsfuncties en H4 Exponentiële functies Vaardigheden	3	tt	0	100	Nee	0	Nee	0
+4A	60	Wiskunde B	WB	5	4	H6 Afgeleide functies Vaardigheden	1	tt	0	50	Nee	0	Nee	0
+4A	60	Wiskunde B	WB	6	4	H6 Afgeleide functies H7 Periodieke functies Vaardigheden	2	tt	0	100	Nee	0	Nee	0
+4A	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
+5A	60	Wiskunde B	WB	1	1	Moderne wiskunde 11e editie, wiskunde B, deel vwo 5 H1. Logaritmische functies. H2. Functies bewerken. Vaardigheden	2	tt	0	100	Nee	0	0	0
+5A	60	Wiskunde B	WB	2	1	Keuzeonderwerp	1	po	0	0	Ja	1	Nee	A1, A2, A3, F
+5A	60	Wiskunde B	WB	3	2	Moderne wiskunde 11e editie, wiskunde B, deel vwo 5 H3. Kettingregel. H4. Integreren. Vaardigheden 	2	tt	0	100	Nee	0	0	0
+5A	60	Wiskunde B	WB	4	2	Wiskunde B-dag	1	po	0	0	Ja	2	Nee	A1, A2, A3, F
+5A	60	Wiskunde B	WB	5	3	Moderne wiskunde 11e editie, wiskunde B, deel vwo 5 H5. Cirkels. H7. Meetkunde: rekenen of beredeneren. Vaardigheden	2	tt	0	100	Ja	1	Ja	A1, A2, A3, E1
+5A	60	Wiskunde B	WB	6	4	Moderne wiskunde 11e editie, wiskunde B, deel vwo 5 H6. Product-en quotiëntfuncties. H8. Goniometrische functies. Vaardigheden	2	tt	0	100	Nee	0	0	0
+5A	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
+6A	60	Wiskunde B	WB	1	1	Moderne wiskunde 11e editie, wiskunde B, deel vwo 6 H1. Exponentiële en logaritmische functies. H2. Toepassingen van integreren. Vaardigheden	0	tt	0	0	Ja	4	Ja	A1, A2, A3, rekenen
+6A	60	Wiskunde B	WB	2	2	Moderne wiskunde 11e editie, wiskunde B, deel vwo 6 H3. Bewegingsvergelijkingen. H6. Afsluiting meetkunde. Vaardigheden	0	tt	0	0	Ja	4	Ja	A1, A2, A3, E1, rekenen
+6A	60	Wiskunde B	WB	3	3	Moderne wiskunde 11e editie, wiskunde B, deel vwo 6 H4. Goniometrische functies. H5. Functies onderzoeken. Vaardigheden	0	tt	0	0	Ja	4	Ja	A1, A2, A3, rekenen
+6A	60	Wiskunde B	WB	4	0	0	0	0	0	0	0	0	0	0
+6A	60	Wiskunde B	WB	5	0	0	0	0	0	0	0	0	0	0
+6A	60	Wiskunde B	WB	6	0	0	0	0	0	0	0	0	0	0
+6A	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	1	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	2	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	3	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	4	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	5	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	WC	6	0	0	0	0	0	0	0	0	0	0
+4M	70	Wiskunde C	0	7	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	1	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	2	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	3	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	4	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	5	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	WC	6	0	0	0	0	0	0	0	0	0	0
+4H	70	Wiskunde C	0	7	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	1	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	2	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	3	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	4	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	5	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	WC	6	0	0	0	0	0	0	0	0	0	0
+5H	70	Wiskunde C	0	7	0	0	0	0	0	0	0	0	0	0
+4A	70	Wiskunde C	WC	1	1	Hoofdstuk 2 (Verbanden) + Vaardigheden	2	tt	0	50	Nee	0	0	0
+4A	70	Wiskunde C	WC	2	1	Hoofdstuk 1 (Systematisch tellen) + Vaardigheden	2	tt	0	50	Nee	0	0	0
+4A	70	Wiskunde C	WC	3	2	Hoofdstuk 4 (Machtsfuncties) + Vaardigheden	1	tt	0	50	Nee	0	0	0
+4A	70	Wiskunde C	WC	4	2	Hoofdstuk 4 (Machtsfuncties) + Hoofdstuk 5 (Exponentiële functies) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	70	Wiskunde C	WC	5	3	Hoofdstuk 3 (Statistiek) + Hoofdstuk 7 (Kansen) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	70	Wiskunde C	WC	6	4	Hoofdstuk 6 (Veranderingen) + Hoofdstuk 8C (Vorm en ruimte) + Vaardigheden	3	tt	0	100	Nee	0	0	0
+4A	70	Wiskunde C	0	7	0	Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE. Stof uit uit voorgaande leerjaren wordt bekend verondersteld en kan teruggevraagd worden.	0	0	0	0	0	0	0	0
+5A	70	Wiskunde C	WC	1	1	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 H1. Formules herleiden. H5 Logaritmen. Vaardigheden	2	tt	0	100	Nee	0	0	0
+5A	70	Wiskunde C	WC	2	2	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 H2 Statistiek H4 Toevalsvariabelen H7 Binomiale verdeling, Systematisch tellen Vaardigheden	2	tt	0	100	Ja	2	Ja	A1, A2, A3, E1, E2, E3, E4, E5
+5A	70	Wiskunde C	WC	3	3	Wiskunde Alympiade	1	po	0	100	Ja	2	Nee	A1, A2, A3, H
+5A	70	Wiskunde C	WC	4	4	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 H6 Rijen en recursie. H8. Uit de geschiedenis van de wiskunde. Vaardigheden	2	tt	0	100	Ja	1	Ja	A1, A2, A3, H
+5A	70	Wiskunde C	WC	5	2	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 Vorm en Ruimte, oa H3. Perspectief. Vaardigheden	2	tt	0	0	Nee	0	0	0
+5A	70	Wiskunde C	WC	6	4	Statistisch onderzoek	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1, E2, E3, E4, E5, E6
+5A	70	Wiskunde C	0	7	0	"Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel.			"	0	0	0	0	0	0	0	0
+6A	70	Wiskunde C	WC	1	1	Moderne wiskunde 11e editie, wiskunde C, deel vwo 6, de hoofdstukken 1 en 4. Vaardigheden. Normale verdelingen. Verbanden. Veranderingen. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, E1, E2, E3, E4, E5, rekenen
+6A	70	Wiskunde C	WC	2	2	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5, hoofdstuk 6 en deel vwo 6, de hoofdstukken 3 en 4. Vaardigheden. Vorm en ruimte.  Rijen. Verbanden. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, rekenen
+6A	70	Wiskunde C	WC	3	3	Moderne wiskunde 11e editie, wiskunde C, deel vwo 6, de hoofdstukken 2 en 4, en de syllabus Logisch redeneren. Vaardigheden. Logisch redeneren. Combinatoriek. Verbanden. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, rekenen
+6A	70	Wiskunde C	WC	4	0	0	0	0	0	0	0	0	0	0
+6A	70	Wiskunde C	WC	5	0	0	0	0	0	0	0	0	0	0
+6A	70	Wiskunde C	WC	6	0	0	0	0	0	0	0	0	0	0
+6A	70	Wiskunde C	0	7	0	Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel.	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	1	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	2	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	3	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	4	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	5	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	WD	6	0	0	0	0	0	0	0	0	0	0
+4M	80	Wiskunde D	0	7	0	0	0	0	0	0	0	0	0	0
+4H	80	Wiskunde D	WD	1	1	Blok 1: Kansen en tellen	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B2 en B3
+4H	80	Wiskunde D	WD	2	2	Blok 2: Oppervlakte en inhoud	1	tt	0	50	Ja	2	Ja	A1, A2, A3 en C1
+4H	80	Wiskunde D	WD	3	2	Blok 3: Kansrekening	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B2 en B3
+4H	80	Wiskunde D	WD	4	3	Blok 4: Statistiek	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B1 en B5
+4H	80	Wiskunde D	WD	5	4	Blok 5: Discrete kansmodellen	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B2, B4 en B6
+4H	80	Wiskunde D	WD	6	4	Blok 6: Ruimtelijke figuren	1	tt	0	50	Ja	2	Ja	A1, A2, A3 en C2
+4H	80	Wiskunde D	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Stof uit al behandelde blokken wordt bekend verondersteld en kan teruggevraagd worden.  	0	0	0	0	0	0	0	0
+5H	80	Wiskunde D	WD	1	1	Blok 7: Continue kansmodellen 	0	tt	0	50	Ja	2	Ja	A1, A2, A3, B1, B2 en B6
+5H	80	Wiskunde D	WD	2	1	Blok 8: Toetsen en verbanden  	0	tt	0	50	Ja	2	Ja	A1, A2, A3, B2, B4, B5 en B6
+5H	80	Wiskunde D	WD	3	2	Blok 9: Lineair programmeren	0	tt	0	50	Ja	2	Ja	A1, A2, A3, D en E
+5H	80	Wiskunde D	WD	4	3	Blok 11: Meetkundige berekeningen	0	tt	0	50	Ja	2	Ja	A1, A2, A3, C3 en C4
+5H	80	Wiskunde D	WD	5	2	Blok 10: Modelleren 	0	po	0	600	Ja	2	Nee	A1, A2, A3, D en E
+5H	80	Wiskunde D	WD	6	0	0	0	0	0	0	0	0	0	0
+5H	80	Wiskunde D	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Stof uit al behandelde blokken wordt bekend verondersteld en kan teruggevraagd worden.	0	0	0	0	0	0	0	0
+4A	80	Wiskunde D	WD	1	1	Blok 1: Combinatoriek	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B1 en B2
+4A	80	Wiskunde D	WD	2	2	Blok 2: Grafen	1	tt	0	50	Ja	2	Ja	A1, A2, A3 en G
+4A	80	Wiskunde D	WD	3	2	Blok 3: Binomiale verdeling	1	tt	0	50	Ja	2	Ja	A1 , A2, A3, B2, B3 en B4
+4A	80	Wiskunde D	WD	4	3	Blok 5: Normale verdeling	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B2 en B4
+4A	80	Wiskunde D	WD	5	4	Blok 4: Inproduct	1	tt	0	50	Ja	2	Ja	A1 , A2, A3, D1 en D3
+4A	80	Wiskunde D	WD	6	4	Blok 6: Discrete dynamische modellen	1	tt	0	50	Ja	2	Ja	A1, A2, A3, C1 en C3
+4A	80	Wiskunde D	0	7	0	Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Stof uit al behandelde blokken wordt bekend verondersteld en kan teruggevraagd worden. 	0	0	0	0	0	0	0	0
+5A	80	Wiskunde D	WD	1	1	Blok 7: Cryptografie 	1	tt	0	50	Ja	2	Ja	A1, A2, A3 en G
+5A	80	Wiskunde D	WD	2	1	Blok 9: Complexe getallen 	1	tt	Formuleblad	50	Ja	2	Ja	A1, A2, A3, E1 en E2
+5A	80	Wiskunde D	WD	3	2	Blok 10: Hypothese toetsen 	1	tt	0	50	Ja	2	Ja	A1, A2, A3, B4, B5 en F
+5A	80	Wiskunde D	WD	4	3	Blok 11: Differentiaalvergelijkingen	1	tt	0	50	Ja	2	Ja	A1, A2, A3, C2 en C3
+5A	80	Wiskunde D	WD	5	4	Blok 8: Vlakke meetkunde	1	tt	Formuleblad	50	Ja	2	Ja	A1 , A2, A3, D1, D3 en D4
+5A	80	Wiskunde D	WD	6	4	Blok 14: Continue dynamische modellen 	1	po	0	0	Ja	2	Nee	A1, A2, A3, C2, C3  en F
+5A	80	Wiskunde D	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Stof uit al behandelde blokken wordt bekend verondersteld en kan teruggvraagd worden. 	0	0	0	0	0	0	0	0
+6A	80	Wiskunde D	WD	1	1	Blok 13: Poissonverdeling	0	tt	0	50	Ja	2	Ja	A1, A2, A3, B7en F
+6A	80	Wiskunde D	WD	2	2	Blok 15: Correlatie en regressie	0	tt	0	50	Ja	2	Ja	A1, A2, A3, B6 en F
+6A	80	Wiskunde D	WD	3	2	Blok 16: Niet-Euclidische meetkunde	0	tt	0	50	Ja	2	Ja	A1, A2, A3, F en G
+6A	80	Wiskunde D	WD	4	3	Blok 14: Continue dynamische modellen	0	po	0	0	Ja	2	Nee	A1, A2, A3, C2, C3 en F
+6A	80	Wiskunde D	WD	5	0	0	0	0	0	0	0	0	0	0
+6A	80	Wiskunde D	WD	6	0	0	0	0	0	0	0	0	0	0
+6A	80	Wiskunde D	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Stof uit al behandelde blokken wordt bekend verondersteld en kan teruggevraagd worden. 	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	1	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	2	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	3	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	4	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	5	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	NLT	6	0	0	0	0	0	0	0	0	0	0
+4M	130	Natuur Leven en Technologie	0	7	0	0	0	0	0	0	0	0	0	0
+4H	130	Natuur Leven en Technologie	NLT	1	1	Forensisch onderzoek	2	tt	0	100	Nee	0	Nee	0
+4H	130	Natuur Leven en Technologie	NLT	2	2	De reis van de Beagle	1	tt	0	50	Ja	1	Ja	B1, B2, E2, A
+4H	130	Natuur Leven en Technologie	NLT	3	2	De reis van de Beagle	1	po	0	0	Ja	1	Nee	B1, B2, E2, A
+4H	130	Natuur Leven en Technologie	NLT	4	3	Bewust overwogen biertje	2	po	0	0	Ja	2	Nee	B1, B2, D, E2, A
+4H	130	Natuur Leven en Technologie	NLT	5	4	Aerosolen en vuile lucht	1	po	0	0	Nee	1	Nee	0
+4H	130	Natuur Leven en Technologie	NLT	6	4	Aerosolen en vuile lucht	1	tt	0	50	Ja	1	Ja	B1, B2, C, D, A
+4H	130	Natuur Leven en Technologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets	0	0	0	0	0	0	0	0
+5H	130	Natuur Leven en Technologie	NLT	1	2	Ruimte voor de rivier	0	po	0	0	Ja	5	Nee	A, B1, B2, C
+5H	130	Natuur Leven en Technologie	NLT	2	3	Bewust overwogen biertje	0	po	0	0	Ja	5	Nee	A, B1, B2, D, E2
+5H	130	Natuur Leven en Technologie	NLT	3	0	0	0	0	0	0	0	0	0	0
+5H	130	Natuur Leven en Technologie	NLT	4	0	0	0	0	0	0	0	0	0	0
+5H	130	Natuur Leven en Technologie	NLT	5	0	0	0	0	0	0	0	0	0	0
+5H	130	Natuur Leven en Technologie	NLT	6	0	0	0	0	0	0	0	0	0	0
+5H	130	Natuur Leven en Technologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4A	130	Natuur Leven en Technologie	NLT	1	1	Theoretische toets Forensisch Onderzoek	5	tt	0	100	Ja	1	Ja	A, B1, B2, E2, F2
+4A	130	Natuur Leven en Technologie	NLT	2	2	Dossier Forensisch Onderzoek	5	po	0	0	Ja	1	Nee	A, B1, B2, E2, F2
+4A	130	Natuur Leven en Technologie	NLT	3	3	Hersenen en leren	10	po	0	0	Nee	0	0	0
+4A	130	Natuur Leven en Technologie	NLT	4	4	Theoretische toets Technisch ontwerpen in de biomedische technologie	2	tt	0	50	Nee	0	0	0
+4A	130	Natuur Leven en Technologie	NLT	5	4	Dossier Technisch ontwerpen in de biomedische technologie	8	po	0	0	Nee	0	0	0
+4A	130	Natuur Leven en Technologie	NLT	6	0	0	0	0	0	0	0	0	0	0
+4A	130	Natuur Leven en Technologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+5A	130	Natuur Leven en Technologie	NLT	1	2	Portfolio Hart en vaten	2	po	0	0	Ja	2	Nee	A, B1, D1
+5A	130	Natuur Leven en Technologie	NLT	2	2	Hart en vaten	1	tt	0	100	Ja	1	Ja	A, B1, D1
+5A	130	Natuur Leven en Technologie	NLT	3	3	Ruimte voor de rivier 	3	po	0	0	Ja	3	Nee	A, B1, B2, C1, C2
+5A	130	Natuur Leven en Technologie	NLT	4	4	Rijden onder invloed	3	po	0	0	Ja	3	Nee	A, B1, B2, D2, F2
+5A	130	Natuur Leven en Technologie	NLT	5	0	0	0	0	0	0	0	0	0	0
+5A	130	Natuur Leven en Technologie	NLT	6	0	0	0	0	0	0	0	0	0	0
+5A	130	Natuur Leven en Technologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+6A	130	Natuur Leven en Technologie	NLT	1	2	Dossier De bewegende aarde	0	po	0	0	Ja	2	Nee	A, B1, B2, C1, F2
+6A	130	Natuur Leven en Technologie	NLT	2	2	Theoretische toets De bewegende aarde	0	tt	0	100	Ja	2	Ja	A, B1, B2, C1, F2
+6A	130	Natuur Leven en Technologie	NLT	3	3	Theoretische toets Food or fuel	0	tt	0	100	Ja	2	Ja	A, B1, C2, E2
+6A	130	Natuur Leven en Technologie	NLT	4	3	Portfolio Food or Fuel	0	po	0	0	Ja	2	Nee	A, B1, C2, E2
+6A	130	Natuur Leven en Technologie	NLT	5	0	0	0	0	0	0	0	0	0	0
+6A	130	Natuur Leven en Technologie	NLT	6	0	0	0	0	0	0	0	0	0	0
+6A	130	Natuur Leven en Technologie	0	7	0	De BINAS HAVO/VWO is bij alle schriftelijke toetsen een toegestaan hulpmiddel, tenzij anders vermeld bij de toets.	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	1	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	2	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	3	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	4	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+4M	90	Informatica	0	7	0	0	0	0	0	0	0	0	0	0
+4H	90	Informatica	IF	1	1	HTML & CSS	2	po	0	0	Ja	2	Nee	F1
+4H	90	Informatica	IF	2	2	Javascript I	2	tt	Computer	60	Ja	2	Ja	D, B1, B4
+4H	90	Informatica	IF	3	3	Databases	2	tt	0	50	Ja	2	Ja	C
+4H	90	Informatica	IF	4	4	Gegevensrepresentatie & Ontwerp	2	po	0	0	Ja	2	Nee	A1, A2, B2, C3, C4, E1, F1, F2, K1
+4H	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+4H	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+4H	90	Informatica	0	7	0	De domeinen A12 en A13 zijn niet specifiek aan een PTA-onderdeel gekoppeld maar komen gedurende het jaar aan de orde.	0	0	0	0	0	0	0	0
+5H	90	Informatica	IF	1	2	Computational Science	2	po	0	0	Ja	2	Nee	A5, A6, A7, B3, R, J
+5H	90	Informatica	IF	2	3	Security	2	tt	0	50	Ja	2	Ja	A11, N, E, F3, F4, L4, Q3
+5H	90	Informatica	IF	3	3	Keuzeproject	3	po	0	0	Ja	3	Nee	A3, A4, A8, A9, A10
+5H	90	Informatica	IF	4	0	0	0	0	0	0	0	0	0	0
+5H	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+5H	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+5H	90	Informatica	0	7	0	De domeinen A12 en A13 zijn niet specifiek aan een PTA-onderdeel gekoppeld maar komen gedurende het jaar aan de orde.	0	0	0	0	0	0	0	0
+4A	90	Informatica	IF	1	1	HTML & CSS	2	po	0	0	Ja	2	Nee	F1
+4A	90	Informatica	IF	2	2	Javascript I	2	tt	Computer	60	Ja	2	Ja	D, B1, B4
+4A	90	Informatica	IF	3	3	Databases	2	tt	0	50	Ja	2	Ja	C
+4A	90	Informatica	IF	4	4	Gegevensrepresentatie & Ontwerp	2	po	0	0	Ja	2	Nee	A1, A2, B2, C3, C4, E1, F1, F2, K1
+4A	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+4A	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+4A	90	Informatica	0	7	0	De domeinen A12 en A13 zijn niet specifiek aan een PTA-onderdeel gekoppeld maar komen gedurende het jaar aan de orde.	0	0	0	0	0	0	0	0
+5A	90	Informatica	IF	1	2	OO Gamedesign	2	po	0	0	Ja	2	Nee	J, P, B3, F1
+5A	90	Informatica	IF	2	3	Security	2	tt	0	50	Ja	2	Ja	A11, N, E, F3, F4, L4, Q3
+5A	90	Informatica	IF	3	4	Project Data	2	po	0	0	Ja	2	Nee	H
+5A	90	Informatica	IF	4	0	0	0	0	0	0	0	0	0	0
+5A	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+5A	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+5A	90	Informatica	0	7	0	De domeinen A12 en A13 zijn niet specifiek aan een PTA-onderdeel gekoppeld maar komen gedurende het jaar aan de orde.	0	0	0	0	0	0	0	0
+6A	90	Informatica	IF	1	1	Security	2	tt	0	50	Ja	2	Ja	A11, N, E, F3, F4, L4, Q3
+6A	90	Informatica	IF	2	2	Computational Science	2	po	0	0	Ja	2	Nee	A5, A6, A7, B3, R, J
+6A	90	Informatica	IF	3	3	Keuzeproject	2	po	0	0	Ja	3	Nee	A3, A4, A8, A9, A10
+6A	90	Informatica	IF	4	0	0	0	0	0	0	0	0	0	0
+6A	90	Informatica	IF	5	0	0	0	0	0	0	0	0	0	0
+6A	90	Informatica	IF	6	0	0	0	0	0	0	0	0	0	0
+6A	90	Informatica	0	7	0	De domeinen A12 en A13 zijn niet specifiek aan een PTA-onderdeel gekoppeld maar komen gedurende het jaar aan de orde.	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	1	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	2	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	3	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	4	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+4M	163	Bedrijfseconomie	0	7	0	0	0	0	0	0	0	0	0	0
+4H	163	Bedrijfseconomie	BECO	1	1	Lesbrief: Financiële zelfredzaamheid. 	1	tt	0	100	Nee	0	Nee	0
+4H	163	Bedrijfseconomie	BECO	2	2	Lesbrieven: Financiele zelfredzaamheid. Bedrijf starten.	2	tt	0	100	Ja	1	Ja	A, B1, B2, B3, B4, F1, F2
+4H	163	Bedrijfseconomie	BECO	3	3	Opdracht: Keuzeonderwerp	1	po	0	0	Ja	1	Nee	H
+4H	163	Bedrijfseconomie	BECO	4	4	Lesbrieven: Marktverovering. Personeel en interne organisatie. Onderneem het zelf.	2	tt	0	100	Ja	1	Ja	A, D1, D2, E1, E2, F1, F2
+4H	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+4H	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+4H	163	Bedrijfseconomie	0	7	0	0	0	0	0	0	0	0	0	0
+5H	163	Bedrijfseconomie	BECO	1	1	Lesbrieven: Bedrijf starten. Financiering en verslaggeving. 	2	tt	0	100	Ja	2	Ja	B1, B2, B3, B4, F1, F2, G
+5H	163	Bedrijfseconomie	BECO	2	2	Lesbrieven: Financiering en verslaggeving. Rekenwonder. Investeren.	2	tt	0	100	Ja	2	Ja	D1, D2, F1, F2, G
+5H	163	Bedrijfseconomie	BECO	3	3	Lesbrieven: Het resultaat. Financiële zelfredzaamheid. Onderneem het zelf (hoofdstuk 3). Markverovering. Financiering en verslaggeving.  	2	tt	0	100	Ja	2	Ja	A, B, C, D, E, F, G
+5H	163	Bedrijfseconomie	BECO	4	0	0	0	0	0	0	0	0	0	0
+5H	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+5H	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+5H	163	Bedrijfseconomie	0	7	0	0	0	0	0	0	0	0	0	0
+4A	163	Bedrijfseconomie	BECO	1	1	Lesbrief Financiele zelfredzaamheid	1	tt	0	100	Nee	0	Nee	0
+4A	163	Bedrijfseconomie	BECO	2	2	Lesbrief Financiele zelfredzaamheid 	2	tt	0	100	Nee	0	Nee	0
+4A	163	Bedrijfseconomie	BECO	3	3	Lesbrief Bedrijf starten	1	tt	0	100	Nee	0	Nee	0
+4A	163	Bedrijfseconomie	BECO	4	4	Lesbrief Bedrijf starten 	2	tt	0	100	Nee	0	Nee	0
+4A	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+4A	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+4A	163	Bedrijfseconomie	0	7	0	0	0	0	0	0	0	0	0	0
+5A	163	Bedrijfseconomie	BECO	1	1	Lesbrief Financiële zelfredzaamheid en Onderneem het zelf	2	tt	0	100	Ja	1	Ja	F
+5A	163	Bedrijfseconomie	BECO	2	2	Lesbrieven Bedrijf starten en personeelsbeleid en Interne organisatie	2	tt	0	100	Ja	1	Ja	B, C
+5A	163	Bedrijfseconomie	BECO	3	3	Lesbrief Circulaire economie	2	tt	0	100	Ja	1	Ja	H
+5A	163	Bedrijfseconomie	BECO	4	4	Lesbrief Marktverovering en Investeren	2	tt	0	100	Ja	1	Ja	D, E
+5A	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+5A	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+5A	163	Bedrijfseconomie	0	7	0	Domein A: vaardigheden komen in elke schriftelijke toets terug	0	0	0	0	0	0	0	0
+6A	163	Bedrijfseconomie	BECO	1	1	Lesbrief Financiering en verslaggeving	nvt	tt	0	100	Ja	2	Ja	D, F, G
+6A	163	Bedrijfseconomie	BECO	2	2	Lesbrief Het Resultaat	nvt	tt	0	100	Ja	2	Ja	D, F, G
+6A	163	Bedrijfseconomie	BECO	3	3	Alle Lesbrieven + keuzeonderwerp: Circulaire economie	nvt	tt	0	100	Ja	2	Ja	A, B, C, D, E, F, G, H
+6A	163	Bedrijfseconomie	BECO	4	0	0	0	0	0	0	0	0	0	0
+6A	163	Bedrijfseconomie	BECO	5	0	0	0	0	0	0	0	0	0	0
+6A	163	Bedrijfseconomie	BECO	6	0	0	0	0	0	0	0	0	0	0
+6A	163	Bedrijfseconomie	0	7	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	1	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	2	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	3	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	4	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	5	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	CKV	6	0	0	0	0	0	0	0	0	0	0
+4M	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4H	47	Culturele en Kunstzinnige Vorming	CKV	1	1	Oriëntatie + kunstbiografie	1	po	0	0	Ja	1	Nee	A
+4H	47	Culturele en Kunstzinnige Vorming	CKV	2	2	Culturele Activiteit 1 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4H	47	Culturele en Kunstzinnige Vorming	CKV	3	3	Culturele Activiteit 2 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4H	47	Culturele en Kunstzinnige Vorming	CKV	4	3	Culturele Activiteit 3 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4H	47	Culturele en Kunstzinnige Vorming	CKV	5	4	Onderzoek	1	po	0	0	Ja	1	Nee	C
+4H	47	Culturele en Kunstzinnige Vorming	CKV	6	4	Reflectie + magazine	2	po	0	0	Ja	2	Nee	D
+4H	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	1	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	2	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	3	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	4	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	5	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	CKV	6	0	0	0	0	0	0	0	0	0	0
+5H	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4A	47	Culturele en Kunstzinnige Vorming	CKV	1	1	Culturele Activiteit 1 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4A	47	Culturele en Kunstzinnige Vorming	CKV	2	2	Culturele Activiteit 2 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4A	47	Culturele en Kunstzinnige Vorming	CKV	3	3	Culturele Activiteit 3 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4A	47	Culturele en Kunstzinnige Vorming	CKV	4	3	Culturele Activiteit 4 - kunstdiscipline + dimensie(s)	1	po	0	0	Ja	1	Nee	B
+4A	47	Culturele en Kunstzinnige Vorming	CKV	5	4	Onderzoek	1	po	0	0	Ja	1	Nee	C
+4A	47	Culturele en Kunstzinnige Vorming	CKV	6	4	Oriëntatie (CZP1) + Reflectie (CZP2) + magazine	2	po	0	0	Ja	2	Nee	A, D
+4A	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	1	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	2	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	3	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	4	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	5	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	CKV	6	0	0	0	0	0	0	0	0	0	0
+5A	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	1	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	2	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	3	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	4	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	5	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	CKV	6	0	0	0	0	0	0	0	0	0	0
+6A	47	Culturele en Kunstzinnige Vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	1	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	2	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	3	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	4	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+4M	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	1	1	KuBV-opdracht 1	3	po	0	0	Nee	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	2	2	KuBV-opdracht 2	3	po	0	0	Nee	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	3	3	KuBV-opdracht 3	3	po	0	0	Nee	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	4	4	KuBV-opdracht 4	3	po	0	0	Nee	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+4H	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+4H	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+5H	171	Kunst  - Beeldende vorming	KUBV	1	1	KuBV-opdracht 1: Leporello	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+5H	171	Kunst  - Beeldende vorming	KUBV	2	2	KuBV-opdracht 2: Portret Monochroom	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+5H	171	Kunst  - Beeldende vorming	KUBV	3	3	KuBV-opdracht 3: Portret Lijn/Vlak	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+5H	171	Kunst  - Beeldende vorming	KUBV	4	3	Onderzoek: oriëntatie op studie en beroep	0	po	0	0	Ja	1	Nee	C 
+5H	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+5H	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+5H	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	1	1	KuBV-opdracht 1	3	po	0	0	Nee	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	2	2	KuBV-opdracht 2	3	po	0	0	Nee	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	3	3	KuBV-opdracht 3	3	po	0	0	Nee	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	4	4	KuBV-opdracht 4	3	po	0	0	Nee	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+4A	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+4A	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+5A	171	Kunst  - Beeldende vorming	KUBV	1	1	KuBV-opdracht 1 Bestaande uit beeldend proces in dummy en uitwerking. 	3	po	0	0	Nee	0	0	0
+5A	171	Kunst  - Beeldende vorming	KUBV	2	2	KuBV-opdracht 2 Bestaande uit beeldend proces in dummy en uitwerking. 	3	po	0	0	Nee	0	0	0
+5A	171	Kunst  - Beeldende vorming	KUBV	3	3	Onderzoek 'oriëntatie op studie en beroep'	1	po	0	0	Ja	1	Nee	C
+5A	171	Kunst  - Beeldende vorming	KUBV	4	4	KuBV-opdracht 3. Bestaande uit beeldend proces in dummy en uitwerking. 	3	po	0	0	Ja	3	Nee	A1, A2, A3, B
+5A	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+5A	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+5A	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+6A	171	Kunst  - Beeldende vorming	KUBV	1	1	KuBV-opdracht 1: Me and Myself/ Dit ben ik. Bestaande uit beeldend proces in dummy en uitwerking. 	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+6A	171	Kunst  - Beeldende vorming	KUBV	2	2	KuBV-opdracht 2: zie opdrachtsstencil. Bestaande uit beeldend proces in dummy en uitwerking. 	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+6A	171	Kunst  - Beeldende vorming	KUBV	3	3	KuBV-opdracht 3: zie opdrachtsstencil. Bestaande uit beeldend proces in dummy en uitwerking. 	0	po	0	0	Ja	3	Nee	A1, A2, A3, B
+6A	171	Kunst  - Beeldende vorming	KUBV	4	3	Onderzoek 'oriëntatie op studie en beroep'. 	0	po	0	0	Ja	1	Nee	C
+6A	171	Kunst  - Beeldende vorming	KUBV	5	0	0	0	0	0	0	0	0	0	0
+6A	171	Kunst  - Beeldende vorming	KUBV	6	0	0	0	0	0	0	0	0	0	0
+6A	171	Kunst  - Beeldende vorming	0	7	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	1	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	2	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	3	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	4	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	5	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+4M	170	Kunst Algemeen	0	7	0	0	0	0	0	0	0	0	0	0
+4H	170	Kunst Algemeen	KUA	1	1	Cultuur van het Moderne - I (1e helft van de 20e eeuw)	1	tt	0	50 min	Nee	0	0	0
+4H	170	Kunst Algemeen	KUA	2	1	Cultuur van het Moderne - II (1e helft van de 20e eeuw)	1	tt	0	50 min	Nee	0	0	0
+4H	170	Kunst Algemeen	KUA	3	2	Cultuur van het Moderne - III (1e helft van de 20e eeuw)	2	tt	0	100 min	Nee	0	0	0
+4H	170	Kunst Algemeen	KUA	4	3	Massacultuur - I (2e helft 20e eeuw- heden)	2	tt	0	100 min	Nee	0	0	0
+4H	170	Kunst Algemeen	KUA	5	4	Massacultuur - II (2e helft 20e eeuw- heden)	2	tt	0	100 min	Nee	0	0	0
+4H	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+4H	170	Kunst Algemeen	0	7	0	Het gebruik van een woordenboek is niet toegestaan	0	0	0	0	0	0	0	0
+5H	170	Kunst Algemeen	KUA	1	1	"Herhalingsopdracht Cultuur van het Moderne (1e helft v/d 20e eeuw)
+"	0	hd	0	0	Nee	0	0	0
+5H	170	Kunst Algemeen	KUA	2	2	Herhalingsopdracht Burgerlijke Cultuur van Nederland (17e eeuw) 	0	hd	0	0	Nee	0	0	0
+5H	170	Kunst Algemeen	KUA	3	2	Theoretische toets-handelingsdeel Massacultuur (2e helft v/d 20e eeuw)	0	hd	Geen woordenboek toegestaan	100 min	Nee	0	0	0
+5H	170	Kunst Algemeen	KUA	4	3	Proefexamen over drie of vier eindexamenonderwerpen: - Burgelijke Cultuur van Nederland (17e eeuw) - Cultuur van het Moderne (1e helft v/d 20e eeuw) - Cultuur van de Massa (2e helft v/d 20e eeuw tot heden)	0	hd	Geen woordenboek toegestaan	180 min	Nee	0	0	0
+5H	170	Kunst Algemeen	KUA	5	0	0	0	0	0	0	0	0	0	0
+5H	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+5H	170	Kunst Algemeen	0	7	0	0	0	0	0	0	0	0	0	0
+4A	170	Kunst Algemeen	KUA	1	1	Grieken & Romeinen I	1	tt	0	50 min	Nee	0	0	0
+4A	170	Kunst Algemeen	KUA	2	1	Grieken & Romeinen II	1	tt	0	50 min	Nee	0	0	0
+4A	170	Kunst Algemeen	KUA	3	2	Cultuur van het Moderne - I (1e helft van de 20e eeuw)	2	tt	0	100 min	Nee	0	0	0
+4A	170	Kunst Algemeen	KUA	4	3	Cultuur van het Moderne - II (1e helft van de 20e eeuw)	2	tt	0	100 min	Nee	0	0	0
+4A	170	Kunst Algemeen	KUA	5	4	Massacultuur (2e helft 20e eeuw- heden)	2	tt	0	100 min	Nee	0	0	0
+4A	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+4A	170	Kunst Algemeen	0	7	0	Het gebruik van een woordenboek is niet toegestaan	0	0	0	0	0	0	0	0
+5A	170	Kunst Algemeen	KUA	1	1	Hofcultuur - I (16e/ 17e eeuw)	2	tt	0	100 min	Nee	0	0	0
+5A	170	Kunst Algemeen	KUA	2	2	Hofcultuur - II (16e/ 17e eeuw)	2	tt	0	100 min	Nee	0	0	0
+5A	170	Kunst Algemeen	KUA	3	3	Cultuur van Romantiek en Realisme - I (19e eeuw)	2	tt	0	100 min	Nee	0	0	0
+5A	170	Kunst Algemeen	KUA	4	4	Cultuur van Romantiek en Realisme - II (19e eeuw)	2	tt	0	100 min	Nee	0	0	0
+5A	170	Kunst Algemeen	KUA	5	0	0	0	0	0	0	0	0	0	0
+5A	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+5A	170	Kunst Algemeen	0	7	0	Het gebruik van een woordenboek is niet toegestaan	0	0	0	0	0	0	0	0
+6A	170	Kunst Algemeen	KUA	1	1	Herhalingsopdracht Cultuur van het Moderne (1e helft v/d 20e eeuw)	0	hd	0	0	Nee	0	0	0
+6A	170	Kunst Algemeen	KUA	2	2	Herhalingsopdracht Cultuur van de Massa (2e helft v/d 20e eeuw)	0	hd	0	0	Nee	0	0	0
+6A	170	Kunst Algemeen	KUA	3	2	Theoretische toets-handelingsdeel Cultuur van Romantiek & Realisme (19e eeuw)	0	hd	Geen woordenboek toegestaan	100 min	Nee	0	0	0
+6A	170	Kunst Algemeen	KUA	4	3	Herhalingsopdracht Hofcultuur (16e t/m 17e eeuw)	0	hd	0	0	Nee	0	0	0
+6A	170	Kunst Algemeen	KUA	5	3	Proefexamen over drie of vier eindexamenonderwerpen: - Hofcultuur (16e t/m 17e eeuw) - Cultuur van Romantiek en Realisme (97e eeuw) - Cultuur van het Moderne (1e helft v/d 20e eeuw) - Cultuur van de Massa (2e helft v/d 20e eeuw tot heden)	0	hd	Geen woordenboek toegestaan	180 min	Nee	0	0	0
+6A	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
+6A	170	Kunst Algemeen	0	7	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	1	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	2	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	3	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	4	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+4M	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+4H	42	Godsdienstles	GDL	1	1	Maakbaarheid van het leven gerelateerd aan de wereldreligies.	1	po	0	0	Nee	0	0	0
+4H	42	Godsdienstles	GDL	2	2	"Keuzeonderwerp; presentaties van keuzeonderwerpen waarbij ethische dilemma's centraal staan."	2	po	0	0	Nee	0	0	0
+4H	42	Godsdienstles	GDL	3	3	Project orgaandonatie	2	po	0	0	Nee	0	0	0
+4H	42	Godsdienstles	GDL	4	4	Virtuele wereldreis langs verschillende plaatsen waar steeds een andere levensbeschouwing dominant is.	1	po	0	0	Nee	0	0	0
+4H	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+4H	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+4H	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	1	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	2	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	3	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	4	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+5H	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+4A	42	Godsdienstles	GDL	1	1	Maakbaarheid van het leven gerelateerd aan de wereldreligies.	1	po	0	0	Nee	0	0	0
+4A	42	Godsdienstles	GDL	2	2	Project orgaandonatie. Verslaglegging en presentatie.	2	po	0	0	Nee	0	0	0
+4A	42	Godsdienstles	GDL	3	3	Agressie: sterk en zwak, verdedigen of aanvallen, van kwaad tot erger, godsdienstige conflicten en terreur.	1	po	0	0	Nee	0	0	0
+4A	42	Godsdienstles	GDL	4	4	Wat is waarheid? Verslaglegging en presentatie	2	po	0	0	Nee	0	0	0
+4A	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+4A	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+4A	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+5A	42	Godsdienstles	GDL	1	1	"Eigen religie ontwerpen aan de hand van de zeven dimensies van Ninian Smart; werk deze uit in een verslag en presenteer deze aan de klas.  Je werkt in tweetallen."	3	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
+5A	42	Godsdienstles	GDL	2	2	Vrijheid: over regels en ongebondenheid, privacy en veiligheid, verlossing, kiezen en verantwoordelijkheid.	2	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
+5A	42	Godsdienstles	GDL	3	3	Onderzoeksverslag schrijven aan de hand van hoofd en deelvragen	2	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
+5A	42	Godsdienstles	GDL	4	4	Presentatie: een virtuele wereldreis langs verschillende levensbeschouwelijke stromingen.	1	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
+5A	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+5A	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+5A	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	1	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	2	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	3	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	4	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
+6A	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
+3M	173	KCKV	KCKV	1	1	"Culturele Activiteit 1 (CA1) + verwerking
+"	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	2	2	Oriëntatie op leren en werken 	1	hd	0	0	Ja	1	Ja	K1/K2
+3M	173	KCKV	KCKV	3	2	"Culturele Activiteit 2 (CA2) + verwerking 
+"	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	4	3	Culturele Activiteit 3 (CA3) + verwerking 	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	5	3	Culturele Activiteit 4 (CA4) + verwerking 	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	6	4	Reflectie en kunstdossier	2	hd	0	0	Ja	2	Ja	K2/K4
+3M	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	1	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	2	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	3	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	4	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	5	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	KCKV	6	0	0	0	0	0	0	0	0	0	0
+4H	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	1	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	2	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	3	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	4	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	5	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	KCKV	6	0	0	0	0	0	0	0	0	0	0
+5H	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	1	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	2	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	3	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	4	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	5	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	KCKV	6	0	0	0	0	0	0	0	0	0	0
+4A	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	1	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	2	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	3	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	4	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	5	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	KCKV	6	0	0	0	0	0	0	0	0	0	0
+5A	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	1	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	2	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	3	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	4	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	5	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	KCKV	6	0	0	0	0	0	0	0	0	0	0
+6A	173	KCKV	0	7	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	REK	1	3	Getallen, Verhoudingen, Meten & meetkunde en verbanden	0	tt	0	100	Ja	0	Ja	2F
+4M	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+4M	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	1	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+4H	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	REK	1	3	Getallen, Verhoudingen, Meten & meetkunde en verbanden	0	tt	0	100	Ja	0	Ja	3F
+5H	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+5H	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	1	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+4A	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	1	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+5A	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	1	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	2	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	3	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	4	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	5	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	REK	6	0	0	0	0	0	0	0	0	0	0
+6A	190	Rekenen	0	7	0	0	0	0	0	0	0	0	0	0

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PTA PDF</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script type="text/javascript" src="js/jspdf.debug.js"></script>
+        <script type="text/javascript" src="js/jspdf.plugin.autotable.min.js"></script>
+        <script src="js/P5/p5.min.js"></script>
+        <script type="text/javascript" src="js/ptab.js"></script>
+    </head>
+    <body>
+        <h1>PTA-generator</h1>
+        <p style='color: slategray;'>
+            try me @ python3 -m http.server 3000 &<br>
+        </p>
+        <h2 style='color: green;'>aandacht</h2>
+        <p>
+            <b>Je moet handmatig blijven checken op bijzondere tekens en "ja of JA" en accenten.<br>
+            Daarnaast helaas bugs bij Frans en Engels vwo-6 uitloop vakken als element begint met hoofdletter.
+            <br> een " in de textfile duidt op layouten / enters.
+            <b>
+        </p>
+        <h2 id="settings">settings</h2>
+        <script>
+            document.getElementById("settings").innerHTML = 'Genereert nu PTO op: '+PTAType+' | niveau: '+filterNiveau+' | vak: '+filterVak+' | file: '+fileNaam;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,835 @@
+laag	vak	nr	per	leerstof	kerndoelen	weging	afname	samen met
+1A	AK	1	1	Hoofdstuk 1 - Canada dichtbij en veraf  	kerndoelen onderbouw:  hst 1: 38, 41                                      	2	toets	0
+1A	AK	2	1	Hoofdstuk 2 - Landschapzones op aarde 	kerndoel onderbouw hst 2: 29, 31 	2	toets	0
+1A	AK	3	2	Hoofdstuk 3 - Zuidoost Azië, cultuur en ontwikkeling                          	kerndoelen onderbouw:  hst 3: 46                                           	2	toets	0
+1A	AK	4	2	Hoofdstuk 6 - Nederland in de wereld 	kerndoel onderbouw hst 6: 38, 45	2	toets	0
+1A	AK	5	3	Hoofdstuk 5 en 7 klimaat en natuurlandschappen in Europa - natuurrampen in Japan 	 kerndoelen onderbouw: hst 5 en 7: 29, 30, 31 	2	toets	0
+1A	AK	6	4	Project eigen wijk hoofdstuk 4	kerndoelen onderbouw: hst 4: 36, 42, 43	1	PO	0
+1HA	AK	1	1	Hoofdstuk 1 - Canada dichtbij en veraf  	kerndoelen onderbouw:  hst 1: 38, 41                                      	2	toets	0
+1HA	AK	2	1	Hoofdstuk 2 - Landschapzones op aarde 	kerndoel onderbouw hst 2: 29, 31 	2	toets	0
+1HA	AK	3	2	Hoofdstuk 3 - Zuidoost Azië, cultuur en  ontwikkeling                          	kerndoelen onderbouw:  hst 3: 46                                           	2	toets	0
+1HA	AK	4	2	Hoofdstuk 6 - Nederland in de wereld 	kerndoel onderbouw hst 6: 38, 45	2	toets	0
+1HA	AK	5	3	Hoofdstuk 5 en 7 klimaat en natuurlandschappen in Europa - natuurrampen in Japan 	 kerndoelen onderbouw: hst 5 en 7: 29, 30, 31 	2	toets	0
+1HA	AK	6	4	Project eigen wijk hoofdstuk 4	kerndoelen onderbouw: hst 4: 36, 42, 43	1	PO	0
+1MH	AK	1	1	Hoofdstuk 1 - Canada dichtbij en veraf  	kerndoelen onderbouw:  hst 1: 38, 41                                      	2	toets	0
+1MH	AK	2	1	Hoofdstuk 2 - Landschapzones op aarde 	kerndoel onderbouw hst 2: 29, 31 	2	toets	0
+1MH	AK	3	2	Hoofdstuk 3 - Zuidoost Azië, cultuur en ontwikkeling                          	kerndoelen onderbouw:  hst 3: 46                                           	2	toets	0
+1MH	AK	4	2	Hoofdstuk 6 - Nederland in de wereld 	kerndoel onderbouw hst 6: 38, 45	2	toets	0
+1MH	AK	5	3	Hoofdstuk 5 en 7 klimaat en natuurlandschappen in Europa - natuurrampen in Japan 	 kerndoelen onderbouw: hst 5 en 7: 29, 30, 31 	2	toets	0
+1MH	AK	6	4	Project eigen wijk hoofdstuk 4	kerndoelen onderbouw: hst 4: 36, 42, 43	1	PO	0
+2A	AK	1	1	Hoofdstuk 1: Zuid-Afrika: een land met twee gezichten                        	kerndoelen onderbouw: 29, 38, 41, 46	2	toets	0
+2A	AK	2	1	Hoofdstuk 2 De vorming van de Alpen	kerndoelen onderbouw: 29, 32, 41	2	toets	0
+2A	AK	3	2	Hoofdstuk 4: Duitsland in het hart van Europa                                   	kerndoelen onderbouw: 41, 45, 46	2	toets	0
+2A	AK	4	2	Hoofdstuk 6: Turkije: tussen Europa en Azië                      	kerndoelen onderbouw: 38, 41, 46	2	toets	0
+2A	AK	5	3	Hoofdstuk 5: veranderend China + hoofdstuk 7: klimaat in de VS en India 	kerndoelen onderbouw: 29, 30, 31, 38, 41, 46	2	toets	0
+2A	AK	6	4	Hoofdstuk 3: Nederland duurzaam: energie en water  	kerndoelen onderbouw: 30, 42	1	PO	0
+2H	AK	1	1	Hoofdstuk 1: Zuid-Afrika: een land met twee gezichten                        	kerndoelen onderbouw: 29, 38, 41, 46	2	toets	0
+2H	AK	2	1	Hoofdstuk 2 De vorming van de Alpen	kerndoelen onderbouw: 29, 32, 41	2	toets	0
+2H	AK	3	2	Hoofdstuk 4: Duitsland in het hart van Europa                                   	kerndoelen onderbouw: 41, 45, 46	2	toets	0
+2H	AK	4	2	Hoofdstuk 6: Turkije: tussen Europa en Azië                      	kerndoelen onderbouw: 38, 41, 46	2	toets	0
+2H	AK	5	3	Hoofdstuk 5: veranderend China + hoofdstuk 7: klimaat in de VS en India 	kerndoelen onderbouw: 29, 30, 31, 38, 41, 46	2	toets	0
+2H	AK	6	4	Hoofdstuk 3: Nederland duurzaam: energie en water  	kerndoelen onderbouw: 30, 42	1	PO	0
+2M	AK	1	1	Hoofdstuk 1: Zuid-Afrika: een land met twee gezichten                        	kerndoelen onderbouw: 29, 38, 41, 46	2	toets	0
+2M	AK	2	1	Hoofdstuk 2 De vorming van de Alpen	kerndoelen onderbouw: 29, 32, 41	2	toets	0
+2M	AK	3	2	Hoofdstuk 4: Duitsland in het hart van Europa                                   	kerndoelen onderbouw: 41, 45, 46	2	toets	0
+2M	AK	4	2	Hoofdstuk 6: Turkije: tussen Europa en Azië                      	kerndoelen onderbouw: 38, 41, 46	2	toets	0
+2M	AK	5	3	Hoofdstuk 5: veranderend China + hoofdstuk 7: klimaat in de VS en India 	kerndoelen onderbouw: 29, 30, 31, 38, 41, 46	2	toets	0
+2M	AK	6	4	Hoofdstuk 3: Nederland duurzaam: energie en water  	kerndoelen onderbouw: 30, 42	1	PO	0
+3A	AK	1	1	Proefwerk H1: Nigeria	38,46	2	toets	0
+3A	AK	2	1	Proefwerk H3: Chili	30,29	2	toets	0
+3A	AK	3	2	PO Nederland H2 en H6	29,31,36,38,42,43	3	PO	0
+3A	AK	4	3	Proefwerk H4: Europa	36,38,41,43,45,47	2	toets	0
+3A	AK	5	3	Proefwerk H5: USA en H7: Rusland 	29,30,38,46,47	2	toets	0
+3A	AK	6	4	Proefwerk H8: Ruimteschip Aarde 	29,30,42	2	toets	0
+3H	AK	1	1	Proefwerk H1: Nigeria	38,46	2	toets	0
+3H	AK	2	1	Proefwerk H3: Chili	30,29	2	toets	0
+3H	AK	3	2	PO Nederland H2 en H6	29,31,36,38,42,43	3	PO	0
+3H	AK	4	3	Proefwerk H4: Europa	36,38,41,43,45,47	2	toets	0
+3H	AK	5	3	Proefwerk H5: USA en H7: Rusland 	29,30,38,46,47	2	toets	0
+3H	AK	6	4	Proefwerk H8: Ruimteschip Aarde 	29,30,42	2	toets	0
+3M	AK	1	1	Arm & Rijk H1-2	kerndoelen onderbouw: 38,46	2	toets	0
+3M	AK	2	1	Arm & Rijk H1-2-3&C	kerndoelen onderbouw: 38,42,43,46,47	2	toets	0
+3M	AK	3	2	Bronnen van Energie H4	kerndoelen onderbouw: 29,30,38,42,43	2	toets	0
+3M	AK	4	3	Bronnen van Energie H4-5-6&C	kerndoelen onderbouw: 29,30,32,38,42,43,46	2	toets	0
+3M	AK	5	4	Grenzen & Identiteit H7	kerndoelen onderbouw: 36,38,43,45,47	2	toets	0
+3M	AK	6	4	Grenzen & Identiteit H7-8&C	kerndoelen onderbouw: 29,30,36,38,43,45,47	2	toets	0
+1A	BIO	1	1	Hoofdstuk 1: Onderzoeken en ontdekken	28, 31, 32, 33, 34	1	toets	0
+1A	BIO	2	2	Hoofdstuk 2: Bewegen	34	2	toets	0
+1A	BIO	3	3	Hoofdstuk 3: Waarnemen	32, 34	2	toets	0
+1A	BIO	4	3	Hoofdstuk 5: Planten	29, 30, 32	2	toets	0
+1A	BIO	5	4	Hoofdstuk 6: Je groene omgeving	29, 30, 33, 35	2	PO	0
+1A	BIO	6	4	Hoofdstuk 4: Gedrag	30	2	toets	0
+1HA	BIO	1	1	Hoofdstuk 1: Onderzoeken en ontdekken	28, 31, 32, 33, 34	1	toets	0
+1HA	BIO	2	2	Hoofdstuk 2: Bewegen	34	2	toets	0
+1HA	BIO	3	3	Hoofdstuk 3: Waarnemen	32, 34	2	toets	0
+1HA	BIO	4	3	Hoofdstuk 5: Planten	29, 30, 32	2	toets	0
+1HA	BIO	5	4	Hoofdstuk 6: Je groene omgeving	29, 30, 33, 35	2	PO	0
+1HA	BIO	6	4	Hoofdstuk 4: Gedrag	30	2	toets	0
+1MH	BIO	1	1	Hoofdstuk 1: Onderzoeken en ontdekken	28, 31, 32, 33, 34	1	toets	0
+1MH	BIO	2	2	Hoofdstuk 2: Bewegen	34	2	toets	0
+1MH	BIO	3	3	Hoofdstuk 3: Waarnemen	32, 34	2	toets	0
+1MH	BIO	4	3	Hoofdstuk 5: Planten	29, 30, 32	2	toets	0
+1MH	BIO	5	4	Hoofdstuk 6: Je groene omgeving	29, 30, 33, 35	2	PO	0
+1MH	BIO	6	4	Hoofdstuk 4: Gedrag	30	2	toets	0
+2A	BIO	1	1	0	0	0	0	0
+2A	BIO	2	0	0	0	0	0	0
+2A	BIO	3	0	0	0	0	0	0
+2A	BIO	4	0	0	0	0	0	0
+2A	BIO	5	0	0	0	0	0	0
+2A	BIO	6	0	0	0	0	0	0
+2H	BIO	1	1	0	0	0	0	0
+2H	BIO	2	0	0	0	0	0	0
+2H	BIO	3	0	0	0	0	0	0
+2H	BIO	4	0	0	0	0	0	0
+2H	BIO	5	0	0	0	0	0	0
+2H	BIO	6	0	0	0	0	0	0
+2M	BIO	1	1	Thema 1: Verbranding en ademhaling	29, 31, 34	2	toets	0
+2M	BIO	2	2	Thema 2: Voeding en vertering	29, 30, 31, 34	2	toets	0
+2M	BIO	3	3	Thema 3: De bloedsomloop	29, 34	2	toets	0
+2M	BIO	4	3	Thema 4: Seksualiteit en voortplanting	29, 33, 34	2	PO	0
+2M	BIO	5	4	Thema 5: Erfelijkheid	29, 34	2	toets	0
+2M	BIO	6	4	Thema 6: Duurzaamheid	30, 31, 33, 35	2	PO	0
+3A	BIO	1	1	Hoofdstuk 7 Eten	28 35	1	PO	0
+3A	BIO	2	2	Hoofdstuk 8 Je lichaam werkt, eerste deel	34 35	2	toets	0
+3A	BIO	3	2	Hoofdstuk 8 Je lichaam werkt	 34 35     	2	toets	0
+3A	BIO	4	3	Hoofdstuk 10 en 11 Puberteit en voortplanting	34 35	2	toets	0
+3A	BIO	5	4	H9 en H12 Evolutie en afweersysteem	30 34	2	toets	0
+3A	BIO	6	4	H14 Duurzaam leven	28 29 30 31   	1	PO	0
+3H	BIO	1	1	Hoofdstuk 7 Eten	28 35	1	PO	0
+3H	BIO	2	2	Hoofdstuk 8 Je lichaam werkt, eerste deel	34 35	2	toets	0
+3H	BIO	3	2	Hoofdstuk 8 Je lchaam werkt	34 35	2	toets	0
+3H	BIO	4	3	Hoofdstuk 10 en 11 Puberteit en voortplanting	30 34	2	toets	0
+3H	BIO	5	4	H9 en H12 Evolutie en afweersysteem	30 34	2	toets	0
+3H	BIO	6	4	H14 Duurzaam leven	28 29 30 31	1	PO	0
+3M	BIO	1	1	Hoofdstuk 8 Stevigheid en beweging	Bi/K/8	2	toets	0
+3M	BIO	2	2	Hoofdstuk 6 Regeling en Hoofdstuk 7 Zintuigen	Bi/K/11	2	toets	0
+3M	BIO	3	2	Hoofdstuk 1 Cellen en organen	Bi/K/4	2	toets	0
+3M	BIO	4	3	Hoofdstuk 2 Ordening	Bi/K/6	2	toets	0
+3M	BIO	5	4	Hoofdstuk 3 Voortplanting !!!!!!	Bi/K/12	2	toets	0
+3M	BIO	6	4	Hoofdstuk 4 Erfelijkheid	Bi/K/13	2	toets	0
+1A	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1A	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1A	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1A	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1A	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1A	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1HA	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+1MH	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2A	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2H	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	1	1	compositie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	2	2	lijn	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	3	2	kleur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	4	3	vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	5	4	licht	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+2M	BV	6	4	ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3A	BV	1	1	typografie	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3A	BV	2	2	surrealimse	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3A	BV	3	3	pop art 	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3A	BV	4	4	architectuur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3A	BV	5	0	0	0	0	0	0
+3A	BV	6	0	0	0	0	0	0
+3H	BV	1	1	lijn, kleur, vorm	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3H	BV	2	2	compositie, licht, ruimte	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3H	BV	3	3	Pop Art	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3H	BV	4	4	architectuur	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3H	BV	5	0	0	0	0	0	0
+3H	BV	6	0	0	0	0	0	0
+3M	BV	1	1	beeldende verwerking CA1	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3M	BV	2	2	beeldende verwerking CA2	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3M	BV	3	3	beeldende verwerking CA3	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3M	BV	4	4	beeldende verwerking CA4	Kerndoel 48: Produceren van kunst; Kerndoel 49: Eigen kunstzinnig werk presenteren; Kerndoel 50: Leren kijken en luisteren naar kunst; Kerndoel 51: Verslag doen van ervaringen; Kerndoel 52: Reflecteren op kunstzinnig werk;	1	PO	0
+3M	BV	5	0	0	0	0	0	0
+3M	BV	6	0	0	0	0	0	0
+1A	DU	1	0	0	0	0	0	0
+1A	DU	2	0	0	0	0	0	0
+1A	DU	3	0	0	0	0	0	0
+1A	DU	4	0	0	0	0	0	0
+1A	DU	5	0	0	0	0	0	0
+1A	DU	6	0	0	0	0	0	0
+1HA	DU	1	0	0	0	0	0	0
+1HA	DU	2	0	0	0	0	0	0
+1HA	DU	3	0	0	0	0	0	0
+1HA	DU	4	0	0	0	0	0	0
+1HA	DU	5	0	0	0	0	0	0
+1HA	DU	6	0	0	0	0	0	0
+1MH	DU	1	0	0	0	0	0	0
+1MH	DU	2	0	0	0	0	0	0
+1MH	DU	3	0	0	0	0	0	0
+1MH	DU	4	0	0	0	0	0	0
+1MH	DU	5	0	0	0	0	0	0
+1MH	DU	6	0	0	0	0	0	0
+2A	DU	1	1	"Thema Vorstellen und Familie
+Kapitel 1  & 2"	"Kerndoel 17 contact via internet
+Kerndoel 11 luistervaardigheid 
+kerndoel 12 woordverwerving"	2	toets	0
+2A	DU	2	2	Kijk- & luistertoets	"Kerndoel 13 lezen en luisteren, 
+kerndoel 11 luistervaardigheid"	2	toets	0
+2A	DU	3	3	" Thema Sport und Essen
+Kapitel 3 & 4"	"Kerndoel 12 woordverwerving, 
+kerndoel 13 lezen"	2	toets	0
+2A	DU	4	3	Naamvallen intro Kapitel 6-7-8	"Kerndoel 12 woordverwerving 
+kerndoel 13 lezen
+Kerndoel 17 contact via internet"	2	toets	0
+2A	DU	5	4	Leesvaardigheid	"Kerndoel 13 lezen en luisteren, 
+kerndoel 14 omgaan met informatieve bronnen"	2	toets	0
+2A	DU	6	4	Taaltaak Ferien	"Kerndoel 15 informele gesprekken, 
+kerndoel 16 standaardgesprekken
+kerndoel 14 omgaan met informatie, 
+kerndoel 15 informele gesprekken, 
+kerndoel 16 standaardgesprekken
+Onderdeel van het PO is een presentatie voor de klas"	3	PO	0
+2H	DU	1	1	Schrijfvaardigheid> Thema voorstellen 	Kerndoel 17> contact via internet, kerndoel 12 > woordverwerving	2	toets	0
+2H	DU	2	1	Kijk- luistertoets	Kerndoel 13> lezen en luisteren, kerndoel 11> luistervaardigheid	2	toets	0
+2H	DU	3	2	Toets> Thema Sport und Essen	Kerndoel 12> Woordverwerving, kerndoel 13> lezen	2	toets	0
+2H	DU	4	3	taaltaak	Kerndoel 14> omgaan met informatie, kerndoel 15> informele gesprekken, kerndoel 16> standaardgesprekken	2	PO	0
+2H	DU	5	3	Leestoets	Kerndoel 13> lezen en luisteren, kerndoel 14> omgaan met informatieve bronnen	2	toets	0
+2H	DU	6	4	MO	Kerndoel 15> informele gesprekken, kerndoel 16> Standaardgesprekken	3	Mondeling	0
+2M	DU	1	1	Kijk- en luistertoets wk 40	11- Luistervaardigheid/12 - woordverwerving	2	toets	0
+2M	DU	2	1	Schrijfvaardigheid -thema: vieren en eten wk 48	12- woordverwerving / 17 - contact via internet	2	toets	0
+2M	DU	3	2	Schrijfvaardigheid -thema: sport und landeskunde wk 3	14- omgaan met informatiebronnen / 13 lezen	2	toets	0
+2M	DU	4	3	taaltaak	14 - omgaan met informatiebronnen / 15 - informele gesprekken / 12 woordverwerving	2	PO	0
+2M	DU	5	3	leestoets wk 15	13- lezen /  14 - omgaan met informatiebronnen	2	toets	0
+2M	DU	6	4	MO wk 26	15- informele gesprekken / 16 standaardgesprekken	3	Mondeling	0
+3A	DU	1	1	Herhaling vaardigheden (grammatica, schrijven, lezen en luisteren)	Kerndoelen: 17 (schrijven), 13 (lezen en luisteren), 12 (woordverwerving)	2	toets	0
+3A	DU	2	2	leesvaardigheid 	Kerndoelen: 12 (Woordverwerving, 13 (lezen), 14 ( omgang met informatiebronnen)	3	toets	0
+3A	DU	3	3	Kijk - en luistervaardigheid 	Kerndoelen: 11 (luisteren) en 13 (lezen) 	2	toets	0
+3A	DU	4	3	taaltaak PO 	Kerndoelen: 12-18 (taaltaak omvat alle kerndoelen van de onderbouw)	2	PO	0
+3A	DU	5	4	Presentatie (gebaseerd op schrijfvaardigheid, spreekvaardigheid en leesvaardigheid ) 	Kerndoelen: 12 -18 (taaltaak omvat alle kerndoelen van de onderbouw) 	3	Mondeling	0
+3A	DU	6	4	taaltaak PO 	Kerndoelen: 11,12,13,14,17,18	2	PO	0
+3H	DU	1	1	Herhaling vaardigheden (grammatica, schrijven & lezen)	17 (schrijven) , 13 (lezen) 	2	toets	0
+3H	DU	2	1	Kijk- & luistertoets	11( luisteren), 13 (lezen) 	2	toets	0
+3H	DU	3	2	Leesvaardigheid	13 (lezen) , 14 ( Omgaan met informatiebronnen)	3	toets	0
+3H	DU	4	3	Taaldorp	 15 (informele gesprekken), 16 (standaardgesprekken) , 12 (woordverwerving)	3	Mondeling	0
+3H	DU	5	3	Naamvallen + toepassen op de toets, schrijfvaardigheid	17( schrijven) 	2	toets	0
+3H	DU	6	4	Taaltaak PO	14 (omgaan met informatiebronnen), 13 (lezen en luisteren), 12 (woordverwerving)	2	PO	0
+3M	DU	1	1	Herhalen vaardigheden. kapitel 1 & 2 herhaling haben, sein, werden en zw ww, voltooid deelwoord, Volkalwechsel	"kerndoel 13 (lezen); 
+kerndoel 17 (schrijven)"	2	toets	0
+3M	DU	2	2	leesvaardigheid	"kerndoel 13 (lezen); 
+kerndoel 14 (omgaan met informatiebronnen)"	3	toets	0
+3M	DU	3	3	naamvallen met schrijven met schrijven / Kerstmarkt / Mayerwerf / start december	kerndoel 17 (schrijven)	2	toets	0
+3M	DU	4	3	Taaldorp	"kerndoel 15 (informele gesprekken);
+kerndoel 12 (woordverwerving);
+kerndoel 16 (standaardgesprekken)"	3	Mondeling	0
+3M	DU	5	4	kijk- & luistertoets	"kerndoel 11 (luisteren); 
+kerndoel 13 (lezen)"	2	toets	0
+3M	DU	6	4	Taaktaak Musik	"kerndoel 14 (omgaan met informatiebronnen);
+kerndoel 13 (lezen en luisteren);  
+kerndoel 12 (woordverwerving)"	2	PO	0
+1A	EC	1	1	0	0	0	0	0
+1A	EC	2	0	0	0	0	0	0
+1A	EC	3	0	0	0	0	0	0
+1A	EC	4	0	0	0	0	0	0
+1A	EC	5	0	0	0	0	0	0
+1A	EC	6	0	0	0	0	0	0
+1HA	EC	1	1	0	0	0	0	0
+1HA	EC	2	0	0	0	0	0	0
+1HA	EC	3	0	0	0	0	0	0
+1HA	EC	4	0	0	0	0	0	0
+1HA	EC	5	0	0	0	0	0	0
+1HA	EC	6	0	0	0	0	0	0
+1MH	EC	1	1	0	0	0	0	0
+1MH	EC	2	0	0	0	0	0	0
+1MH	EC	3	0	0	0	0	0	0
+1MH	EC	4	0	0	0	0	0	0
+1MH	EC	5	0	0	0	0	0	0
+1MH	EC	6	0	0	0	0	0	0
+2A	EC	1	1	0	0	0	0	0
+2A	EC	2	0	0	0	0	0	0
+2A	EC	3	0	0	0	0	0	0
+2A	EC	4	0	0	0	0	0	0
+2A	EC	5	0	0	0	0	0	0
+2A	EC	6	0	0	0	0	0	0
+2H	EC	1	1	0	0	0	0	0
+2H	EC	2	0	0	0	0	0	0
+2H	EC	3	0	0	0	0	0	0
+2H	EC	4	0	0	0	0	0	0
+2H	EC	5	0	0	0	0	0	0
+2H	EC	6	0	0	0	0	0	0
+2M	EC	1	1	0	0	0	0	0
+2M	EC	2	0	0	0	0	0	0
+2M	EC	3	0	0	0	0	0	0
+2M	EC	4	0	0	0	0	0	0
+2M	EC	5	0	0	0	0	0	0
+2M	EC	6	0	0	0	0	0	0
+3A	EC	1	1	"Hoofdstuk 1. Begroten voor iedereen; Hoofdstuk 2. De verdeling van het inkomen"	"Domein E (eco) Ruilen over tijd; Domein H (eco) Welvaart en groei"	2	toets	0
+3A	EC	2	2	Hoofdstuk 6. Markten	Domein D (eco) Markt	2	toets	0
+3A	EC	3	4	"Hoofdstuk 4. Een eigen bedrijf; Hoofdstuk 5. De financiële administratie"	"Domein B (beco) Van persoon tot rechtspersoon; Domein F (beco) Financieel beleid"	1	PO	0
+3A	EC	4	3	"Hoofdstuk 4. Een eigen bedrijf; Hoofdstuk 5. De financiële administratie"	"Domein B (beco) Van persoon naar rechtspersoon; Domein F (beco) Financieel beleid"	2	toets	0
+3A	EC	5	4	"Hoofdstuk 3. Sparen en lenen; Hoofdstuk 8. Financiële zelfredzaamheid"	"Domein B (beco) Van persoon naar rechtspersoon; Domein E (eco) Ruilen over tijd; Domein G (eco) Risico en informatie"	2	toets	0
+3A	EC	6	0	0	0	0	0	0
+3H	EC	1	1	"Hoofdstuk 1. Begroten voor iedereen; Hoofdstuk 2. De verdeling van het inkomen"	"Domein E (eco) Ruilen over tijd; Domein H (eco) Welvaart en groei"	2	toets	0
+3H	EC	2	2	Hoofdstuk 6. Markten	Domein D (eco) Markt	2	toets	0
+3H	EC	3	4	"Hoofdstuk 4. Een eigen bedrijf; Hoofdstuk 5. De financiële administratie"	"Domein B (beco) Van persoon tot rechtspersoon; Domein F (beco) Financieel beleid"	1	PO	0
+3H	EC	4	3	"Hoofdstuk 4. Een eigen bedrijf; Hoofdstuk 5. De financiële administratie"	"Domein B (beco) Van persoon naar rechtspersoon; Domein F (beco) Financieel beleid"	2	toets	0
+3H	EC	5	4	"Hoofdstuk 3. Sparen en lenen; Hoofdstuk 8. Financiële zelfredzaamheid"	"Domein B (beco) Van persoon naar rechtspersoon; Domein E (eco) Ruilen over tijd; Domein G (eco) Risico en informatie"	2	toets	0
+3H	EC	6	0	0	0	0	0	0
+3M	EC	1	1	Hoofdstuk 1 Hoe groot is jouw welvaart?	"EC/K/3(6); EC/K/4a(1,2,3,6,7,8,9) EC/V/1(5)"	1	toets	0
+3M	EC	2	1	Hoofdstuk 2 Wat voor consument ben jij?	"EC/k/4a(2,3); EC/K/4b(6,7); EC/K/8(1,2) EC/K/6(2)"	1	toets	0
+3M	EC	3	2	Hoofdstuk 3 De bank en jouw geld Hoofdstuk 4 Ben je verzekerd?	EC/K/4a(1,4,5,6) EC/K/4b(2,3,4,5)	1	toets	0
+3M	EC	4	3	Hoofdstuk 5 Werkt dat zo?	"EC/K/5a(1,2,3,4,5) EC/K/5b(1); EC/K/6(1)"	1	toets	0
+3M	EC	5	3	Hoofdstuk 6 Productie en markt	"EC/K/5a(1,2,6); EC/K/6(2)"	1	toets	0
+3M	EC	6	4	Hoofdstuk 7 De overheid voor ons allemaal                                        Hoofdstuk 8 Over economische grenzen	EC/K/6 (1,2,3) EC/V1(1)EC/K/7(1,2,3a,3b,4,5) 	1	toets	0
+1A	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1A	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1A	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1A	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+1A	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+1A	EN	6	0	0	0	0	0	0
+1HA	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1HA	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1HA	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1HA	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+1HA	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+1HA	EN	6	0	0	0	0	0	0
+1MH	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1MH	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1MH	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+1MH	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+1MH	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+1MH	EN	6	0	0	0	0	0	0
+2A	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2A	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2A	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2A	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+2A	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+2A	EN	6	0	0	0	0	0	0
+2H	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2H	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2H	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2H	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+2H	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+2H	EN	6	0	0	0	0	0	0
+2M	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2M	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2M	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+2M	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+2M	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+2M	EN	6	0	0	0	0	0	0
+3A	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3A	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3A	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3A	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+3A	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+3A	EN	6	0	0	0	0	0	0
+3H	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3H	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3H	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3H	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+3H	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+3H	EN	6	0	0	0	0	0	0
+3M	EN	1	1	Toets unit 1.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3M	EN	2	2	Toets unit 2.  Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3M	EN	3	3	Toets unit 3. Onderdelen: vocab, grammar, reading and writing	A, D	2	toets	0
+3M	EN	4	4	Toets unit 4. Onderdelen vocab, grammar, reading and writing	A, D	2	toets	0
+3M	EN	5	4	Spreekvaardigheid. Cijfer wordt vastgesteld aan de hand van spreekopdrachten (one minute of fame)in de reguliere les gedurende het jaar.	C	2	Mondeling	0
+3M	EN	6	0	0	0	0	0	0
+1A	FA	1	1	hoofdstuk 1	B 11 -18	2	toets	0
+1A	FA	2	2	hoofdstuk 2	B 11 -18	2	toets	0
+1A	FA	3	2	hoofdstuk 3	B 11-18	2	toets	0
+1A	FA	4	3	hoofdstuk 5	B 11-18	2	toets	0
+1A	FA	5	4	hoofdstuk 6	B 11-18	2	toets	0
+1A	FA	6	4	vaardigheden opdracht	B 11-18	2	PO	0
+1HA	FA	1	1	hoofdstuk 1	b11-18	2	toets	0
+1HA	FA	2	2	hoofdstuk 2	b11-18	2	toets	0
+1HA	FA	3	2	hoofdstuk 3	b11-18	2	toets	0
+1HA	FA	4	3	hoofdstuk 5	b11-18	2	toets	0
+1HA	FA	5	4	hoofdstuk 6	b11-18	2	toets	0
+1HA	FA	6	4	vaardigheden opdracht	b11-18	2	PO	0
+1MH	FA	1	1	hoofdstuk 1	b11-18	2	toets	0
+1MH	FA	2	2	hoofdstuk 2	b11-18	2	toets	0
+1MH	FA	3	2	hoofdstuk 3	b11-18	2	toets	0
+1MH	FA	4	3	hoofdstuk 5	b11-18	2	toets	0
+1MH	FA	5	4	hoofdstuk 6	b11-18	2	toets	0
+1MH	FA	6	4	vaardigheden opdracht	b11-18	2	PO	0
+2A	FA	1	1	hoofdstuk 1	b11-18	2	toets	0
+2A	FA	2	1	hoofdstuk 2	b11-18	2	toets	0
+2A	FA	3	2	hoofdstuk 3	b11-18	2	toets	0
+2A	FA	4	3	hoofdstuk 6	b11-18	2	toets	0
+2A	FA	5	4	hoofdstuk 7	b11-18	2	toets	0
+2A	FA	6	4	vaardigheden opdracht	b11-18	2	PO	0
+2H	FA	1	1	Hoofdstuk 1	B11-18	2	toets	0
+2H	FA	2	1	Hoofdstuk 2	B11-18	2	toets	0
+2H	FA	3	2	Hoofdstuk 3	B11-18	2	toets	0
+2H	FA	4	3	Hoofdstuk 6	B11-18	2	toets	0
+2H	FA	5	4	Hoofdstuk 7	B11-18	2	toets	0
+2H	FA	6	4	vaardigheden toets	B11-18	2	PO	0
+2M	FA	1	1	0	0	0	0	0
+2M	FA	2	0	0	0	0	0	0
+2M	FA	3	0	0	0	0	0	0
+2M	FA	4	0	0	0	0	0	0
+2M	FA	5	0	0	0	0	0	0
+2M	FA	6	0	0	0	0	0	0
+3A	FA	1	1	Hoofdstuk 1	B11-18	2	toets	0
+3A	FA	2	2	Hoofdstuk 2	B11-18	2	toets	0
+3A	FA	3	2	Taaldorp/mondeling	B11-18	2	po	0
+3A	FA	4	3	Hoofdstuk 3	B11-18	2	toets	0
+3A	FA	5	4	Hoofdstuk 5	B11-18	2	toets	0
+3A	FA	6	4	Praktische opdracht over hfst 6 in film vorm	B11-18	2	po	0
+3H	FA	1	1	Hoofdstuk 1	B11-18	2	toets	0
+3H	FA	2	2	Hoofdstuk 2	B11-18	2	toets	0
+3H	FA	3	2	Taaldorp/mondeling	B11-18	2	po	0
+3H	FA	4	3	Hoofdstuk 3	B11-18	2	toets	0
+3H	FA	5	4	Hoofdstuk 5	B11-18	2	toets	0
+3H	FA	6	4	Praktische opdracht over hfst 6 in film vorm	B11-18	2	po	0
+3M	FA	1	1	0	0	0	0	0
+3M	FA	2	0	0	0	0	0	0
+3M	FA	3	0	0	0	0	0	0
+3M	FA	4	0	0	0	0	0	0
+3M	FA	5	0	0	0	0	0	0
+3M	FA	6	0	0	0	0	0	0
+1A	GDL	1	1	"Hoofdstuk 1; ' Thuis' "	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1A	GDL	2	2	Hoofdstuk 2: ' Helpen' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1A	GDL	3	3	Hoofdstuk 3: ' Nieuw begin' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1A	GDL	4	4	Hoofdstuk 4: ' Op weg' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1A	GDL	5	0	0	0	0	0	0
+1A	GDL	6	0	0	0	0	0	0
+1HA	GDL	1	1	Hoofdstuk 1:' Thuis' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1HA	GDL	2	2	Hoofdstuk 2:' Helpen' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1HA	GDL	3	3	Hoofdstuk 3: ' Nieuw begin' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1HA	GDL	4	4	Hoofdstuk 4: ' Op weg' 	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1HA	GDL	5	0	0	0	0	0	0
+1HA	GDL	6	0	0	0	0	0	0
+1MH	GDL	1	1	Hoofdstuk 1 : 'Thuis'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1MH	GDL	2	2	Hoofdstuk  2:' Helpen'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1MH	GDL	3	3	Hoofdstuk 3: 'Nieuw begin	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1MH	GDL	4	4	Hoofstuk 4: 'Op weg'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+1MH	GDL	5	0	0	0	0	0	0
+1MH	GDL	6	0	0	0	0	0	0
+2A	GDL	1	1	Hoofdstuk 5 : 'Anders'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2A	GDL	2	2	Hoofdstuk  6:' Verzet'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2A	GDL	3	3	Hoofdstuk 7: 'Goed fout'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2A	GDL	4	4	Hoofstuk 8: 'Groeien'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2A	GDL	5	0	0	0	0	0	0
+2A	GDL	6	0	0	0	0	0	0
+2H	GDL	1	1	Hoofdstuk 5 : 'Anders'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2H	GDL	2	2	Hoofdstuk  6:' Verzet'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2H	GDL	3	3	Hoofdstuk 7: 'Goed fout'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2H	GDL	4	4	Hoofstuk 8: 'Groeien'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2H	GDL	5	0	0	0	0	0	0
+2H	GDL	6	0	0	0	0	0	0
+2M	GDL	1	1	Hoofdstuk 5 : 'Anders'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2M	GDL	2	2	Hoofdstuk  6:' Verzet'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2M	GDL	3	3	Hoofdstuk 7: 'Goed fout'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2M	GDL	4	4	Hoofstuk 8: 'Groeien'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+2M	GDL	5	0	0	0	0	0	0
+2M	GDL	6	0	0	0	0	0	0
+3A	GDL	1	1	Hoofdstuk 9: 'Toekomst'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3A	GDL	2	2	Hoofdstuk 10:'Bezinning	leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3A	GDL	3	3	Hoofdstuk 11:'Dood gewoon'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3A	GDL	4	4	Hoofdstuk 12:'Doorgeven'	Leerlingcompetenties zoals omschreven in het werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3A	GDL	5	0	0	0	0	0	0
+3A	GDL	6	0	0	0	0	0	0
+3H	GDL	1	1	Hoofstuk 9:'Toekomst'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden	1	PO	0
+3H	GDL	2	2	Hoofdstuk 10: 'Bezinning'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3H	GDL	3	3	Hoofdstuk 11:'Doodgewoon'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden	1	PO	0
+3H	GDL	4	4	Hoofdstuk 12:'Doorgeven'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden	1	PO	0
+3H	GDL	5	0	0	0	0	0	0
+3H	GDL	6	0	0	0	0	0	0
+3M	GDL	1	1	Hoofdstuk 9:'Je lijf, je leven'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3M	GDL	2	2	Hoofdstuk 10:'Relaties	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3M	GDL	3	3	Hoofdstuk 11:'Agressie	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden.	2	PO	0
+3M	GDL	4	4	Hoofdstuk 13:'Toekomst'	Leerlingcompetenties zoals omschreven in werkplan en verschillende mondelinge en schriftelijke vaardigheden.	1	PO	0
+3M	GDL	5	0	0	0	0	0	0
+3M	GDL	6	0	0	0	0	0	0
+1A	GS	1	1	Hoofdstuk 1 - prehistorie 	Kerndoelen: 37, 40 	2	toets	0
+1A	GS	2	2	Hoofdstuk 2 - Grieken 	Kerndoelen: 37, 40 	3	toets	0
+1A	GS	3	2	Hoofdstuk 3 - Romeinen 	Kerndoelen: 37, 40	2	PO	0
+1A	GS	4	3	Hoofdstuk 4 - Vroege Middeleeuwen 	Kerndoelen: 37, 40, 43	3	toets	0
+1A	GS	5	4	Hoofdstuk 5 - Late Middeleeuwen 	Kerndoelen: 37, 40	2	PO	0
+1A	GS	6	4	Overzichtstoets 	Kerndoelen: 37, 40 	3	toets	0
+1HA	GS	1	1	Hoofdstuk 1 - prehistorie 	Kerndoelen 37 en 40 	2	toets	0
+1HA	GS	2	2	Hoofdstuk 2 - Grieken 	Kerndoelen 37, 40 en 44	3	toets	0
+1HA	GS	3	2	Hoofdstuk 3 - Romeinen 	Kerndoelen 37 en 40 	2	PO	0
+1HA	GS	4	3	Hoofdstuk 4 - Vroege Middeleeuwen 	Kerndoelen 37, 40 en 43	3	toets	0
+1HA	GS	5	4	Hoofdstuk 5 - Late Middeleeuwen 	Kerndoelen 37 en 40 	2	PO	0
+1HA	GS	6	4	Overzichtstoets 	Kerndoelen 37 en 40 	3	toets	0
+1MH	GS	1	1	Hoofdstuk 1- prehistorie 	Kerndoelen 37 en 40 	2	toets	0
+1MH	GS	2	2	Hoofdstuk 2 - Grieken 	Kerndoelen 37, 40 en 44	3	toets	0
+1MH	GS	3	2	Hoofdstuk 3 - Romeinen 	Kerndoelen 37 en 40 	2	PO	0
+1MH	GS	4	3	Hoofdstuk 4 - Vroege Middeleeuwen 	Kerndoelen 37, 40 en 43	3	toets	0
+1MH	GS	5	4	Hoofdstuk 5 - Late Middeleeuwen 	Kerndoelen 37 en 40 	2	PO	0
+1MH	GS	6	4	Overzichtstoets 	Kerndoelen 37 en 40 	3	toets	0
+2A	GS	1	1	      Hoofdstuk 1 - Ontdekkingsreizen	Kerndoel: 37, 40, 46, 47	3	toets	0
+2A	GS	2	2	Hoofdstuk 2 - Reformatie	Kerndoel: 37, 40, 43	2	PO	0
+2A	GS	3	2	Hoofdstuk 2 - De Opstand	Kerndoel: 37, 40, 44	3	toets	0
+2A	GS	4	3	Hoofdstuk 3 - Republiek	Kerndoel: 37, 40, 44	3	toets	0
+2A	GS	5	3	Hoofdstuk 4 - Verlichting en Revolutie	Kerndoel: 36, 37, 40, 44	3	toets	0
+2A	GS	6	4	Hoofdstuk  6 -Amerika	Kerndoel: 36, 37, 40, 46, 47	2	PO	0
+2H	GS	1	1	                     Hoofdstuk 1 	Kerndoelen: 37, 40 	3	toets	0
+2H	GS	2	1	Hoofdstuk 2 	Kerndoelen: 37, 40 	2	PO	0
+2H	GS	3	2	Hoofdstuk 2 en 3	Kerndoelen: 37, 40, 44, 46 	3	toets	0
+2H	GS	4	3	Hoofdstuk 4	Kerndoelen: 37, 40 	3	toets	0
+2H	GS	5	4	Hoofdstuk 6	Kerndoelen: 36, 37, 38, 39, 40 	2	PO	0
+2H	GS	6	4	Hoofdstuk 6	Kerndoelen: 37, 40 	3	toets	0
+2M	GS	1	1	                   Gouden Eeuw	Kerndoelen: 37, 40, 46	3	toets	0
+2M	GS	2	1	Gouden Eeuw - Slavernijverleden	Kerndoelen: 36, 37, 38, 40, 46, 47	2	PO	0
+2M	GS	3	2	Verlichting / Franse Revolutie	Kerndoelen: 37, 38, 40, 46	3	toets	0
+2M	GS	4	3	Eerste Wereldoorlog	Kerndoelen: 37, 40, 45, 47	3	toets	0
+2M	GS	5	4	Tweede Wereldoorlog A	Kerndoelen: 37, 40, 45, 47	3	PO	0
+2M	GS	6	4	Tweede Wereldoorlog B	Kerndoelen: 37, 40, 45, 47	2	Toets	0
+3A	GS	1	1	H1 en H2 Politieke geschiedenis NL 	Kerndoelen: 37, 38	3	toets	0
+3A	GS	2	1	H3 Eerste Wereldoorlog 	Kerndoelen: 37, 38, 40, 42, 43, 44, 46, 47	3	toets	0
+3A	GS	3	2	H4 en H5 Interbellum, Sovjet-Unie en Verenigde Staten	Kerndoelen: 37, 38, 39, 40, 41 	2	PO	0
+3A	GS	4	3	H6 Tweede Wereldoorlog 	kerndoelen: 37, 38, 42, 43, 44, 46, 47	3	toets	0
+3A	GS	5	4	H7 Koude Oorlog 	Kerndoelen: 37, 38	3	toets	0
+3A	GS	6	4	Overzichtstoets 	Kerndoelen: 37, 38	3	toets	0
+3H	GS	1	1	H1 en H2 Politieke geschiedenis NL 	Kerndoelen 37 en 38	3	toets	0
+3H	GS	2	1	H3 Eerste Wereldoorlog 	Kerndoelen: 37, 38, 40, 42, 43, 44, 46, 47	3	toets	0
+3H	GS	3	2	H4 en H5 Interbellum, Sovjet-Unie en Verenigde Staten	Kerndoelen: 37, 38, 39, 40, 41 	3	toets	0
+3H	GS	4	3	H6 Tweede Wereldoorlog 	kerndoelen: 37, 38, 42, 43, 44, 46, 47	2	PO	0
+3H	GS	5	4	H7 Koude Oorlog 	Kerndoelen: 37, 38	3	toets	0
+3H	GS	6	0	0	0	0	0	0
+3M	GS	1	1	                      Koude Oorlog 	Kerndoelen: 37, 38	3	PO	0
+3M	GS	2	1	Koude Oorlog 	Kerndoelen: 37, 38, 46, 47	2	toets	0
+3M	GS	3	2	Industriële samenleving	Kerndoelen: 37, 38, 46	3	toets	0
+3M	GS	4	3	Nederland en Indonesië	Kerndoelen: 37, 38	3	toets	0
+3M	GS	5	3	Verzorgingsstaat 	Kerndoelen: 37, 38, 46, 47 	2	PO	0
+3M	GS	6	4	Verzorgingsstaat 	Kerndoelen: 37, 38	3	toets	0
+1A	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - duurloop	1	Handelingsdeel	0
+1A	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+1A	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+1A	LO	4	4	Werpen	Atletiek - werpen	1	Handelingsdeel	0
+1A	LO	5	0	0	0	0	0	0
+1A	LO	6	0	0	0	0	0	0
+1HA	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - duurloop	1	Handelingsdeel	0
+1HA	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+1HA	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+1HA	LO	4	4	Werpen	Atletiek - werpen	1	Handelingsdeel	0
+1HA	LO	5	0	0	0	0	0	0
+1HA	LO	6	0	0	0	0	0	0
+1MH	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+1MH	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+1MH	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+1MH	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+1MH	LO	5	0	0	0	0	0	0
+1MH	LO	6	0	0	0	0	0	0
+2A	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+2A	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+2A	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+2A	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+2A	LO	5	0	0	0	0	0	0
+2A	LO	6	0	0	0	0	0	0
+2H	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+2H	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+2H	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+2H	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+2H	LO	5	0	0	0	0	0	0
+2H	LO	6	0	0	0	0	0	0
+2M	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+2M	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+2M	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+2M	LO	4	4	Werpen	Atletiek - werpen	1	Handelingsdeel	0
+2M	LO	5	0	0	0	0	0	0
+2M	LO	6	0	0	0	0	0	0
+3A	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+3A	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+3A	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+3A	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+3A	LO	5	0	0	0	0	0	0
+3A	LO	6	0	0	0	0	0	0
+3H	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+3H	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+3H	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+3H	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+3H	LO	5	0	0	0	0	0	0
+3H	LO	6	0	0	0	0	0	0
+3M	LO	1	1	Duurloop training. Toewerken naar Vijverloop.	Atletiek - Duurloop	1	Handelingsdeel	0
+3M	LO	2	2	Spel	Spel	1	Handelingsdeel	0
+3M	LO	3	3	Spel	Spel	1	Handelingsdeel	0
+3M	LO	4	4	Werpen	Atletiek - Werpen	1	Handelingsdeel	0
+3M	LO	5	0	0	0	0	0	0
+3M	LO	6	0	0	0	0	0	0
+1A	MU	1	1	Onderwerp: Melodie	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1A	MU	2	1	Musiceervaardigheden Melodie	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1A	MU	3	2	Onderwerp: Ritme en Maat + Musiceervaardigheden	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan uitvoering van een speelstuk.	3	PO	0
+1A	MU	4	3	Onderwerp: Samenklank	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1A	MU	5	3	Musiceervaardigheden Samenklank	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1A	MU	6	4	Onderwerp: Uitvoering + Vrije musiceer- of ontwerpopdracht.	Creativiteit en eigen inbreng van leerlingen: opdracht op maat en keuze uit verschillende muzikale disciplines.	3	PO	0
+1HA	MU	1	1	Onderwerp: Melodie	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1HA	MU	2	1	Musiceervaardigheden Melodie	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1HA	MU	3	2	Onderwerp: Ritme en Maat + Musiceervaardigheden	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan uitvoering van een speelstuk.	3	PO	0
+1HA	MU	4	3	Onderwerp: Samenklank	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1HA	MU	5	3	Musiceervaardigheden Samenklank	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1HA	MU	6	4	Onderwerp: Uitvoering + Vrije musiceer- of ontwerpopdracht.	Creativiteit en eigen inbreng van leerlingen: opdracht op maat en keuze uit verschillende muzikale disciplines.	3	PO	0
+1MH	MU	1	1	Onderwerp: Melodie	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1MH	MU	2	1	Musiceervaardigheden Melodie	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1MH	MU	3	2	Onderwerp: Ritme en Maat + Musiceervaardigheden	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan uitvoering van een speelstuk.	3	PO	0
+1MH	MU	4	3	Onderwerp: Samenklank	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+1MH	MU	5	3	Musiceervaardigheden Samenklank	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+1MH	MU	6	4	Onderwerp: Uitvoering + Vrije musiceer- of ontwerpopdracht.	Creativiteit en eigen inbreng van leerlingen: opdracht op maat en keuze uit verschillende muzikale disciplines.	3	PO	0
+2A	MU	1	1	Onderwerp: Love songs	Muziektheorie, luistervaardigheid, notatie en instrumenten aan de hand van muziekstijlen en maatschappelijke stromingen.	1	Toets	0
+2A	MU	2	1	Musiceervaardigheden Love songs	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+2A	MU	3	2	Onderwerp: Dance + Musiceervaardigheden	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan uitvoering van een speelstuk. 	3	PO	0
+2A	MU	4	3	Onderwerp: Festivals, betekenis van muziek	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+2A	MU	5	3	Musiceervaardigheden Festivals	Uitvoeren van een speelstuk op eigen individueel niveau aan de hand van improvisatie.	2	PO	0
+2A	MU	6	4	Onderwerp: Media	Creativiteit en eigen inbreng van leerlingen: opdracht op maat en keuze uit verschillende muzikale disciplines. Muziek en media: YouTube, talent-shows op tv., betekenis van muziek.	3	PO	0
+2H	MU	1	1	Onderwerp: Love songs	Muziektheorie, luistervaardigheid, notatie en instrumenten aan de hand van muziekstijlen en maatschappelijke stromingen.	1	Toets	0
+2H	MU	2	1	Musiceervaardigheden Love songs	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+2H	MU	3	2	Onderwerp: Dance + Musiceervaardigheden	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan uitvoering van een speelstuk. 	3	PO	0
+2H	MU	4	3	Onderwerp: Festivals, betekenis van muziek	Muziektheorie, luistervaardigheid, notatie en instrumenten.	1	Toets	0
+2H	MU	5	3	Musiceervaardigheden Festivals	Uitvoeren van een speelstuk op eigen individueel niveau aan de hand van improvisatie.	2	PO	0
+2H	MU	6	4	Onderwerp: Media	Creativiteit en eigen inbreng van leerlingen: opdracht op maat en keuze uit verschillende muzikale disciplines. Muziek en media: YouTube, talent-shows op tv., betekenis van muziek.	3	PO	0
+2M	MU	1	1	0	0	0	0	0
+2M	MU	2	0	0	0	0	0	0
+2M	MU	3	0	0	0	0	0	0
+2M	MU	4	0	0	0	0	0	0
+2M	MU	5	0	0	0	0	0	0
+2M	MU	6	0	0	0	0	0	0
+3A	MU	1	1	0	0	0	0	0
+3A	MU	2	0	0	0	0	0	0
+3A	MU	3	0	0	0	0	0	0
+3A	MU	4	0	0	0	0	0	0
+3A	MU	5	0	0	0	0	0	0
+3A	MU	6	0	0	0	0	0	0
+3H	MU	1	1	Onderwerp: Klassiekers	Muziektheorie, luistervaardigheid, notatie en instrumenten aan de hand van klassiekers en hun kenmerken.	1	Toets	0
+3H	MU	2	1	Musiceervaardigheden Klassiekers	Uitvoeren van een speelstuk op eigen individueel niveau (mogelijkheid tot differentiatie)	2	PO	0
+3H	MU	3	2	Onderwerp: Underground 	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan analyse van een Underground muziekstuk. 	1	Toets	0
+3H	MU	4	3	Onderwerp: Mainstreaum	Muziektheorie, luistervaardigheid, ritme-trainer, notatie en instrumenten gekoppeld aan analyse van een voorbeeld van Mainstream muziek uit de actualiteit.	1	Toets	0
+3H	MU	5	3	Onderwerp: Fusion, beinvloeding van stijlen door andere stijlen.	Het verwerken van muzikale kenmerken aan de hand van Fusion voorbeelden in een levendige presentatie.	2	PO	0
+3H	MU	6	4	Musiceervaardigheden Fusion	Creativiteit en eigen inbreng van leerlingen: opdracht over Fusion van verschillende stijlen.	3	PO	0
+3M	MU	1	1	0	0	0	0	0
+3M	MU	2	0	0	0	0	0	0
+3M	MU	3	0	0	0	0	0	0
+3M	MU	4	0	0	0	0	0	0
+3M	MU	5	0	0	0	0	0	0
+3M	MU	6	0	0	0	0	0	0
+1A	NAT	1	1	0	0	0	0	0
+1A	NAT	2	0	0	0	0	0	0
+1A	NAT	3	0	0	0	0	0	0
+1A	NAT	4	0	0	0	0	0	0
+1A	NAT	5	0	0	0	0	0	0
+1A	NAT	6	0	0	0	0	0	0
+1HA	NAT	1	1	0	0	0	0	0
+1HA	NAT	2	0	0	0	0	0	0
+1HA	NAT	3	0	0	0	0	0	0
+1HA	NAT	4	0	0	0	0	0	0
+1HA	NAT	5	0	0	0	0	0	0
+1HA	NAT	6	0	0	0	0	0	0
+1MH	NAT	1	1	0	0	0	0	0
+1MH	NAT	2	0	0	0	0	0	0
+1MH	NAT	3	0	0	0	0	0	0
+1MH	NAT	4	0	0	0	0	0	0
+1MH	NAT	5	0	0	0	0	0	0
+1MH	NAT	6	0	0	0	0	0	0
+2A	NAT	1	1	Licht	D28 ,D29, D31, D32	1	toets	0
+2A	NAT	2	2	Beweging	D32, D35	1	PO	0
+2A	NAT	3	2	Stoffen	D32, D33	1	toets	0
+2A	NAT	4	3	Elektriciteit	D31, D32	1	toets	0
+2A	NAT	5	4	Warmte	D30, D32	1	PO	0
+2A	NAT	6	4	Heelal	D32	1	toets	0
+2H	NAT	1	1	Licht	D28 ,D29, D31, D32	1	toets	0
+2H	NAT	2	2	Beweging	D32, D35	1	toets	0
+2H	NAT	3	2	Stoffen	D32, D33	1	toets	0
+2H	NAT	4	3	Elektriciteit	D31, D32	1	toets	0
+2H	NAT	5	4	Warmte	D30, D32	1	toets	0
+2H	NAT	6	4	Heelal	D32	1	toets	0
+2M	NAT	1	1	Licht	D28 ,D29, D31, D32	1	toets	0
+2M	NAT	2	2	Beweging	D32, D35	1	toets	0
+2M	NAT	3	2	Stoffen	D32, D33	1	toets	0
+2M	NAT	4	3	Elektriciteit	D31, D32	1	toets	0
+2M	NAT	5	4	Warmte	D30, D32	1	toets	0
+2M	NAT	6	4	Heelal	D32	1	toets	0
+3A	NAT	1	1	Geluid	D28, D34	1	toets	0
+3A	NAT	2	2	Kracht en beweging	D28, D29, D32, D33, D35	1	toets	0
+3A	NAT	3	2	Energie	D28, D30, D31, D32, D33	1	toets	0
+3A	NAT	4	3	Elektriciteit	D28, D32, D35	1	toets	0
+3A	NAT	5	4	Straling	D28, D29, D32	1	toets	0
+3A	NAT	6	4	Materialen	D28, D32	1	toets	0
+3H	NAT	1	1	Geluid	D28, D34	1	toets	0
+3H	NAT	2	2	Kracht en beweging	D28, D29, D32, D33, D35	1	toets	0
+3H	NAT	3	2	Energie	D28, D30, D31, D32, D33	1	toets	0
+3H	NAT	4	3	Elektriciteit	D28, D32, D35	1	toets	0
+3H	NAT	5	4	Straling	D28, D29, D32	1	toets	0
+3H	NAT	6	4	Materialen	D28, D32	1	toets	0
+3M	NAT	1	1	Krachten	D28, D29, D32, D33, D35	1	toets	0
+3M	NAT	2	2	Elektriciteit	D28, D32, D35	1	toets	0
+3M	NAT	3	2	Energie en Weer	D28, D30, D31, D32, D33	1	toets	0
+3M	NAT	4	3	Licht	D28, D29, D32	1	toets	0
+3M	NAT	5	4	Materie	D28, D32	1	toets	0
+3M	NAT	6	4	Straling	D28, D29, D30, D31, D32, D35	1	toets	0
+1A	NE	1	1	NieuwNederlands hoofdstuk 1	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1A	NE	2	2	NieuwNederlands hoofdstuk 2	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1A	NE	3	2	NieuwNederlands hoofdstuk 3	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1A	NE	4	3	NieuwNederlands hoofdstuk 4	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1A	NE	5	3	NieuwNederlands hoofdstuk 5	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1A	NE	6	4	NieuwNederlands hoofdstuk 6	kerndoelen SLO VO OB Nederlands: 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+1HA	NE	1	1	Leesvaardigheid H1, 2 en 3. (incl.Woordenschat H1 ,2 en 3)     	De leerling leert strategieën te gebruiken voor het uitbreiden van zijn woordenschat. /De leerling leert strategieën te gebruiken bij het verwerven van informatie uit geschreven teksten./De leerling leert  informatieve teksten te lezen die aan zijn belangstelling tegemoet komen en zijn belevingswereld uitbreiden.	2	toets	0
+1HA	NE	2	2	Schrijfvaardigheid, een korte tekst schrijven (werkwoordspelling, hoofdletters, leestekens, Formuleren)	"De leerling leert zich schriftelijk begrijpelijk uit te drukken./ De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen,
+woordgebruik) en leert het belang van die conventies te zien."	2	toets	0
+1HA	NE	3	2	Grammatica: zinsdelen en woordsoorten	De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen, woordgebruik) en leert het belang van die conventies te zien.	2	toets	0
+1HA	NE	4	3	Boekpresentatie	De leerling leert zich mondeling en schriftelijk begrijpelijk uit te drukken./ De leerling leert een mondelinge presentatie te geven./ De leerling leert taalactiviteiten (spreken, luisteren) planmatig voor te bereiden en uit te voeren./ De leerling leert verhalen te lezen die aan zijn belangstelling tegemoet komen en zijn belevingswereld uitbreiden.	2	PO	0
+1HA	NE	5	3	Leesvaardigheid H4, 5 en 6. (incl.Woordenschat H4, 5 en 6)	De leerling leert strategieën te gebruiken voor het uitbreiden van zijn woordenschat. /De leerling leert strategieën te gebruiken bij het verwerven van informatie uit geschreven teksten./De leerling leert  informatieve teksten te lezen die aan zijn belangstelling tegemoet komen en zijn belevingswereld uitbreiden.	2	toets	0
+1HA	NE	6	4	Schrijfvaardigheid, Flyer maken (Spelling en Formuleren)	De leerling leert zich schriftelijk begrijpelijk uit te drukken./ De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen, woordgebruik) en leert het belang van die conventies te zien.	1	PO	0
+1MH	NE	1	1	Leesvaardigheid H1, 2 en 3. (incl.Woordenschat H1 ,2 en 3)     	Kerndoelen 3, 4, 5, 9 en 10	2	toets	0
+1MH	NE	2	2	Schrijfvaardigheid, een korte tekst schrijven (werkwoordspelling, hoofdletters, leestekens, Formuleren)	Kerndoelen 1, 2, 9 en 10	2	toets	0
+1MH	NE	3	2	Grammatica: zinsdelen en woordsoorten	Kerndoelen 2	2	toets	0
+1MH	NE	4	3	Boekpresentatie	Kerndoelen 1, 5, 8, 9 en 10	1	PO	0
+1MH	NE	5	3	Spelling en Formuleren H1 t/m H6	Kerndoelen 1, 2, 9 en 10	2	toets	0
+1MH	NE	6	4	Leesvaardigheid H4, 5 en 6. (incl.Woordenschat H4, 5 en 6)	Kerndoelen 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	1	1	NieuwNederlands hoofdstuk 1	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	2	2	NieuwNederlands hoofdstuk 2	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	3	2	NieuwNederlands hoofdstuk 3	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	4	3	NieuwNederlands hoofdstuk 4	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	5	3	NieuwNederlands hoofdstuk 5	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2A	NE	6	4	NieuwNederlands hoofdstuk 6	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+2H	NE	1	1	Leesvaardigheid H1, 2 en 3.	De leerling leert strategieën te gebruiken voor het uitbreiden van zijn woordenschat. /De leerling leert strategieën te gebruiken bij het verwerven van informatie uit geschreven teksten./De leerling leert  informatieve teksten te lezen die aan zijn belangstelling tegemoet komen en zijn belevingswereld uitbreiden.	2	toets	0
+2H	NE	2	2	Schrijfvaardigheid: een zakelijke e-mail  (Spelling, hoofdletters, leestekens, Formuleren)	"De leerling leert zich schriftelijk begrijpelijk uit te drukken./ De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen,
+woordgebruik) en leert het belang van die conventies te zien."	2	toets	0
+2H	NE	3	2	Grammatica: zinsdelen en woordsoorten	De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen, woordgebruik) en leert het belang van die conventies te zien.	2	toets	0
+2H	NE	4	3	Een informerende presentatie	De leerling leert zich mondeling en schriftelijk begrijpelijk uit te drukken./ De leerling leert een mondelinge presentatie te geven./ De leerling leert taalactiviteiten (spreken, luisteren) planmatig voor te bereiden en uit te voeren./ De leerling leert in schriftelijke en digitale bronnen informatie te zoeken, te ordenen en te beoordelen op waarde voor hemzelf en anderen. 	2	PO	0
+2H	NE	5	3	Leesvaardigheid H4, 5 en 6	De leerling leert strategieën te gebruiken voor het uitbreiden van zijn woordenschat. /De leerling leert strategieën te gebruiken bij het verwerven van informatie uit geschreven teksten./De leerling leert  informatieve teksten te lezen die aan zijn belangstelling tegemoet komen en zijn belevingswereld uitbreiden.	2	toets	0
+2H	NE	6	4	Schrijfvaardigheid: een beoordeling schrijven over een leesboek  (Fictie, Spelling en Formuleren, Formuleren)	"De leerling leert zich schriftelijk begrijpelijk uit te drukken./ De leerling leert zich te houden aan conventies (spelling, grammaticaal correcte zinnen,woordgebruik) en leert het belang van die conventies te zien./  De leerling leert verhalen  te lezen die aan zijn
+belangstelling tegemoet komen en zijn belevingswereld uitbreiden."	2	toets	0
+2M	NE	1	1	  Leesvaardigheid/ Woordenschat Deel 1	KERNDOELEN: 1, 3, 4, 5, 8, 9 en 10	2	toets	0
+2M	NE	2	2	Grammatica  zinsdelen en woordsoorten	KERNDOELEN: 2, 3, 6, 10	1	toets	0
+2M	NE	3	2	Project 'Er was eens..' Schrijfvaardigheid (spellen/ formuleren) Leesvaardigheid, Spreekvaardigheid en Fictie	KERNDOELEN: 1, 2, 3, 4, 5, 6, 7, 8, 9 en 10	0	Handelingsdeel	0
+2M	NE	4	3	Project 'Er was eens..' Schrijfvaardigheid (spellen/ formuleren) Leesvaardigheid, Spreekvaardigheid en Fictie	KERNDOELEN: 1, 2, 3, 4, 5, 6, 7, 8, 9 en 10	0	Handelingsdeel	0
+2M	NE	5	4	Leesvaardigheid/ Woordenschat Deel 2	KERNDOELEN: 1,3,4,5,8,9 en 10	2	toets	0
+2M	NE	6	4	Schrijfvaardigheid (brief/e-mail) 	KERNDOELEN: 1, 2, 3, 4, 5, 9 en 10	1	toets	0
+3A	NE	1	1	NieuwNederlands hoofdstuk 1	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+3A	NE	2	2	NieuwNederlands hoofdstuk 2	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+3A	NE	3	2	NieuwNederlands hoofdstuk 3	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+3A	NE	4	3	NieuwNederlands hoofdstuk 4	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+3A	NE	5	3	NieuwNederlands hoofdstuk 5 en 6	kerndoelen SLO VO OB Nederlands 1, 2, 3, 4, 5, 9 en 10	2	toets	0
+3A	NE	6	4	project Tralievader	kerndoelen SLO VO OB Nederlands 1, 4, 5, 6, 7, 8, 9 en 10	2	PO	Gs
+3H	NE	1	1	onderdelen van spelling, grammatica en woordenschat & formuleren	kerndoelen 1, 2, 3	2	toets	0
+3H	NE	2	2	lezen en argumenteren 	kerndoelen 1,2, 3	2	toets	0
+3H	NE	3	2	betoog en argumenteren en spreken	kerndoelen  1, 2, 4, 5, 6, 7, 9, 10 	2	PO	0
+3H	NE	4	3	delen van woordenschat	kerndoelen 1, 2, 4, 5	2	toets	0
+3H	NE	5	4	fictie en presenteren	kerndoelen 1, 2, 7, 8, 9, 10	2	PO	0
+3H	NE	6	4	lezen en argumenteren	kerndoelen 1, 2	2	toets	0
+3M	NE	1	4	Fictie	kerndoelen 1, 2, 7, 8, 9, 10	2	PO	0
+3M	NE	2	1	Leesvaardigheid en woordenschat	kerndoelen 1, 2, 3, 4, 5, 10	2	Toets	0
+3M	NE	3	2	Kijken en luisteren	kerndoelen 4, 9	2	Toets	0
+3M	NE	4	2	Schrijfvaardigheid, formuleren en spelling.	kerndoelen 1, 2, 3, 9, 10	2	Toets	0
+3M	NE	5	3	Spreekvaardigheid	kerndoelen  1, 2, 4, 5, 6, 7, 9, 10	2	Handelingsdeel	0
+3M	NE	6	4	Leesvaardigheid en woordenschat	kerndoelen 1, 2, 3, 4, 5, 10	2	Toets	0
+1A	SK	1	0	0	0	0	0	0
+1A	SK	2	0	0	0	0	0	0
+1A	SK	3	0	0	0	0	0	0
+1A	SK	4	0	0	0	0	0	0
+1A	SK	5	0	0	0	0	0	0
+1A	SK	6	0	0	0	0	0	0
+1HA	SK	1	1	0	0	0	0	0
+1HA	SK	2	0	0	0	0	0	0
+1HA	SK	3	0	0	0	0	0	0
+1HA	SK	4	0	0	0	0	0	0
+1HA	SK	5	0	0	0	0	0	0
+1HA	SK	6	0	0	0	0	0	0
+1MH	SK	1	1	0	0	0	0	0
+1MH	SK	2	0	0	0	0	0	0
+1MH	SK	3	0	0	0	0	0	0
+1MH	SK	4	0	0	0	0	0	0
+1MH	SK	5	0	0	0	0	0	0
+1MH	SK	6	0	0	0	0	0	0
+2A	SK	1	1	0	0	0	0	0
+2A	SK	2	0	0	0	0	0	0
+2A	SK	3	0	0	0	0	0	0
+2A	SK	4	0	0	0	0	0	0
+2A	SK	5	0	0	0	0	0	0
+2A	SK	6	0	0	0	0	0	0
+2H	SK	1	1	0	0	0	0	0
+2H	SK	2	0	0	0	0	0	0
+2H	SK	3	0	0	0	0	0	0
+2H	SK	4	0	0	0	0	0	0
+2H	SK	5	0	0	0	0	0	0
+2H	SK	6	0	0	0	0	0	0
+2M	SK	1	1	0	0	0	0	0
+2M	SK	2	0	0	0	0	0	0
+2M	SK	3	0	0	0	0	0	0
+2M	SK	4	0	0	0	0	0	0
+2M	SK	5	0	0	0	0	0	0
+2M	SK	6	0	0	0	0	0	0
+3A	SK	1	1	PW H1 Scheikunde is overal	29 30 31 32	2	toets	0
+3A	SK	2	2	PW H1 t/m 3 (Scheikunde is overal, scheidingsmethoden, bouwstenen van stoffen	29 32	2	toets	0
+3A	SK	3	2	PO scheidingsmethoden	28 29 32	1	PO	0
+3A	SK	4	3	SO reactievergelijkingen	32	1	toets	0
+3A	SK	5	3	PW H4 en 5 (chemische reacties, reacties en energie,  basiskennis H1 t/m 3)	32	2	toets	0
+3A	SK	6	4	PW H6 en 7 (chemische industrie, een indeling van stoffen)	29 30 31 32	2	toets	 
+3H	SK	1	1	PW H1 Scheikunde is overal	29 30 31 32	2	toets	0
+3H	SK	2	2	PW H1 t/m 3 (Scheikunde is overal, scheidingsmethoden, bouwstenen van stoffen	29 32	2	toets	0
+3H	SK	3	2	PO scheidingsmethoden	28 29 32	1	PO	0
+3H	SK	4	3	SO reactievergelijkingen	32	1	toets	0
+3H	SK	5	3	PW H4 en 5 (chemische reacties, reacties en energie,  basiskennis H1 t/m 3)	32	2	toets	0
+3H	SK	6	4	PW H6 en 7 (chemische industrie, een indeling van stoffen)	29 30 31 32	2	toets	0
+3M	SK	1	1	H1	29 31 32	3	toets	0
+3M	SK	2	1	H2 met basiskennis uit H1	29 31 32	2	toets	0
+3M	SK	3	2	H2 en 3 met basiskennis uit H1	29 30 31 32	3	toets	0
+3M	SK	4	3	H4 en 5 met basiskennis uit de vorige hoofdstukken	29 31 32	3	toets	0
+3M	SK	5	4	H6 met basiskennis uit de vorige hoofdstukken	29 31 32	3	toets	0
+3M	SK	6	4	PO scheikundige vaardigheden	28 29  	2	PO	0
+1A	WI	1	1	Hoofdstuk 1 Geodriehoek en passer en Hoofdstuk 2 Ruimtefiguren en Hoofdstuk 3 Getallen	C 19, 20, 21, 22, 23, 26, 27	2	toets	0
+1A	WI	2	1	Hoofdstuk 4 Grafieken en Hoofdstuk 5 Lijnen en hoeken	C 19, 20, 21, 23, 24,2 5, 26, 27	2	toets	0
+1A	WI	3	2	Hoofdstuk 6 Verhoudingen en Hoofdstuk 7 Woordformules	C 19, 20, 21, 22, 23, 25, 27	2	toets	0
+1A	WI	4	3	Hoofdstuk 8 Rekenen en                   Hoofdstuk 9 Negatieve getallen	C 19, 20, 21, 22, 27	2	toets	0
+1A	WI	5	4	Hoofdstuk 10 Formules en vergelijkingen en Hoofdstuk 11 Oppervlakte en inhoud	C 19, 20, 21, 22, 23, 24, 25, 26, 27 = alles	2	po	0
+1A	WI	6	4	Hoofdstuk 12 Rekenen met variabelen en Hoofdstuk 13 Vlakke figuren	C 19, 20, 21, 22, 23, 24, 25, 26, 27 = alles	2	toets	0
+1HA	WI	1	1	Hoofdstuk 1 Geodriehoek en passer Hoofdstuk 2 Ruimtefiguren Hoofdstuk 3 Getallen	Kerndoelen 19, 20, 21, 22, 24, 26, 27	2	toets	0
+1HA	WI	2	1	Hoofdstuk 4 Grafieken Hoofdstuk 5 Lijnen en hoeken                	Kerndoelen 19, 20, 21, 23, 24, 25, 26, 27	2	toets	0
+1HA	WI	3	2	Hoofdstuk 6 Verhoudingen Hoofdstuk 7 Woortdformules                  	Kerndoelen19, 20, 21, 22, 25, 26, 27	2	toets	0
+1HA	WI	4	3	Hoofdstuk 8  Rekenen Hoofdstuk 9 Negatieve getallen	Kerndoelen 19, 20, 21, 22, 26, 27	2	toets	0
+1HA	WI	5	4	Hoofdstuk 10 Formules en vergelijkingen Hoofdstuk 11 Oppervlakte en inhoud   	Kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27 	2	po	0
+1HA	WI	6	4	Hoofdstuk 12 Rekenen met variabelen Hoofdstuk 13 vlakke figuren	Kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27 	2	toets	0
+1MH	WI	1	1	Hoofdstuk 1 Geodriehoek en passer en Hoofdstuk 2 Ruimtefiguren	C 19, 20, 21, 24, 26	2	toets	0
+1MH	WI	2	1	 Hoofdstuk 3 Getallen en Hoofdstuk 4 Grafieken	C 19, 20, 21, 22, 23, 25, 27	2	toets	0
+1MH	WI	3	2	Hoofdstuk 5 Lijnen en hoeken en Hoofdstuk 6 Verhoudingen en Hoofdstuk 7 Woordformules	C 19, 20, 21, 22, 23, 24, 25, 26, 27 = alles	3	toets	0
+1MH	WI	4	3	Hoofdstuk 8 Rekenen en Hoofdstuk 9 Negatieve getallen	C 19, 20, 21, 22, 23, 24, 26, 27	2	po	0
+1MH	WI	5	4	Hoofdstuk 10 Breuken en Hoofdstuk 11 Inhoud	C 19, 20, 21, 22, 23, 24, 26, 27	2	toets	0
+1MH	WI	6	4	Hoofdstuk 12 Vergelijkingen en Hoofdstuk 13 Vlakke figuren 	C 19, 20, 21, 22, 23, 24, 25, 26, 27 = alles	2	toets	0
+2A	WI	1	1	H1 Lineaire formules en H2 Statistiek	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+2A	WI	2	1	H3 Wortels en H4 Gelijkvormigheid	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2A	WI	3	2	H5 Kwadratische formules en H6 Stelling van Pythagoras	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2A	WI	4	3	H7 Procentuele groei en H8 Oppervlakte	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2A	WI	5	3	H9 Lineaire vergelijkingen en H10 Ruimtemeetkunde	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2A	WI	6	4	H11 Ontbinden in factoren en H12 Kijk op kans	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+2H	WI	1	1	hoofdstuk 1 Lineaire formules hoofdstuk 5 Kwadratische formules	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+2H	WI	2	1	hoofstuk 2 Statistiek hoofdstuk 3 Wortels 	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2H	WI	3	2	hoofstuk 4 Gelijkvormigheid hoofdstuk 6 De stelling van Pythagoras	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2H	WI	4	2	hoofdstuk 7 Procentuele groei hoofdstuk 9 Lineaire vergelijkingen	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+2H	WI	5	3	hoofstuk 8 Oppervlakte hoofdstuk 10 Ruimtemeetkunde	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+2H	WI	6	4	hoofdstuk11 ontbinden in factoren hoofdstuk 12 Kijk op kans	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+2M	WI	1	1	H1 Getallen + H2 Formules	A1, A2, A3, B1, B2, E1, E2, E3, E4	2	toets	0
+2M	WI	2	1	H3 Oppervlakte + H4 Procenten	A1, A2, A3, B1, B2, C, D1, D2, 	2	toets	0
+2M	WI	3	2	H5 Lineaire formules + H6 Vergrotingen	A1, A2, A3, B1, B2, C, D1, D2, E1, E2, E3, E4	2	toets	0
+2M	WI	4	3	H7 Stelling v Pythagoras + H8 Vergelijkingen	A1, A2, A3, B1, B2, D1, E1, E2, E3, E4	2	toets	0
+2M	WI	5	3	H9 Cirkels en cilinders + H10 Verbanden	A1, A2, A3, B1, B2, D1, D2, E1, E2, E3, E4	2	toets	0
+2M	WI	6	4	H11 Tekenen en rekenen + H12 Statistiek	A1, A2, A3, B1, B2, C, D1, D2, E1, E3	2	PO	0
+3A	WI	1	1	hoofdstuk 1. Lineaire en exponentiële formules en hoofdstuk 2. Parabolen	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3A	WI	2	1	hoofdstuk 3. Vlakke figuren en hoofdstuk 4. ABC-formule	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3A	WI	3	2	hoofdstuk 5. Nieuwe grafieken en hoofdstuk 6. Goniometrie	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3A	WI	4	3	hoofdstuk 7. Verbanden en hoofdstuk 8. Statistiek	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3A	WI	5	3	hoofdstuk 9. Rekenen met variabelen en hoofdstuk 10. Bijzondere lijnen in vierhoeken	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	PO	0
+3A	WI	6	4	wiskunde A: hoofdstuk 11A Vergelijkingen en ongelijkheden en hoofdstuk 12A. Zicht op toeval en wiskunde B: hoofdstuk 11B Vergelijkingen en ongelijkheden en hoofdstuk 12B. Cirkels	wiskunde A: kerndoelen 19, 20, 21, 22, 23, 25, 26, 27 wiskunde B: kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3H	WI	1	1	hoofdstuk 1. Lineaire en exponentiële formules en hoofdstuk 2. Parabolen	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3H	WI	2	1	hoofdstuk 3. Vlakke figuren en hoofdstuk 4. ABC-formule	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3H	WI	3	2	hoofdstuk 5. Nieuwe grafieken en hoofdstuk 6. Goniometrie	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3H	WI	4	3	hoofdstuk 7. Verbanden en hoofdstuk 8. Statistiek	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3H	WI	5	3	hoofdstuk 9. Rekenen met variabelen en hoofdstuk 10. Bijzondere lijnen in driehoeken	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	PO	0
+3H	WI	6	4	wiskunde A: hoofdstuk 11A Vergelijkingen en ongelijkheden en hoofdstuk 12A. Rekenen wiskunde B: hoofdstuk 11B Vergelijkingen en ongelijkheden en hoofdstuk 12B. Lijnen en cirkels	wiskunde A: kerndoelen 19, 20, 21, 22, 23, 25, 26, 27 wiskunde B: kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3M	WI	1	1	H1 Formules en grafieken en H2 Plaats en afstand	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3M	WI	2	1	H3 Rekenen met formules en H4 Werken met aantallen	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3M	WI	3	2	H5 Gelijkvormigheid en H6 Statistiek	kerndoelen 19, 20, 21, 22, 23, 25, 26, 27	2	toets	0
+3M	WI	4	3	H7 Vergelijkingen oplossen en H8 Hellingen en tangens	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3M	WI	5	3	H9 Meten en redeneren en H10 Grafieken	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
+3M	WI	6	4	H11 Oppervlakte en inhoud en H12 Grafen	kerndoelen 19, 20, 21, 22, 23, 24, 25, 26, 27	2	toets	0
