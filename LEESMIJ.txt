@@ -1,0 +1,8 @@
+https://github.com/PHPOffice/PhpSpreadsheet
+>> https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-files/
+
+https://phpspreadsheet.readthedocs.io/en/latest/
+>> composer require phpoffice/phpspreadsheet gebruikt
+
+ls -l [geeft overzicht bestandsrechten]
+chmod ugo+rwx voorbeeld.txt [verandert rechten]
