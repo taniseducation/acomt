@@ -27,15 +27,27 @@ $inputFileName = "2sheets.xlsx";
 
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 
-$reader->setLoadSheetsOnly(["beheer"]);
 $spreadsheet = $reader->load($inputFileName);
 $writer = IOFactory::createWriter($spreadsheet, 'Html');
-$message = $writer->save('php://output');
+
+$loadedSheetNames = $spreadsheet->getSheetNames();
+foreach ($loadedSheetNames as $sheetIndex => $loadedSheetName) {
+    echo $loadedSheetName."<br>";
+}
+$spreadsheet->setActiveSheetIndexByName("beheer");
+$sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);
+echo '<PRE>';
+print_r($sheetData);
+echo '</PRE>';
+// var_dump($sheetData);
+
+
+// $message = $writer->save('php://output');
 
 $reader->setLoadSheetsOnly(["geheim"]);
 $spreadsheet = $reader->load($inputFileName);
 $writer = IOFactory::createWriter($spreadsheet, 'Html');
-$message = $writer->save('php://output');
+// $message = $writer->save('php://output');
 
 
 

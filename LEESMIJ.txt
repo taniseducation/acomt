@@ -6,3 +6,6 @@ https://phpspreadsheet.readthedocs.io/en/latest/
 
 ls -l [geeft overzicht bestandsrechten]
 chmod ugo+rwx voorbeeld.txt [verandert rechten]
+
+sample-link:
+https://8001-dedc2bcf-c5ad-4705-bc1f-c5a1d6e4344f.ws-eu01.gitpod.io/vendor/phpoffice/samples/Reader/test.php
