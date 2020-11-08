@@ -9,11 +9,3 @@ chmod ugo+rwx voorbeeld.txt [verandert rechten]
 
 sample-link:
 https://8001-dedc2bcf-c5ad-4705-bc1f-c5a1d6e4344f.ws-eu01.gitpod.io/vendor/phpoffice/samples/Reader/test.php
-
-memory-limit:
-https://techpp.com/2009/07/10/how-to-fix-php-fatal-error-out-of-memory/
-GEDAAN: 
-
-You can changed the php.ini:
-memory_limit = -1
-https://stackoverflow.com/questions/37179028/php-fatal-error-out-of-memory-allocated-1707606016-tried-to-allocate-4266806

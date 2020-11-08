@@ -4,7 +4,7 @@
         <title>mentor</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
-    <body style="width: 100%; padding-left: 30%; font-size: 2em;">
+    <body style="width: 100%; padding: 0; margin: 0; padding-left: 30%; font-size: 2em;">
         <h2 id="settings">php output</h2>
         <div id="PHPoutput" style="font-size: 0.5em; color: darkgrey";>
 
@@ -13,7 +13,6 @@ require('main.php');
 ?>
 
         </div>
-        <h2>rebuild!</h2>
         <div style="display: none;">
             basisontwerp:
             <ul>

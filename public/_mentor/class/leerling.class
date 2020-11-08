@@ -28,5 +28,20 @@ class Leerling {
   function get_klas() {
     return $this->klas;
   }
+  function get_laag() {
+    return $this->laag;
+  }
+  function get_laagVolgNummer() {
+    return $this->laagVolgNummer;
+  }
+  function toon_beoordelingen() {
+      $nr = 0;
+      foreach ($this->beoordeling as $b) {
+          echo $this->vakkenPakket[$nr].': ';
+          echo $b['D'].' | '.$b['E'].' | '.$b['F'].' | '.$b['G'];
+          echo '<br>';
+          $nr++;
+      }
+  }
 }
 ?>

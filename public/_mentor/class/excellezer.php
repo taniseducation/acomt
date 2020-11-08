@@ -2,6 +2,29 @@
 require '../../vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
+
+class MyReadFilter implements IReadFilter
+{
+    private $startRow = 0;
+    private $endRow = 0;
+    private $columns = [];
+    public function __construct($startRow, $endRow, $columns)
+    {
+        $this->startRow = $startRow;
+        $this->endRow = $endRow;
+        $this->columns = $columns;
+    }
+    public function readCell($column, $row, $worksheetName = '')
+    {
+        if ($row >= $this->startRow && $row <= $this->endRow) {
+            if (in_array($column, $this->columns)) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
 
 $filePath = 'fileExcel/';
 $excelVak = $vakCodeLijst[0];
@@ -21,8 +44,7 @@ if (empty($worksheetLijst)) {
     // verwijder beheer en klassen
     array_splice($loadedSheetNames,count($loadedSheetNames)-2);
     $leerLaagLijst = $loadedSheetNames;
-    // ** tijdelijk voor minder data
-    $leerLaagLijst = ['A4','A5'];
+    $leerLaagLijst = $handmatigeLeerLaagLijst;
     foreach ($leerLaagLijst as $laag) {
         ${$laag} = new Leerlaag($laag);
         $spreadsheet->setActiveSheetIndexByName($laag);
@@ -54,6 +76,11 @@ foreach ($vakCodeLijst as $excelVak) {
     $fileNAmeEnd = ' inventarisatie leerlingen.xlsx';
     $inputFileName = $filePath.$excelVak.$fileNAmeEnd;
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+    // geheugenprobleem
+    $reader->setLoadSheetsOnly($leerLaagLijst);
+    $filterSubset = new MyReadFilter($indexEersteLeerling,max($laagAantalLijst)+$indexEersteLeerling-1,range('B','S'));
+    $reader->setReadFilter($filterSubset);
+    // geheugenprobleem
     $spreadsheet = $reader->load($inputFileName);
     foreach ($leerLaagLijst as $laag) {
         $spreadsheet->setActiveSheetIndexByName($laag);
@@ -68,15 +95,23 @@ foreach ($vakCodeLijst as $excelVak) {
     }
 }
 
-echo '<h1>break</h1>';
+/*
+
+echo '<h3>In memory:</h3>';
+echo '<PRE>';
+print_r($laagAantalLijst);
+print_r($klasAantalLijst);
+print_r($klasNaamLijst);
+echo '</PRE>';
+
+// leerling
 echo '<PRE>';
 print_r($A50);
 echo '</PRE>';
 
-/*
-// leerling
+echo '<h1>break</h1>';
 echo '<PRE>';
-print_r($A50);
+print_r($A546); laatste van klas vwo-5
 echo '</PRE>';
 
 // klas
