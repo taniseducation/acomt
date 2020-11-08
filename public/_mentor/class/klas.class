@@ -1,5 +1,5 @@
 <?PHP
-class Leerlaag {
+class Klas {
   public $naam;
   public $llLijst;
   public aantal;
@@ -16,6 +16,6 @@ class Leerlaag {
   }
  function get_llLijst() {
     return $this->llLijst;
-  }  
+  } 
 }
 ?>

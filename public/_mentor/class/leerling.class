@@ -1,11 +1,26 @@
 <?PHP
 class Leerling {
   public $naam;
+  public $laag;
   public $klas;
+  public $laagVariabele;
+  public $laagVolgNummer;
+  public $klasVariabele;
 
-  function __construct($naam,$klas) {
+  function __construct($naam,$laag,$laagVariabele,$laagVolgNummer,$klas,$klasVariabele,$klasVolgNummer) {
     $this->naam = $naam;
+    $this->laag = $laag;
+    $this->laagVariabele = $laagVariabele;
+    $this->laagVolgNummer = $laagVolgNummer;
     $this->klas = $klas;
+    $this->klasVariabele = $klasVariabele;
+    $this->klasVolgNummer = $klasVolgNummer;
+    $this->vakkenPakket = [];
+    $this->beoordeling = [];
+  }
+  function voegBeoordelingToe($vak,$rij) {
+      array_push($this->vakkenPakket,$vak);
+      $this->beoordeling[$vak]=$rij;
   }
   function get_naam() {
     return $this->naam;
@@ -14,7 +29,4 @@ class Leerling {
     return $this->klas;
   }
 }
-
-// $A5A1 = new Leerling("Jules","A5A");
-// echo $A5A1->get_naam();
 ?>

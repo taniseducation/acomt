@@ -10,10 +10,6 @@ $inputFileName = $filePath.$excelVak.$fileNAmeEnd;
 
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 
-// hier moet nog een for-each vakkenlijst
-// hier moet nog een for-each vakkenlijst
-// hier moet nog een for-each vakkenlijst
-
 $spreadsheet = $reader->load($inputFileName);
 $loadedSheetNames = $spreadsheet->getSheetNames();
 
@@ -28,50 +24,70 @@ if (empty($worksheetLijst)) {
     // ** tijdelijk voor minder data
     $leerLaagLijst = ['A4','A5'];
     foreach ($leerLaagLijst as $laag) {
-        ${'laag'.$laag} = new Leerlaag($laag);
-        // echo ${'laag'.$laag}->get_naam().'toegevoegd<br>';
-
-        echo "<h5>huidige laag: $laag</h5>";
+        ${$laag} = new Leerlaag($laag);
         $spreadsheet->setActiveSheetIndexByName($laag);
         $sheetData = $spreadsheet->getActiveSheet()->toArray(null,true,true,true);
-        $index = 4;
+        $index = $indexEersteLeerling;
         while ($sheetData[$index]['B'] != null) {
-            //echo $sheetData[$index]['B'].'<br>';
-            ${'laag'.$laag}->voegLeerlingToe($sheetData[$index]['B'],$sheetData[$index]['C']);
+            $nr = $index - 4;
+            $laagVariabele = $laag.$nr;
+            // check of de klas al in de lijst staat; zo niet: toevoegen om volgnummer te kunnen genereren
+            if (!in_array($sheetData[$index]['C'],$klasNaamLijst)) {
+                array_push($klasNaamLijst,$sheetData[$index]['C']);
+                // maak een lege array voor een nieuwe klas
+                ${$sheetData[$index]['C']} = new Klas($sheetData[$index]['C']);
+                $klasAantalLijst[$sheetData[$index]['C']] = 0;
+            }
+            $klasVariabele = $sheetData[$index]['C'].$klasAantalLijst[$sheetData[$index]['C']];
+            ${$laag.$nr} = new Leerling($sheetData[$index]['B'],$laag,$laagVariabele,$nr,$sheetData[$index]['C'],$klasVariabele,$klasAantalLijst[$sheetData[$index]['C']]);
+            ${$laag}->voegLeerlingToe(${$laag.$nr});
+            ${$sheetData[$index]['C']}->voegLeerlingToe(${$laag.$nr});
+            $klasAantalLijst[$sheetData[$index]['C']]++;
             $index++;
+        }
+        $laagAantalLijst[$laag] = $nr + 1;
+    }
+}
+
+// nu de lagen, klassen en leerlingen zijn gegenereerd gaan we beoordelingen verzamelen
+foreach ($vakCodeLijst as $excelVak) {
+    $fileNAmeEnd = ' inventarisatie leerlingen.xlsx';
+    $inputFileName = $filePath.$excelVak.$fileNAmeEnd;
+    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+    $spreadsheet = $reader->load($inputFileName);
+    foreach ($leerLaagLijst as $laag) {
+        $spreadsheet->setActiveSheetIndexByName($laag);
+        $sheetData = $spreadsheet->getActiveSheet()->toArray(null,true,true,true);
+        $aantalLeerLaag = count(${$laag}->llLijst);
+        for ($l = 0; $l < $aantalLeerLaag; $l++) {
+            // check of er een beoordeling voor deze leerling bestaat
+            if ($sheetData[$l+$indexEersteLeerling]['D'] != 'kies...') {
+                ${$laag.$l}->voegBeoordelingToe($excelVak,$sheetData[$l+$indexEersteLeerling]);
+            }
         }
     }
 }
 
-/* eerst object leerling aanmaken
-foreach ($leerLaagLijst as $laag) {
-    // de lagen en leerlingen bestaan: nu beoordelingen registreren
-    // aanduiding was ${'laag'.$laag} = new Leerlaag($laag);
-    $spreadsheet->setActiveSheetIndexByName($laag);
-    $sheetData = $spreadsheet->getActiveSheet()->toArray(null,true,true,true);
-    $index = 4;
-    while ($sheetData[$index]['B'] != null) {
-        //echo $sheetData[$index]['B'].'<br>';
-        ${'laag'.$laag}->voegLeerlingToe($sheetData[$index]['B']);
-        $index++;
-    }
-}
-*/
-// ALS HET GOED IS KUN JE LARS BIEK NU OM ZIJN NAAM VRAGEN
-
+echo '<h1>break</h1>';
 echo '<PRE>';
-// print_r($laagA5->get_llLijst());
-// $lijst = $laagA5->get_llLijst();
-//echo $lijst[0]->get_naam().'<br>'; // toont eerste leerling van de klas
-print_r($aa4a0);
-print_r($laagA5);
-// print_r($leerLaagLijst);
+// print_r($A5);
 echo '</PRE>';
 
+/*
+// leerling
+echo '<PRE>';
+print_r($A50);
+echo '</PRE>';
 
-// hier moet nog een for-each vakkenlijst
-// hier moet nog een for-each vakkenlijst
-// hier moet nog een for-each vakkenlijst
+// klas
+echo '<PRE>';
+print_r($aa5a);
+echo '</PRE>';
+
+// leerlaag
+echo '<PRE>';
+print_r($A5);
+echo '</PRE>';
 
 // var_dump($sheetData);
 // $message = $writer->save('php://output');
@@ -82,3 +98,7 @@ echo '</PRE>';
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+*/
+?>
