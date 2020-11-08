@@ -1,0 +1,20 @@
+<?PHP
+class Leerling {
+  public $naam;
+  public $klas;
+
+  function __construct($naam,$klas) {
+    $this->naam = $naam;
+    $this->klas = $klas;
+  }
+  function get_naam() {
+    return $this->naam;
+  }
+  function get_klas() {
+    return $this->klas;
+  }
+}
+
+// $A5A1 = new Leerling("Jules","A5A");
+// echo $A5A1->get_naam();
+?>

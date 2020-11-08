@@ -1,0 +1,34 @@
+<?PHP
+class Leerlaag {
+  public $naam;
+  public $llLijst;
+
+  function __construct($naam) {
+    $this->naam = $naam;
+    $this->llLijst = [];
+  }
+  function voegLeerlingToe($naam,$klas) {
+    // array_push($this->llLijst,$l); werkt met: ${'laag'.$laag}->voegLeerlingToe($sheetData[$index]['B']);
+    $nr = count($this->llLijst);
+    ${$klas.$nr} = new Leerling($naam,$klas);
+    if ($nr == 0) {
+        echo "<h1>De gemaakte variabele is ".$klas.$nr."</h1>";
+        echo '<PRE>';
+        print_r(${$klas.$nr});
+        //echo $lijst[0]->get_naam().'<br>'; // toont eerste leerling van de klas
+        echo '</PRE>';        
+    }
+    array_push($this->llLijst,${$klas.$nr});
+    // array_push($this->llLijst,new Leerling($naam,$klas));
+  }
+  function get_naam() {
+    return $this->naam;
+  }
+ function get_llLijst() {
+    return $this->llLijst;
+  }  
+}
+
+// $A5A1 = new Leerling("Jules","A5A");
+// echo $A5A1->get_naam();
+?>
