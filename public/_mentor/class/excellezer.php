@@ -35,7 +35,7 @@ if (empty($worksheetLijst)) {
             if (!in_array($sheetData[$index]['C'],$klasNaamLijst)) {
                 array_push($klasNaamLijst,$sheetData[$index]['C']);
                 // maak een lege array voor een nieuwe klas
-                ${$sheetData[$index]['C']} = new Klas($sheetData[$index]['C']);
+                ${$sheetData[$index]['C']} = new Leerlaag($sheetData[$index]['C']);
                 $klasAantalLijst[$sheetData[$index]['C']] = 0;
             }
             $klasVariabele = $sheetData[$index]['C'].$klasAantalLijst[$sheetData[$index]['C']];
@@ -70,7 +70,7 @@ foreach ($vakCodeLijst as $excelVak) {
 
 echo '<h1>break</h1>';
 echo '<PRE>';
-// print_r($A5);
+print_r($A50);
 echo '</PRE>';
 
 /*
@@ -88,17 +88,6 @@ echo '</PRE>';
 echo '<PRE>';
 print_r($A5);
 echo '</PRE>';
-
-// var_dump($sheetData);
-// $message = $writer->save('php://output');
-
-// $reader->setLoadSheetsOnly(["geheim"]);
-// $spreadsheet = $reader->load($inputFileName);
-// $writer = IOFactory::createWriter($spreadsheet, 'Html');
-
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 
 */
 ?>

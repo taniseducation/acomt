@@ -2,7 +2,7 @@
 class Leerlaag {
   public $naam;
   public $llLijst;
-  public aantal;
+  public $aantal;
 
   function __construct($naam) {
     $this->naam = $naam;
