@@ -34,6 +34,9 @@ class Leerling {
   function get_laagVolgNummer() {
     return $this->laagVolgNummer;
   }
+    function get_beoordeling() {
+    return $this->beoordeling;
+  }
   function toon_beoordelingen() {
       $nr = 0;
       foreach ($this->beoordeling as $b) {

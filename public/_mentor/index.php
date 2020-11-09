@@ -3,17 +3,17 @@
     <head>
         <title>mentor</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/stijl.css">
     </head>
-    <body style="width: 100%; padding: 0; margin: 0; padding-left: 30%; font-size: 2em;">
-        <h2 id="settings">php output</h2>
-        <div id="PHPoutput" style="font-size: 0.5em; color: darkgrey";>
+    <body>
+        <div id="PHPoutput">
 
 <?PHP
 require('main.php');
 ?>
 
         </div>
-        <div style="display: none;">
+        <div id="notes">
             basisontwerp:
             <ul>
                 <li>centrale constantes e.g. vaknamen => settings</li>
