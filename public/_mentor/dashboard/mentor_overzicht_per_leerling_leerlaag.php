@@ -1,6 +1,14 @@
 <?PHP
-// mentor_overzicht_per_leerling
-// toont alle ingevulde gegevens per leerling-record
+// mentor_overzicht_per_leerling_leerlaag
+// toont alle ingevulde gegevens per leerling-record voor een hele leerlaag
+
+$laag = null; 
+if( isset( $_GET['laag'])) {
+    $laag = $_GET['laag']; 
+    require('standaloneheader.php');
+    $handmatigeLeerLaagLijst = [$laag];
+    require('standaloneexcellezer.php');
+}
 
 foreach ($klasNaamLijst as $klas) {
     $lijst=${$klas}->get_llLijst();
@@ -28,5 +36,9 @@ foreach ($klasNaamLijst as $klas) {
         
         echo '<div class="pagebreak"></div>';
     }
+}
+
+if( isset( $_GET['laag'])) {
+    echo '</div></body></html>';
 }
 ?>

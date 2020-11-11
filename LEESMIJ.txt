@@ -4,6 +4,16 @@ https://github.com/PHPOffice/PhpSpreadsheet
 https://phpspreadsheet.readthedocs.io/en/latest/
 >> composer require phpoffice/phpspreadsheet gebruikt
 
+2PDF:
+****
+Harald: https://www.npmjs.com/package/phantom-html2pdf met NodeJS. Kan ook als executable.
+LIJSTJE:
+http://www.fpdf.org/ goede resources: ziet er verouderd uit
+https://tcpdf.org/examples/ spreekt aan qua code;
+    https://tcpdf.org/examples/example_006/ laat zien dat je in een open PDF per pagina html kunt pushen
+https://wkhtmltopdf.org/ geadviseerd als beste html=>PDF maar lijkt executable
+****
+
 ls -l [geeft overzicht bestandsrechten]
 chmod ugo+rwx voorbeeld.txt [verandert rechten]
 

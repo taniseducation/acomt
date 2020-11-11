@@ -12,8 +12,12 @@ require('class/leerlaag.class');
 
 // hoofdprogramma
 require('class/excellezer.php');
+// require('dashboard/genereer_overzicht_groepen.php');
+
+// require('class/pdfschrijver.php');
 
 // require('dashboard/beoordelingen_klasniveau_per_leerling.php');
-// require('dashboard/leerlingen_met_achterstanden.php');
-require('dashboard/mentor_overzicht_per_leerling.php');
+require('dashboard/leerlingen_met_achterstanden.php');
+// require('dashboard/mentor_overzicht_per_leerling_leerlaag.php');
+// require('dashboard/mentor_overzicht_per_leerling_stamklas.php');
 ?>
