@@ -10,13 +10,13 @@ var grootteKop = 60;
 var PTAType = 'niveau'; // 'vak' of 'niveau'
 var PTAsoort = 'A'; // A=PTA, B=PTB Bovenbouw
 var filterVak = 'NE';
-var filterNiveau = '4M';
+var filterNiveau = '4A';
 var voet = true;
 var waterMerk = false;
 var waterMerkTruc;
 // var fileNaam = 'PTAB_DEF_controle.txt';
 // var fileNaam = 'PTAB_def_deelraad.txt';
-var fileNaam = '_master PTAB_LOv3.txt';
+var fileNaam = '_master PTAB_IFnw.txt';
 var csvdata;
 var Nrij;
 
