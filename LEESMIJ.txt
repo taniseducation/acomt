@@ -1,5 +1,14 @@
 https://github.com/PHPOffice/PhpSpreadsheet
->> https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-files/
+https://phpspreadsheet.readthedocs.io/en/latest/
+
+>>  https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-files/
+
+>>  https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-and-writing-to-file/
+    zoek kopje \PhpOffice\PhpSpreadsheet\Writer\Xlsx
+>>  https://phpspreadsheet.readthedocs.io/en/latest/topics/accessing-cells/
+    toont hoe je cellen manipuleert qua waarde
+>>  https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#styles
+    toont hoe je cellen manipuleert qua settings (lock) en vormgeving
 
 https://phpspreadsheet.readthedocs.io/en/latest/
 >> composer require phpoffice/phpspreadsheet gebruikt

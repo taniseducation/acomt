@@ -1,0 +1,15 @@
+V database structuur ITEMS onderwijsprogramma moet nog => breder trekken naar PTB en PTO?
+V inladen vakken
+V? inlezen bestaand PTA MET toevoeging PTA code SOM en cohort vanuit masterfile
+V ontwerp nieuw Excel-invoer met cohorten V sjabloon schrijft weg naar nieuwe file
+writer maken die dit genereert vanuit database me toevoeging cohortcodes
+reader maken die alleen nieuwe cohorten invoert maar wel waarschuwt dat iets ouds overschreven is.
+PDF generator op basis van database met id's.
+Genereer op definitief goedgekeurde PTA's een aparte toetsweekinventarisatie-tool (Waarbij je de rest locked?)
+
+KEUZES
+Somcode niet bij inlezen maar genereren bij wegschrijven als je weet hoeveel records er zijn
+
+? Voeg meteen vid toe aan PTA-items voor eenvoudiger zoeken in de toekomst.
+? cid 111 met moderne wiskunde e.d. heeft twee items die leeg zijn met periode 0. Hoe dan?
+Check rare items door sorteren database

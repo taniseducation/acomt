@@ -176,13 +176,13 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4M	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
 4H	140	Geschiedenis	GS	1	1	Tjdvak 1, 2, 3 en 4	1	po	0	0	Ja	1	Nee	A, B 
 4H	140	Geschiedenis	GS	2	1	PW tijdvak 5 en 6	2	tt	0	50	Nee	0	0	0
-4H	140	Geschiedenis	GS	3	2	"Tijdvak 5 t/m 8, Thema slavernij; Rechtsstaat "	2	tt	0	100	Ja	2	Ja	A, B, C, D
+4H	140	Geschiedenis	GS	3	2	Tijdvak 5 t/m 8, Thema slavernij; Rechtsstaat	2	tt	0	100	Ja	2	Ja	A, B, C, D
 4H	140	Geschiedenis	GS	4	3	PW tijdvak 5 t/m 9	2	tt	0	100	Nee	0	0	0
 4H	140	Geschiedenis	GS	5	4	Tijdvak 5 t/m 10, Thema Europese samenwerking	2	tt	0	100	Ja	2	Ja	A, B, C
 4H	140	Geschiedenis	GS	6	0	0	0	0	0	0	0	0	0	0
 4H	140	Geschiedenis	0	7	0	0	0	0	0	0	0	0	0	0
-5H	140	Geschiedenis	GS	1	1	"Historische context Britse Rijk 1585-1900; Tijdvak 5 t/m 8"	0	tt	0	100	Ja	3	Ja	A
-5H	140	Geschiedenis	GS	2	2	"Historische context Duitsland 1918-1991; Tijdvak 5 t/m 10 ; thema Europese samenwerking "	0	tt	0	100	Ja	3	Ja	A, C
+5H	140	Geschiedenis	GS	1	1	Historische context Britse Rijk 1585-1900; Tijdvak 5 t/m 8	0	tt	0	100	Ja	3	Ja	A
+5H	140	Geschiedenis	GS	2	2	Historische context Duitsland 1918-1991; Tijdvak 5 t/m 10 ; thema Europese samenwerking	0	tt	0	100	Ja	3	Ja	A, C
 5H	140	Geschiedenis	GS	3	3	Historische context Nederland. Tijdvak 5 t/m 10 1948-2008 	0	tt	0	100	Ja	3	Ja	A
 5H	140	Geschiedenis	GS	4	0	0	0	0	0	0	0	0	0	0
 5H	140	Geschiedenis	GS	5	0	0	0	0	0	0	0	0	0	0
@@ -251,8 +251,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 6A	45	Maatschappijleer	MA	5	0	0	0	0	0	0	0	0	0	0
 6A	45	Maatschappijleer	MA	6	0	0	0	0	0	0	0	0	0	0
 6A	45	Maatschappijleer	0	7	0	0	0	0	0	0	0	0	0	0
-4M	150	Aardrijkskunde	AK	1	1	"Bronnen van Energie, Arm en Rijk, Grenzen en Identiteit
-"	0	po	0	0	Ja	2	Nee	AK/K/1, AK/K/2, AK/K/5, AK/K/7, AK/K/9, AK/V,2, AK/V/4, AK/V/6, AK/V/7, AK/V/8
+4M	150	Aardrijkskunde	AK	1	1	Bronnen van Energie, Arm en Rijk, Grenzen en Identiteit	0	po	0	0	Ja	2	Nee	AK/K/1, AK/K/2, AK/K/5, AK/K/7, AK/K/9, AK/V,2, AK/V/4, AK/V/6, AK/V/7, AK/V/8
 4M	150	Aardrijkskunde	AK	2	1	Water	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/6, AK/V/3 
 4M	150	Aardrijkskunde	AK	3	2	Bevolking en ruimte	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/8, AK/V/5
 4M	150	Aardrijkskunde	AK	4	3	Weer en klimaat	0	tt	0	100	Ja	5	Ja	AK/K/3, AK/K/4, AK/V/1
@@ -590,14 +589,11 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 6A	160	Economie	0	7	0	0	0	0	0	0	0	0	0	0
 4M	172	BTE / BHA	BTE/BHA	1	1	Thematische praktische opdracht 1	0	po	0	0	Ja	3	Nee	Zie opmerkingen
 4M	172	BTE / BHA	BTE/BHA	2	1	Expo Beeldende vakken Hoofdstuk 1 en 2	0	tt	0	50	Ja	1	Ja	K8
-4M	172	BTE / BHA	BTE/BHA	3	2	"Thematische praktische opdracht 2 Stappenplan
-"	0	po	0	0	Ja	3	Nee	Zie opmerkingen
+4M	172	BTE / BHA	BTE/BHA	3	2	Thematische praktische opdracht 2 Stappenplan	0	po	0	0	Ja	3	Nee	Zie opmerkingen
 4M	172	BTE / BHA	BTE/BHA	4	2	Expo Beeldende vakken Hoofdstuk 3, 3.1-3.4	0	tt	0	50	Ja	1	Ja	K8
 4M	172	BTE / BHA	BTE/BHA	5	3	Thematische praktische opdracht 3 (proefexamen)	0	po	0	0	Ja	3	Nee	Zie opmerkingen
 4M	172	BTE / BHA	BTE/BHA	6	3	Expo Beeldende vakken Hoofdstuk 3,  3.5-3.8	0	tt	0	50	Ja	1	Ja	K8
-4M	172	BTE / BHA	0	7	0	"Stappenplan: onderzoek probleemstelling, oriëntatie beeldend onderzoek, uitvoering, reflectie, presentatie.
-
-"	0	0	0	0	0	0	0	0
+4M	172	BTE / BHA	0	7	0	Stappenplan: onderzoek probleemstelling, oriëntatie beeldend onderzoek, uitvoering, reflectie, presentatie.	0	0	0	0	0	0	0	0
 4H	172	BTE / BHA	BTE/BHA	1	0	0	0	0	0	0	0	0	0	0
 4H	172	BTE / BHA	BTE/BHA	2	0	0	0	0	0	0	0	0	0	0
 4H	172	BTE / BHA	BTE/BHA	3	0	0	0	0	0	0	0	0	0	0
@@ -695,9 +691,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 5H	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
 5H	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
 5H	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
-5H	180	Profielwerkstuk	0	7	0	"Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk. 
-
-"	0	0	0	0	0	0	0	0
+5H	180	Profielwerkstuk	0	7	0	Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk.	0	0	0	0	0	0	0	0
 4A	180	Profielwerkstuk	PWS	1	0	0	0	0	0	0	0	0	0	0
 4A	180	Profielwerkstuk	PWS	2	0	0	0	0	0	0	0	0	0	0
 4A	180	Profielwerkstuk	PWS	3	0	0	0	0	0	0	0	0	0	0
@@ -718,9 +712,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 6A	180	Profielwerkstuk	PWS	4	0	0	0	0	0	0	0	0	0	0
 6A	180	Profielwerkstuk	PWS	5	0	0	0	0	0	0	0	0	0	0
 6A	180	Profielwerkstuk	PWS	6	0	0	0	0	0	0	0	0	0	0
-6A	180	Profielwerkstuk	0	7	0	"Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk. 
-
-"	0	0	0	0	0	0	0	0
+6A	180	Profielwerkstuk	0	7	0	Beoordeling is gebaseerd op een schriftelijk verslag en een mondelinge presentatie. Cijfer van het profielwerkstuk is onderdeel van het combinatiecijfer. Het combinatiecijfer bestaat uit de vakken Maatschappijleer, CKV en het profielwerkstuk.	0	0	0	0	0	0	0	0
 4M	50	Wiskunde A	WA	1	0	0	0	0	0	0	0	0	0	0
 4M	50	Wiskunde A	WA	2	0	0	0	0	0	0	0	0	0	0
 4M	50	Wiskunde A	WA	3	0	0	0	0	0	0	0	0	0	0
@@ -749,9 +741,9 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4A	50	Wiskunde A	WA	5	3	Hoofdstuk 3 (Statistiek) + Hoofdstuk 7 (Kansen) + Vaardigheden	3	tt	0	100	Nee	0	0	0
 4A	50	Wiskunde A	WA	6	4	Hoofdstuk 6 (Veranderingen) + Hoofdstuk 8A (De afgeleiden) + Vaardigheden	3	tt	0	100	Nee	0	0	0
 4A	50	Wiskunde A	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor de tt.	0	0	0	0	0	0	0	0
-5A	50	Wiskunde A	WA	1	1	"Moderne wiskunde 11e editie wiskunde A deel vwo 5. H1 Formules herleiden; H5 Logaritmische en exponentiële functies en Vaardigheden"	2	tt	0	100	Nee	0	Nee	0
-5A	50	Wiskunde A	WA	2	2	"Moderne wiskunde 11e editie wiskunde A deel vwo 5 H2 Statistiek; H4 Toevalsvariabelen; H7 Binomiale verdeling, Vaardigheden"	2	tt	0	100	Ja	2	Ja	A1, A2, A3, E1 t/m E6
-5A	50	Wiskunde A	WA	3	3	"Moderne wiskunde 11e editie wiskunde A deel vwo 5 H3 Periodieke functies; H6 Rijen en recursie en Vaardigheden"	2	tt	0	100	Nee	0	Nee	0
+5A	50	Wiskunde A	WA	1	1	Moderne wiskunde 11e editie wiskunde A deel vwo 5. H1 Formules herleiden; H5 Logaritmische en exponentiële functies en Vaardigheden	2	tt	0	100	Nee	0	Nee	0
+5A	50	Wiskunde A	WA	2	2	Moderne wiskunde 11e editie wiskunde A deel vwo 5 H2 Statistiek; H4 Toevalsvariabelen; H7 Binomiale verdeling, Vaardigheden	2	tt	0	100	Ja	2	Ja	A1, A2, A3, E1 t/m E6
+5A	50	Wiskunde A	WA	3	3	Moderne wiskunde 11e editie wiskunde A deel vwo 5 H3 Periodieke functies; H6 Rijen en recursie en Vaardigheden	2	tt	0	100	Nee	0	Nee	0
 5A	50	Wiskunde A	WA	4	4	Moderne wiskunde 11e editie wiskunde A deel vwo 5 H8 Samengestelde functies en Vaardigheden	2	tt	0	100	Nee	0	Nee	0
 5A	50	Wiskunde A	WA	5	2	Wiskunde Alympiade 	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1
 5A	50	Wiskunde A	WA	6	4	Statistisch onderzoek	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1 t/m E7, F
@@ -777,7 +769,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4H	60	Wiskunde B	WB	5	3	Hoofdstuk 3: Machtsfuncties. Hoofdstuk 4: Exponentiële functies	3	tt	0	100	Ja	2	Ja	A1, A2, A3, B1, B2
 4H	60	Wiskunde B	WB	6	4	Hoofsdtuk 6: Afgeleide functies + Hoofdstuk 8: Periodieke functies	3	tt	0	100	Nee	0	0	0
 4H	60	Wiskunde B	0	7	0	Bij de tt vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel. Alle aantekeningen, stencils en extra opgaven die gegeven zijn in de les behoren ook tot de stof voor het SE.	0	0	0	0	0	0	0	0
-5H	60	Wiskunde B	WB	1	1	"Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 1: Logaritmische functies ; Hoofdstuk 2: Functies bewerken Vaardigheden, uitgedeelde stencils Details: zie studiewijzer"	0	tt	0	100	Ja	3	Ja	A1, A2, A3, rekenen
+5H	60	Wiskunde B	WB	1	1	Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 1: Logaritmische functies ; Hoofdstuk 2: Functies bewerken Vaardigheden, uitgedeelde stencils Details: zie studiewijzer	0	tt	0	100	Ja	3	Ja	A1, A2, A3, rekenen
 5H	60	Wiskunde B	WB	2	1	Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 3: Goniometrische functies  Hoofdstuk 4: Differentiëren Vaardigheden, uitgedeelde stencils Details: zie studiewijzer	0	tt	0	100	Ja	3	Ja	A1, A2, A3, D1, D2, D3, D4, rekenen
 5H	60	Wiskunde B	WB	3	1	Moderne Wiskunde 5 havo B, 11e editie Hoofdstuk 5: Cirkels  Hoofdstuk 6: Verbanden Vaardigheden, uitgedeelde stencils Details: zie studiewijzer	0	tt	0	100	Ja	3	Ja	A1, A2, A3, rekenen
 5H	60	Wiskunde B	WB	4	0	 	0	0	0	0	0	0	0	0
@@ -839,7 +831,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 5A	70	Wiskunde C	WC	4	4	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 H6 Rijen en recursie. H8. Uit de geschiedenis van de wiskunde. Vaardigheden	2	tt	0	100	Ja	1	Ja	A1, A2, A3, H
 5A	70	Wiskunde C	WC	5	2	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5 Vorm en Ruimte, oa H3. Perspectief. Vaardigheden	2	tt	0	0	Nee	0	0	0
 5A	70	Wiskunde C	WC	6	4	Statistisch onderzoek	1	po	0	0	Ja	1	Nee	A1, A2, A3, E1, E2, E3, E4, E5, E6
-5A	70	Wiskunde C	0	7	0	"Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel.			"	0	0	0	0	0	0	0	0
+5A	70	Wiskunde C	0	7	0	Bij de schriftelijke toetsen vervangt de grafische rekenmachine de gewone rekenmachine als toegestaan hulpmiddel.	0	0	0	0	0	0	0	0
 6A	70	Wiskunde C	WC	1	1	Moderne wiskunde 11e editie, wiskunde C, deel vwo 6, de hoofdstukken 1 en 4. Vaardigheden. Normale verdelingen. Verbanden. Veranderingen. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, E1, E2, E3, E4, E5, rekenen
 6A	70	Wiskunde C	WC	2	2	Moderne wiskunde 11e editie, wiskunde C, deel vwo 5, hoofdstuk 6 en deel vwo 6, de hoofdstukken 3 en 4. Vaardigheden. Vorm en ruimte.  Rijen. Verbanden. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, rekenen
 6A	70	Wiskunde C	WC	3	3	Moderne wiskunde 11e editie, wiskunde C, deel vwo 6, de hoofdstukken 2 en 4, en de syllabus Logisch redeneren. Vaardigheden. Logisch redeneren. Combinatoriek. Verbanden. Vaardigheden.	0	tt	0	100	Ja	4	Ja	A1, A2, A3, rekenen
@@ -1113,8 +1105,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4H	170	Kunst Algemeen	KUA	5	4	Massacultuur - II (2e helft 20e eeuw- heden)	2	tt	0	100 min	Nee	0	0	0
 4H	170	Kunst Algemeen	KUA	6	0	0	0	0	0	0	0	0	0	0
 4H	170	Kunst Algemeen	0	7	0	Het gebruik van een woordenboek is niet toegestaan	0	0	0	0	0	0	0	0
-5H	170	Kunst Algemeen	KUA	1	1	"Herhalingsopdracht Cultuur van het Moderne (1e helft v/d 20e eeuw)
-"	0	hd	0	0	Nee	0	0	0
+5H	170	Kunst Algemeen	KUA	1	1	Herhalingsopdracht Cultuur van het Moderne (1e helft v/d 20e eeuw)	0	hd	0	0	Nee	0	0	0
 5H	170	Kunst Algemeen	KUA	2	2	Herhalingsopdracht Burgerlijke Cultuur van Nederland (17e eeuw) 	0	hd	0	0	Nee	0	0	0
 5H	170	Kunst Algemeen	KUA	3	2	Theoretische toets-handelingsdeel Massacultuur (2e helft v/d 20e eeuw)	0	hd	Geen woordenboek toegestaan	100 min	Nee	0	0	0
 5H	170	Kunst Algemeen	KUA	4	3	Proefexamen over drie of vier eindexamenonderwerpen: - Burgelijke Cultuur van Nederland (17e eeuw) - Cultuur van het Moderne (1e helft v/d 20e eeuw) - Cultuur van de Massa (2e helft v/d 20e eeuw tot heden)	0	hd	Geen woordenboek toegestaan	180 min	Nee	0	0	0
@@ -1150,7 +1141,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4M	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
 4M	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
 4H	42	Godsdienstles	GDL	1	1	Maakbaarheid van het leven gerelateerd aan de wereldreligies.	1	po	0	0	Nee	0	0	0
-4H	42	Godsdienstles	GDL	2	2	"Keuzeonderwerp; presentaties van keuzeonderwerpen waarbij ethische dilemma's centraal staan."	2	po	0	0	Nee	0	0	0
+4H	42	Godsdienstles	GDL	2	2	Keuzeonderwerp; presentaties van keuzeonderwerpen waarbij ethische dilemma's centraal staan.	2	po	0	0	Nee	0	0	0
 4H	42	Godsdienstles	GDL	3	3	Project orgaandonatie	2	po	0	0	Nee	0	0	0
 4H	42	Godsdienstles	GDL	4	4	Virtuele wereldreis langs verschillende plaatsen waar steeds een andere levensbeschouwing dominant is.	1	po	0	0	Nee	0	0	0
 4H	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
@@ -1170,7 +1161,7 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 4A	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
 4A	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
 4A	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
-5A	42	Godsdienstles	GDL	1	1	"Eigen religie ontwerpen aan de hand van de zeven dimensies van Ninian Smart; werk deze uit in een verslag en presenteer deze aan de klas.  Je werkt in tweetallen."	3	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
+5A	42	Godsdienstles	GDL	1	1	Eigen religie ontwerpen aan de hand van de zeven dimensies van Ninian Smart; werk deze uit in een verslag en presenteer deze aan de klas.  Je werkt in tweetallen.	3	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
 5A	42	Godsdienstles	GDL	2	2	Vrijheid: over regels en ongebondenheid, privacy en veiligheid, verlossing, kiezen en verantwoordelijkheid.	2	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
 5A	42	Godsdienstles	GDL	3	3	Onderzoeksverslag schrijven aan de hand van hoofd en deelvragen	2	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
 5A	42	Godsdienstles	GDL	4	4	Presentatie: een virtuele wereldreis langs verschillende levensbeschouwelijke stromingen.	1	po	0	0	Nee	0	0	Zie vakwerkplan voor de leerlingcompetenties en vaardigheden.
@@ -1184,11 +1175,9 @@ laag	vaknr	vaknaam	vakafkorting	nr	periode	leerstofomschrijving	weging VD	afname
 6A	42	Godsdienstles	GDL	5	0	0	0	0	0	0	0	0	0	0
 6A	42	Godsdienstles	GDL	6	0	0	0	0	0	0	0	0	0	0
 6A	42	Godsdienstles	0	7	0	0	0	0	0	0	0	0	0	0
-3M	173	KCKV	KCKV	1	1	"Culturele Activiteit 1 (CA1) + verwerking
-"	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	1	1	Culturele Activiteit 1 (CA1) + verwerking	1	hd	0	0	Ja	1	Ja	K2/K3
 3M	173	KCKV	KCKV	2	2	Oriëntatie op leren en werken 	1	hd	0	0	Ja	1	Ja	K1/K2
-3M	173	KCKV	KCKV	3	2	"Culturele Activiteit 2 (CA2) + verwerking 
-"	1	hd	0	0	Ja	1	Ja	K2/K3
+3M	173	KCKV	KCKV	3	2	Culturele Activiteit 2 (CA2) + verwerking	1	hd	0	0	Ja	1	Ja	K2/K3
 3M	173	KCKV	KCKV	4	3	Culturele Activiteit 3 (CA3) + verwerking 	1	hd	0	0	Ja	1	Ja	K2/K3
 3M	173	KCKV	KCKV	5	3	Culturele Activiteit 4 (CA4) + verwerking 	1	hd	0	0	Ja	1	Ja	K2/K3
 3M	173	KCKV	KCKV	6	4	Reflectie en kunstdossier	2	hd	0	0	Ja	2	Ja	K2/K4

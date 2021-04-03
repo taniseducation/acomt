@@ -1,0 +1,29 @@
+<?PHP
+class Cohort {
+    /*
+    public $cid;
+    public $vakCode;
+    public $niveau;
+    public $beginjaar;
+    public $actief;
+    public $edit;
+    */
+    public $cohortData;
+    public $cohortJaren;
+    public $items;
+
+  function __construct($cohortData,$DBverbinding) {    
+    $this->cohortData = $cohortData;
+    $this->cohortJaren = [];
+    $this->items = [];
+    $sql = "SELECT * FROM cohortjaar where cid=".$this->cohortData['cid'].";";
+    $cohortJaren = mysqli_query($DBverbinding, $sql);
+    while($jaar = mysqli_fetch_assoc($cohortJaren)) {
+        array_push($this->cohortJaren,$jaar);
+    }  
+  }
+  function voegItemToe($item) {
+      array_push($this->items,$item);
+  }  
+}
+?>

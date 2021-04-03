@@ -16,7 +16,7 @@ var waterMerk = false;
 var waterMerkTruc;
 // var fileNaam = 'PTAB_DEF_controle.txt';
 // var fileNaam = 'PTAB_def_deelraad.txt';
-var fileNaam = '_master PTAB_IFnw.txt';
+var fileNaam = 'basisCOHORTEN.txt';
 var csvdata;
 var Nrij;
 

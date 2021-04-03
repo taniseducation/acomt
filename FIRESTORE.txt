@@ -1,0 +1,13 @@
+300321 voorlopig geparkeerd.
+
+https://cloud.google.com/firestore/docs/quickstart-servers?authuser=0#php
+gevolgd voor stappen.
+
+Daarmee
+https://console.cloud.google.com/home/dashboard?authuser=0&project=firestore1-309109
+gemaakt onder drs.r.vd.veen
+
+voorbeeld: export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
+gedaan: export GOOGLE_APPLICATION_CREDENTIALS="/workspace/acomt/firestore/firestore1-309109-8d031bca7e7f.json"
+
+Gebleven bij: "Initialize Firestore"
