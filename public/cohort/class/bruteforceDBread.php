@@ -1,6 +1,4 @@
 <?PHP
-
-
 // bruteforce alle cohorten
 $sql = "SELECT * FROM cohorten";
 $records = mysqli_query($DBverbinding, $sql);
@@ -15,10 +13,12 @@ while($record = mysqli_fetch_assoc($records)) {
     ${'c'.$record['cid']}->voegItemToe(${'i'.$record['id']});
 }
 
+/*
 $filter['niveau'] = 'M';
 $filter['beginJaar'] = '2019';
 $filter['vakCode'] = 'IF';
 $filter['vid'] = 14;
+*/
 
 function selecteerCohort($filter,$DBverbinding) {
     $sql = "SELECT * FROM cohorten where vid = {$filter['vid']} and niveau = '{$filter['niveau']}' and beginJaar = {$filter['beginJaar']}";
@@ -27,6 +27,7 @@ function selecteerCohort($filter,$DBverbinding) {
     return $cselect['cid'];
 }
 
+/*
 $filterCohort = selecteerCohort($filter,$DBverbinding);
 echo '<pre>';
 print_r(${'c'.$filterCohort}->cohortData);
@@ -36,4 +37,5 @@ foreach (${'c'.$filterCohort}->items as $item) {
     print_r($item->itemData);
     echo '<pre>';
 }
+*/
 ?>

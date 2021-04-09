@@ -8,13 +8,37 @@ ini_set('max_execution_time', 0); //300 s = 5 min
 
 require('class/database.php');
 require('class/settings.php');
-require('class/cohort.class');
-require('class/item.class');
+require('class/cohort.class.php');
+require('class/item.class.php');
 
-// require('class/bruteforceDBread.php');
-require('class/excelschrijver.php');
+require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 
+$status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
+$filter['niveau'] = 'A';
+$filter['beginJaar'] = '2019';
+$filter['vakCode'] = 'NA'; // IF 14 NA 15
+$filter['vid'] = 15;
+$filterCohort = selecteerCohort($filter,$DBverbinding);
+
+// met het gefilterde cohort ga je schrijven
+require('class/excelschrijver.php');
+
+echo '<pre>';
+//print_r(${'c'.$filterCohort}->cohortJaren);
+echo '<pre>';
+
+//require('class/DBoverzichtVak.php');
+
+/*
+foreach (${'c'.$filterCohort}->jaarItems as $cj) {
+    echo '<pre>';
+    print_r($cj);
+    echo '<pre>';
+}
+*/
+
+//require('class/excelschrijver.php');
 // require('class/pdfschrijver.php');
 ?>

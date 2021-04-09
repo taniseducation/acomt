@@ -1,3 +1,87 @@
+_______________________________________
+# LEZEN VAN RIJ OF MEER VOOR WEGSCHRIJVEN (kun je for each doen voor elke rij?)
+$dataArray = $spreadsheet->getActiveSheet()
+    ->rangeToArray(
+        'C3:E5',     // The worksheet range that we want to retrieve
+        NULL,        // Value that should be returned for empty cells
+        TRUE,        // Should formulas be calculated (the equivalent of getCalculatedValue() for each cell)
+        TRUE,        // Should values be formatted (the equivalent of getFormattedValue() for each cell)
+        TRUE         // Should the array be indexed by cell row and cell column
+    );
+
+_______________________________________
+# KOPIEREN EN VERWIJDEREN WORKSHEETS gebruik sjabloon en gooi die aan het eind weg?
+// https://phpspreadsheet.readthedocs.io/en/latest/topics/worksheets/
+
+$clonedWorksheet = clone $spreadsheet->getSheetByName('Worksheet 1');
+$clonedWorksheet->setTitle('Copy of Worksheet 1');
+$spreadsheet->addSheet($clonedWorksheet);
+
+$sheetIndex = $spreadsheet->getIndex(
+    $spreadsheet->getSheetByName('Worksheet 1')
+);
+$spreadsheet->removeSheetByIndex($sheetIndex);
+
+_______________________________________
+# ALLEEN EEN RIJ voor cohortItem
+$rowArray = ['Value1', 'Value2', 'Value3', 'Value4'];
+$spreadsheet->getActiveSheet()
+    ->fromArray(
+        $rowArray,   // The data to set
+        NULL,        // Array values with this value will not be set
+        'C3'         // Top left coordinate of the worksheet range where
+                     //    we want to set these values (default is A1)
+    );
+_______________________________________
+# RIJ EN KOLOM
+$arrayData = [
+    [NULL, 2010, 2011, 2012],
+    ['Q1',   12,   15,   21],
+    ['Q2',   56,   73,   86],
+    ['Q3',   52,   61,   69],
+    ['Q4',   30,   32,    0],
+];
+$spreadsheet->getActiveSheet()
+    ->fromArray(
+        $arrayData,  // The data to set
+        NULL,        // Array values with this value will not be set
+        'C3'         // Top left coordinate of the worksheet range where
+                     //    we want to set these values (default is A1)
+    );
+_______________________________________
+# ALS JE RIJ NAAR KOLOM WILT ZETTEN
+
+$rowArray = ['Value1', 'Value2', 'Value3', 'Value4'];
+$columnArray = array_chunk($rowArray, 1);
+$spreadsheet->getActiveSheet()
+    ->fromArray(
+        $columnArray,   // The data to set
+        NULL,           // Array values with this value will not be set
+        'C3'            // Top left coordinate of the worksheet range where
+                        //    we want to set these values (default is A1)
+    );
+
+_______________________________________
+
+$spreadsheet->getActiveSheet()->setCellValue(
+    'A4',
+    '=IF(A3, CONCATENATE(A1, " ", A2), CONCATENATE(A2, " ", A1))'
+);
+_______________________________________
+
+$cellValue = $spreadsheet->getActiveSheet()->getCell('A4')->getCalculatedValue();
+
+_______________________________________
+
+
+_______________________________________
+
+
+_______________________________________
+
+
+_______________________________________
+
 V database structuur ITEMS onderwijsprogramma moet nog => breder trekken naar PTB en PTO?
 V inladen vakken
 V? inlezen bestaand PTA MET toevoeging PTA code SOM en cohort vanuit masterfile
@@ -13,3 +97,4 @@ Somcode niet bij inlezen maar genereren bij wegschrijven als je weet hoeveel rec
 ? Voeg meteen vid toe aan PTA-items voor eenvoudiger zoeken in de toekomst.
 ? cid 111 met moderne wiskunde e.d. heeft twee items die leeg zijn met periode 0. Hoe dan?
 Check rare items door sorteren database
+

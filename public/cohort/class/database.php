@@ -9,6 +9,6 @@ if (!$DBverbinding) {
     die("connectie database mislukt: " . mysqli_connect_error());
 }
 else {
-    echo 'connectie database gelukt.<br>';
+    // echo 'connectie database gelukt.<br>';
 }
 ?>

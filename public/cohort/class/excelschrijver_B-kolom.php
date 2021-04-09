@@ -25,26 +25,13 @@ $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 // $reader->setLoadSheetsOnly(["wensen", "instellingen"]);
 // $reader->setLoadSheetsOnly(["sjabloon"]); // inschakelen filtert ook op hidden cells
 $spreadsheet = $reader->load($inputFileName);
-
-$spreadsheet->getProperties()
-    ->setCreator("VNR@acomt")
-    ->setLastModifiedBy("René van der Veen")
-    ->setTitle("xlsx-pta-generator")
-    ->setSubject("acomt pta cohorten")
-    ->setDescription(
-        "Dit bestand is eigendom van CSG Augustinus Groningen"
-    )
-    ->setKeywords("acomt pta cohorten")
-    ->setCategory("internal usage only");
-
 $loadedSheetNames = $spreadsheet->getSheetNames();
 $spreadsheet->setActiveSheetIndexByName('sjabloon');
 // $spreadsheet->getActiveSheet()->setCellValue('D4',1);
 // $sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);
 
-// $cohortBkolom = [$status,NULL,${'c'.$filterCohort}->cohortData['vakCode'],${'c'.$filterCohort}->cohortData['vid'],${'c'.$filterCohort}->cohortData['niveau'],${'c'.$filterCohort}->cohortData['beginJaar'],${'c'.$filterCohort}->cohortData['cid']];
-$spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getB2B8($status),NULL,'B2');
-$spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getG6P11(),NULL,'G6');
+$cohortBkolom = [$status,NULL,${'c'.$filterCohort}->cohortData['vakCode'],${'c'.$filterCohort}->cohortData['vid'],${'c'.$filterCohort}->cohortData['niveau'],${'c'.$filterCohort}->cohortData['beginJaar'],${'c'.$filterCohort}->cohortData['cid']];
+$spreadsheet->getActiveSheet()->fromArray(array_chunk($cohortBkolom,1),NULL,'B2');
 
 echo '<pre>';
 //print_r($sheetData);
