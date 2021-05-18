@@ -87,15 +87,10 @@ class Cohort {
     $excelRij = 0; 
     foreach ($this->jaarItems as $cj) {
         $ptaJaar = $this->cohortJaren[$ptaJaarTeller]['jaar'];
-        echo '<h3>jaar '.$ptaJaar.' (teller = '.$ptaJaarTeller.' ) cjid = '.$this->cohortJaren[$ptaJaarTeller]['cjid'].'</h2>';
+        // STOND LANG AAN echo '<h3>jaar '.$ptaJaar.' (teller = '.$ptaJaarTeller.' ) cjid = '.$this->cohortJaren[$ptaJaarTeller]['cjid'].'</h2>';
         foreach ($cj as $ci) {
-            // SCHRIJF DROPDOWNS https://spreadsheet-coding.com/phpspreadsheet/create-xlsx-files-with-drop-down-list-data-validation/
-                // of  https://stackoverflow.com/questions/49516348/can-i-create-multiselect-dropdown-using-phpspreadsheet
-            // data validatie op dropdown of handmatige invoer? https://spreadsheet-coding.com/
-
-            // DIT IS EM lees onderaan hoe je naar cellen verwijst
-            // https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#setting-data-validation-on-a-cell
-            $data[$excelRij] = [$ci->itemData['periode'],$ci->itemData['leerstofomschrijving'],NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL];
+            // booleans omzetten en hoe zit het met leestekens? op twee plekken.
+            $data[$excelRij] = [$ci->itemData['periode'],$ci->itemData['leerstofomschrijving'],$ci->itemData['wegingVD'],$ci->itemData['afname'],$ci->itemData['hulp'],$ci->itemData['duur'],$ci->itemData['SE'],$ci->itemData['wegingSE'],$ci->itemData['herkansbaar'],$ci->itemData['domeinen']];
             $excelRij++;
         }
         $ptaJaarTeller++;

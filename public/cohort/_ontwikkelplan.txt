@@ -1,3 +1,9 @@
+# ISSUES
+
+- bij mavo en havo moeten niet relevante jaren verwijderd
+- herkansbaarheden zijn niet goed in de DB ingelezen vanuit Excel => TRUNCATE
+- utf_encode en decode nog bij inlezen uitlezen
+- kun je voorwaardelijke opmaak van sjabloon kopieren en die daarna weggooien? Anders veel werk verloren
 _______________________________________
 # LEZEN VAN RIJ OF MEER VOOR WEGSCHRIJVEN (kun je for each doen voor elke rij?)
 $dataArray = $spreadsheet->getActiveSheet()

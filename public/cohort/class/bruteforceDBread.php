@@ -23,8 +23,25 @@ $filter['vid'] = 14;
 function selecteerCohort($filter,$DBverbinding) {
     $sql = "SELECT * FROM cohorten where vid = {$filter['vid']} and niveau = '{$filter['niveau']}' and beginJaar = {$filter['beginJaar']}";
     $record = mysqli_query($DBverbinding, $sql);
-    $cselect = mysqli_fetch_assoc($record);
-    return $cselect['cid'];
+    if (mysqli_num_rows($record) == 0) {
+        return null;
+    }
+    else {
+        $cselect = mysqli_fetch_assoc($record);
+        return $cselect['cid'];
+    }
+}
+
+function selecteerCIDperVak($filter,$DBverbinding) {
+    $lijst = [];
+    $sleutel = 0;
+    $sql = "SELECT * FROM cohorten where vid = {$filter['vid']}";
+    $records = mysqli_query($DBverbinding, $sql);
+    while($record = mysqli_fetch_assoc($records)) {
+        $lijst[$sleutel]=$record;
+        $sleutel++;
+    }
+    return $lijst;
 }
 
 /*

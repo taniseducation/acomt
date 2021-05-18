@@ -15,19 +15,21 @@ require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 
+// eerst 1cohort gedaan met $filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
+$huidigJaarVoorGenererenExcel = 2021; // doe je voor de zomervakantie
+$tabbladen = ['M2021','M2020','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
-$filter['niveau'] = 'A';
-$filter['beginJaar'] = '2019';
-$filter['vakCode'] = 'NA'; // IF 14 NA 15
-$filter['vid'] = 15; // selecteerCohort gebruik vid en niet vakCode, want gaat om één cohort.
-$filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
-
-// met het gefilterde cohort ga je schrijven
-require('class/excelschrijver.php');
+//$filter['niveau'] = 'A';
+//$filter['beginJaar'] = '2020';
+//$filter['vakCode'] = 'NA'; // IF 14 NA 15
+// $filter['vid'] = 15; // selecteerCohort gebruik vid en niet vakCode, want gaat om één cohort.
 
 echo '<pre>';
 //print_r(${'c'.$filterCohort}->cohortData['niveau']);
 echo '<pre>';
+
+// met het gefilterde cohort ga je schrijven
+require('class/excelschrijver.php');
 
 // require('class/DBoverzichtVak.php');
 
