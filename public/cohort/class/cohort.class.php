@@ -92,7 +92,10 @@ class Cohort {
             // SCHRIJF DROPDOWNS https://spreadsheet-coding.com/phpspreadsheet/create-xlsx-files-with-drop-down-list-data-validation/
                 // of  https://stackoverflow.com/questions/49516348/can-i-create-multiselect-dropdown-using-phpspreadsheet
             // data validatie op dropdown of handmatige invoer? https://spreadsheet-coding.com/
-            $data[$excelRij] = [$ci->itemData['periode'],$ci->itemData['leerstofomschrijving'],NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL];            
+
+            // DIT IS EM lees onderaan hoe je naar cellen verwijst
+            // https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#setting-data-validation-on-a-cell
+            $data[$excelRij] = [$ci->itemData['periode'],$ci->itemData['leerstofomschrijving'],NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL];
             $excelRij++;
         }
         $ptaJaarTeller++;

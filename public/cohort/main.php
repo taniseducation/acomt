@@ -19,17 +19,17 @@ $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 $filter['niveau'] = 'A';
 $filter['beginJaar'] = '2019';
 $filter['vakCode'] = 'NA'; // IF 14 NA 15
-$filter['vid'] = 15;
-$filterCohort = selecteerCohort($filter,$DBverbinding);
+$filter['vid'] = 15; // selecteerCohort gebruik vid en niet vakCode, want gaat om één cohort.
+$filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
 
 // met het gefilterde cohort ga je schrijven
 require('class/excelschrijver.php');
 
 echo '<pre>';
-//print_r(${'c'.$filterCohort}->cohortJaren);
+//print_r(${'c'.$filterCohort}->cohortData['niveau']);
 echo '<pre>';
 
-//require('class/DBoverzichtVak.php');
+// require('class/DBoverzichtVak.php');
 
 /*
 foreach (${'c'.$filterCohort}->jaarItems as $cj) {
