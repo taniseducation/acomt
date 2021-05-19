@@ -20,6 +20,5 @@ echo '</pre>';
 foreach ($loadedSheetNames as $vakCode) {
     $spreadsheet->setActiveSheetIndexByName($vakCode);
     $sheetData = $spreadsheet->getActiveSheet()->toArray(null,true,true,true);
-
 }
 ?>

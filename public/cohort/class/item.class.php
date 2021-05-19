@@ -1,5 +1,4 @@
 <?PHP
-// Hier komen de afzonderlijke PTA-items in
 class Item {
   public $itemData;
 

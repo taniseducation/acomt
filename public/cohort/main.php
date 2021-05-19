@@ -11,6 +11,8 @@ require('class/settings.php');
 require('class/cohort.class.php');
 require('class/item.class.php');
 
+// require('class/maak_items_in_db.php');
+
 require('class/bruteforceDBread.php');
 
 // hoofdprogramma
@@ -19,6 +21,8 @@ require('class/bruteforceDBread.php');
 $huidigJaarVoorGenererenExcel = 2021; // doe je voor de zomervakantie
 $tabbladen = ['M2021','M2020','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
+require('class/excelschrijver.php');
+
 //$filter['niveau'] = 'A';
 //$filter['beginJaar'] = '2020';
 //$filter['vakCode'] = 'NA'; // IF 14 NA 15
@@ -29,7 +33,7 @@ echo '<pre>';
 echo '<pre>';
 
 // met het gefilterde cohort ga je schrijven
-require('class/excelschrijver.php');
+// require('class/excelschrijver.php');
 
 // require('class/DBoverzichtVak.php');
 
@@ -41,6 +45,6 @@ foreach (${'c'.$filterCohort}->jaarItems as $cj) {
 }
 */
 
-//require('class/excelschrijver.php');
+
 // require('class/pdfschrijver.php');
 ?>

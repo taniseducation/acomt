@@ -6,6 +6,7 @@ use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 
 $filePath = 'fileExcel/';
 $fileNAme = '_FAKEmastervoortest.xlsx';
+$fileNAme = '_master PTAB.xlsx';
 $inputFileName = $filePath.$fileNAme;
 
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
@@ -34,9 +35,9 @@ function getVolgorde($DBverbinding) {
 
 $volgordeLijst = getVolgorde($DBverbinding);
 echo '<pre>';
-print_r($volgordeLijst);
+// print_r($volgordeLijst);
 echo '</pre>';
-
+$Nfouten = 0;
 foreach ($loadedSheetNames as $vakCode) {
     $spreadsheet->setActiveSheetIndexByName($vakCode);
     $sheetData = $spreadsheet->getActiveSheet()->toArray(null,true,true,true);
@@ -70,26 +71,40 @@ foreach ($loadedSheetNames as $vakCode) {
 
                 // check of het item wel gevuld is:
                 if ($sheetData[$n]['H'] != '0') {
-                    $sheetData[$n]['H'] = utf8_encode($sheetData[$n]['H']);
-                    $sheetData[$n]['K'] = utf8_encode($sheetData[$n]['K']);
-                    $sheetData[$n]['P'] = utf8_encode($sheetData[$n]['P']);
-                    $sheetData[$n]['R'] = utf8_encode($sheetData[$n]['R']);
-                    if ($sheetData[$n]['M'] == 'Ja') {$sheetData[$n]['M'] = true;} else {$sheetData[$n]['M'] = false;}
-                    if ($sheetData[$n]['O'] == 'Ja') {$sheetData[$n]['O'] = true;} else {$sheetData[$n]['O'] = false;}
+                    $sheetData[$n]['H'] = utf8_encode(addslashes($sheetData[$n]['H']));
+                    $sheetData[$n]['K'] = utf8_encode(addslashes($sheetData[$n]['K']));
+                    $sheetData[$n]['P'] = utf8_encode(addslashes($sheetData[$n]['P']));
+                    $sheetData[$n]['R'] = utf8_encode(addslashes($sheetData[$n]['R']));
+                    if ($sheetData[$n]['I'] == 0) {$sheetData[$n]['I'] = 'NULL';} // wegingVD
+                    if ($sheetData[$n]['K'] == 0) {$sheetData[$n]['K'] = null;}
+                    if ($sheetData[$n]['L'] == 0) {$sheetData[$n]['L'] = 'NULL';} // duur
+                    if ($sheetData[$n]['M'] == 0) {$sheetData[$n]['M'] = null;}
+                    if ($sheetData[$n]['N'] == 0) {$sheetData[$n]['N'] = 'NULL';} // wegingSE
+                    if ($sheetData[$n]['O'] == 0) {$sheetData[$n]['O'] = null;}
+                    if ($sheetData[$n]['P'] == 0) {$sheetData[$n]['P'] = null;}
+                    if ($sheetData[$n]['M'] == 'Ja') {$sheetData[$n]['M'] = 1;} else {$sheetData[$n]['M'] = 0;}
+                    if ($sheetData[$n]['O'] == 'Ja') {$sheetData[$n]['O'] = 1;} else {$sheetData[$n]['O'] = 0;}
                     
-                    if ($sheetData[$n]['J'] == 'tt' && $sheetData[$n]['M']) {$inTW = true;} else {$inTW = 0;}
+                    if ($sheetData[$n]['J'] == 'tt' && $sheetData[$n]['M'] == 1) {$inTW = 1;} else {$inTW = 0;}
                     $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES (NULL, {$cohort['cid']}, {$cohortJaar['cjid']}, {$sheetData[$n]['E']}, {$sheetData[$n]['F']}, NULL, '{$sheetData[$n]['H']}', {$sheetData[$n]['I']}, '{$sheetData[$n]['J']}', '{$sheetData[$n]['K']}', {$sheetData[$n]['L']}, 1, {$sheetData[$n]['N']}, 0, '{$sheetData[$n]['P']}', NULL, '{$sheetData[$n]['R']}', $inTW, NULL, NULL);";
-                    //echo "<h4>{$sheetData[$n]['H']}</h4>";
-                    //echo "<h5>{$sql}</h5>";
+                    // echo "<h4>{$sheetData[$n]['H']}</h4>";
+                    
                     // UIT voor dubbelingen mysqli_query($DBverbinding, $sql);
+                    // onderstaande if voert de query al uit
+                    if (!mysqli_query($DBverbinding,$sql)) {
+                        $Nfouten++;
+                        echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                        echo "<h5>{$sql}</h5>";
+                        //die();
+                    }
                 }
                 else {
-                    //echo "Geen item voor {$cohort['cid']} met {$cohortJaar['cjid']}<br>";
+                    // echo "Geen item voor {$cohort['cid']} met {$cohortJaar['cjid']}<br>";
                 }
             }
         } 
     }
-    //die(); // eerst alleen voor Nederlands
+    // die(); // eerst alleen voor Nederlands
 }
 
 ?>

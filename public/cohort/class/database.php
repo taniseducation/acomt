@@ -1,4 +1,6 @@
 <?php
+// mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 $servernaam = "localhost";
 $gebruikersnaam = "username";
 $wachtwoord = "password";
@@ -7,8 +9,5 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 
 if (!$DBverbinding) {
     die("connectie database mislukt: " . mysqli_connect_error());
-}
-else {
-    // echo 'connectie database gelukt.<br>';
 }
 ?>

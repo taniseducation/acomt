@@ -1,13 +1,5 @@
 <?PHP
 class Cohort {
-    /*
-    public $cid;
-    public $vakCode;
-    public $niveau;
-    public $beginjaar;
-    public $actief;
-    public $edit;
-    */
     public $cohortData;
     public $cohortJaren;
     public $jaarItems;
@@ -78,7 +70,6 @@ class Cohort {
         [NULL],
         [NULL],
     ];
-    // Algemeen: G14 => data[8] dus verschil is 6
     if (isset($this->cohortJaren[0]['algemeen'])) {$data[8] = [$this->cohortJaren[0]['algemeen']];}
     if (isset($this->cohortJaren[1]['algemeen'])) {$data[20] = [$this->cohortJaren[1]['algemeen']];}
     if (isset($this->cohortJaren[2]['algemeen'])) {$data[32] = [$this->cohortJaren[2]['algemeen']];}
