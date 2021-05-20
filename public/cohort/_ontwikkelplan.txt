@@ -1,14 +1,12 @@
 # ISSUES
 - herkansbaarheid wordt nog steeds niet goed weggeschreven: standaard NEE
-- algemene opmerking krijgt nog 0: zit ws in mijn excel dus filteren in PHP
-- utf_encode (ZIT AL IN maak_items_in_db) en decode nog bij uitlezen regel 83 cohort.class
 - https://www.php.net/manual/en/function.addslashes en strip gebruiken voor strings met ' etc. WOOT's
-- check op WOOT's bij terugschrijven naar Excel.
-- onzichtbare code-velden nog niet gevuld => zie file excelschrijver B-kolom?
+- check op WOOT's bij terugschrijven naar Excel. addslashes zit in maak_items
 - bij mavo en havo moeten niet relevante jaren verwijderd
 - bij elk cohort moeten vorige jaren zonder schrijfrecht
 - kun je voorwaardelijke opmaak van sjabloon kopieren en die daarna weggooien? Anders veel werk verloren
 - check of voorwaardelijke dingen zoals "DIT IS DE HUIDIGE H5" nog wel dynamisch zijn na wegschrijven.
+- Kun je statische array maken met per vak de tabbladen die weggegooid kunnen worden? b.v. IF geen vmbo WAT ZIJN CONSEQUENTIES VOOR INLEZEN!?
 _______________________________________
 # LEZEN VAN RIJ OF MEER VOOR WEGSCHRIJVEN (kun je for each doen voor elke rij?)
 $dataArray = $spreadsheet->getActiveSheet()

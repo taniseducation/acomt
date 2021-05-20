@@ -11,9 +11,9 @@ require('class/settings.php');
 require('class/cohort.class.php');
 require('class/item.class.php');
 
-// require('class/maak_items_in_db.php');
-
-require('class/bruteforceDBread.php');
+require('class/maak_items_in_db.php');
+die();
+// require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 

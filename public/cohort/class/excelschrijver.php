@@ -53,7 +53,7 @@ for ($vakID = 1;$vakID <= 25;$vakID++) {
             // $sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);
 
             $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getB2B8($status),NULL,'B2');
-            $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getG6P11(),NULL,'G6');
+            $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getD6P11(),NULL,'D6');
 
             /* GENEREERT html-versie van ingelezen spread
                     $HTMLwriter = IOFactory::createWriter($spreadsheet, 'Html');
@@ -150,5 +150,6 @@ for ($vakID = 1;$vakID <= 25;$vakID++) {
     unset($spreadsheet);
     unset($reader);
     unset($XLSXwriter);
+    // die(); // één bestand voor testen
 }
 ?>
