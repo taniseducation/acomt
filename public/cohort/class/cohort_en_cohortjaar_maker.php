@@ -1,4 +1,6 @@
 <?PHP
+// Deze is EENMALIG gebruikt voor inlezen uit bestaande Excel-files.
+// voor nieuwe lege cohorten aanmaken => genereerNieuweCohorten.php
 require('../../vendor/autoload.php');
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\IOFactory;

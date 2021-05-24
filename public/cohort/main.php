@@ -12,11 +12,15 @@ require('class/cohort.class.php');
 require('class/item.class.php');
 
 //require('class/maak_items_in_db.php');
-//die();
-require('class/bruteforceDBread.php');
+// require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
+
 echo '<pre>';
 //print_r($i33);
 echo '<pre>';
+echo '<h3>niks toch?</h3>';
+//die();
+require('class/bruteforceDBread.php');
+
 
 // hoofdprogramma
 
