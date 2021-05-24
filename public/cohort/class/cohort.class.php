@@ -13,6 +13,7 @@ class Cohort {
     $vakData = mysqli_fetch_assoc($vak);
     $this->cohortData['vakCode']=$vakData['vakCode'];
     $this->cohortData['vakNaam']=$vakData['vakNaam'];
+    $this->cohortData['removeTab']=$vakData['removeTab']; // voor verwijderen overbodige Excel-tabs als vak die laag niet heeft
 
     $this->cohortJaren = [];
     $this->items = [];

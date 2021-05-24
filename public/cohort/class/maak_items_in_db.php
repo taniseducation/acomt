@@ -110,7 +110,7 @@ foreach ($loadedSheetNames as $vakCode) {
             }
         } 
     }
-    die(); // eerst alleen voor Nederlands
+    // die(); // eerst alleen voor Nederlands
 }
 echo 'KLAAR :)';
 ?>

@@ -1,26 +1,39 @@
 # ISSUES
-- check op oud bestand gewoon inbouwen, door alleen inlezen bestanden met toevoeging 2021?
-Nee, dan passen ze bestandsnaam aan. moet ergens in veld staan.
-- herkansbaarheid wordt nog steeds niet goed weggeschreven: standaard NEE NOG STEEDS NIET
-- https://www.php.net/manual/en/function.addslashes en strip gebruiken voor strings met ' etc. WOOT's
-- check op WOOT's bij terugschrijven naar Excel. addslashes zit in maak_items
+- WTF mijn hele schrijfrecht die al prima werkte is naar de FUCK
+    check of sjabloon wel op lock staat
+    anders: daarna heb je gewerkt aan weggooien onnodige tabbladen
+- H6 NU GEDAAN bij elk cohort moeten vorige jaren zonder schrijfrecht
+    set security https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#conditional-formatting-a-cell
 - bij mavo en havo moeten niet relevante jaren verwijderd NEE VERBERGEN IS BETER
 - check hoe zit het met blokkade van gegenereerde tabbladen?
-- Wat gebeurt er als je knipt en plakt van ander tabblad? Hoe zit het met opmaakvoorwaarden, beschikbaarheid dropdown e.d.?
-- bij elk cohort moeten vorige jaren zonder schrijfrecht
+- Kun je statische array maken met per vak de tabbladen die weggegooid kunnen worden?
+    b.v. IF geen vmbo WAT ZIJN CONSEQUENTIES VOOR INLEZEN!?
+- weggooien sjabloon-sheet?
+- sjabloon moet nog weer aangepast: systeemkolommen nu zichtbaar
+    hoeft niet meer want hide in code ingevoegd
+- kopieer cohortjaar van huidige zodat ze niet over hoeven te typen.
+
+- check op oud bestand gewoon inbouwen, door alleen inlezen bestanden met toevoeging 2021?
+Nee, dan passen ze bestandsnaam aan. moet ergens in veld staan.
+- https://www.php.net/manual/en/function.addslashes en strip gebruiken voor strings met ' etc. WOOT's
+
+- check apart kunstvak MAVO met als enige 3e klas: hoe ziet het er uit?
+- Da's KUT: vermelden dus. Wat gebeurt er als je knipt en plakt van ander tabblad? Hoe zit het met opmaakvoorwaarden, beschikbaarheid dropdown e.d.?
 - kun je voorwaardelijke opmaak van sjabloon kopieren en die daarna weggooien? Anders veel werk verloren
 - als voorw.opm. niet lukt: Als er iets rood is: kengetal in settings veranderen, zodat de inlees wordt geblokeerd. Kan met extra veld en check die al in voorwaardelijke opmaak zit ingebouwd
-- voorblad met instructie: ga niet dingen formatten: dat doen wij => Dat is dan ook Active sheet???!!!
+- voorblad met instructie: ga niet dingen formatten: dat doen wij => Dat is dan ook Active sheet???!!! Niet knoppen.
 - bij inlezen ook check op correctheid records => tenzij dit al met ROOD wordt gefilterd. Ik zou het toch inbouwen.
 
-
-- set_Active sheet bij wegschrijven: je start altijd bij openen bij settingstabblad
-
-- check of voorwaardelijke dingen zoals "DIT IS DE HUIDIGE H5" nog wel dynamisch zijn na wegschrijven.
-- Kun je statische array maken met per vak de tabbladen die weggegooid kunnen worden? b.v. IF geen vmbo WAT ZIJN CONSEQUENTIES VOOR INLEZEN!?
 - voorkomen dat oude versies geupload worden? Check op id's voordat er wordt weggeschreven maar dan ook time()?
 - mededeling verouderde file. Moet dat dan niet in Sjabloon? Of iets met wegschrijven invoerjaar?
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
+
+UITGESTELD
+- check op WOOT's bij terugschrijven naar Excel. addslashes zit in maak_items
+    Zit in opmerking afname en dus eerst nog niet in gebruikt
+- zowel validatie als opmaak is niet goed te clonen. Voorwaardelijke opmaak lijkt al lost bij openen
+    https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#conditional-formatting-a-cell
+    kun je ook gebruik om te laden, maar specifieke cel zie ik niet.
 
 _______________________________________
 # LEZEN VAN RIJ OF MEER VOOR WEGSCHRIJVEN (kun je for each doen voor elke rij?)
@@ -110,7 +123,7 @@ V database structuur ITEMS onderwijsprogramma moet nog => breder trekken naar PT
 V inladen vakken
 V? inlezen bestaand PTA MET toevoeging PTA code SOM en cohort vanuit masterfile
 V ontwerp nieuw Excel-invoer met cohorten V sjabloon schrijft weg naar nieuwe file
-writer maken die dit genereert vanuit database me toevoeging cohortcodes
+V writer maken die dit genereert vanuit database me toevoeging cohortcodes
 reader maken die alleen nieuwe cohorten invoert maar wel waarschuwt dat iets ouds overschreven is.
 PDF generator op basis van database met id's.
 Genereer op definitief goedgekeurde PTA's een aparte toetsweekinventarisatie-tool (Waarbij je de rest locked?)

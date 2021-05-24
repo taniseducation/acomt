@@ -14,18 +14,19 @@ require('class/item.class.php');
 //require('class/maak_items_in_db.php');
 // require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
 
-echo '<pre>';
-//print_r($i33);
-echo '<pre>';
-echo '<h3>niks toch?</h3>';
-//die();
 require('class/bruteforceDBread.php');
 
+echo '<pre>';
+//print_r($c183);
+echo '<pre>';
+// die();
 
 // hoofdprogramma
 
 // eerst 1cohort gedaan met $filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
 $huidigJaarVoorGenererenExcel = 2021; // doe je voor de zomervakantie
+
+// LET OP LET OP eerste item [0] wordt ook gebruikt om dat tabblad weer te verwijderen voor iedereen behalve KCKV
 $tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 require('class/excelschrijver.php');
