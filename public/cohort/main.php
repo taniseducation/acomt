@@ -11,15 +11,18 @@ require('class/settings.php');
 require('class/cohort.class.php');
 require('class/item.class.php');
 
-require('class/maak_items_in_db.php');
-die();
-// require('class/bruteforceDBread.php');
+//require('class/maak_items_in_db.php');
+//die();
+require('class/bruteforceDBread.php');
+echo '<pre>';
+//print_r($i33);
+echo '<pre>';
 
 // hoofdprogramma
 
 // eerst 1cohort gedaan met $filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
 $huidigJaarVoorGenererenExcel = 2021; // doe je voor de zomervakantie
-$tabbladen = ['M2021','M2020','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
+$tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 require('class/excelschrijver.php');
 

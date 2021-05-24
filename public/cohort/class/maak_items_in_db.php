@@ -6,7 +6,7 @@ use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 
 $filePath = 'fileExcel/';
 $fileNAme = '_FAKEmastervoortest.xlsx';
-$fileNAme = '_master PTAB.xlsx';
+$fileNAme = '_master PTAB_2405.xlsx';
 $inputFileName = $filePath.$fileNAme;
 
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
@@ -75,24 +75,25 @@ foreach ($loadedSheetNames as $vakCode) {
                     $sheetData[$n]['K'] = utf8_encode(addslashes($sheetData[$n]['K']));
                     $sheetData[$n]['P'] = utf8_encode(addslashes($sheetData[$n]['P']));
                     $sheetData[$n]['R'] = utf8_encode(addslashes($sheetData[$n]['R']));
-                    echo 'vooraf '.$sheetData[$n]['M'].' | ';
+                    //echo 'vooraf '.$sheetData[$n]['K'].' | ';
                     if ($sheetData[$n]['I'] == 0) {$sheetData[$n]['I'] = 'NULL';} // wegingVD
-                    if ($sheetData[$n]['K'] == 0) {$sheetData[$n]['K'] = null;}
+                    if ($sheetData[$n]['K'] == '0') {$sheetData[$n]['K'] = null;}
                     if ($sheetData[$n]['L'] == 0) {$sheetData[$n]['L'] = 'NULL';} // duur
-                    if ($sheetData[$n]['M'] == '0') {$sheetData[$n]['M'] = null;}
-                    echo 'tussendoor *'.$sheetData[$n]['M'].'* ';
+                    if ($sheetData[$n]['M'] == '0') {$sheetData[$n]['M'] = 'NULL';}
+                    
                     if ($sheetData[$n]['N'] == 0) {$sheetData[$n]['N'] = 'NULL';} // wegingSE
-                    if ($sheetData[$n]['O'] == 0) {$sheetData[$n]['O'] = null;}
-                    if ($sheetData[$n]['P'] == 0) {$sheetData[$n]['P'] = null;}
+                    if ($sheetData[$n]['P'] == '0') {$sheetData[$n]['P'] = null;}
                     
                     if ($sheetData[$n]['M'] == 'Ja') {$sheetData[$n]['M'] = 1;}
                     if ($sheetData[$n]['M'] == 'Nee') {$sheetData[$n]['M'] = 0;}
-                    if ($sheetData[$n]['O'] == 'Ja') {$sheetData[$n]['O'] = 1;}
-                    if ($sheetData[$n]['O'] == 'Nee') {$sheetData[$n]['O'] = 0;}
-                    echo 'achteraf '.$sheetData[$n]['M'].'<br>';
+                    if ($sheetData[$n]['O'] == '0') {$sheetData[$n]['O'] = 'NULL';}
+                    if ($sheetData[$n]['O'] == 'Ja') {$sheetData[$n]['O'] = '1';}
+                    if ($sheetData[$n]['O'] == 'Nee') {$sheetData[$n]['O'] = '0';} // herkansbaarheid                   
+                    //echo 'achteraf '.$sheetData[$n]['K'].'<br>';
                     if ($sheetData[$n]['J'] == 'tt' && $sheetData[$n]['M'] == 1) {$inTW = 1;} else {$inTW = 0;}
-                    $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES (NULL, {$cohort['cid']}, {$cohortJaar['cjid']}, {$sheetData[$n]['E']}, {$sheetData[$n]['F']}, NULL, '{$sheetData[$n]['H']}', {$sheetData[$n]['I']}, '{$sheetData[$n]['J']}', '{$sheetData[$n]['K']}', {$sheetData[$n]['L']}, 1, {$sheetData[$n]['N']}, 0, '{$sheetData[$n]['P']}', NULL, '{$sheetData[$n]['R']}', $inTW, NULL, NULL);";
-                    // echo "<h4>{$sheetData[$n]['H']}</h4>";
+                    $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES (NULL, {$cohort['cid']}, {$cohortJaar['cjid']}, {$sheetData[$n]['E']}, {$sheetData[$n]['F']}, NULL, '{$sheetData[$n]['H']}', {$sheetData[$n]['I']}, '{$sheetData[$n]['J']}', '{$sheetData[$n]['K']}', {$sheetData[$n]['L']}, {$sheetData[$n]['M']}, {$sheetData[$n]['N']}, {$sheetData[$n]['O']}, '{$sheetData[$n]['P']}', NULL, '{$sheetData[$n]['R']}', $inTW, NULL, NULL);";
+                    // echo "<h4>{$sheetData[$n]['O']}</h4>";
+                    //echo "$sql <br>";
                     
                     // UIT voor dubbelingen mysqli_query($DBverbinding, $sql);
                     // onderstaande if voert de query al uit
@@ -109,7 +110,7 @@ foreach ($loadedSheetNames as $vakCode) {
             }
         } 
     }
-    // die(); // eerst alleen voor Nederlands
+    die(); // eerst alleen voor Nederlands
 }
-
+echo 'KLAAR :)';
 ?>

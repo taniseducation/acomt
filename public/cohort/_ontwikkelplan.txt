@@ -1,12 +1,27 @@
 # ISSUES
-- herkansbaarheid wordt nog steeds niet goed weggeschreven: standaard NEE
+- check op oud bestand gewoon inbouwen, door alleen inlezen bestanden met toevoeging 2021?
+Nee, dan passen ze bestandsnaam aan. moet ergens in veld staan.
+- herkansbaarheid wordt nog steeds niet goed weggeschreven: standaard NEE NOG STEEDS NIET
 - https://www.php.net/manual/en/function.addslashes en strip gebruiken voor strings met ' etc. WOOT's
 - check op WOOT's bij terugschrijven naar Excel. addslashes zit in maak_items
-- bij mavo en havo moeten niet relevante jaren verwijderd
+- bij mavo en havo moeten niet relevante jaren verwijderd NEE VERBERGEN IS BETER
+- check hoe zit het met blokkade van gegenereerde tabbladen?
+- Wat gebeurt er als je knipt en plakt van ander tabblad? Hoe zit het met opmaakvoorwaarden, beschikbaarheid dropdown e.d.?
 - bij elk cohort moeten vorige jaren zonder schrijfrecht
 - kun je voorwaardelijke opmaak van sjabloon kopieren en die daarna weggooien? Anders veel werk verloren
+- als voorw.opm. niet lukt: Als er iets rood is: kengetal in settings veranderen, zodat de inlees wordt geblokeerd. Kan met extra veld en check die al in voorwaardelijke opmaak zit ingebouwd
+- voorblad met instructie: ga niet dingen formatten: dat doen wij => Dat is dan ook Active sheet???!!!
+- bij inlezen ook check op correctheid records => tenzij dit al met ROOD wordt gefilterd. Ik zou het toch inbouwen.
+
+
+- set_Active sheet bij wegschrijven: je start altijd bij openen bij settingstabblad
+
 - check of voorwaardelijke dingen zoals "DIT IS DE HUIDIGE H5" nog wel dynamisch zijn na wegschrijven.
 - Kun je statische array maken met per vak de tabbladen die weggegooid kunnen worden? b.v. IF geen vmbo WAT ZIJN CONSEQUENTIES VOOR INLEZEN!?
+- voorkomen dat oude versies geupload worden? Check op id's voordat er wordt weggeschreven maar dan ook time()?
+- mededeling verouderde file. Moet dat dan niet in Sjabloon? Of iets met wegschrijven invoerjaar?
+- apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
+
 _______________________________________
 # LEZEN VAN RIJ OF MEER VOOR WEGSCHRIJVEN (kun je for each doen voor elke rij?)
 $dataArray = $spreadsheet->getActiveSheet()

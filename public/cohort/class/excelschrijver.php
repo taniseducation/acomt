@@ -7,7 +7,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 
 
 $inFilePath = 'fileExcel/';
-$inFileName = '_sjabloon_v1.xlsx';
+$inFileName = '_sjabloon_v2.xlsx';
 $outFilePath = 'fileExcel/xlsxUIT/';
 $inputFileName = $inFilePath.$inFileName;
 
@@ -150,6 +150,6 @@ for ($vakID = 1;$vakID <= 25;$vakID++) {
     unset($spreadsheet);
     unset($reader);
     unset($XLSXwriter);
-    // die(); // één bestand voor testen
+    die(); // één bestand voor testen
 }
 ?>
