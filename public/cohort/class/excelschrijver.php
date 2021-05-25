@@ -237,18 +237,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
         }
     }
 
-    /* WERKT MAAR TIJDELIJK UIT voor remove-array-test
-       
-    if ($vid != '28') { // Dit is KCKV die heeft M3 nodig maar de rest vak de vakken niet
-        $nv = substr($tabbladen[0], -5, 1);
-        $bj = substr($tabbladen[0], -4, 4);
-        $tbHelper = $nv.' '.$bj;
-        $sheetIndex = $spreadsheet->getIndex($spreadsheet->getSheetByName($tbHelper));
-        // echo "<h5>remove $sheetIndex $tbHelper</h5>";
-        $spreadsheet->removeSheetByIndex($sheetIndex);
-    }
-    */
-
     $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].' PTA en onderwijsprogramma.xlsx';
     $outputFileName = $outFilePath.$outFileName;
     echo '<h2>WRITER van '.$inputFileName.' naar <a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a></h2>';    
