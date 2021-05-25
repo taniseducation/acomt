@@ -1,5 +1,7 @@
 <?PHP
-$nieuwBeginJaar = 2020;
+// $nieuwBeginJaar = 2020; // is 2020 historisch ook niet wat raar? Was vast specifiek ingesteld voor wijziging
+// LET OP LET OP de cohortjaren hadden op één of andere manier een te hoog jaar gekregen: 
+// dus cohort met beginjaar 2021 had een laagste cohortjaar 2022 check code voor gebruikt in 2022
 echo "<h1>Genereer cohorten voor een nieuw schooljaar ($nieuwBeginJaar)</h1>";
 $sql = 'select * from vakken';
 $vakken = mysqli_query($DBverbinding, $sql);

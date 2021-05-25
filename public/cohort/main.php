@@ -16,10 +16,13 @@ require('class/item.class.php');
 
 require('class/bruteforceDBread.php');
 
+// hier kopieer cohort.
+require('class/kopieer_cohorten.php');
+
 echo '<pre>';
-//print_r($c183);
+// print_r($cidLijst);
 echo '<pre>';
-// die();
+die();
 
 // hoofdprogramma
 

@@ -1,4 +1,14 @@
+notes:
+cohorten cid 181 t/m 273 hebben beginjaar 2021
+181 is mavo: die werkt wel? Of ook niet.
+select * from cohortjaar where cid >= 181 and cid <=183
+probleem: mavo is goed want hij telt 2021 2022 maar voor havo niet gereset dus telt door van 2022 naar 2023 
+en vwo van 2023 via 2024 naar 2025
+=> schrijf script om dit per vak te repareren
+=> daarna verder met kopieer_cohorten, want die loopt hier terecht op vast (leve de checks!)
+
 # ISSUES
+- cohorten 2021 hebben blijkbaar niet altijd een cohortjaar gekregen. NL cid 182 havo 2021
 - maak laatste export / import master voor genereren excel zonder kopie
 - kopieer cohortjaar van huidige zodat ze niet over hoeven te typen.
 - als voorw.opm. niet lukt: Als er iets rood is: kengetal in settings veranderen, zodat de inlees wordt geblokeerd. Kan met extra veld en check die al in voorwaardelijke opmaak zit ingebouwd
