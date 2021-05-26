@@ -14,15 +14,15 @@ require('class/item.class.php');
 //require('class/maak_items_in_db.php');
 // require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
 
-require('class/bruteforceDBread.php');
-
 // hier kopieer cohort.
-require('class/kopieer_cohorten.php');
+//require('class/kopieer_cohorten.php');
 
 echo '<pre>';
-// print_r($cidLijst);
+//print_r($lijstcid);
 echo '<pre>';
-die();
+//die();
+
+require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 

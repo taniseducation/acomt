@@ -13,7 +13,7 @@ else {
 // echo "<h3>Eerst cohorten ophalen voor elk vak</h3>";
 while($vak = mysqli_fetch_assoc($vakken)) {
     $cidLijst = [];
-    echo "<h2>Aan de slag voor {$vak['vid']} = {$vak['vakNaam']}</h2><hr>";
+    echo "<h2>Aan de slag voor {$vak['vid']} = {$vak['vakNaam']}</h2>";
     // redenatie: voor elk cohort is er nu een nieuwer cohort dat gevuld kan worden met data
     // want nieuwe cohorten zijn al gegenereerd.
     // AANDACHTSPUNT: meerdere cohortjaren? NEE, kopieren doe je altijd aan begin nieuwe sessie, dus max huidige jaar.
@@ -53,19 +53,9 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                 $bronjaar = $kalenderJaar - 1;
                 $targetjaar = $kalenderJaar;
                 echo '<h2>'.$targetcid.' kopieert van '.$broncid.' de items met cohortjaar '.$bronjaar.'</h2>';
-                // broncjid ook nodig voor items
-                $sql = "select * from cohortjaar where jaar = $bronjaar and cid = $broncid";
-                $record = mysqli_query($DBverbinding, $sql);
-                if (mysqli_error($DBverbinding) || mysqli_num_rows($record) == 0) {
-                    echo("<h2>dbCheck: ".mysqli_num_rows($record)." items<br>".mysqli_error($DBverbinding)." $sql</h2>");
-                    die();
-                }
-                else {
-                    $cj = mysqli_fetch_assoc($record);
-                    $broncjid = $cj['cjid'];
-                }                
+                
                 // de te kopieren items ophalen
-                $sql = "select * from items where cid = $broncid and cjid = $broncjid";
+                $sql = "select * from items where cid = $broncid";
                 echo "<h1>> $sql </h1>";
                 $bronitems = mysqli_query($DBverbinding, $sql);
                 if (mysqli_error($DBverbinding) || mysqli_num_rows($bronitems) == 0) {
@@ -83,31 +73,34 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         $cj = mysqli_fetch_assoc($record);
                         $targetcjid = $cj['cjid'];
                     }
-  
+                    // broncjid ook nodig voor items
+                    $sql = "select * from cohortjaar where jaar = $bronjaar and cid = $broncid";
+                    $record = mysqli_query($DBverbinding, $sql);
+                    if (mysqli_error($DBverbinding) || mysqli_num_rows($record) == 0) {
+                        echo("<h2>dbCheck: ".mysqli_num_rows($record)." items<br>".mysqli_error($DBverbinding)."</h2>");
+                        die();
+                    }
+                    else {
+                        $cj = mysqli_fetch_assoc($record);
+                        $broncjid = $cj['cjid'];
+                    }      
                     // genereer nu nieuwe targetitems op basis van de bronitems
                     echo "<h2>Kopieer van cjid = $broncjid naar $targetcjid</h2>";
                     foreach ($bronitems as $bronitem) {
-                        echo "<h5>cjid: {$bronitem['cjid']} {$bronitem['periode']}</h5>";
+                        echo "<h5>{$bronitem['periode']} {$bronitem['leerstofomschrijving']} cjid: {$bronitem['cjid']}</h5>";
                         if ($bronitem['wegingVD'] == '') {$bronitem['wegingVD'] = 'NULL';}
                         if ($bronitem['wegingSE'] == '') {$bronitem['wegingSE'] = 'NULL';}
-                        if ($bronitem['SE'] == '') {$bronitem['SE'] = 'NULL';}
-                        
                         if ($bronitem['duur'] == '') {$bronitem['duur'] = 'NULL';}
-                        if ($bronitem['herkansbaar'] == '') {$bronitem['herkansbaar'] = 'NULL';}
-                        $bronitem['leerstofomschrijving'] = addslashes($bronitem['leerstofomschrijving']);
-                        $bronitem['hulp'] = addslashes($bronitem['hulp']);
-                        $bronitem['domeinen'] = addslashes($bronitem['domeinen']);
-                        $bronitem['opmerkingAfname'] = addslashes($bronitem['opmerkingAfname']);
-                        $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES (NULL, $targetcid, $targetcjid, {$bronitem['volgnr']}, {$bronitem['periode']}, NULL, '{$bronitem['leerstofomschrijving']}', {$bronitem['wegingVD']}, '{$bronitem['afname']}', '{$bronitem['hulp']}', {$bronitem['duur']}, {$bronitem['SE']}, {$bronitem['wegingSE']}, {$bronitem['herkansbaar']}, '{$bronitem['domeinen']}', NULL, '{$bronitem['opmerkingAfname']}', {$bronitem['inTW']}, NULL, NULL);";
-                        //echo "<h4>$sql</h4>";
-                        
+                        //$sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES (NULL, $targetcid, $targetcjid, {$bronitem['volgnr']}, {$bronitem['periode']}, NULL, '{$bronitem['leerstofomschrijving']}', {$bronitem['wegingVD']}, '{$bronitem['afname']}', '{$bronitem['hulp']}', {$bronitem['duur']}, {$bronitem['SE']}, {$bronitem['wegingSE']}, {$bronitem['herkansbaar']}, '{$bronitem['domeinen']}', NULL, '{$bronitem['opmerkingAfname']}', {$bronitem['inTW']}, NULL, NULL);";
+                        // echo "<h4>$sql</h4>";
+                        /*
                         if (!mysqli_query($DBverbinding,$sql)) {
                             
                             echo("FATALE FOUT: " . mysqli_error($DBverbinding));
                             echo "<h5>{$sql}</h5>";
                             die();
                         }
-                        
+                        */
                     } // einde foreach kopieren items
                 } // einde else zoeken targetitems
             } // einde else NEEM MEE
@@ -116,6 +109,6 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         print_r($cidLijst);
         echo '<pre>';
     } // einde else connectie gelegd
-    //die(); // eerst één vak
+    // die(); // eerst één vak
 } // einde while vakken
 ?>
