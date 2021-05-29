@@ -7,7 +7,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 
 
 $inFilePath = 'fileExcel/';
-$inFileName = '_sjabloon_v3.xlsx';
+$inFileName = '_sjabloon_v4.xlsx';
 $outFilePath = 'fileExcel/xlsxUIT/';
 $inputFileName = $inFilePath.$inFileName;
 $beveiliging = true;
@@ -16,6 +16,7 @@ $nietRelevanteCohortjarenOnzichtbaar = true;
 if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;} // want anders vallen ze weg
 
 for ($vakID = 1;$vakID <= 31;$vakID++) {
+    if ($vakID == 29) {$vakID++;} // BV in database maar wordt niet gebruikt
     $filter['vid'] = $vakID;
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
     // $reader->setReadDataOnly(true);
@@ -85,7 +86,7 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
             $validation->setFormula1('instellingen!$G$2:$G$6');
 
             $pLijst = ['G7','G8','G9','G10','G11'];
-            if (${'c'.$filterCohort}->cohortData['niveau'] != 'M') {
+            if (${'c'.$filterCohort}->cohortData['niveau'] != 'M' || 0 == 0) { // LUI: bij nader inzien ook voor mavo
                 $pLijst=array_merge($pLijst,['G18','G19','G20','G21','G22','G23']);
             }
             if (${'c'.$filterCohort}->cohortData['niveau'] = 'A') {
@@ -210,6 +211,16 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
             for ($k = 'A'; $k <= 'E'; $k++) {
                 $spreadsheet->getActiveSheet()->getColumnDimension($k)->setVisible(false);
             }
+            for ($k = 'R'; $k <= 'Y'; $k++) {
+                $spreadsheet->getActiveSheet()->getColumnDimension($k)->setVisible(false);
+            }    
+            $spreadsheet->getActiveSheet()->getColumnDimension('Z')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AA')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AB')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AC')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AD')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AE')->setVisible(false);
+            $spreadsheet->getActiveSheet()->getColumnDimension('AF')->setVisible(false);
         }
         $spreadsheet->getActiveSheet()->getCell('G1')->setValue('*'); // hack om cursor boven te krijgen
     } // EINDE beschrijven van één cohort-tabblad
@@ -245,6 +256,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     unset($spreadsheet);
     unset($reader);
     unset($XLSXwriter);
-    // die(); // één bestand voor testen
+    //die(); // één bestand voor testen
 }
 ?>

@@ -1,23 +1,26 @@
+CONTROLE
+- zet controlekolommen vanaf R gewoon op zichtbaar in een aparte export na inlezen. Dan zie je zo waar het schort.
+    veld F2 geeft nu het aantal opvallende zaken.
+- fictiedossier mavo-4 herkansbaar komt op 0 uit. Zou NEE moeten zijn. Bij handelingsdelen. Tamelijk zeldzaam.   
+
+VOOR VOLGEND jaar
+- KCKV zit als enige in M3 en wordt daarom (denk ik) niet goed gekopieerd. Handmatig doen.
+- Eerst backup maken van huidig, dan aanmaken nieuwe cohortjaren en dan pas kopieren items.
+- Let op dat je bij aanpassing sjabloon niet alleen tabbladen maar ook structuur beveiligt
+- Ik ben vergeten om in te bouwen dat je bij kopieren items ook de algemene opmerkingen van de cohortjaren moet kopieren.
+
 notes:
-- Excelschrijver crasht nog vanaf KCKV en sloopt dan ook PWS en rekeken
-- 
+- sjabloon definitief qua tekst en tabblad verkleinen
 
 # ISSUES
-- in instructie: twijfel je op je iets stuk gemaakt hebt? Geeft niet, maar zeg het even.
-- dropdown periode vergeten? Of werkt niet.
-- cohorten 2021 hebben blijkbaar niet altijd een cohortjaar gekregen. NL cid 182 havo 2021
-- maak laatste export / import master voor genereren excel zonder kopie
-- kopieer cohortjaar van huidige zodat ze niet over hoeven te typen.
-- als voorw.opm. niet lukt: Als er iets rood is: kengetal in settings veranderen, zodat de inlees wordt geblokeerd. Kan met extra veld en check die al in voorwaardelijke opmaak zit ingebouwd
-- bij inlezen ook check op correctheid records => tenzij dit al met ROOD wordt gefilterd. Ik zou het toch inbouwen.
-
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
+    KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
 
 UITGESTELD
 - zowel validatie als opmaak is niet goed te clonen. Voorwaardelijke opmaak lijkt al lost bij openen
     https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#conditional-formatting-a-cell
     kun je ook gebruik om te laden, maar specifieke cel zie ik niet.
-
+- Er zit nu half een controle ingebouwd die vakjes rood maakt als er iets mis is. Vanwege tijd eerst laten rusten.
 AFGEHANDELD
 - check op oud bestand gewoon inbouwen, door alleen inlezen bestanden met toevoeging 2021?
     Nee, dan passen ze bestandsnaam aan. moet ergens in veld staan. Dat is dus de Ster * in G1
