@@ -11,6 +11,21 @@ require('class/settings.php');
 require('class/cohort.class.php');
 require('class/item.class.php');
 
+// maillinglist sectievoorzitters
+$sql = "SELECT DISTINCT voorzitter FROM vakken";
+$voorzitters = mysqli_query($DBverbinding, $sql);
+$mailinglist = '';
+while($voorzitter = mysqli_fetch_assoc($voorzitters)) {
+    if ($voorzitter['voorzitter'] == null ) {
+        echo 'Hier mist iets<br>';
+    }
+    else {
+        $mailinglist.=$voorzitter['voorzitter'].',';
+    }
+}
+$mailinglist = substr($mailinglist,0,-1); // laatste , eraf halen
+echo '<h2>MAILinglist sectievoorzitters</h2>'.$mailinglist.'<br>';
+
 //require('class/maak_items_in_db.php');
 // require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
 
@@ -18,9 +33,8 @@ require('class/item.class.php');
 //require('class/kopieer_cohorten.php');
 
 echo '<pre>';
-//print_r($lijstcid);
+// print_r($mailinglist);
 echo '<pre>';
-//die();
 
 require('class/bruteforceDBread.php');
 
