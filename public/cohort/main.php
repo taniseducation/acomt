@@ -24,52 +24,29 @@ while($voorzitter = mysqli_fetch_assoc($voorzitters)) {
     }
 }
 $mailinglist = substr($mailinglist,0,-1); // laatste , eraf halen
-echo '<h2>MAILinglist sectievoorzitters</h2>'.$mailinglist.'<br>';
+// echo '<h2>MAILinglist sectievoorzitters</h2>'.$mailinglist.'<br>';
 
 //require('class/maak_items_in_db.php');
 // require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
-
 // hier kopieer cohort.
 //require('class/kopieer_cohorten.php');
-
-echo '<pre>';
-// print_r($mailinglist);
-echo '<pre>';
-
-require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 
 // eerst 1cohort gedaan met $filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
 $huidigJaarVoorGenererenExcel = 2021; // doe je voor de zomervakantie
-
 // LET OP LET OP eerste item [0] wordt ook gebruikt om dat tabblad weer te verwijderen voor iedereen behalve KCKV
 $tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
-require('class/excelschrijver.php');
+require('class/bruteforceDBread.php');
 
-//$filter['niveau'] = 'A';
-//$filter['beginJaar'] = '2020';
-//$filter['vakCode'] = 'NA'; // IF 14 NA 15
-// $filter['vid'] = 15; // selecteerCohort gebruik vid en niet vakCode, want gaat om één cohort.
+require('class/excellezerNAARdb.php');
+//require('class/excelschrijver.php');
 
 echo '<pre>';
 //print_r(${'c'.$filterCohort}->cohortData['niveau']);
 echo '<pre>';
 
-// met het gefilterde cohort ga je schrijven
-// require('class/excelschrijver.php');
-
 // require('class/DBoverzichtVak.php');
-
-/*
-foreach (${'c'.$filterCohort}->jaarItems as $cj) {
-    echo '<pre>';
-    print_r($cj);
-    echo '<pre>';
-}
-*/
-
-
 // require('class/pdfschrijver.php');
 ?>
