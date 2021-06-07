@@ -7,7 +7,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 
 $inFilePath = 'fileExcel/xlsxIN/';
 
-echo '<h2>inlezen aangepaste Excel-files en wegschrijven naar DB</h2>';
+echo '<h1>inlezen aangepaste Excel-files en wegschrijven naar DB<br>WERK TIJDELIJK IN ECHTE KOPIE DB ipv steeds terugzetten</h1>';
 
 // haal vakken op uit database voor bestandsnamen
 $sql = "SELECT * FROM vakken";
@@ -16,28 +16,83 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;    
-    echo "<h3>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h3>";
+    echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
     $reader->setReadDataOnly(true);
     $spreadsheet = $reader->load($inputFileName);
     $loadedSheetNames = $spreadsheet->getSheetNames();
     array_shift($loadedSheetNames); // gooi settings ...
     array_shift($loadedSheetNames); // en instructie weg
-    echo '<pre>';
-    print_r($loadedSheetNames);
-    echo '<pre>';
     foreach ($tabbladen as $tabblad) {
-        //$spreadsheet->setActiveSheetIndexByName($tabblad);
-        echo "<h5>$tabblad</h5>";
-
-        /*
-        $naamTabblad = $filter['niveau'].' '.$filter['beginJaar'];
+        $naamTabblad = substr($tabblad,0,-4).' '.substr($tabblad,1,4);
+        // check of het tabblad voor dit vak bestaat
+        if (!in_array($naamTabblad,$loadedSheetNames)) {continue;}
+        if ($naamTabblad != 'A 2020') {continue;}
+        echo "<h3>$naamTabblad</h3>";
+        $spreadsheet->setActiveSheetIndexByName($naamTabblad);
         $vid = $spreadsheet->getActiveSheet()->getCell('B5');
         $niveau = $spreadsheet->getActiveSheet()->getCell('B6');
         $positiePTA = $spreadsheet->getActiveSheet()->getCell('B13')->getCalculatedValue();
         $cid = $spreadsheet->getActiveSheet()->getCell('B8')->getCalculatedValue();
-        die('die: één tabblad'); // één tabblad voor testen
-        */
+        echo "<h2>Dit is het vak $vid voor $niveau met cid = $cid</h2>";
+        $cjidLijst = [$spreadsheet->getActiveSheet()->getCell('D13')->getCalculatedValue(),$spreadsheet->getActiveSheet()->getCell('D25')->getCalculatedValue()];
+        if ($niveau == 'A') array_push($cjidLijst,$spreadsheet->getActiveSheet()->getCell('D37')->getCalculatedValue());
+        // gewetensvraag: gaan we nu alles spiegelen met de database of alleen dat wat schrijfrecht had
+        // => kan op zich relatief snel met de bruteforce import die al is gedaan, toch?
+        // !! vergeet niet de algemene opmerkingen per cohortjaar
+
+        // als er wel een leerstofomscrijving maar nog geen id is => item aanmaken
+        // anders vergelijken met wat je al hebt
+
+        for ($nr=0;$nr<count($cjidLijst);$nr++) {
+            // echo "<h3>{$cjidLijst[$nr]}</h3>";
+            if ($nr == 0) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D6:P11',NULL,TRUE,TRUE,TRUE);}
+            if ($nr == 1) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D18:P23',NULL,TRUE,TRUE,TRUE);}
+            if ($nr == 2) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D30:P35',NULL,TRUE,TRUE,TRUE);}
+            foreach ($dataArray as $item) {
+                if ($item['D'] == null) {
+                    // geen itemnummer: als er wel iets is opgeschreven moet er een INSERT komen
+                    if ($item['H'] != null) {
+                        echo 'wel een item ('.$item['H'].'), nog geen itemnummer<br>';
+                    }
+                    echo 'GEEN itemnummer<br>';
+                }
+                else {
+                    // wel itemnummer: als er geen inhoud is moet het item DELETE en anders een UPDATE
+                    if ($item['H'] != null) {
+                        // geen item meer DELETE of zet actief op FALSE: wat doen we?
+                    }
+                    else {
+                        // er is content: is het eigenlijk wel nodig om te chechen op identiek?
+                        // sowieso bestaande code gebruiken voor schrijven naar db
+                    }
+                    echo 'wel itemnummer<br>';       
+                }
+                continue;
+                // hier moet nog check voor of er wel een itemnummer is!
+                if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
+                    // er is verschil geconstateerd~
+                    // als item leeg, dan delete item of beter zet op inactief?
+                    //
+                }
+                echo "<h3>content db van item: {$item['D']} (cjid {$cjidLijst[$nr]})</h3>";
+                /*
+                echo '<pre>';
+                print_r(${'i'.$item['D']}->itemData);
+                echo '</pre>';        
+                echo "<h1>content <b>EXCEL</b> van item: {$item['D']} (cjid {$cjidLijst[$nr]})</h3>";
+                echo '<pre>';
+                print_r($item);
+                echo '</pre>';       
+                */                   
+                // die('die: eerst één item');
+            }
+            echo '<pre>';
+            //print_r($dataArray);
+            echo '</pre>';
+            // die('die: eerst één cohortjaar');
+        }
+        die('die: één tabblad');
     }
     $spreadsheet->disconnectWorksheets();
     unset($spreadsheet);

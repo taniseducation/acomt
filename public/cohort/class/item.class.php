@@ -16,5 +16,9 @@ class Item {
     $this->itemData['opmerkingAfname']=utf8_decode($this->itemData['opmerkingAfname']);
     $this->itemData['internRooster']=utf8_decode($this->itemData['internRooster']);
   }
+
+  function dbExcelIDentiek($excel) {
+      return false;
+  }
 }
 ?>
