@@ -14,6 +14,7 @@ $sql = "SELECT * FROM vakken";
 $vakken= mysqli_query($DBverbinding, $sql);
 while($vak = mysqli_fetch_assoc($vakken)) {    
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
+    if ($vak['vid'] != 14) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;    
     echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
@@ -27,7 +28,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         $naamTabblad = substr($tabblad,0,-4).' '.substr($tabblad,1,4);
         // check of het tabblad voor dit vak bestaat
         if (!in_array($naamTabblad,$loadedSheetNames)) {continue;}
-        if ($naamTabblad != 'A 2020') {continue;}
+        if ($naamTabblad != 'A 2021') {continue;}
         echo "<h3>$naamTabblad</h3>";
         $spreadsheet->setActiveSheetIndexByName($naamTabblad);
         $vid = $spreadsheet->getActiveSheet()->getCell('B5');
@@ -53,28 +54,33 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                 if ($item['D'] == null) {
                     // geen itemnummer: als er wel iets is opgeschreven moet er een INSERT komen
                     if ($item['H'] != null) {
-                        echo 'wel een item ('.$item['H'].'), nog geen itemnummer<br>';
+                        echo '[1] wel een item ('.$item['H'].'), nog geen itemnummer<br>';
                     }
-                    echo 'GEEN itemnummer<br>';
+                    else {
+                        echo '[2] GEEN itemnummer<br>';
+                    }
                 }
                 else {
                     // wel itemnummer: als er geen inhoud is moet het item DELETE en anders een UPDATE
-                    if ($item['H'] != null) {
+                    if ($item['H'] == null) {
                         // geen item meer DELETE of zet actief op FALSE: wat doen we?
+                        echo '[3] WEL itemnummer, maar geen inhoud meer of weggehaald<br>';
                     }
                     else {
-                        // er is content: is het eigenlijk wel nodig om te chechen op identiek?
+                        // er is content: is het eigenlijk wel nodig om te chechen op identiek? DOE HET WEL voor formatcheck
                         // sowieso bestaande code gebruiken voor schrijven naar db
+                        echo '[4] WEL itemnummer, en nog steeds inhoud<br>';
+                        if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
+                            // er is verschil geconstateerd
+                        } 
+                        echo '<pre>';
+                        print_r(${'i'.$item['D']}->itemData);
+                        echo '</pre>';                                       
                     }
-                    echo 'wel itemnummer<br>';       
                 }
                 continue;
                 // hier moet nog check voor of er wel een itemnummer is!
-                if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
-                    // er is verschil geconstateerd~
-                    // als item leeg, dan delete item of beter zet op inactief?
-                    //
-                }
+
                 echo "<h3>content db van item: {$item['D']} (cjid {$cjidLijst[$nr]})</h3>";
                 /*
                 echo '<pre>';
