@@ -1,9 +1,12 @@
+regel 60 weging en 62 duur en 64 weging SE omgezet van 'NULL' naar 0; gaat dit problemen geven?
+
 CONTROLE
 - zet controlekolommen vanaf R gewoon op zichtbaar in een aparte export na inlezen. Dan zie je zo waar het schort.
     veld F2 geeft nu het aantal opvallende zaken.
 - fictiedossier mavo-4 herkansbaar komt op 0 uit. Zou NEE moeten zijn. Bij handelingsdelen. Tamelijk zeldzaam.   
 
 VOOR VOLGEND jaar
+- bouw check in bij kopieren cohorten: zijn de velden waar het heen gaat echt leeg?
 - KCKV zit als enige in M3 en wordt daarom (denk ik) niet goed gekopieerd. Handmatig doen.
 - Eerst backup maken van huidig, dan aanmaken nieuwe cohortjaren en dan pas kopieren items.
 - Let op dat je bij aanpassing sjabloon niet alleen tabbladen maar ook structuur beveiligt
@@ -13,10 +16,14 @@ notes:
 - sjabloon definitief qua tekst en tabblad verkleinen
 
 # ISSUES
+- algemene opmerkingen PTA worden nu per cohortjaar nog niet gecheckt
+- check opnieuw BRUTEFORCE read en dbnaarexcelschrijver. Door nieuwe items gaat niet meer automatisch de volgorde goed. Order by?
+- Hoe herken je volgorde binnen een periode? Ik heb nu $volgnummer gebruikt. DOE TEST MET MEERDERE NIEUWE ITEMS => eerst sorteren op periode dan op $volgnummer
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
     KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
 
 UITGESTELD
+- check op wijziging geeft notificatie bij bijzondere tekens. Niet opgelost: worden (onnodig) overschreven in de database.
 - zowel validatie als opmaak is niet goed te clonen. Voorwaardelijke opmaak lijkt al lost bij openen
     https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#conditional-formatting-a-cell
     kun je ook gebruik om te laden, maar specifieke cel zie ik niet.

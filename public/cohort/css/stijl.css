@@ -28,8 +28,11 @@ h2 {
 }
 h3 {
     font-size: 2.5em;
-    color: dodgerblue;
     color: #345BA4;
+}
+
+h4 {
+    color: dodgerblue;
 }
 
 table {

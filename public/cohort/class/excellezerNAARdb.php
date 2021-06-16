@@ -6,15 +6,23 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 $inFilePath = 'fileExcel/xlsxIN/';
+$queriesUitvoeren = true;
+$Nfouten = 0;
+if ($queriesUitvoeren) {
+    echo "<hr><font style='color: darkgreen; font-size: 3.5em;'><b>LET OP</b> update-queries worden WEL uitgevoerd.</font><br>";
+}
+else {
+    echo "<hr><font style='color: red; font-size: 3.5em;'><b>LET OP</b> update-queries worden NIET uitgevoerd.</font><br>";
+}
 
-echo '<h1>inlezen aangepaste Excel-files en wegschrijven naar DB<br>WERK TIJDELIJK IN ECHTE KOPIE DB ipv steeds terugzetten</h1>';
+echo '<h1>inlezen aangepaste Excel-files en wegschrijven naar DB</h1>';
 
 // haal vakken op uit database voor bestandsnamen
 $sql = "SELECT * FROM vakken";
 $vakken= mysqli_query($DBverbinding, $sql);
 while($vak = mysqli_fetch_assoc($vakken)) {    
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
-    if ($vak['vid'] != 14) {continue;} // eerst even informatica
+    // if ($vak['vid'] != 14) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;    
     echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
@@ -28,7 +36,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         $naamTabblad = substr($tabblad,0,-4).' '.substr($tabblad,1,4);
         // check of het tabblad voor dit vak bestaat
         if (!in_array($naamTabblad,$loadedSheetNames)) {continue;}
-        if ($naamTabblad != 'A 2021') {continue;}
+        // if ($naamTabblad != 'A 2021') {continue;}
         echo "<h3>$naamTabblad</h3>";
         $spreadsheet->setActiveSheetIndexByName($naamTabblad);
         $vid = $spreadsheet->getActiveSheet()->getCell('B5');
@@ -38,50 +46,96 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         echo "<h2>Dit is het vak $vid voor $niveau met cid = $cid</h2>";
         $cjidLijst = [$spreadsheet->getActiveSheet()->getCell('D13')->getCalculatedValue(),$spreadsheet->getActiveSheet()->getCell('D25')->getCalculatedValue()];
         if ($niveau == 'A') array_push($cjidLijst,$spreadsheet->getActiveSheet()->getCell('D37')->getCalculatedValue());
-        // gewetensvraag: gaan we nu alles spiegelen met de database of alleen dat wat schrijfrecht had
-        // => kan op zich relatief snel met de bruteforce import die al is gedaan, toch?
         // !! vergeet niet de algemene opmerkingen per cohortjaar
-
-        // als er wel een leerstofomscrijving maar nog geen id is => item aanmaken
-        // anders vergelijken met wat je al hebt
-
+        
         for ($nr=0;$nr<count($cjidLijst);$nr++) {
-            // echo "<h3>{$cjidLijst[$nr]}</h3>";
             if ($nr == 0) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D6:P11',NULL,TRUE,TRUE,TRUE);}
             if ($nr == 1) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D18:P23',NULL,TRUE,TRUE,TRUE);}
             if ($nr == 2) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D30:P35',NULL,TRUE,TRUE,TRUE);}
+            $volgnummer = 7; // voor nieuwe items; dan geen voorgegenereerd volgnummer 
             foreach ($dataArray as $item) {
+                // SOWIESO ALLES OMZETTEN, of je het gebruikt of niet
+                    $item['H'] = utf8_encode(addslashes($item['H']));
+                    $item['K'] = utf8_encode(addslashes($item['K']));
+                    $item['P'] = utf8_encode(addslashes($item['P']));
+                    if ($item['I'] == 0) {$item['I'] = null;} // wegingVD
+                    if ($item['K'] == '0') {$item['K'] = null;}
+                    if ($item['L'] == 0) {$item['L'] = null;} // duur
+                    if ($item['M'] == '0') {$item['M'] = 'NULL';}
+                    if ($item['N'] == 0) {$item['N'] = null;} // wegingSE
+                    if ($item['P'] == '0') {$item['P'] = null;}
+                    if ($item['M'] == 'ja') {$item['M'] = 1;}
+                    if ($item['M'] == 'nee') {$item['M'] = 0;}
+                    if ($item['O'] == 'kies...') {$item['O'] = 'NULL';}
+                    if ($item['O'] == 'ja') {$item['O'] = '1';}
+                    if ($item['O'] == 'nee') {$item['O'] = '0';} // herkansbaarheid                   
+                    if ($item['J'] == 'tt' && $item['M'] == 1) {$inTW = 1;} else {$inTW = 0;}
+                // / SOWIESO ALLES OMZETTEN, of je het gebruikt of niet
+                
                 if ($item['D'] == null) {
                     // geen itemnummer: als er wel iets is opgeschreven moet er een INSERT komen
                     if ($item['H'] != null) {
-                        echo '[1] wel een item ('.$item['H'].'), nog geen itemnummer<br>';
+                        echo '[1] <b>XXXX</b> wel een item ('.$item['H'].'), nog geen itemnummer<br>';
+                        $volgnummer++;
+                        $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) 
+                        VALUES (NULL, $cid, {$cjidLijst[$nr]}, {$volgnummer}, {$item['G']}, NULL, '{$item['H']}', {$item['I']}, '{$item['J']}', '{$item['K']}', {$item['L']}, {$item['M']}, {$item['N']}, {$item['O']}, '{$item['P']}', NULL, NULL, NULL, NULL, NULL);";
+                        // echo "<h1>$sql</h1>";
+                        if (!$queriesUitvoeren) {continue;}
+                        if (!mysqli_query($DBverbinding,$sql)) {
+                            $Nfouten++;
+                            echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                            echo "<h5>{$sql}</h5>Nieuw item met volgnummer $volgnummer<br>";
+                            die('[1]');
+                        }
                     }
                     else {
-                        echo '[2] GEEN itemnummer<br>';
+                        echo '[2] GEEN itemnummer, maar ook geen item<br>';
                     }
                 }
                 else {
                     // wel itemnummer: als er geen inhoud is moet het item DELETE en anders een UPDATE
                     if ($item['H'] == null) {
                         // geen item meer DELETE of zet actief op FALSE: wat doen we?
-                        echo '[3] WEL itemnummer, maar geen inhoud meer of weggehaald<br>';
+                        echo '[3] WEL itemnummer ('.$item['D'].'), maar geen inhoud meer of weggehaald<br>';
+                        $sql = "DELETE FROM `items` WHERE `items`.`id` = {$item['D']}";
+                        // echo "$sql<br>";
+                        if (!$queriesUitvoeren) {continue;}
+                        if (!mysqli_query($DBverbinding,$sql)) {
+                            $Nfouten++;
+                            echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                            echo "<h5>{$sql}</h5>";
+                            die('[3]');
+                        }
                     }
                     else {
                         // er is content: is het eigenlijk wel nodig om te chechen op identiek? DOE HET WEL voor formatcheck
                         // sowieso bestaande code gebruiken voor schrijven naar db
-                        echo '[4] WEL itemnummer, en nog steeds inhoud<br>';
+                        echo '[4] WEL itemnummer ('.$item['D'].'), en nog steeds inhoud<br>';
                         if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
                             // er is verschil geconstateerd
-                        } 
+                            $sql = "DELETE FROM `items` WHERE `id`= {$item['D']}; INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) 
+                        VALUES ({$item['D']}, $cid, {$cjidLijst[$nr]}, {$volgnummer}, {$item['G']}, NULL, '{$item['H']}', {$item['I']}, '{$item['J']}', '{$item['K']}', {$item['L']}, {$item['M']}, {$item['N']}, {$item['O']}, '{$item['P']}', NULL, NULL, NULL, NULL, NULL);";
+                            // echo "$sql <br>";
+                            if (!$queriesUitvoeren) {continue;}
+                            echo "<hr><font style='color: indianred; font-size: 4em;'>AAN HET POMPEN.</font><br>";
+                            if (!mysqli_query($DBverbinding,$sql)) {
+                                $Nfouten++;
+                                echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                                echo "<h5>{$sql}</h5>";
+                                die('[4]');
+                            }
+                        }
+                        else {
+                            echo '[5] maar GEEN VERSCHIL dus geen actie nodig<br>';
+                        }
+                        /*
                         echo '<pre>';
                         print_r(${'i'.$item['D']}->itemData);
                         echo '</pre>';                                       
+                        */
                     }
                 }
                 continue;
-                // hier moet nog check voor of er wel een itemnummer is!
-
-                echo "<h3>content db van item: {$item['D']} (cjid {$cjidLijst[$nr]})</h3>";
                 /*
                 echo '<pre>';
                 print_r(${'i'.$item['D']}->itemData);
@@ -98,11 +152,11 @@ while($vak = mysqli_fetch_assoc($vakken)) {
             echo '</pre>';
             // die('die: eerst één cohortjaar');
         }
-        die('die: één tabblad');
+        // die('die: één tabblad');
     }
     $spreadsheet->disconnectWorksheets();
     unset($spreadsheet);
     unset($reader);
-    die('die: één excelfile'); // één excelfile / één vak
+    // die('die: één excelfile'); // één excelfile / één vak
 }
 ?>

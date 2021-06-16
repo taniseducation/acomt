@@ -19,27 +19,32 @@ class Item {
 
   function dbExcelIDentiek($excel) {
       $notice = '';
-      echo '<hr><pre>';
-      print_r($excel);
-      echo '</pre>';
-      echo '<h5>'.$this->itemData['leerstofomschrijving'].'</h5>';
-      echo '<h5>'.$excel['H'].'</h5>';
       if ($this->itemData['periode'] != $excel['G']) {$notice = $notice.'periode gewijzigd. ';}
       if ($this->itemData['leerstofomschrijving'] != $excel['H']) {$notice = $notice.'leerstof gewijzigd. ';}
       if ($this->itemData['wegingVD'] != $excel['I']) {$notice = $notice.'weging VD gewijzigd. ';}
       if ($this->itemData['afname'] != $excel['J']) {$notice = $notice.'afname gewijzigd. ';}
       if ($this->itemData['hulp'] != $excel['K']) {$notice = $notice.'hulp gewijzigd. ';}
       if ($this->itemData['duur'] != $excel['L']) {$notice = $notice.'duur gewijzigd. ';}
-      if ($this->itemData['SE'] != $excel['M']) {$notice = $notice.'SE-status gewijzigd. ';}
+      // SE-status is voor de check al omgezet in numeriek, dus aangepaste check
+      // if ($this->itemData['SE'] != $excel['M']) {$notice = $notice.'SE-status gewijzigd. ';}
+      if (($this->itemData['SE']=='ja' && $excel['M']!=1) || ($this->itemData['SE']=='nee' && $excel['M']!=0)) {$notice = $notice.'SE-status gewijzigd. ';}
       if ($this->itemData['wegingSE'] != $excel['N']) {$notice = $notice.'weging SE gewijzigd. ';}
-      if ($this->itemData['herkansbaar'] != $excel['O']) {$notice = $notice.'herkansbaarheid gewijzigd. ';}
+      // herkansbaar is voor de check al omgezet in numeriek, dus aangepaste check
+      // if ($this->itemData['herkansbaar'] != $excel['O']) {$notice = $notice.'herkansbaarheid gewijzigd. ';}
+      if (($this->itemData['herkansbaar']=='ja' && $excel['O']!=1) || ($this->itemData['herkansbaar']=='nee' && $excel['O']!=0)) {$notice = $notice.'herkansbaarheid gewijzigd. ';}
       if ($this->itemData['domeinen'] != $excel['P']) {$notice = $notice.'domeinen gewijzigd. ';}
       if ($notice == '') {
-          echo '<h1>identiek item</h1>';
+          echo '<h4>identiek item</h4>';
           return true;
       }
       else {
-          echo '<h1>'.$notice.'</h1>';
+          echo '<h4>verschil: '.$notice.'</h4>';
+        echo '<pre>';
+        print_r($excel);
+        echo '</pre>';
+        echo '<hr><pre>';
+        print_r($this->itemData);
+        echo '</pre>';          
           return false;
         }      
   }
