@@ -17,7 +17,7 @@ $voorzitters = mysqli_query($DBverbinding, $sql);
 $mailinglist = '';
 while($voorzitter = mysqli_fetch_assoc($voorzitters)) {
     if ($voorzitter['voorzitter'] == null ) {
-        echo 'Hier mist iets<br>';
+        //echo 'Hier mist iets<br>';
     }
     else {
         $mailinglist.=$voorzitter['voorzitter'].',';
@@ -40,7 +40,8 @@ $tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 require('class/bruteforceDBread.php');
 
-require('class/excellezerNAARdb.php');
+require('class/consistentiecheck.php');
+//require('class/excellezerNAARdb.php');
 //require('class/excelschrijver.php');
 
 echo '<pre>';

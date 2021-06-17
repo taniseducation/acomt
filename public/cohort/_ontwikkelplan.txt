@@ -1,9 +1,11 @@
-regel 60 weging en 62 duur en 64 weging SE omgezet van 'NULL' naar 0; gaat dit problemen geven?
-
 CONTROLE
-- zet controlekolommen vanaf R gewoon op zichtbaar in een aparte export na inlezen. Dan zie je zo waar het schort.
-    veld F2 geeft nu het aantal opvallende zaken.
-- fictiedossier mavo-4 herkansbaar komt op 0 uit. Zou NEE moeten zijn. Bij handelingsdelen. Tamelijk zeldzaam.   
+- Algemene opmerkingen wegschrijven gaat goed, maar in de items zit nog symbolen-bug #ONWAAR
+    => opgelost door bij wegschrijven data te omsluiten met "{ array[x] }" Lijkt nu goed, maar deeptesten noodzakelijk.
+- bij NL havo 2021 is iets interessants: wijziging lesstof krijgt nieuwe regels en daardoor
+    ontoegankelijker bij terugschrijven naar Excel. Dit komt door formatting van henzelf, zo lijkt het.
+    GOED CHECKEN OP DERGELIJKE WIJZIGINGEN    
+- fictiedossier mavo-4 herkansbaar komt op 0 uit. Zou NEE moeten zijn. Bij handelingsdelen. Tamelijk zeldzaam.  
+    Filter programmeren voor dit soort dingen? Verzamelpagina met uitkomst queries? (vaste functie naar tabel?)
 
 VOOR VOLGEND jaar
 - bouw check in bij kopieren cohorten: zijn de velden waar het heen gaat echt leeg?
@@ -28,6 +30,7 @@ UITGESTELD
     https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#conditional-formatting-a-cell
     kun je ook gebruik om te laden, maar specifieke cel zie ik niet.
 - Er zit nu half een controle ingebouwd die vakjes rood maakt als er iets mis is. Vanwege tijd eerst laten rusten.
+
 AFGEHANDELD
 - check op oud bestand gewoon inbouwen, door alleen inlezen bestanden met toevoeging 2021?
     Nee, dan passen ze bestandsnaam aan. moet ergens in veld staan. Dat is dus de Ster * in G1

@@ -22,7 +22,7 @@ $sql = "SELECT * FROM vakken";
 $vakken= mysqli_query($DBverbinding, $sql);
 while($vak = mysqli_fetch_assoc($vakken)) {    
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
-    // if ($vak['vid'] != 14) {continue;} // eerst even informatica
+    //if ($vak['vid'] != 14) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;    
     echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
@@ -45,28 +45,42 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         $cid = $spreadsheet->getActiveSheet()->getCell('B8')->getCalculatedValue();
         echo "<h2>Dit is het vak $vid voor $niveau met cid = $cid</h2>";
         $cjidLijst = [$spreadsheet->getActiveSheet()->getCell('D13')->getCalculatedValue(),$spreadsheet->getActiveSheet()->getCell('D25')->getCalculatedValue()];
-        if ($niveau == 'A') array_push($cjidLijst,$spreadsheet->getActiveSheet()->getCell('D37')->getCalculatedValue());
+        // $opmLijst = [utf8_encode(addslashes($spreadsheet->getActiveSheet()->getCell('G14')->getCalculatedValue())),utf8_encode(addslashes($spreadsheet->getActiveSheet()->getCell('G26')->getCalculatedValue()))];
+        $opmLijst = [mysqli_real_escape_string($DBverbinding,$spreadsheet->getActiveSheet()->getCell('G14')->getCalculatedValue()),mysqli_real_escape_string($DBverbinding,$spreadsheet->getActiveSheet()->getCell('G26')->getCalculatedValue())];
+        if ($niveau == 'A') {
+            array_push($cjidLijst,$spreadsheet->getActiveSheet()->getCell('D37')->getCalculatedValue());
+            array_push($opmLijst,mysqli_real_escape_string($DBverbinding,$spreadsheet->getActiveSheet()->getCell('G38')->getCalculatedValue()));
+        }
         // !! vergeet niet de algemene opmerkingen per cohortjaar
         
         for ($nr=0;$nr<count($cjidLijst);$nr++) {
             if ($nr == 0) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D6:P11',NULL,TRUE,TRUE,TRUE);}
             if ($nr == 1) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D18:P23',NULL,TRUE,TRUE,TRUE);}
             if ($nr == 2) {$dataArray = $spreadsheet->getActiveSheet()->rangeToArray('D30:P35',NULL,TRUE,TRUE,TRUE);}
+            $sql = "UPDATE `cohortjaar` SET `algemeen` = '{$opmLijst[$nr]}' WHERE `cohortjaar`.`cjid` = {$cjidLijst[$nr]};";
+            echo "<h1>$sql</h1>";
+            if (!mysqli_query($DBverbinding,$sql)) {
+                $Nfouten++;
+                echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                echo "<h5>{$sql}</h5>algemene opmerking $volgnummer<br>";
+                die('[0]');
+            }
+
             $volgnummer = 7; // voor nieuwe items; dan geen voorgegenereerd volgnummer 
             foreach ($dataArray as $item) {
                 // SOWIESO ALLES OMZETTEN, of je het gebruikt of niet
-                    $item['H'] = utf8_encode(addslashes($item['H']));
-                    $item['K'] = utf8_encode(addslashes($item['K']));
-                    $item['P'] = utf8_encode(addslashes($item['P']));
-                    if ($item['I'] == 0) {$item['I'] = null;} // wegingVD
+                    $item['H'] = mysqli_real_escape_string($DBverbinding,$item['H']);
+                    $item['K'] = mysqli_real_escape_string($DBverbinding,$item['K']);
+                    $item['P'] = mysqli_real_escape_string($DBverbinding,$item['P']);
+                    if ($item['I'] == 0) {$item['I'] = 'NULL';} // wegingVD
                     if ($item['K'] == '0') {$item['K'] = null;}
-                    if ($item['L'] == 0) {$item['L'] = null;} // duur
+                    if ($item['L'] == 0) {$item['L'] = 'NULL';} // duur
                     if ($item['M'] == '0') {$item['M'] = 'NULL';}
-                    if ($item['N'] == 0) {$item['N'] = null;} // wegingSE
+                    if ($item['N'] == 0 || $item['N']== null) {$item['N'] = 'NULL';} // wegingSE
                     if ($item['P'] == '0') {$item['P'] = null;}
                     if ($item['M'] == 'ja') {$item['M'] = 1;}
-                    if ($item['M'] == 'nee') {$item['M'] = 0;}
-                    if ($item['O'] == 'kies...') {$item['O'] = 'NULL';}
+                    if ($item['M'] == 'nee') {$item['M'] = 0; $item['O'] = 'NULL';}
+                    // if ($item['O'] == 'kies...') {$item['O'] = 'NULL';}
                     if ($item['O'] == 'ja') {$item['O'] = '1';}
                     if ($item['O'] == 'nee') {$item['O'] = '0';} // herkansbaarheid                   
                     if ($item['J'] == 'tt' && $item['M'] == 1) {$inTW = 1;} else {$inTW = 0;}
@@ -113,7 +127,14 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         echo '[4] WEL itemnummer ('.$item['D'].'), en nog steeds inhoud<br>';
                         if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
                             // er is verschil geconstateerd
-                            $sql = "DELETE FROM `items` WHERE `id`= {$item['D']}; INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) 
+                            $sql = "DELETE FROM `items` WHERE `id`= {$item['D']};";
+                            if (!mysqli_query($DBverbinding,$sql)) {
+                                $Nfouten++;
+                                echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
+                                echo "<h5>{$sql}</h5>";
+                                die('[4A]');
+                            }                            
+                            $sql = "INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) 
                         VALUES ({$item['D']}, $cid, {$cjidLijst[$nr]}, {$volgnummer}, {$item['G']}, NULL, '{$item['H']}', {$item['I']}, '{$item['J']}', '{$item['K']}', {$item['L']}, {$item['M']}, {$item['N']}, {$item['O']}, '{$item['P']}', NULL, NULL, NULL, NULL, NULL);";
                             // echo "$sql <br>";
                             if (!$queriesUitvoeren) {continue;}
@@ -122,7 +143,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                                 $Nfouten++;
                                 echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
                                 echo "<h5>{$sql}</h5>";
-                                die('[4]');
+                                die('[4B]');
                             }
                         }
                         else {

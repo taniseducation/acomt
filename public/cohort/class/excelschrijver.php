@@ -5,18 +5,26 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 // use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
-
+$unlock = true;
 $inFilePath = 'fileExcel/';
 $inFileName = '_sjabloon_v4.xlsx';
+if ($unlock) {$inFileName = '_sjabloon_v4_UNLOCK.xlsx';}
 $outFilePath = 'fileExcel/xlsxUIT/';
 $inputFileName = $inFilePath.$inFileName;
 $beveiliging = true;
 $systeemKolommenOnzichbaar = true;
 $nietRelevanteCohortjarenOnzichtbaar = true;
+if ($unlock) {
+    echo "<hr><font style='color: red; font-size: 3.5em;'><b>LET OP</b> Files worden in open format weggeschreven.</font><br>";
+    $beveiliging = false;
+    $systeemKolommenOnzichbaar = false;
+    $nietRelevanteCohortjarenOnzichtbaar = true;
+}
 if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;} // want anders vallen ze weg
 
 for ($vakID = 1;$vakID <= 31;$vakID++) {
     if ($vakID == 29) {$vakID++;} // BV in database maar wordt niet gebruikt
+    //if ($vakID != 1) {continue;};
     $filter['vid'] = $vakID;
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
     // $reader->setReadDataOnly(true);
@@ -61,6 +69,11 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
 
             $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getB2B8($status),NULL,'B2');
             $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getD6P11(),NULL,'D6');
+            /*
+            echo '<pre>';
+            print_r(${'c'.$filterCohort}->getD6P11());
+            echo '</pre>';
+            */
 
             /* GENEREERT html-versie van ingelezen spread
                     $HTMLwriter = IOFactory::createWriter($spreadsheet, 'Html');
@@ -256,6 +269,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     unset($spreadsheet);
     unset($reader);
     unset($XLSXwriter);
-    //die(); // één bestand voor testen
+    // die('alleen 1x voor testen'); // één bestand voor testen
 }
 ?>

@@ -71,9 +71,9 @@ class Cohort {
         [NULL],
         [NULL],
     ];
-    if (isset($this->cohortJaren[0]['cjid'])) {$data[7] = [$this->cohortJaren[0]['cjid']];}
-    if (isset($this->cohortJaren[1]['cjid'])) {$data[19] = [$this->cohortJaren[1]['cjid']];}
-    if (isset($this->cohortJaren[2]['cjid'])) {$data[31] = [$this->cohortJaren[2]['cjid']];}
+    if (isset($this->cohortJaren[0]['cjid'])) {$data[7] = [($this->cohortJaren[0]['cjid'])];}
+    if (isset($this->cohortJaren[1]['cjid'])) {$data[19] = [($this->cohortJaren[1]['cjid'])];}
+    if (isset($this->cohortJaren[2]['cjid'])) {$data[31] = [($this->cohortJaren[2]['cjid'])];}
     if (isset($this->cohortJaren[0]['algemeen']) && $this->cohortJaren[0]['algemeen'] != '0') {$data[8] = [NULL,NULL,NULL,$this->cohortJaren[0]['algemeen']];}
     if (isset($this->cohortJaren[1]['algemeen']) && $this->cohortJaren[1]['algemeen'] != '0') {$data[20] = [NULL,NULL,NULL,$this->cohortJaren[1]['algemeen']];}
     if (isset($this->cohortJaren[2]['algemeen']) && $this->cohortJaren[2]['algemeen'] != '0') {$data[32] = [NULL,NULL,NULL,$this->cohortJaren[2]['algemeen']];}
@@ -84,7 +84,7 @@ class Cohort {
         $ptaJaar = $this->cohortJaren[$ptaJaarTeller]['jaar'];
         // echo '<h3>jaar '.$ptaJaar.' (teller = '.$ptaJaarTeller.' ) cjid = '.$this->cohortJaren[$ptaJaarTeller]['cjid'].'</h2>';
         foreach ($cj as $ci) {
-            $data[$excelRij] = [$ci->itemData['id'],$ci->itemData['SOMcode'],NULL,$ci->itemData['periode'],$ci->itemData['leerstofomschrijving'],$ci->itemData['wegingVD'],$ci->itemData['afname'],$ci->itemData['hulp'],$ci->itemData['duur'],$ci->itemData['SE'],$ci->itemData['wegingSE'],$ci->itemData['herkansbaar'],$ci->itemData['domeinen']];
+            $data[$excelRij] = [$ci->itemData['id'],$ci->itemData['SOMcode'],NULL,$ci->itemData['periode'],"{$ci->itemData['leerstofomschrijving']}",$ci->itemData['wegingVD'],$ci->itemData['afname'],"{$ci->itemData['hulp']}",$ci->itemData['duur'],$ci->itemData['SE'],$ci->itemData['wegingSE'],$ci->itemData['herkansbaar'],"{$ci->itemData['domeinen']}"];
             $excelRij++;
         }
         $ptaJaarTeller++;
