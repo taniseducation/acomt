@@ -5,6 +5,7 @@ ini_set("display_errors", "1");
 ini_set('memory_limit', '-1');
 // set_time_limit(0);
 ini_set('max_execution_time', 0); //300 s = 5 min
+$timestamp = date_create();
 
 require('class/database.php');
 require('class/settings.php');
@@ -40,8 +41,8 @@ $tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A
 $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 require('class/bruteforceDBread.php');
 
-require('class/consistentiecheck.php');
-//require('class/excellezerNAARdb.php');
+//require('class/consistentiecheck.php');
+require('class/excellezerNAARdb.php');
 //require('class/excelschrijver.php');
 
 echo '<pre>';

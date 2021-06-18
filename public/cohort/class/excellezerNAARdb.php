@@ -6,6 +6,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 $inFilePath = 'fileExcel/xlsxIN/';
+$outFilePath = 'fileExcel/xlsxIN/afgehandeld/';
 $queriesUitvoeren = true;
 $Nfouten = 0;
 if ($queriesUitvoeren) {
@@ -24,7 +25,9 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
     //if ($vak['vid'] != 14) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
-    $inputFileName = $inFilePath.$inFileName;    
+    $inputFileName = $inFilePath.$inFileName;
+    if (!file_exists($inputFileName)) {continue;}
+    $outputFileName = $outFilePath.$inFileName.' ('.date_timestamp_get($timestamp).')';
     echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
     $reader->setReadDataOnly(true);
@@ -138,7 +141,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         VALUES ({$item['D']}, $cid, {$cjidLijst[$nr]}, {$volgnummer}, {$item['G']}, NULL, '{$item['H']}', {$item['I']}, '{$item['J']}', '{$item['K']}', {$item['L']}, {$item['M']}, {$item['N']}, {$item['O']}, '{$item['P']}', NULL, NULL, NULL, NULL, NULL);";
                             // echo "$sql <br>";
                             if (!$queriesUitvoeren) {continue;}
-                            echo "<hr><font style='color: indianred; font-size: 4em;'>AAN HET POMPEN.</font><br>";
+                            // echo "<hr><font style='color: indianred; font-size: 4em;'>AAN HET POMPEN.</font><br>";
                             if (!mysqli_query($DBverbinding,$sql)) {
                                 $Nfouten++;
                                 echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));
@@ -178,6 +181,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     $spreadsheet->disconnectWorksheets();
     unset($spreadsheet);
     unset($reader);
+    rename($inputFileName,$outputFileName);
     // die('die: één excelfile'); // één excelfile / één vak
 }
 ?>
