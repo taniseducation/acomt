@@ -8,7 +8,7 @@ var contentHoogte = 595 - 2*margeVerticaal;
 var grootteKop = 60;
 
 var PTAType = 'niveau'; // 'vak' of 'niveau'
-var PTAsoort = 'B'; // A=PTA, B=PTB Bovenbouw
+var PTAsoort = 'A'; // A=PTA, B=PTB Bovenbouw
 var filterVak = 'NE';
 var filterNiveau = '4A';
 var voet = true;
@@ -16,7 +16,7 @@ var waterMerk = false;
 var waterMerkTruc;
 // var fileNaam = 'PTAB_DEF_controle.txt';
 // var fileNaam = 'PTAB_def_deelraad.txt';
-var fileNaam = 'csvFROMdb.txt';
+var fileNaam = 'basisCOHORTEN.txt';
 var csvdata;
 var Nrij;
 
