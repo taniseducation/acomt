@@ -115,7 +115,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         // geen item meer DELETE of zet actief op FALSE: wat doen we?
                         echo '[3] WEL itemnummer ('.$item['D'].'), maar geen inhoud meer of weggehaald<br>';
                         $sql = "DELETE FROM `items` WHERE `items`.`id` = {$item['D']}";
-                        // echo "$sql<br>";
+                        echo "<hr><font style='color: indianred; font-size: 4em;'>[3] {$item['D']} verwijderd</font><br>";
                         if (!$queriesUitvoeren) {continue;}
                         if (!mysqli_query($DBverbinding,$sql)) {
                             $Nfouten++;
@@ -131,6 +131,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         if(!${'i'.$item['D']}->dbExcelIdentiek($item)) {
                             // er is verschil geconstateerd
                             $sql = "DELETE FROM `items` WHERE `id`= {$item['D']};";
+                            echo "<hr><font style='color: red; font-size: 4em;'>[4A] {$item['D']} verwijderd</font><br>";
                             if (!mysqli_query($DBverbinding,$sql)) {
                                 $Nfouten++;
                                 echo("FATALE FOUT <b>$Nfouten </b>: " . mysqli_error($DBverbinding));

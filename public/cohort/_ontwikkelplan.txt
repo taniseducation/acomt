@@ -1,3 +1,7 @@
+LOS ITEM INVOEREN:
+INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES 
+(368, 111, 276, 4, 0, NULL, ' ', NULL, '0', '', NULL, NULL, NULL, NULL, '', NULL, '0', 0, NULL, NULL)
+
 CONTROLE
 - Algemene opmerkingen wegschrijven gaat goed, maar in de items zit nog symbolen-bug #ONWAAR
     => opgelost door bij wegschrijven data te omsluiten met "{ array[x] }" Lijkt nu goed, maar deeptesten noodzakelijk.
@@ -8,6 +12,8 @@ CONTROLE
     Filter programmeren voor dit soort dingen? Verzamelpagina met uitkomst queries? (vaste functie naar tabel?)
 
 VOOR VOLGEND jaar
+- lees status in uit Excel-bestand (aantal fouten) en schrijf dat weg bij cohort,
+    zodat je met query een makkelijke lijst hebt. Vervolgens export maken met open sjabloon
 - bouw check in bij kopieren cohorten: zijn de velden waar het heen gaat echt leeg?
 - KCKV zit als enige in M3 en wordt daarom (denk ik) niet goed gekopieerd. Handmatig doen.
 - Eerst backup maken van huidig, dan aanmaken nieuwe cohortjaren en dan pas kopieren items.

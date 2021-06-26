@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PTA PDF</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script type="text/javascript" src="js/jspdf.debug.js"></script>
+        <script type="text/javascript" src="js/jspdf.plugin.autotable.min.js"></script>
+        <script src="js/P5/p5.min.js"></script>
+        <script type="text/javascript" src="js/ptab.js"></script>
+    </head>
+    <body>
+        <h1>PTA-generator</h1>
+        <p style='color: slategray;'>
+            PDF via JS
+        </p>
+        <h2 style='color: green;'>aandacht</h2>
+        <p>
+            <b>
+                
+            <b>
+        </p>
+        <h2 id="settings">settings</h2>
+        <script>
+            document.getElementById("settings").innerHTML = 'Genereert nu PTO op: '+PTAType+' | niveau: '+filterNiveau+' | vak: '+filterVak+' | file: '+fileNaam;
+        </script>
+    </body>
+</html>

@@ -25,7 +25,7 @@ while($voorzitter = mysqli_fetch_assoc($voorzitters)) {
     }
 }
 $mailinglist = substr($mailinglist,0,-1); // laatste , eraf halen
-// echo '<h2>MAILinglist sectievoorzitters</h2>'.$mailinglist.'<br>';
+echo '<h2>MAILinglist sectievoorzitters</h2>'.$mailinglist.'<br>';
 
 //require('class/maak_items_in_db.php');
 // require('class/genereerNieuweCohorten.php'); // elk jaar uitvoeren om nieuwe cohorten toe te voegen. Lees de code: niet automatisch nu
@@ -42,7 +42,10 @@ $status = 'schrijfrecht'; // schrijfrecht leesrecht definitief
 require('class/bruteforceDBread.php');
 
 //require('class/consistentiecheck.php');
-require('class/excellezerNAARdb.php');
+require('ptab.html');
+die();
+
+//require('class/excellezerNAARdb.php');
 //require('class/excelschrijver.php');
 
 echo '<pre>';
