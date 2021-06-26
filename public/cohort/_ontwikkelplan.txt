@@ -2,6 +2,16 @@ LOS ITEM INVOEREN:
 INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES 
 (368, 111, 276, 4, 0, NULL, ' ', NULL, '0', '', NULL, NULL, NULL, NULL, '', NULL, '0', 0, NULL, NULL)
 
+PDF
+- transparant watermerk
+    https://tcpdf.org/examples/example_042/
+- autofitting tekst passen in cellen
+    https://tcpdf.org/examples/example_005/
+- cel documentatie
+    https://rimas-kudelis.github.io/tcpdf/classes/TCPDF.html#method_Cell
+- multicell documentatie
+    https://rimas-kudelis.github.io/tcpdf/classes/TCPDF.html#method_MultiCell
+
 CONTROLE
 - Algemene opmerkingen wegschrijven gaat goed, maar in de items zit nog symbolen-bug #ONWAAR
     => opgelost door bij wegschrijven data te omsluiten met "{ array[x] }" Lijkt nu goed, maar deeptesten noodzakelijk.
