@@ -1,16 +1,13 @@
+# ISSUES
+- selecteren alles moet wel met order by periode en volgnummer
+- check opnieuw BRUTEFORCE read en dbnaarexcelschrijver. Door nieuwe items gaat niet meer automatisch de volgorde goed. Order by?
+- Hoe herken je volgorde binnen een periode? Ik heb nu $volgnummer gebruikt. DOE TEST MET MEERDERE NIEUWE ITEMS => eerst sorteren op periode dan op $volgnummer
+- apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
+    KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
+
 LOS ITEM INVOEREN:
 INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES 
 (368, 111, 276, 4, 0, NULL, ' ', NULL, '0', '', NULL, NULL, NULL, NULL, '', NULL, '0', 0, NULL, NULL)
-
-PDF
-- transparant watermerk
-    https://tcpdf.org/examples/example_042/
-- autofitting tekst passen in cellen
-    https://tcpdf.org/examples/example_005/
-- cel documentatie
-    https://rimas-kudelis.github.io/tcpdf/classes/TCPDF.html#method_Cell
-- multicell documentatie
-    https://rimas-kudelis.github.io/tcpdf/classes/TCPDF.html#method_MultiCell
 
 CONTROLE
 - Algemene opmerkingen wegschrijven gaat goed, maar in de items zit nog symbolen-bug #ONWAAR
@@ -32,13 +29,6 @@ VOOR VOLGEND jaar
 
 notes:
 - sjabloon definitief qua tekst en tabblad verkleinen
-
-# ISSUES
-- algemene opmerkingen PTA worden nu per cohortjaar nog niet gecheckt
-- check opnieuw BRUTEFORCE read en dbnaarexcelschrijver. Door nieuwe items gaat niet meer automatisch de volgorde goed. Order by?
-- Hoe herken je volgorde binnen een periode? Ik heb nu $volgnummer gebruikt. DOE TEST MET MEERDERE NIEUWE ITEMS => eerst sorteren op periode dan op $volgnummer
-- apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
-    KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
 
 UITGESTELD
 - check op wijziging geeft notificatie bij bijzondere tekens. Niet opgelost: worden (onnodig) overschreven in de database.
