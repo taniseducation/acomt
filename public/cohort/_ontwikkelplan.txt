@@ -1,4 +1,8 @@
 # ISSUES
+- error in Adobe bij openen (gekke landscape portrait bug)
+- somcodes moeten nog gegenereerd
+- fuckit reference in PDF niet goed geklooid met items en decode en encode
+    belachelijk, maar rechtstreeks uit db pakt hij wel dus dat is meteen de oplossing
 - selecteren alles moet wel met order by periode en volgnummer
 - check opnieuw BRUTEFORCE read en dbnaarexcelschrijver. Door nieuwe items gaat niet meer automatisch de volgorde goed. Order by?
 - Hoe herken je volgorde binnen een periode? Ik heb nu $volgnummer gebruikt. DOE TEST MET MEERDERE NIEUWE ITEMS => eerst sorteren op periode dan op $volgnummer

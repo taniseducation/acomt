@@ -50,8 +50,7 @@ die();
 
 echo '<pre>';
 //print_r(${'c'.$filterCohort}->cohortData['niveau']);
-echo '<pre>';
+echo '</pre>';
 
-// require('class/DBoverzichtVak.php');
-// require('class/pdfschrijver.php');
+require('class/DBoverzichtVak.php');
 ?>

@@ -82,7 +82,7 @@ class PTAPDF extends TCPDF {
     }
 
 
-    public function ptaJaarVak($vak,$data) {
+    public function ptaJaarVak($vak,$data,$algemeen) {
         $this->AddPage();
         $this->SetFont('NeueHaas', '', 36);
         $this->SetTextColor($this->HeaderTextColor);
@@ -130,7 +130,7 @@ class PTAPDF extends TCPDF {
         $this->MultiCell($this->contentBreedte,$this->defCelheaderhoogte,'Opmerkingen',1,'L',true,0,null,null,true,0,false,true,null,'B',false);
         $this->SetTextColor($this->HeaderFillColor);
         $this->Ln();
-        $this->MultiCell($this->contentBreedte,$this->defCelhoogte,'Dit is opm',1,'L',false,0,null,null,true,0,false,true,null,'B',false);
+        $this->MultiCell($this->contentBreedte,$this->defCelhoogte,$algemeen,1,'L',false,0,null,null,true,0,false,true,null,'B',false);
     }
 }
 ?>
