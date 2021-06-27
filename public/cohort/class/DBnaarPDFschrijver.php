@@ -24,13 +24,15 @@ $data = [
     [1,'4po1',3,'nee',100,'Opdracht bij 3 moderne werken, periode 1940 tot heden','E','Woordenboek en gelezen werken niet toegestaan'],
 
 ];
-$laag = '4A';
+$pdf->laag = '4M';
 $vak='Duitse taal en cultuur';
-$pdf->ptaJaarVak($laag,$vak,$data);
+$pdf->ptaJaarVak($vak,$data);
+$vak='informatica';
+$pdf->ptaJaarVak($vak,$data);
 
 $pdf->lastPage();
 $pdf->Output( $sFilePath , 'F');
 
 
-echo "<h3>$sFilePath path</h3>";
-echo 'dus klik op <a href="'.$relatief.'" target="_NEW">link</a>';
+echo "<h3>$sFilePath path<br>";
+echo 'dus klik op <a href="'.$relatief.'" target="_NEW">link</a></h3>';

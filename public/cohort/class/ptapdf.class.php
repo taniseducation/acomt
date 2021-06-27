@@ -48,6 +48,8 @@ class PTAPDF extends TCPDF {
         $this->defCelhoogte = 60;
         $this->defWidth = 44;
         $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,196,196,130);
+
+        $this->laag = null;
     }
 
     public function Header() {
@@ -62,10 +64,10 @@ class PTAPDF extends TCPDF {
         //$this->Cell($this->contentBreedte,null,'settings: cb='.$this->contentBreedte.' b='.array_sum($this->tabelCelbreedtes), 0, false, 'J', 1, null, 0, false, 'M', 'M');
         $this->Cell($this->contentBreedte,null,'', 0, false, 'C', 1, null, 0, false, 'M', 'M');
         $this->SetY($currentY - 3);
-        $this->Cell($this->contentBreedte,null,'Kunst - Beeldende vorming', 0, false, 'C', 0, null, 0, false, 'M', 'M');
+        $this->Cell($this->contentBreedte,null,'', 0, false, 'C', 0, null, 0, false, 'M', 'M');
         $this->SetFontSize(50);
         $this->SetY($currentY - 3);
-        $this->Cell($this->defWidth*2,null,'4A', 0, false, 'C', 0, null, 0, false, 'M', 'M');
+        $this->Cell($this->defWidth*2,null,$this->laag, 0, false, 'C', 0, null, 0, false, 'M', 'M');
     }
 
     public function Footer() {
@@ -80,7 +82,16 @@ class PTAPDF extends TCPDF {
     }
 
 
-    public function ptaJaarVak($laag,$vak,$data) {
+    public function ptaJaarVak($vak,$data) {
+        $this->AddPage();
+        $this->SetFont('NeueHaas', '', 36);
+        $this->SetTextColor($this->HeaderTextColor);
+        $this->SetFillColor($this->HeaderFillColor);
+        $currentY=$this->GetY();
+        $this->SetY($currentY - 3);
+        $this->Cell($this->contentBreedte,null,$vak, 0, false, 'C', 0, null, 0, false, 'M', 'M');        
+        $this->SetFont('Corbel', '', 11);
+        $this->SetTextColor($this->HeaderTextColor);
         // lazy :)
         $w = $this->tabelCelbreedtes;
         $header = $this->tabelcelHeaders;        
@@ -89,7 +100,7 @@ class PTAPDF extends TCPDF {
         $this->SetDrawColor($this->HeaderFillColor);
         $this->SetLineWidth(0.1);
         $this->SetFont('', 'B');
-        $this->AddPage();
+        
         $this->Ln(30);
         for($i = 0; $i < count($header); ++$i) {
             if ($i > 4) {$align = 'L';} else {$align = 'C';}
