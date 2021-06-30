@@ -16,7 +16,8 @@ else {
     echo "<hr><font style='color: red; font-size: 3.5em;'><b>LET OP</b> update-queries worden NIET uitgevoerd.</font><br>";
 }
 
-echo '<h1>inlezen aangepaste Excel-files en wegschrijven naar DB</h1>';
+echo "<h3>Inlezen Excel naar database</h3>";
+$Nfiles = 0;
 
 // haal vakken op uit database voor bestandsnamen
 $sql = "SELECT * FROM vakken";
@@ -26,7 +27,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     //if ($vak['vid'] != 14) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;
-    if (!file_exists($inputFileName)) {continue;}
+    if (!file_exists($inputFileName)) {continue;} else {$Nfiles++;}
     $outputFileName = $outFilePath.$inFileName.' ('.date_timestamp_get($timestamp).')';
     echo "<h2>{$vak['vid']} {$vak['vakNaam']} => $inputFileName</h2>";
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
@@ -185,4 +186,5 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     rename($inputFileName,$outputFileName);
     // die('die: één excelfile'); // één excelfile / één vak
 }
+echo "Er zijn $Nfiles excel-bestanden ingelezen.";
 ?>

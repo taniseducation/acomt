@@ -5,6 +5,9 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 // use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
+echo "<h3>Wegschrijven database naar Excel</h3>";
+$NfilesXLS = 0;
+
 $unlock = true;
 $inFilePath = 'fileExcel/';
 $inFileName = '_sjabloon_v4.xlsx';
@@ -25,6 +28,7 @@ if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;}
 for ($vakID = 1;$vakID <= 31;$vakID++) {
     if ($vakID == 29) {$vakID++;} // BV in database maar wordt niet gebruikt
     //if ($vakID != 1) {continue;};
+    $NfilesXLS++;
     $filter['vid'] = $vakID;
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
     // $reader->setReadDataOnly(true);
@@ -252,7 +256,7 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
             // echo "$b Bewaar tabblad {$tabbladen[$b]}<br>";
         }
         else {
-            echo "$b WEG MET tabblad {$tabbladen[$b]}<br>";
+            //echo "$b WEG MET tabblad {$tabbladen[$b]}<br>";
             $nv = substr($tabbladen[$b], -5, 1);
             $bj = substr($tabbladen[$b], -4, 4);
             $tbHelper = $nv.' '.$bj;
@@ -263,7 +267,8 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
 
     $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].' PTA en onderwijsprogramma.xlsx';
     $outputFileName = $outFilePath.$outFileName;
-    echo '<h2>WRITER van '.$inputFileName.' naar <a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a></h2>';    
+    // echo '<h2>WRITER van '.$inputFileName.' naar <a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a></h2>';    
+    echo '<a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a><br>';
     $XLSXwriter->save($outputFileName);
     $spreadsheet->disconnectWorksheets();
     unset($spreadsheet);
@@ -271,4 +276,5 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     unset($XLSXwriter);
     // die('alleen 1x voor testen'); // één bestand voor testen
 }
+echo "Er zijn $NfilesXLS excel-bestanden weggeschreven.";
 ?>

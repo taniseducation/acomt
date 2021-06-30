@@ -74,11 +74,21 @@ class PTAPDF extends TCPDF {
         $this->SetY($this->FooterY); // negatief: vanaf onderen gerekend
         $this->SetFont('helvetica',null,10);
         $this->SetTextColor($this->PageNumberColor);
+        $this->Write(0,'|'.$this->PageNoFormatted().'|', '', 0, 'C', true, 0, false, true, 0);
+        $this->SetTextColor($this->FooterTextColor);
+        $currentY=$this->GetY();
+        $this->SetY($currentY - 12);
+        $this->Write(0,'PTA CSG Augustinus', 0,false, 'L', true, 0, false, true, 0);
+         /*
+        $this->SetY($this->FooterY); // negatief: vanaf onderen gerekend
+        $this->SetFont('helvetica',null,10);
+        $this->SetTextColor($this->PageNumberColor);
         $this->SetColor(255,0,0);
         $this->Cell($this->contentBreedte,null, '|'.$this->PageNoFormatted().'|', 0, 0,'C',0,null, 0, false, 'M', 'M');
         $this->SetTextColor($this->FooterTextColor);
         $this->SetY($this->FooterY); // negatief: vanaf onderen gerekend
         $this->Cell($this->contentBreedte,null, 'PTA CSG Augustinus', 0, 1,'R',0,null, 0, false, 'M', 'M');
+        */
     }
 
 
