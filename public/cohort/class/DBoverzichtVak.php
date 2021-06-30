@@ -22,5 +22,4 @@ while($c = mysqli_fetch_assoc($recordsc)) {
         }
     }
 }
-die();
 ?>

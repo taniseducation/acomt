@@ -53,15 +53,9 @@ class PTAPDF extends TCPDF {
     }
 
     public function Header() {
-        //$image_file = K_PATH_IMAGES.'logo_example.jpg';
-        //$this->Image($image_file, 10, 10, 15, '', 'JPG', '', 'T', false, 300, '', false, false, 0, false, false, false);
-        // Cell(  $w,   $h,   $txt = '',   $border,   $ln,   $align = '',   $fill = false,   $link = '',
-        //   $stretch,   $ignore_min_height = false,   $calign = 'T',   $valign = 'M')
-        // DIT KAN NIET IN HEADER WANT DIE IS NIET
         $currentY=$this->GetY();
         $this->SetTextColor($this->HeaderTextColor);
-        $this->SetFillColor($this->HeaderFillColor);
-        //$this->Cell($this->contentBreedte,null,'settings: cb='.$this->contentBreedte.' b='.array_sum($this->tabelCelbreedtes), 0, false, 'J', 1, null, 0, false, 'M', 'M');
+        $this->SetFillColor($this->HeaderFillColor);        
         $this->Cell($this->contentBreedte,null,'', 0, false, 'C', 1, null, 0, false, 'M', 'M');
         $this->SetY($currentY - 3);
         $this->Cell($this->contentBreedte,null,'', 0, false, 'C', 0, null, 0, false, 'M', 'M');
@@ -79,7 +73,7 @@ class PTAPDF extends TCPDF {
         $currentY=$this->GetY();
         $this->SetY($currentY - 12);
         $this->Write(0,'PTA CSG Augustinus', 0,false, 'L', true, 0, false, true, 0);
-         /*
+         /* onderstaande geeft error in nota bene Adobe (maar niet binnen browser o.i.d.)
         $this->SetY($this->FooterY); // negatief: vanaf onderen gerekend
         $this->SetFont('helvetica',null,10);
         $this->SetTextColor($this->PageNumberColor);
@@ -91,8 +85,7 @@ class PTAPDF extends TCPDF {
         */
     }
 
-
-    public function ptaJaarVak($vak,$data,$algemeen) {
+    public function ptaJaarVak($vak,$data,$algemeen,$toonWatermerk) {
         $this->AddPage();
         $this->SetFont('NeueHaas', '', 36);
         $this->SetTextColor($this->HeaderTextColor);
@@ -141,6 +134,9 @@ class PTAPDF extends TCPDF {
         $this->SetTextColor($this->HeaderFillColor);
         $this->Ln();
         $this->MultiCell($this->contentBreedte,$this->defCelhoogte,$algemeen,1,'L',false,0,null,null,true,0,false,true,null,'B',false);
+
+        $watermerk = 'css/watermerk.png';
+        if ($toonWatermerk) {$this->Image($watermerk,25,50);}
     }
 }
 ?>

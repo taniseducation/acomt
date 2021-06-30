@@ -154,29 +154,10 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                         else {
                             echo '[5] maar GEEN VERSCHIL dus geen actie nodig<br>';
                         }
-                        /*
-                        echo '<pre>';
-                        print_r(${'i'.$item['D']}->itemData);
-                        echo '</pre>';                                       
-                        */
                     }
                 }
                 continue;
-                /*
-                echo '<pre>';
-                print_r(${'i'.$item['D']}->itemData);
-                echo '</pre>';        
-                echo "<h1>content <b>EXCEL</b> van item: {$item['D']} (cjid {$cjidLijst[$nr]})</h3>";
-                echo '<pre>';
-                print_r($item);
-                echo '</pre>';       
-                */                   
-                // die('die: eerst één item');
             }
-            echo '<pre>';
-            //print_r($dataArray);
-            echo '</pre>';
-            // die('die: eerst één cohortjaar');
         }
         // die('die: één tabblad');
     }

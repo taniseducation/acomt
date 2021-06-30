@@ -43,7 +43,7 @@ foreach ($lagen as $laag) {
             //echo "<h5>{$i['id']} | {${'i'.$i['id']}->itemData['periode']} | {${'i'.$i['id']}->itemData['hulp']}</h5>";
             array_push($data,[${'i'.$i['id']}->itemData['periode'],${'i'.$i['id']}->itemData['SOMcode'],${'i'.$i['id']}->itemData['wegingSE'],${'i'.$i['id']}->itemData['herkansbaar'],${'i'.$i['id']}->itemData['duur'],${'i'.$i['id']}->itemData['leerstofomschrijving'],${'i'.$i['id']}->itemData['domeinen'],$i['hulp']]);
         }
-        if (mysqli_num_rows($items)) {$pdf->ptaJaarVak(${'c'.$c['cid']}->cohortData['vakNaam'],$data,$algemeen);}
+        if (mysqli_num_rows($items)) {$pdf->ptaJaarVak(${'c'.$c['cid']}->cohortData['vakNaam'],$data,$algemeen,$toonWatermerk);}
     }
 
     $pdf->lastPage();

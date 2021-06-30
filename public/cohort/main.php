@@ -11,14 +11,14 @@ require('class/database.php');
 require('class/settings.php');
 require('class/cohort.class.php');
 require('class/item.class.php');
+require('class/bruteforceDBread.php');
 
 // hoofdprogramma
-require('class/bruteforceDBread.php');
 require('class/excellezerNAARdb.php');
-//require('class/consistentiecheck.php');
+require('class/consistentiecheck.php');
 require('class/DBnaarPDFschrijver.php');
-require('class/excelschrijver.php');
-//require('class/DBoverzichtVak.php');
+// require('class/excelschrijver.php');
+// require('class/DBoverzichtVak.php');
 
 // ONDERSTAANDE ALLEEN GEBRUIKEN BIJ JAARLIJKSE UPDATE
 // require('class/maak_items_in_db.php');

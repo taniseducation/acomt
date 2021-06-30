@@ -66,19 +66,8 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
         // BEGIN beschrijven van één cohort-tabblad
         $filterCohort = selecteerCohort($filter,$DBverbinding); // in bruteforceDBread.php
         if ( $filterCohort != null) {
-            // $spreadsheet->getActiveSheet()->setCellValue('H6',1);
-
-            // Is dit te gebruiken om data te doorlopen voor het ophalen van voorwaardelijke opmaak?
-            // $sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);
-
             $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getB2B8($status),NULL,'B2');
             $spreadsheet->getActiveSheet()->fromArray(${'c'.$filterCohort}->getD6P11(),NULL,'D6');
-            /*
-            echo '<pre>';
-            print_r(${'c'.$filterCohort}->getD6P11());
-            echo '</pre>';
-            */
-
             /* GENEREERT html-versie van ingelezen spread
                     $HTMLwriter = IOFactory::createWriter($spreadsheet, 'Html');
                     foreach ($loadedSheetNames as $sheetIndex => $loadedSheetName) {
@@ -161,7 +150,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
             foreach ($sLijst as $p) {
                 $spreadsheet->getActiveSheet()->getCell($p)->setDataValidation(clone $validation);
             }
-            //echo '<h1>EINDE VOOR EEN COHORT'.${'c'.$filterCohort}->cohortData['vakNaam'].'</h1>';
         }
         // klaar met beschrijven worksheet: nu opmaak en verbergen cellen
         // doublecheck: haal waarden uit Excel en niet uit code
@@ -169,9 +157,7 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
         $niveau = $spreadsheet->getActiveSheet()->getCell('B6');
         $positiePTA = $spreadsheet->getActiveSheet()->getCell('B13')->getCalculatedValue();
         $cid = $spreadsheet->getActiveSheet()->getCell('B8')->getCalculatedValue();
-
-        // echo "<h2>vak: $vid ($niveau) cohort: $cid | $positiePTA</h2>";
-        
+      
         // locken van beschermde cellen
         // tactiek: eerst alles blokken en dan op maat weer openzetten
         if ($beveiliging) {
@@ -245,9 +231,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     $spreadsheet->setActiveSheetIndex(1);
     $sheetIndex = $spreadsheet->getIndex($spreadsheet->getSheetByName('sjabloon'));
     $spreadsheet->removeSheetByIndex($sheetIndex);
-    // echo "<h5>remove $sheetIndex</h5>";
-
-    // echo "<h3>remove-test voor $vid</h3>";
     // $tabbladen = ['M2021','M2020','M2019','H2021','H2020','H2019','A2021','A2020','A2019','A2018'];
     // 1 is bewaren 0 is verwijderen
     $removeLijst = str_split(${'c'.$filterCohort}->cohortData['removeTab']);
@@ -267,7 +250,6 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
 
     $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].' PTA en onderwijsprogramma.xlsx';
     $outputFileName = $outFilePath.$outFileName;
-    // echo '<h2>WRITER van '.$inputFileName.' naar <a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a></h2>';    
     echo '<a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a><br>';
     $XLSXwriter->save($outputFileName);
     $spreadsheet->disconnectWorksheets();

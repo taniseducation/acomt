@@ -104,7 +104,7 @@ foreach ($loadedSheetNames as $vakCode) {
             */
         }          
     }
-    //die(); // eerst alleen voor Nwderlands
+    //die(); // eerst alleen voor Nederlands
 }
 die();
 // alles hieronder verwijderd. Eventueel in backup

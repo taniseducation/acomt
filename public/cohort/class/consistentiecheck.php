@@ -1,5 +1,8 @@
 <?PHP
 echo "<h3>Check op onregelmatigheden</h3>";
+/*
+- geen SE met herkansbaar op Ja of Nee
+*/
 $checklist = [
     ["SE maar niet alles aangevuld","SELECT vakken.vakNaam,niveau,beginjaar,cohorten.cid,items.id FROM vakken,cohorten,cohortjaar,items WHERE vakken.vid = cohorten.vid AND cohorten.cid=cohortjaar.cid and items.cjid = cohortjaar.cjid AND NOT vakken.vid = 29 AND items.SE = 1 AND ((wegingSE is null AND NOT items.afname='hd') OR herkansbaar is null OR domeinen is null)"],
     ["Wel periode (of 0) maar geen inhoud","SELECT vakken.vakNaam,niveau,beginjaar,cohorten.cid,items.id,periode,leerstofomschrijving FROM vakken,cohorten,cohortjaar,items WHERE vakken.vid = cohorten.vid AND cohorten.cid=cohortjaar.cid and items.cjid = cohortjaar.cjid and items.cid = cohortjaar.cid AND NOT vakken.vid = 29 AND (items.periode > 4 or (items.periode < 1 AND not items.leerstofomschrijving is null)) ORDER BY vakken.vid ASC"],

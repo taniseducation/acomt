@@ -1,11 +1,9 @@
 # ISSUES
-- error in Adobe bij openen (gekke landscape portrait bug)
+- wegschrijven Excel: controleer de bestanden na alle updates
+- DIT GAAT NOG MIS bij inlezen Excel al, want staat verkeerd in db: check of HAVO EN geen 0 meer bij herkansbaar heeft in Excel
+- DOMEINEN HOEVEN NIET MEER VAN Kevin => ruimte in layout
+    inspectie:"De subdomeinen zijn niet bij alle vakken opgenomen en dat is ook niet nodig. We gaan er vanuit dat de school zelf controleert of alle subdomeinen worden afgetoetst."
 - somcodes moeten nog gegenereerd
-- fuckit reference in PDF niet goed geklooid met items en decode en encode
-    belachelijk, maar rechtstreeks uit db pakt hij wel dus dat is meteen de oplossing
-- selecteren alles moet wel met order by periode en volgnummer
-- check opnieuw BRUTEFORCE read en dbnaarexcelschrijver. Door nieuwe items gaat niet meer automatisch de volgorde goed. Order by?
-- Hoe herken je volgorde binnen een periode? Ik heb nu $volgnummer gebruikt. DOE TEST MET MEERDERE NIEUWE ITEMS => eerst sorteren op periode dan op $volgnummer
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
     KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
 
@@ -23,6 +21,8 @@ CONTROLE
     Filter programmeren voor dit soort dingen? Verzamelpagina met uitkomst queries? (vaste functie naar tabel?)
 
 VOOR VOLGEND jaar
+- fuckit reference in PDF niet goed geklooid met items en decode en encode
+    belachelijk, maar rechtstreeks uit db pakt hij wel dus dat is meteen de oplossing
 - lees status in uit Excel-bestand (aantal fouten) en schrijf dat weg bij cohort,
     zodat je met query een makkelijke lijst hebt. Vervolgens export maken met open sjabloon
 - bouw check in bij kopieren cohorten: zijn de velden waar het heen gaat echt leeg?

@@ -14,8 +14,6 @@ else {
 while($vak = mysqli_fetch_assoc($vakken)) {
     $cidLijst = [];
     echo "<h2>Aan de slag voor {$vak['vid']} = {$vak['vakNaam']}</h2><hr>";
-    // redenatie: voor elk cohort is er nu een nieuwer cohort dat gevuld kan worden met data
-    // want nieuwe cohorten zijn al gegenereerd.
     // AANDACHTSPUNT: meerdere cohortjaren? NEE, kopieren doe je altijd aan begin nieuwe sessie, dus max huidige jaar.
     $sql = "select * from cohorten where vid = {$vak['vid']} order by niveau DESC,beginjaar ASC";
     $cohorten = mysqli_query($DBverbinding, $sql);
@@ -27,22 +25,6 @@ while($vak = mysqli_fetch_assoc($vakken)) {
         foreach ($cohorten as $cohort) {
             array_push($cidLijst,$cohort['cid']);
             echo "<h3>cid:{$cohort['cid']} | vid:{$cohort['vid']} | niveau:{$cohort['niveau']} | beginJaar:{$cohort['beginJaar']}</h3>";
-            // $kalenderJaar = 2021;
-            /*
-            MAVO
-            M 2021 wil kopie van    M 2020 voor leerjaar 3 = 2020 - 2021 => alleen voor KCKV
-            M 2020                  M 2019               4 = 2020 - 2021 ALTIJD
-            M 2019 hoeft niks
-
-            H 2021                  H 2020               4
-            H 2020                  H 2019               5
-            H 2019 hoeft niks want klaar
-
-            A 2021                  A 2020               4
-            A 2020                  A 2019               5
-            A 2019                  A 2018               6
-            A 2018 hoeft niks want klaar
-            */
             if (($cohort['niveau'] == 'A' && $kalenderJaar - $cohort['beginJaar'] == 3) || ($cohort['niveau'] != 'A' && $kalenderJaar - $cohort['beginJaar'] == 2)) {
                 echo "<h4>SLA OVER cid:{$cohort['cid']} | vid:{$cohort['vid']} | niveau:{$cohort['niveau']} | beginJaar:{$cohort['beginJaar']}</h4>";
             }
@@ -53,7 +35,6 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                 $bronjaar = $kalenderJaar - 1;
                 $targetjaar = $kalenderJaar;
                 echo '<h2>'.$targetcid.' kopieert van '.$broncid.' de items met cohortjaar '.$bronjaar.'</h2>';
-                // broncjid ook nodig voor items
                 $sql = "select * from cohortjaar where jaar = $bronjaar and cid = $broncid";
                 $record = mysqli_query($DBverbinding, $sql);
                 if (mysqli_error($DBverbinding) || mysqli_num_rows($record) == 0) {
