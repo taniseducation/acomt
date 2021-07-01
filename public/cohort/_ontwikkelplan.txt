@@ -1,4 +1,4 @@
-# ISSUES
+# ISSUES 
 - wegschrijven Excel: controleer de bestanden na alle updates
 - DIT GAAT NOG MIS bij inlezen Excel al, want staat verkeerd in db: check of HAVO EN geen 0 meer bij herkansbaar heeft in Excel
 - DOMEINEN HOEVEN NIET MEER VAN Kevin => ruimte in layout
