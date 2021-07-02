@@ -41,7 +41,12 @@ foreach ($lagen as $laag) {
         while($i = mysqli_fetch_assoc($items)) {
             $algemeen = $i['algemeen'];
             //echo "<h5>{$i['id']} | {${'i'.$i['id']}->itemData['periode']} | {${'i'.$i['id']}->itemData['hulp']}</h5>";
-            array_push($data,[${'i'.$i['id']}->itemData['periode'],${'i'.$i['id']}->itemData['SOMcode'],${'i'.$i['id']}->itemData['wegingSE'],${'i'.$i['id']}->itemData['herkansbaar'],${'i'.$i['id']}->itemData['duur'],${'i'.$i['id']}->itemData['leerstofomschrijving'],${'i'.$i['id']}->itemData['domeinen'],$i['hulp']]);
+            //MET domeimen array_push($data,[${'i'.$i['id']}->itemData['periode'],${'i'.$i['id']}->itemData['SOMcode'],${'i'.$i['id']}->itemData['wegingSE'],${'i'.$i['id']}->itemData['herkansbaar'],${'i'.$i['id']}->itemData['duur'],${'i'.$i['id']}->itemData['leerstofomschrijving'],${'i'.$i['id']}->itemData['domeinen'],$i['hulp']]);
+            
+            // tijdelijk voor testen
+            ${'i'.$i['id']}->itemData['SOMcode'] = ${'i'.$i['id']}->itemData['id'];
+
+            array_push($data,[${'i'.$i['id']}->itemData['periode'],${'i'.$i['id']}->itemData['SOMcode'],${'i'.$i['id']}->itemData['wegingSE'],${'i'.$i['id']}->itemData['herkansbaar'],${'i'.$i['id']}->itemData['duur'],${'i'.$i['id']}->itemData['leerstofomschrijving'],$i['hulp']]);
         }
         if (mysqli_num_rows($items)) {$pdf->ptaJaarVak(${'c'.$c['cid']}->cohortData['vakNaam'],$data,$algemeen,$toonWatermerk);}
     }
@@ -49,6 +54,6 @@ foreach ($lagen as $laag) {
     $pdf->lastPage();
     $pdf->Output( $sFilePath , 'F');
    
-    echo '<a href="'.$relatief.'" target="_NEW">'.$filter['niveau'].$filter['klasJaar'].'</a> ';
+    echo '<a href="'.$relatief.'" target="new">'.$filter['niveau'].$filter['klasJaar'].'</a> ';
 }
 ?>

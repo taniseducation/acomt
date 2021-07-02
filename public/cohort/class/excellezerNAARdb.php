@@ -24,7 +24,7 @@ $sql = "SELECT * FROM vakken";
 $vakken= mysqli_query($DBverbinding, $sql);
 while($vak = mysqli_fetch_assoc($vakken)) {    
     if ($vak['vid'] == 29) {continue;} // BV in database maar wordt niet gebruikt
-    //if ($vak['vid'] != 14) {continue;} // eerst even informatica
+    // if ($vak['vid'] != 2) {continue;} // eerst even informatica
     $inFileName = "{$vak['vakCode']} PTA en onderwijsprogramma.xlsx";
     $inputFileName = $inFilePath.$inFileName;
     if (!file_exists($inputFileName)) {continue;} else {$Nfiles++;}
@@ -164,7 +164,7 @@ while($vak = mysqli_fetch_assoc($vakken)) {
     $spreadsheet->disconnectWorksheets();
     unset($spreadsheet);
     unset($reader);
-    rename($inputFileName,$outputFileName);
+    rename($inputFileName,$outputFileName); // bestand verplaatsen
     // die('die: één excelfile'); // één excelfile / één vak
 }
 echo "Er zijn $Nfiles excel-bestanden ingelezen.";

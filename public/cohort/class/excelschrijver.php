@@ -27,7 +27,7 @@ if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;}
 
 for ($vakID = 1;$vakID <= 31;$vakID++) {
     if ($vakID == 29) {$vakID++;} // BV in database maar wordt niet gebruikt
-    //if ($vakID != 1) {continue;};
+    // if ($vakID != 2) {continue;};
     $NfilesXLS++;
     $filter['vid'] = $vakID;
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();

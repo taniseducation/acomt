@@ -43,11 +43,13 @@ class PTAPDF extends TCPDF {
         $this->FooterTextColor = 200;
         $this->tabelFillColor = 245;
         $this->tabelLineColor = 240;
-        $this->tabelcelHeaders = array('per','SOM','weging','her','duur','stofomschrijving','domeinen examen','hulpmiddelen');
         $this->defCelheaderhoogte = 20;
         $this->defCelhoogte = 60;
         $this->defWidth = 44;
-        $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,196,196,130);
+        // $this->tabelcelHeaders = array('per','SOM','weging','her','duur','stofomschrijving','domeinen examen','hulpmiddelen');
+        // $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,196,196,130);
+        $this->tabelcelHeaders = array('per','SOM','weging','her','duur','stofomschrijving','hulpmiddelen');
+        $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,296,226);
 
         $this->laag = null;
     }

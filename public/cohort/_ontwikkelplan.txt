@@ -1,4 +1,6 @@
 # ISSUES 
+- alarm: na aanpassing herkansbaarheidshit bij Engels vwo-4-2020 te veel items
+    IS DE ENIGE DIE JE IN DE TEST HAD GEBRUIKT dus reset db en dan alles 2x uploaden
 - wegschrijven Excel: controleer de bestanden na alle updates
 - DIT GAAT NOG MIS bij inlezen Excel al, want staat verkeerd in db: check of HAVO EN geen 0 meer bij herkansbaar heeft in Excel
 - DOMEINEN HOEVEN NIET MEER VAN Kevin => ruimte in layout

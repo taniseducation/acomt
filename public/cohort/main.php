@@ -15,7 +15,7 @@ require('class/bruteforceDBread.php');
 
 // hoofdprogramma
 require('class/excellezerNAARdb.php');
-require('class/consistentiecheck.php');
+// require('class/consistentiecheck.php');
 require('class/DBnaarPDFschrijver.php');
 // require('class/excelschrijver.php');
 // require('class/DBoverzichtVak.php');

@@ -10,6 +10,7 @@ class Item {
     if ($this->itemData['wegingSE'] == 0) {$this->itemData['wegingSE'] = null;}
     if ($this->itemData['SE'] == 1) {$this->itemData['SE'] = 'ja';} else {$this->itemData['SE'] = 'nee';}
     if ($this->itemData['herkansbaar'] == 1) {$this->itemData['herkansbaar'] = 'ja';} else {if ($this->itemData['SE'] == 'ja') {$this->itemData['herkansbaar'] = 'nee';}}
+    if ($this->itemData['herkansbaar'] == 'NULL' || $this->itemData['herkansbaar'] == null) {$this->itemData['herkansbaar'] = 'kies...';}
     // $this->itemData['leerstofomschrijving']=utf8_decode($this->itemData['leerstofomschrijving']);
     $this->itemData['SOMcode']=$this->itemData['SOMcode'];
     $this->itemData['leerstofomschrijving']=$this->itemData['leerstofomschrijving'];
@@ -33,7 +34,7 @@ class Item {
       if ($this->itemData['wegingSE'] != $excel['N'] && !($this->itemData['wegingSE'] == null && $excel['N']=='NULL')) {$notice = $notice.'weging SE gewijzigd. ';}
       // herkansbaar is voor de check al omgezet in numeriek, dus aangepaste check
       // if ($this->itemData['herkansbaar'] != $excel['O']) {$notice = $notice.'herkansbaarheid gewijzigd. ';}
-      if (($this->itemData['herkansbaar']=='ja' && $excel['O']!=1) || ($this->itemData['herkansbaar']=='nee' && $excel['O']!=0)) {$notice = $notice.'herkansbaarheid gewijzigd. ';}
+      if (($this->itemData['herkansbaar']=='ja' && $excel['O']!=1) || ($this->itemData['herkansbaar']=='nee' && $excel['O']!=0) || $excel['O']=='NULL') {$notice = $notice.'herkansbaarheid gewijzigd. ';}
       if ($this->itemData['domeinen'] != $excel['P']) {$notice = $notice.'domeinen gewijzigd. ';}
       if ($notice == '') {
           echo '<h4>identiek item</h4>';
