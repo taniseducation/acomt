@@ -22,6 +22,7 @@ if ($unlock) {
     $beveiliging = false;
     $systeemKolommenOnzichbaar = false;
     $nietRelevanteCohortjarenOnzichtbaar = true;
+    $outFilePath = $outFilePath.'OPEN/';
 }
 if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;} // want anders vallen ze weg
 
@@ -249,6 +250,9 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     }
 
     $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].' PTA en onderwijsprogramma.xlsx';
+    if ($unlock) {
+        $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].'_OPEN.xlsx';
+    }
     $outputFileName = $outFilePath.$outFileName;
     echo '<a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a><br>';
     $XLSXwriter->save($outputFileName);

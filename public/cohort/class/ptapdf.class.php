@@ -46,11 +46,8 @@ class PTAPDF extends TCPDF {
         $this->defCelheaderhoogte = 20;
         $this->defCelhoogte = 60;
         $this->defWidth = 44;
-        // $this->tabelcelHeaders = array('per','SOM','weging','her','duur','stofomschrijving','domeinen examen','hulpmiddelen');
-        // $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,196,196,130);
-        $this->tabelcelHeaders = array('per','SOM','weging','her','duur','stofomschrijving','hulpmiddelen');
-        $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,296,226);
-
+        $this->tabelcelHeaders = null;
+        $this->tabelCelbreedtes = null;
         $this->laag = null;
     }
 
@@ -87,7 +84,7 @@ class PTAPDF extends TCPDF {
         */
     }
 
-    public function ptaJaarVak($vak,$data,$algemeen,$toonWatermerk) {
+    public function ptaJaarVak($vak,$data,$algemeen,$toonWatermerk,$outputPTA) {
         $this->AddPage();
         $this->SetFont('NeueHaas', '', 36);
         $this->SetTextColor($this->HeaderTextColor);
@@ -98,6 +95,18 @@ class PTAPDF extends TCPDF {
         $this->SetFont('Corbel', '', 11);
         $this->SetTextColor($this->HeaderTextColor);
         // lazy :)
+
+        if ($outputPTA) {
+            $this->tabelcelHeaders = array('per','type','SOM','weging','her','duur','stofomschrijving','hulpmiddelen');
+            $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,274,204);
+        }
+        else {
+            $this->tabelcelHeaders = array('per','type','weging','her','duur','stofomschrijving','domeinen examen','hulpmiddelen');
+            $this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,222,150,150);            
+            //$this->tabelcelHeaders = array('per','weging','her','duur','stofomschrijving','domeinen');
+            //$this->tabelCelbreedtes = array($this->defWidth,$this->defWidth,$this->defWidth,$this->defWidth,296,226);            
+        }        
+
         $w = $this->tabelCelbreedtes;
         $header = $this->tabelcelHeaders;        
         $this->SetFillColor($this->HeaderFillColor);

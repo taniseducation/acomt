@@ -14,10 +14,21 @@ require('class/item.class.php');
 require('class/bruteforceDBread.php');
 
 // hoofdprogramma
-require('class/excellezerNAARdb.php');
-// require('class/consistentiecheck.php');
-require('class/DBnaarPDFschrijver.php');
-// require('class/excelschrijver.php');
+
+/*
+    LET OP: je moet het inlezen altijd gescheiden houden van PDF en xlsx schrijven,
+    want update objecten in brute-force noodzakelijk
+*/
+
+if ($inlezen) {
+    require('class/excellezerNAARdb.php');
+    require('class/consistentiecheck.php');
+}
+else {
+    require('class/DBnaarPDFschrijver.php');
+    //require('class/excelschrijver.php');
+}
+
 // require('class/DBoverzichtVak.php');
 
 // ONDERSTAANDE ALLEEN GEBRUIKEN BIJ JAARLIJKSE UPDATE

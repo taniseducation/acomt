@@ -1,26 +1,27 @@
-# ISSUES 
-- alarm: na aanpassing herkansbaarheidshit bij Engels vwo-4-2020 te veel items
-    IS DE ENIGE DIE JE IN DE TEST HAD GEBRUIKT dus reset db en dan alles 2x uploaden
-- wegschrijven Excel: controleer de bestanden na alle updates
-- DIT GAAT NOG MIS bij inlezen Excel al, want staat verkeerd in db: check of HAVO EN geen 0 meer bij herkansbaar heeft in Excel
-- DOMEINEN HOEVEN NIET MEER VAN Kevin => ruimte in layout
+!important
+**********
+Je kunt niet twee keer dezelfde file inlezen. Als je niet een opnieuw weggeschreven Excel-file gebruikt,
+dan ziet hij nieuwe items terecht opnieuw als nieuwe items.
+Dus: 1x inlezen EN DAN ECHT nieuwe Excels genereren en die weer op het netwerk zetten (na check of het klopt.)
+Wijzigingen t.g.v. consistentiecheck dus ook in de nieuw gegenereerde Excel-files doorvoeren
+
     inspectie:"De subdomeinen zijn niet bij alle vakken opgenomen en dat is ook niet nodig. We gaan er vanuit dat de school zelf controleert of alle subdomeinen worden afgetoetst."
-- somcodes moeten nog gegenereerd
+**********
+
+// gevonden
+- M4 NL fictiedossier geen SE? Had je dat al niet gevraagd?
+- EN luistertoetsen niet herkansbaar?
+
+# ISSUES 
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
     KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
+    COMBINEER DAT MET HUN TWEEDE CONTROLE!!!!
 
 LOS ITEM INVOEREN:
 INSERT INTO `items` (`id`, `cid`, `cjid`, `volgnr`, `periode`, `SOMcode`, `leerstofomschrijving`, `wegingVD`, `afname`, `hulp`, `duur`, `SE`, `wegingSE`, `herkansbaar`, `domeinen`, `datumAfname`, `opmerkingAfname`, `inTW`, `internRooster`, `intern`) VALUES 
 (368, 111, 276, 4, 0, NULL, ' ', NULL, '0', '', NULL, NULL, NULL, NULL, '', NULL, '0', 0, NULL, NULL)
 
 CONTROLE
-- Algemene opmerkingen wegschrijven gaat goed, maar in de items zit nog symbolen-bug #ONWAAR
-    => opgelost door bij wegschrijven data te omsluiten met "{ array[x] }" Lijkt nu goed, maar deeptesten noodzakelijk.
-- bij NL havo 2021 is iets interessants: wijziging lesstof krijgt nieuwe regels en daardoor
-    ontoegankelijker bij terugschrijven naar Excel. Dit komt door formatting van henzelf, zo lijkt het.
-    GOED CHECKEN OP DERGELIJKE WIJZIGINGEN    
-- fictiedossier mavo-4 herkansbaar komt op 0 uit. Zou NEE moeten zijn. Bij handelingsdelen. Tamelijk zeldzaam.  
-    Filter programmeren voor dit soort dingen? Verzamelpagina met uitkomst queries? (vaste functie naar tabel?)
 
 VOOR VOLGEND jaar
 - fuckit reference in PDF niet goed geklooid met items en decode en encode
