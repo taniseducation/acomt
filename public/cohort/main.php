@@ -20,13 +20,20 @@ require('class/bruteforceDBread.php');
     want update objecten in brute-force noodzakelijk
 */
 
+/*
+echo '<pre>';
+print_r($i843);
+echo '</pre>';
+die();
+*/
+
 if ($inlezen) {
     require('class/excellezerNAARdb.php');
     require('class/consistentiecheck.php');
 }
 else {
     require('class/DBnaarPDFschrijver.php');
-    //require('class/excelschrijver.php');
+    require('class/excelschrijver.php');
 }
 
 // require('class/DBoverzichtVak.php');

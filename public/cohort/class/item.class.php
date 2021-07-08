@@ -9,16 +9,23 @@ class Item {
     if ($this->itemData['wegingVD'] == 0) {$this->itemData['wegingVD'] = null;}
     if ($this->itemData['wegingSE'] == 0) {$this->itemData['wegingSE'] = null;}
     if ($this->itemData['SE'] == 1) {$this->itemData['SE'] = 'ja';} else {$this->itemData['SE'] = 'nee';}
-    if ($this->itemData['herkansbaar'] == 1) {$this->itemData['herkansbaar'] = 'ja';} else {if ($this->itemData['SE'] == 'ja') {$this->itemData['herkansbaar'] = 'nee';}}
+    
     if ($this->itemData['herkansbaar'] == 0) {$this->itemData['herkansbaar'] = 'nee';}
-    if ($this->itemData['herkansbaar'] == 'NULL' || $this->itemData['herkansbaar'] == null) {$this->itemData['herkansbaar'] = 'kies...';}
+    if ($this->itemData['herkansbaar'] == 'NULL' || $this->itemData['herkansbaar'] == null || $this->itemData['SE'] == 'nee') {$this->itemData['herkansbaar'] = 'kies...';}
+    if ($this->itemData['herkansbaar'] == 1) {$this->itemData['herkansbaar'] = 'ja';} else {if ($this->itemData['SE'] == 'ja') {$this->itemData['herkansbaar'] = 'nee';}}
     // $this->itemData['leerstofomschrijving']=utf8_decode($this->itemData['leerstofomschrijving']);
     $this->itemData['SOMcode']=$this->itemData['SOMcode'];
     $this->itemData['leerstofomschrijving']=$this->itemData['leerstofomschrijving'];
+    /* hiermee ging inlezen en pdf goed, maar excel wegschrijven fout met référence hulpmiddel FA A2019
     $this->itemData['hulp']=utf8_encode($this->itemData['hulp']);
     $this->itemData['domeinen']=utf8_encode($this->itemData['domeinen']);
     $this->itemData['opmerkingAfname']=utf8_encode($this->itemData['opmerkingAfname']);
     $this->itemData['internRooster']=utf8_encode($this->itemData['internRooster']);
+    */
+    $this->itemData['hulp']=$this->itemData['hulp'];
+    $this->itemData['domeinen']=$this->itemData['domeinen'];
+    $this->itemData['opmerkingAfname']=$this->itemData['opmerkingAfname'];
+    $this->itemData['internRooster']=$this->itemData['internRooster'];
   }
 
   function dbExcelIDentiek($excel) {

@@ -9,21 +9,32 @@ echo "<h3>Wegschrijven database naar Excel</h3>";
 $NfilesXLS = 0;
 
 $unlock = true;
+$alleenLezen = false;
 $inFilePath = 'fileExcel/';
 $inFileName = '_sjabloon_v4.xlsx';
-if ($unlock) {$inFileName = '_sjabloon_v4_UNLOCK.xlsx';}
+if ($unlock && !$alleenLezen) {$inFileName = '_sjabloon_v4_UNLOCK.xlsx';}
 $outFilePath = 'fileExcel/xlsxUIT/';
 $inputFileName = $inFilePath.$inFileName;
 $beveiliging = true;
 $systeemKolommenOnzichbaar = true;
 $nietRelevanteCohortjarenOnzichtbaar = true;
-if ($unlock) {
+
+if ($unlock && !$alleenLezen) {
     echo "<hr><font style='color: red; font-size: 3.5em;'><b>LET OP</b> Files worden in open format weggeschreven.</font><br>";
     $beveiliging = false;
     $systeemKolommenOnzichbaar = false;
     $nietRelevanteCohortjarenOnzichtbaar = true;
     $outFilePath = $outFilePath.'OPEN/';
 }
+
+if ($alleenLezen) {
+    echo "<hr><font style='color: red; font-size: 3.5em;'><b>LET OP</b> Files worden in ALLEEN LEZEN format weggeschreven.</font><br>";
+    $beveiliging = true;
+    $systeemKolommenOnzichbaar = true;
+    $nietRelevanteCohortjarenOnzichtbaar = true;
+    $outFilePath = $outFilePath.'LEZEN/';
+}
+
 if (!$systeemKolommenOnzichbaar) {$nietRelevanteCohortjarenOnzichtbaar = false;} // want anders vallen ze weg
 
 for ($vakID = 1;$vakID <= 31;$vakID++) {
@@ -167,29 +178,31 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
                     $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_PROTECTED);
                 }
             }
-            if ($niveau == 'A' && $positiePTA == -1) {
-                for ($k = 'G'; $k <= 'P'; $k++) {
-                    for ($r = 30; $r <= 38; $r++) {
-                        if (!($r == 36 || $r == 37)) {
-                            $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+            if (!$alleenLezen) {
+                if ($niveau == 'A' && $positiePTA == -1) {
+                    for ($k = 'G'; $k <= 'P'; $k++) {
+                        for ($r = 30; $r <= 38; $r++) {
+                            if (!($r == 36 || $r == 37)) {
+                                $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+                            }
                         }
                     }
                 }
-            }
-            if ($positiePTA == 0 && $vid != '28') {
-                for ($k = 'G'; $k <= 'P'; $k++) {
-                    for ($r = 18; $r <= 26; $r++) {
-                        if (!($r == 24 || $r == 25)) {
-                            $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+                if ($positiePTA == 0 && $vid != '28') {
+                    for ($k = 'G'; $k <= 'P'; $k++) {
+                        for ($r = 18; $r <= 26; $r++) {
+                            if (!($r == 24 || $r == 25)) {
+                                $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+                            }
                         }
                     }
                 }
-            }
-            if ($positiePTA == 1) {
-                for ($k = 'G'; $k <= 'P'; $k++) {
-                    for ($r = 6; $r <= 14; $r++) {
-                        if (!($r == 12 || $r == 13)) {
-                            $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+                if ($positiePTA == 1) {
+                    for ($k = 'G'; $k <= 'P'; $k++) {
+                        for ($r = 6; $r <= 14; $r++) {
+                            if (!($r == 12 || $r == 13)) {
+                                $spreadsheet->getActiveSheet()->getStyle("$k$r")->getProtection()->setLocked(\PhpOffice\PhpSpreadsheet\Style\Protection::PROTECTION_UNPROTECTED);
+                            }
                         }
                     }
                 }
@@ -250,9 +263,12 @@ for ($vakID = 1;$vakID <= 31;$vakID++) {
     }
 
     $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].' PTA en onderwijsprogramma.xlsx';
-    if ($unlock) {
+    if ($unlock && !$alleenLezen) {
         $outFileName = ${'c'.$filterCohort}->cohortData['vakCode'].'_OPEN.xlsx';
     }
+    if ($alleenLezen) {
+        $outFileName = 'PTA_'.${'c'.$filterCohort}->cohortData['vakCode'].'_ALLEEN_LEZEN.xlsx';
+    }    
     $outputFileName = $outFilePath.$outFileName;
     echo '<a href="'.$outputFileName.'" target="_NEW">'.$outFileName.'</a><br>';
     $XLSXwriter->save($outputFileName);

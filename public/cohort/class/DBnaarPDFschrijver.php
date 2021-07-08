@@ -21,7 +21,7 @@ foreach ($lagen as $laag) {
         $relatief = '/cohort/filePDFout/'.$filter['klasJaar'].$filter['niveau'].'_PTA_'.$schooljaar.'.pdf';
     }
     else {
-        $relatief = '/cohort/filePDFout/'.$filter['klasJaar'].$filter['niveau'].'_PTO_'.$schooljaar.'.pdf';
+        $relatief = '/cohort/filePDFout/'.$filter['klasJaar'].$filter['niveau'].'_PTB_'.$schooljaar.'.pdf';
     }    
     $sFilePath = $_SERVER['DOCUMENT_ROOT'].$relatief ;
 

@@ -84,7 +84,8 @@ while($vak = mysqli_fetch_assoc($vakken)) {
                     if ($item['P'] == '0') {$item['P'] = null;}
                     if ($item['M'] == 'ja') {$item['M'] = 1;}
                     if ($item['M'] == 'nee') {$item['M'] = 0; $item['O'] = 'NULL';}
-                    // if ($item['O'] == 'kies...') {$item['O'] = 'NULL';}
+                    //if ($item['O'] == 'kies...') {$item['O'] = 'NULL';}
+                    if ($item['O'] !='ja' && $item['O'] !='nee') {$item['O'] = 'NULL';}
                     if ($item['O'] == 'ja') {$item['O'] = '1';}
                     if ($item['O'] == 'nee') {$item['O'] = '0';} // herkansbaarheid                   
                     if ($item['J'] == 'tt' && $item['M'] == 1) {$inTW = 1;} else {$inTW = 0;}

@@ -4,8 +4,8 @@
 $servernaam = "localhost";
 $gebruikersnaam = "username";
 $wachtwoord = "password";
-// $database = "cohorten";
-$database = "cohortTESTdb";
+$database = "cohorten";
+//$database = "cohortTESTdb";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 
 if (!$DBverbinding) {
