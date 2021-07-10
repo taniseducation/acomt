@@ -10,9 +10,9 @@ Wijzigingen t.g.v. consistentiecheck dus ook in de nieuw gegenereerde Excel-file
 
 // gevonden
 - M4 NL fictiedossier geen SE? Had je dat al niet gevraagd?
-- EN luistertoetsen niet herkansbaar?
 
 # ISSUES 
+- wegschrijven OPEN ging nu niet goed.
 - apart tabblad voor toetsweek dat in tweede instantie wordt gegenereerd: DAN de CODE veranderen zodat hij alleen roostermaker inleest!
     KAN INDERDAAD IN AANGEPAST SJABLOON ALS ER 1x is ingelezen
     COMBINEER DAT MET HUN TWEEDE CONTROLE!!!!

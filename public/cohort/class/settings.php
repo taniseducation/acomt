@@ -13,7 +13,7 @@ $lagen = ['M3','M4','H4','H5','A4','A5','A6'];
 $printJaar = 2021; // jaar waarin wordt geprint voor het komende examenjaar. 2021 print dus voor 2021-2022 = examenjaar 2022
 $toonWatermerk = true;
 $inlezen = false; // anders wegschrijven naar xlsx en PDF
-$outputPTA = false; // bij false volgt een PTO
+$outputPTA = true; // bij false volgt een PTO
 
 if ($outputPTA) {$outputType = 'PTA';} else {$outputType = 'PTB';}
 ?>

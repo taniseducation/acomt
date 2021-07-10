@@ -8,7 +8,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 echo "<h3>Wegschrijven database naar Excel</h3>";
 $NfilesXLS = 0;
 
-$unlock = true;
+$unlock = false;
 $alleenLezen = false;
 $inFilePath = 'fileExcel/';
 $inFileName = '_sjabloon_v4.xlsx';

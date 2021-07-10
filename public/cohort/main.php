@@ -33,7 +33,7 @@ if ($inlezen) {
 }
 else {
     require('class/DBnaarPDFschrijver.php');
-    require('class/excelschrijver.php');
+    //require('class/excelschrijver.php');
 }
 
 // require('class/DBoverzichtVak.php');
